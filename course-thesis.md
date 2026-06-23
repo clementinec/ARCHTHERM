@@ -14,7 +14,13 @@ It is:
 
 ## Clean Thesis
 
-Thermal design is not the pursuit of a single ideal indoor condition. It is the interpretation and shaping of uneven environments across bodies, surfaces, rooms, buildings, and urban spaces under uncertainty.
+Thermal design is not the pursuit of one average indoor condition. It is the shaping of heterogeneous thermal environments across bodies, surfaces, rooms, buildings, and climates under uncertainty.
+
+Students learn to map thermal variation, stress-test buildings against assumptions and climate scenarios, identify failure modes hidden by averages or compliance metrics, and translate evidence into architectural interventions.
+
+## Catalog Description
+
+This course examines thermal environments as spatial, temporal, and human-centered phenomena in architectural design. Moving beyond average air temperature and static comfort targets, students investigate radiant environment, heat transfer, indoor/outdoor heterogeneity, climate stress, and uncertainty in measurement and simulation. Through field evidence, numerical analysis, EnergyPlus-based or EnergyPlus-derived workflows, thermal mapping, and design testing, students learn to diagnose when and how buildings fail thermally and to translate that diagnosis into architectural interventions involving envelope, shading, material, ventilation, program, landscape, and user control. The course emphasizes measurable design reasoning, climate adaptation, health and welfare, and the limits of evidence-based claims.
 
 ## Architectural Payoff
 
