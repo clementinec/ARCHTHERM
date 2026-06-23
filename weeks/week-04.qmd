@@ -1,0 +1,221 @@
+---
+title: "Week 4 - Mean Radiant Temperature"
+subtitle: "Surface temperature, operative temperature, and shade as thermal architecture"
+format:
+  revealjs:
+    theme: [default, ../slides.scss]
+    slide-number: true
+    center: true
+    width: 1280
+    height: 720
+    margin: 0.07
+    transition: fade
+    incremental: false
+    code-tools: false
+---
+
+# Week 4
+
+Radiant environment and MRT
+
+**The body sees surfaces**
+
+<span class="tag radiant">A2 launch</span>
+
+## Where We Are
+
+::: {.progress-row}
+::: {}
+A1 spatial air field
+:::
+::: {.active}
+A2 radiant exchange
+:::
+::: {}
+A3 temporal build-up
+:::
+::: {}
+A4 design action
+:::
+:::
+
+::: {.key}
+Two spaces can have the same air temperature and still be thermally different because the body's radiant exchange with surrounding surfaces is different.
+:::
+
+## From Air To Surroundings
+
+::: {.split}
+::: {}
+Air temperature tells us about convective exchange.
+
+Mean radiant temperature tells us about the radiant field surrounding the body.
+
+Operative temperature gives a simplified combined reading of air and radiation.
+:::
+
+::: {.equation-card}
+Simplified operative temperature:
+
+$$
+T_{op} \approx wT_a + (1-w)T_{mrt}
+$$
+
+When air speed is low, `T_a` and `T_mrt` often carry comparable weight.
+:::
+:::
+
+## Mean Radiant Temperature
+
+::: {.equation-card}
+Conceptual definition:
+
+$$
+T_{mrt} = \text{uniform surrounding temperature producing the same radiant exchange}
+$$
+
+It compresses a complex surface field into one interpretable thermal coordinate.
+:::
+
+::: {.warning}
+MRT is useful precisely because it is a compression. The architectural work is to remember what got compressed: surface temperatures, view factors, solar exposure, and body orientation.
+:::
+
+## Radiant Exchange Approximation
+
+::: {.equation-card}
+For a teaching-level design reading:
+
+$$
+q_{rad} \approx h_r A(T_{mrt} - T_{skin})
+$$
+
+or, for a surface-facing intuition:
+
+$$
+q_{rad} \approx h_r A(T_{surface} - T_{body})
+$$
+:::
+
+::: {.key}
+The sign matters. Warm surroundings add radiant load; cold surroundings pull heat from the body.
+:::
+
+## Why Outdoors Is So Radiant
+
+::: {.split}
+::: {}
+Outdoor thermal experience can be dominated by radiation because solar load, sky exposure, ground surface temperature, and shade quality change rapidly.
+
+Air temperature may vary slowly. Radiant exposure can change when the body takes two steps.
+:::
+
+::: {.example}
+Architectural objects:
+
+- canopy depth;
+- tree shade;
+- pavement material;
+- facade reflection;
+- courtyard sky view;
+- bench orientation.
+:::
+:::
+
+## Week 4 Worked Case
+
+![](../assets/figures/radiant-asymmetry-section.svg){.img-frame}
+
+::: {.caption}
+Original course diagram. A2 compares two occupied positions rather than one room average.
+:::
+
+## A2 Prompt
+
+::: {.activity}
+Find or construct two positions where air temperature alone does not explain the thermal condition.
+
+Good cases:
+
+- window seat versus interior seat;
+- shaded bench versus sunlit bench;
+- glass facade perimeter versus deeper plan;
+- concrete courtyard versus vegetated edge;
+- roof terrace sun patch versus shaded threshold.
+:::
+
+## What Counts As Radiant Evidence?
+
+::: {.cards-3}
+::: {.example}
+**Direct**
+
+globe temperature, radiant sensor, thermal camera, measured surface temperature.
+:::
+
+::: {.example}
+**Proxy**
+
+sun/shade map, surface material reading, solar exposure, facade orientation.
+:::
+
+::: {.example}
+**Model**
+
+Ladybug/Honeybee, EnergyPlus output, manual MRT estimate, annotated section.
+:::
+:::
+
+::: {.warning}
+Proxy evidence is acceptable if the student states what it can and cannot prove.
+:::
+
+## Session 2: Radiant Candidate
+
+::: {.round-steps}
+::: {.round-step}
+**10 min - case scan.** Choose a plan, section, rendering, or site photo where air temperature is probably insufficient.
+:::
+::: {.round-step}
+**5 min - Slack post.** Post the image with one body position. Keep the suspected radiant issue hidden.
+:::
+::: {.round-step}
+**20-25 min - round-table guesses.** Classmates guess what the body sees radiantly: glass, sky, pavement, wall, canopy, sun, shade, or surface temperature.
+:::
+::: {.round-step}
+**10-15 min - host reveal.** The host reveals the actual radiant concern, current mitigation, and what evidence would confirm or reject it.
+:::
+:::
+
+## Week 4 Hint Level
+
+::: {.hint-card thinner}
+Hints become narrower.
+
+Guess through:
+
+- what surface occupies the body's view;
+- whether the body faces or turns away from it;
+- whether shade changes shortwave radiation or only visual glare;
+- what surface temperature would have to be measured.
+:::
+
+## Diagnostic Translation
+
+::: {.activity}
+Convert one guess into an A2 comparison:
+
+> Position A differs from position B because the body sees `_____` radiantly.
+:::
+
+## Exit Artifact
+
+::: {.artifact}
+Write your A2 comparison statement:
+
+> I will compare position A and position B because air temperature alone misses `_____`.
+:::
+
+## Carry Forward
+
+Next week we turn the radiant comparison into an exchange card: a compact artifact that links surface, body, flux, and architectural action.

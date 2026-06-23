@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-label="PMV PPD worked example cases">
+  <defs>
+    <style>
+      .bg{fill:#f7f4ed}
+      .title{font:700 34px Inter,Arial,sans-serif;fill:#172033}
+      .label{font:700 24px Inter,Arial,sans-serif;fill:#172033}
+      .small{font:500 20px Inter,Arial,sans-serif;fill:#334155}
+      .mono{font:700 20px JetBrains Mono,Menlo,monospace;fill:#172033}
+      .card{fill:#fff;stroke:#cbd5e1;stroke-width:2;rx:16}
+      .neutral{fill:#e8f5ef;stroke:#2f855a;stroke-width:3;rx:16}
+      .warm{fill:#fff1e8;stroke:#c05621;stroke-width:3;rx:16}
+      .cool{fill:#eaf4ff;stroke:#2b6cb0;stroke-width:3;rx:16}
+      .axis{stroke:#1f2937;stroke-width:4}
+      .tick{stroke:#64748b;stroke-width:3}
+      .dot{stroke:#fff;stroke-width:4}
+    </style>
+  </defs>
+  <rect class="bg" width="1200" height="650"/>
+  <text class="title" x="62" y="62">PMV/PPD: Same Air Temperature, Different Model Output</text>
+  <text class="small" x="62" y="98">Illustrative examples computed with PMV/PPD inputs. Values show why the input assumptions matter.</text>
+
+  <rect class="neutral" x="70" y="135" width="320" height="230"/>
+  <text class="label" x="96" y="175">A. mild indoor case</text>
+  <text class="small" x="96" y="212">Ta 25 C | MRT 25 C</text>
+  <text class="small" x="96" y="242">RH 50% | air 0.1 m/s</text>
+  <text class="small" x="96" y="272">met 1.1 | clo 0.5</text>
+  <text class="mono" x="96" y="320">PMV -0.13</text>
+  <text class="mono" x="220" y="320">PPD 5%</text>
+
+  <rect class="warm" x="440" y="135" width="320" height="230"/>
+  <text class="label" x="466" y="175">B. same Ta, warm field</text>
+  <text class="small" x="466" y="212">Ta 25 C | MRT 30 C</text>
+  <text class="small" x="466" y="242">RH 75% | air 0.1 m/s</text>
+  <text class="small" x="466" y="272">met 1.1 | clo 0.5</text>
+  <text class="mono" x="466" y="320">PMV +0.87</text>
+  <text class="mono" x="600" y="320">PPD 21%</text>
+
+  <rect class="cool" x="810" y="135" width="320" height="230"/>
+  <text class="label" x="836" y="175">C. cool draft case</text>
+  <text class="small" x="836" y="212">Ta 22 C | MRT 22 C</text>
+  <text class="small" x="836" y="242">RH 50% | air 0.5 m/s</text>
+  <text class="small" x="836" y="272">met 1.1 | clo 0.6</text>
+  <text class="mono" x="836" y="320">PMV -1.71</text>
+  <text class="mono" x="970" y="320">PPD 62%</text>
+
+  <text class="label" x="90" y="430">PMV thermal sensation scale</text>
+  <line class="axis" x1="140" y1="500" x2="1060" y2="500"/>
+  <g>
+    <line class="tick" x1="140" y1="485" x2="140" y2="515"/><text class="small" x="125" y="548">-3</text>
+    <line class="tick" x1="293" y1="485" x2="293" y2="515"/><text class="small" x="278" y="548">-2</text>
+    <line class="tick" x1="447" y1="485" x2="447" y2="515"/><text class="small" x="432" y="548">-1</text>
+    <line class="tick" x1="600" y1="485" x2="600" y2="515"/><text class="small" x="594" y="548">0</text>
+    <line class="tick" x1="753" y1="485" x2="753" y2="515"/><text class="small" x="747" y="548">+1</text>
+    <line class="tick" x1="907" y1="485" x2="907" y2="515"/><text class="small" x="901" y="548">+2</text>
+    <line class="tick" x1="1060" y1="485" x2="1060" y2="515"/><text class="small" x="1054" y="548">+3</text>
+  </g>
+  <text class="small" x="118" y="585">cold</text>
+  <text class="small" x="545" y="585">neutral</text>
+  <text class="small" x="1015" y="585">hot</text>
+
+  <circle class="dot" cx="580" cy="500" r="14" fill="#2f855a"/>
+  <text class="mono" x="535" y="470">A</text>
+  <circle class="dot" cx="733" cy="500" r="14" fill="#c05621"/>
+  <text class="mono" x="725" y="470">B</text>
+  <circle class="dot" cx="338" cy="500" r="14" fill="#2b6cb0"/>
+  <text class="mono" x="331" y="470">C</text>
+
+  <text class="small" x="62" y="625">Lesson: PMV is multi-input. PPD rises when the predicted mean vote moves away from neutral.</text>
+</svg>

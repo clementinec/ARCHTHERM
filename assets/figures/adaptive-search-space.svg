@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-label="Adaptive comfort boundary as search space">
+  <defs>
+    <style>
+      .bg{fill:#f7f4ed}
+      .axis{stroke:#1f2937;stroke-width:4}
+      .grid{stroke:#cbd5e1;stroke-width:2;stroke-dasharray:8 10}
+      .band{fill:#dbeafe;stroke:#2563eb;stroke-width:4;opacity:.82}
+      .core{fill:#1d4ed8;opacity:.44}
+      .point{fill:#ef4444;stroke:#991b1b;stroke-width:6}
+      .label{font:700 30px Inter,Arial,sans-serif;fill:#172033}
+      .small{font:500 23px Inter,Arial,sans-serif;fill:#334155}
+      .mono{font:700 22px JetBrains Mono,Menlo,monospace;fill:#334155}
+      .call{fill:#fff;stroke:#94a3b8;stroke-width:2;rx:14}
+    </style>
+  </defs>
+  <rect class="bg" width="1200" height="650"/>
+  <text class="label" x="70" y="70">Adaptive Comfort As A Bounded Search Space</text>
+
+  <g transform="translate(120,105)">
+    <line class="axis" x1="0" y1="470" x2="820" y2="470"/>
+    <line class="axis" x1="0" y1="470" x2="0" y2="30"/>
+    <text class="small" x="260" y="540">prevailing mean outdoor temperature</text>
+    <text class="small" transform="translate(-70,330) rotate(-90)">acceptable operative temperature</text>
+
+    <g>
+      <line class="grid" x1="120" y1="30" x2="120" y2="470"/>
+      <line class="grid" x1="260" y1="30" x2="260" y2="470"/>
+      <line class="grid" x1="400" y1="30" x2="400" y2="470"/>
+      <line class="grid" x1="540" y1="30" x2="540" y2="470"/>
+      <line class="grid" x1="680" y1="30" x2="680" y2="470"/>
+      <line class="grid" x1="0" y1="120" x2="820" y2="120"/>
+      <line class="grid" x1="0" y1="220" x2="820" y2="220"/>
+      <line class="grid" x1="0" y1="320" x2="820" y2="320"/>
+      <line class="grid" x1="0" y1="420" x2="820" y2="420"/>
+    </g>
+
+    <polygon class="band" points="40,350 780,160 780,280 40,470"/>
+    <polygon class="core" points="70,378 750,204 750,245 70,418"/>
+    <circle class="point" cx="560" cy="300" r="18"/>
+    <text class="mono" x="590" y="307">case point</text>
+  </g>
+
+  <rect class="call" x="860" y="180" width="270" height="245"/>
+  <text class="small" x="890" y="225">The boundary is not</text>
+  <text class="small" x="890" y="258">a truth machine.</text>
+  <text class="small" x="890" y="310">It defines where</text>
+  <text class="small" x="890" y="343">extrapolation is</text>
+  <text class="small" x="890" y="376">more defensible.</text>
+
+</svg>

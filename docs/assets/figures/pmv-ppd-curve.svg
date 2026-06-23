@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-label="Predicted percentage dissatisfied as a function of predicted mean vote">
+  <rect width="1280" height="720" fill="#fbfaf7"/>
+  <text x="70" y="76" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#15171a">PMV to PPD: comfort prediction is population-based</text>
+  <text x="72" y="114" font-family="Arial, sans-serif" font-size="19" fill="#606773">The curve is generated from the standard PPD relation used with PMV.</text>
+  <line x1="170" y1="570" x2="1120" y2="570" stroke="#15171a" stroke-width="3"/>
+  <line x1="170" y1="145" x2="170" y2="570" stroke="#15171a" stroke-width="3"/>
+  <g font-family="Arial, sans-serif" font-size="18" fill="#606773">
+    <text x="150" y="576" text-anchor="end">0</text>
+    <text x="150" y="471" text-anchor="end">25</text>
+    <text x="150" y="366" text-anchor="end">50</text>
+    <text x="150" y="261" text-anchor="end">75</text>
+    <text x="150" y="156" text-anchor="end">100</text>
+    <text x="162" y="612" text-anchor="middle">-3</text>
+    <text x="320" y="612" text-anchor="middle">-2</text>
+    <text x="478" y="612" text-anchor="middle">-1</text>
+    <text x="636" y="612" text-anchor="middle">0</text>
+    <text x="794" y="612" text-anchor="middle">1</text>
+    <text x="952" y="612" text-anchor="middle">2</text>
+    <text x="1110" y="612" text-anchor="middle">3</text>
+  </g>
+  <g stroke="#d8d5cd" stroke-width="1">
+    <line x1="170" y1="465" x2="1120" y2="465"/>
+    <line x1="170" y1="360" x2="1120" y2="360"/>
+    <line x1="170" y1="255" x2="1120" y2="255"/>
+    <line x1="320" y1="145" x2="320" y2="570"/>
+    <line x1="478" y1="145" x2="478" y2="570"/>
+    <line x1="636" y1="145" x2="636" y2="570"/>
+    <line x1="794" y1="145" x2="794" y2="570"/>
+    <line x1="952" y1="145" x2="952" y2="570"/>
+  </g>
+  <rect x="557" y="145" width="158" height="425" fill="#e7f0e8" opacity="0.65"/>
+  <text x="568" y="186" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#3d6b52">typical PMV comfort band</text>
+  <path d="M170 154 C210 160 255 186 320 246 C385 335 424 432 478 462 C535 492 588 548 636 549 C684 548 737 492 794 462 C848 432 887 335 952 246 C1017 186 1062 160 1120 154" fill="none" stroke="#b34838" stroke-width="7"/>
+  <circle cx="636" cy="549" r="8" fill="#15171a"/>
+  <circle cx="557" cy="528" r="7" fill="#3d6b52"/>
+  <circle cx="715" cy="528" r="7" fill="#3d6b52"/>
+  <text x="735" y="534" font-family="Arial, sans-serif" font-size="18" fill="#3d6b52">about 10% PPD near +/-0.5 PMV</text>
+  <text x="480" y="106" font-family="Arial, sans-serif" font-size="18" fill="#606773">PPD = 100 - 95 exp(-0.03353 PMV^4 - 0.2179 PMV^2)</text>
+  <text x="565" y="658" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#15171a">Predicted Mean Vote (PMV)</text>
+  <text x="42" y="385" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#15171a" transform="rotate(-90 42 385)">Predicted Percentage Dissatisfied (PPD)</text>
+</svg>
+

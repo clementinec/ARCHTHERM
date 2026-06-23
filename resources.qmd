@@ -1,0 +1,61 @@
+---
+title: "Resources"
+format:
+  html:
+    code-tools: false
+---
+
+This page tracks the first local resource layer. It will grow into starter notebooks, workbooks, sensing templates, EnergyPlus examples, and final-package templates.
+
+## Downloaded Teaching Figures
+
+| File | Use | Source |
+|---|---|---|
+| `assets/figures/psychrometric-chart-sealevel-si.svg` | Week 1 psychrometrics and humidity reading | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:PsychrometricChart.SeaLevel.SI.svg) |
+| `assets/figures/pmv-psychrometric-chart.png` | Week 2 PMV method visual | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Psychrometric_chart_-_PMV_method.png) |
+| `assets/figures/pmv-temperature-rh-chart.png` | Week 2 temperature-RH comfort visual | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Temperature-relative_humidity_chart_-_PMV_method.png) |
+| `assets/figures/adaptive-comfort-chart.png` | Week 7/8 adaptive model contrast | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Adaptive_chart_-_adaptive_method.png) |
+| `assets/figures/human-infrared.jpg` | Week 2 thermal image reference | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Human-Infrared.jpg) |
+| `assets/figures/heat-transfer-modes-web.jpg` | Week 2 heat-transfer modes reference | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Heat-transmittance-means2.jpg) |
+
+## Original Course Diagrams
+
+These SVGs are locally authored for the course so the physical ideas can be read architecturally.
+
+- `assets/figures/body-heat-balance.svg`
+- `assets/figures/air-rh-field-map.svg`
+- `assets/figures/pmv-ppd-curve.svg`
+- `assets/figures/radiant-asymmetry-section.svg`
+- `assets/figures/thermal-lag-degree-hours.svg`
+- `assets/figures/field-to-action-ladder.svg`
+- `assets/figures/weather-window-cross-validation.svg`
+- `assets/figures/roll-forward-validation.svg`
+- `assets/figures/diagnostic-round-workflow.svg`
+- `assets/figures/thermal-field-contour-map.svg`
+
+## PMV/PPD Reading To Revisit
+
+- Cheung, Schiavon, Parkinson, Li, and Brager (2019), ["Analysis of the accuracy on PMV - PPD model using the ASHRAE Global Thermal Comfort Database II"](https://escholarship.org/uc/item/2kd0135t). This is a useful Week 2/Week 7 caution that model fluency does not equal field accuracy.
+
+## Grasshopper Bridge Routes
+
+These routes are supported as optional bridges for students already working in Rhino/Grasshopper. They are not required for completing the core assignments.
+
+| Course moment | GH route | Use | Caution |
+|---|---|---|---|
+| Week 1 / airflow claims | [Butterfly / OpenFOAM via Ladybug Tools](https://www.ladybug.tools/butterfly.html) | stagnant pockets, draft risk, courtyard flushing, fan/opening effects | declare boundary conditions, mesh/solver assumptions, and occupied position |
+| Week 2 / comfort models | [Ladybug Tools](https://www.ladybug.tools/) | PMV/PPD, adaptive comfort, UTCI, weather-linked comfort exploration | document `Ta`, MRT, RH, air speed, metabolic rate, clothing, and model domain |
+| Later weeks / simulation handoff | Ladybug Tools / Honeybee / EnergyPlus routes | hourly outputs, radiant/operative temperature, weather stress tests | GH output is evidence only when assumptions and exported data are inspectable |
+
+## Research Context
+
+The course is informed by Hongshan Guo's public research profile at [FORGE: Future, Occupant, Risk, and Generative Environments](https://thermalcomfort.zone/), especially work on human-building-climate systems, mean radiant temperature, future weather uncertainty, EnergyPlus/co-simulation, stochastic weather, thermal comfort prediction, and design-facing AI pedagogy.
+
+## Starter Kits To Build Next
+
+- Ta/RH spatial field workbook and CSV template.
+- Radiant exchange calculator using surface temperature, globe temperature, or SMART-style radiant sensing data.
+- Temporal build-up notebook for degree-hours and threshold exceedance.
+- EnergyPlus hourly exposure-state example with precomputed CSV fallback.
+- Weather-window roll-forward notebook.
+- Final package reproducibility capsule template.

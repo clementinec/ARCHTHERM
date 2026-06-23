@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-label="Thermal field contour map from sampled points">
+  <defs>
+    <clipPath id="room-clip">
+      <rect x="70" y="96" width="820" height="475" rx="8"/>
+    </clipPath>
+    <radialGradient id="warmBlob" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#e4572e" stop-opacity="0.86"/>
+      <stop offset="45%" stop-color="#f7b267" stop-opacity="0.56"/>
+      <stop offset="100%" stop-color="#f8fafc" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="coolBlob" cx="50%" cy="50%" r="58%">
+      <stop offset="0%" stop-color="#247ba0" stop-opacity="0.78"/>
+      <stop offset="55%" stop-color="#74b3ce" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#f8fafc" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="legend" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#247ba0"/>
+      <stop offset="48%" stop-color="#f4d35e"/>
+      <stop offset="100%" stop-color="#e4572e"/>
+    </linearGradient>
+    <style>
+      .bg{fill:#f7f4ed}
+      .room{fill:#f8fafc;stroke:#172033;stroke-width:5}
+      .wall{stroke:#172033;stroke-width:8;stroke-linecap:round}
+      .thinwall{stroke:#172033;stroke-width:4;stroke-linecap:round}
+      .contourHot{fill:none;stroke:#b91c1c;stroke-width:4;stroke-dasharray:9 7;opacity:.9}
+      .contourWarm{fill:none;stroke:#d97706;stroke-width:4;stroke-dasharray:8 8;opacity:.86}
+      .contourCool{fill:none;stroke:#0369a1;stroke-width:4;stroke-dasharray:8 8;opacity:.86}
+      .point{fill:#fff;stroke:#172033;stroke-width:4}
+      .hotPoint{fill:#e4572e}
+      .coolPoint{fill:#247ba0}
+      .midPoint{fill:#f4d35e}
+      .label{font:700 28px Inter,Arial,sans-serif;fill:#172033}
+      .small{font:500 20px Inter,Arial,sans-serif;fill:#334155}
+      .mono{font:700 18px JetBrains Mono,Menlo,monospace;fill:#172033}
+      .note{fill:#fff;stroke:#cbd5e1;stroke-width:2;rx:14}
+      .tag{font:700 17px JetBrains Mono,Menlo,monospace;fill:#172033}
+    </style>
+  </defs>
+
+  <rect class="bg" width="1200" height="650"/>
+  <text class="label" x="60" y="62">Thermal Field Map: Points, Interpolation, Architectural Reading</text>
+
+  <rect class="room" x="70" y="96" width="820" height="475" rx="8"/>
+
+  <g clip-path="url(#room-clip)">
+    <rect x="70" y="96" width="820" height="475" fill="#f8fafc"/>
+    <ellipse cx="690" cy="226" rx="295" ry="210" fill="url(#warmBlob)"/>
+    <ellipse cx="298" cy="430" rx="255" ry="180" fill="url(#coolBlob)"/>
+    <ellipse cx="745" cy="465" rx="180" ry="120" fill="#f4d35e" opacity=".22"/>
+    <path class="contourHot" d="M575 145 C735 90 870 150 870 270 C860 390 700 405 590 320 C505 255 500 185 575 145Z"/>
+    <path class="contourWarm" d="M515 122 C720 30 940 140 925 315 C910 480 675 505 508 355 C375 235 390 175 515 122Z"/>
+    <path class="contourCool" d="M130 330 C250 225 465 280 505 415 C550 555 300 595 145 525 C48 480 45 395 130 330Z"/>
+    <path class="contourCool" d="M188 380 C285 325 415 340 440 430 C465 520 300 545 205 505 C135 475 130 415 188 380Z"/>
+  </g>
+
+  <line class="wall" x1="70" y1="96" x2="890" y2="96"/>
+  <line class="wall" x1="70" y1="571" x2="890" y2="571"/>
+  <line class="wall" x1="70" y1="96" x2="70" y2="571"/>
+  <line class="wall" x1="890" y1="96" x2="890" y2="571"/>
+  <line class="thinwall" x1="405" y1="96" x2="405" y2="335"/>
+  <line class="thinwall" x1="405" y1="405" x2="405" y2="571"/>
+  <line class="thinwall" x1="610" y1="360" x2="890" y2="360"/>
+
+  <text class="small" x="622" y="130">glass facade</text>
+  <text class="small" x="100" y="552">door / diffuser</text>
+  <text class="small" x="620" y="548">deep-plan pocket</text>
+
+  <g>
+    <circle class="point coolPoint" cx="195" cy="440" r="14"/><text class="mono" x="218" y="447">23.2 C</text>
+    <circle class="point coolPoint" cx="310" cy="500" r="14"/><text class="mono" x="333" y="507">23.9 C</text>
+    <circle class="point midPoint" cx="475" cy="315" r="14"/><text class="mono" x="498" y="322">25.6 C</text>
+    <circle class="point hotPoint" cx="655" cy="235" r="14"/><text class="mono" x="678" y="242">28.1 C</text>
+    <circle class="point hotPoint" cx="795" cy="205" r="14"/><text class="mono" x="818" y="212">29.0 C</text>
+    <circle class="point midPoint" cx="735" cy="460" r="14"/><text class="mono" x="758" y="467">26.4 C</text>
+  </g>
+
+  <rect class="note" x="925" y="115" width="225" height="325"/>
+  <text class="label" x="950" y="158">Read It</text>
+  <text class="small" x="950" y="200">1. Keep measured</text>
+  <text class="small" x="970" y="226">points visible.</text>
+  <text class="small" x="950" y="270">2. Treat contour</text>
+  <text class="small" x="970" y="296">as hypothesis.</text>
+  <text class="small" x="950" y="340">3. Overlay body,</text>
+  <text class="small" x="970" y="366">program, facade,</text>
+  <text class="small" x="970" y="392">air path, shade.</text>
+
+  <text class="tag" x="935" y="490">cooler</text>
+  <rect x="1010" y="470" width="110" height="28" fill="url(#legend)" rx="8"/>
+  <text class="tag" x="1130" y="490">warmer</text>
+  <text class="small" x="935" y="535">Not measured everywhere.</text>
+  <text class="small" x="935" y="562">Useful because it is spatial.</text>
+  <text class="small" x="935" y="589">Dangerous if it hides samples.</text>
+</svg>

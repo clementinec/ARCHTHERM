@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-label="Session 2 diagnostic round workflow">
+  <rect width="1280" height="720" fill="#fbfaf7"/>
+  <text x="72" y="82" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#15171a">Session 2 diagnostic round</text>
+  <text x="74" y="122" font-family="Arial, sans-serif" font-size="20" fill="#626a74">Students test thermal judgment before the answer is revealed.</text>
+  <g font-family="Arial, sans-serif">
+    <rect x="90" y="190" width="250" height="300" fill="#e8f2f6" stroke="#1f6f8b" stroke-width="3"/>
+    <text x="118" y="235" font-size="26" font-weight="700" fill="#1f6f8b">10 min</text>
+    <text x="118" y="278" font-size="22" font-weight="700" fill="#15171a">Case scan</text>
+    <text x="118" y="325" font-size="18" fill="#15171a">pick one plan, section,</text>
+    <text x="118" y="355" font-size="18" fill="#15171a">rendering, or site image</text>
+    <text x="118" y="405" font-size="18" fill="#626a74">own design or existing case</text>
+    <rect x="380" y="190" width="250" height="300" fill="#f3edda" stroke="#8a6f22" stroke-width="3"/>
+    <text x="408" y="235" font-size="26" font-weight="700" fill="#8a6f22">5 min</text>
+    <text x="408" y="278" font-size="22" font-weight="700" fill="#15171a">Slack post</text>
+    <text x="408" y="325" font-size="18" fill="#15171a">minimal context only</text>
+    <text x="408" y="355" font-size="18" fill="#15171a">diagnosis stays hidden</text>
+    <text x="408" y="405" font-size="18" fill="#626a74">class annotates guesses</text>
+    <rect x="670" y="190" width="250" height="300" fill="#f5e7e3" stroke="#b34838" stroke-width="3"/>
+    <text x="698" y="235" font-size="26" font-weight="700" fill="#b34838">20-25 min</text>
+    <text x="698" y="278" font-size="22" font-weight="700" fill="#15171a">Guesses</text>
+    <text x="698" y="325" font-size="18" fill="#15171a">problem spot</text>
+    <text x="698" y="355" font-size="18" fill="#15171a">mechanism</text>
+    <text x="698" y="385" font-size="18" fill="#15171a">intervention lever</text>
+    <text x="698" y="415" font-size="18" fill="#15171a">competing constraint</text>
+    <rect x="960" y="190" width="250" height="300" fill="#ebe9f4" stroke="#4c4a80" stroke-width="3"/>
+    <text x="988" y="235" font-size="26" font-weight="700" fill="#4c4a80">10-15 min</text>
+    <text x="988" y="278" font-size="22" font-weight="700" fill="#15171a">Reveal</text>
+    <text x="988" y="325" font-size="18" fill="#15171a">host explains issue,</text>
+    <text x="988" y="355" font-size="18" fill="#15171a">mitigation, evidence,</text>
+    <text x="988" y="385" font-size="18" fill="#15171a">and uncertainty</text>
+  </g>
+  <path d="M340 340 L380 340" stroke="#15171a" stroke-width="4" marker-end="url(#arrow)"/>
+  <path d="M630 340 L670 340" stroke="#15171a" stroke-width="4" marker-end="url(#arrow)"/>
+  <path d="M920 340 L960 340" stroke="#15171a" stroke-width="4" marker-end="url(#arrow)"/>
+  <text x="92" y="615" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#15171a">Standing question:</text>
+  <text x="302" y="615" font-family="Arial, sans-serif" font-size="24" fill="#626a74">what mechanism is this design organizing, ignoring, or worsening?</text>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#15171a"/></marker>
+  </defs>
+</svg>

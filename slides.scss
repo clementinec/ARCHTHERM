@@ -1,0 +1,350 @@
+/*-- scss:defaults --*/
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+$font-family-sans-serif: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif !default;
+$presentation-heading-font: "Archivo", $font-family-sans-serif !default;
+$font-family-monospace: "JetBrains Mono", "SFMono-Regular", Menlo, monospace !default;
+$body-bg: #fbfaf7 !default;
+$body-color: #15171a !default;
+$link-color: #9c342c !default;
+$presentation-heading-color: #15171a !default;
+$presentation-heading-font-weight: 800 !default;
+$presentation-font-size-root: 31px !default;
+$presentation-line-height: 1.35 !default;
+
+/*-- scss:rules --*/
+:root {
+  --ink: #15171a;
+  --paper: #fbfaf7;
+  --muted: #626a74;
+  --line: #d8d5cd;
+  --field: #1f6f8b;
+  --radiant: #b34838;
+  --time: #8a6f22;
+  --climate: #3d6b52;
+  --action: #4c4a80;
+  --soft-field: #e8f2f6;
+  --soft-radiant: #f5e7e3;
+  --soft-time: #f3edda;
+  --soft-climate: #e7f0e8;
+  --soft-action: #ebe9f4;
+}
+
+.reveal {
+  color: var(--ink);
+}
+
+.reveal .slides {
+  text-align: left;
+}
+
+.reveal .slides section {
+  box-sizing: border-box;
+  padding: 0.35em 0.1em;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3 {
+  font-family: "Archivo", sans-serif;
+  letter-spacing: 0;
+  text-transform: none;
+  line-height: 1.04;
+  text-wrap: balance;
+}
+
+.reveal h1 {
+  font-size: 2.05em;
+}
+
+.reveal h2 {
+  font-size: 1.34em;
+  padding-top: 0;
+  border-top: 0;
+  margin-bottom: 0.42em;
+}
+
+.reveal h3 {
+  font-size: 0.98em;
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.reveal p,
+.reveal li {
+  font-size: 0.86em;
+  line-height: 1.34;
+}
+
+.reveal ul,
+.reveal ol {
+  margin-left: 1em;
+  margin-top: 0.35em;
+  margin-bottom: 0.35em;
+}
+
+.reveal strong {
+  color: var(--ink);
+  font-weight: 800;
+}
+
+.reveal em {
+  color: #9c342c;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.reveal .kicker {
+  display: block;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.45em;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 0.65em;
+}
+
+.reveal .caption {
+  font-size: 0.54em;
+  color: var(--muted);
+  margin-top: 0.22em;
+}
+
+.reveal .key {
+  font-size: 0.96em;
+  line-height: 1.25;
+  border-left: 5px solid var(--radiant);
+  padding: 0.25em 0 0.25em 0.65em;
+  max-width: 900px;
+}
+
+.reveal .split {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.55em;
+  align-items: start;
+}
+
+.reveal .split-40 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.55em;
+  align-items: start;
+}
+
+.reveal .cards-3,
+.reveal .cards-4 {
+  display: grid;
+  gap: 0.48em;
+}
+
+.reveal .cards-3 {
+  grid-template-columns: 1fr;
+}
+
+.reveal .cards-4 {
+  grid-template-columns: 1fr;
+}
+
+.reveal .equation-card,
+.reveal .artifact,
+.reveal .activity,
+.reveal .checklist,
+.reveal .warning,
+.reveal .example {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-left: 5px solid var(--field);
+  padding: 0.42em 0.58em;
+  font-size: 0.82em;
+  line-height: 1.3;
+}
+
+.reveal .equation-card {
+  border-left-color: var(--time);
+  background: #fffdf7;
+}
+
+.reveal .artifact {
+  border-left-color: var(--action);
+  background: var(--soft-action);
+}
+
+.reveal .activity {
+  border-left-color: var(--climate);
+  background: var(--soft-climate);
+}
+
+.reveal .warning {
+  border-left-color: var(--radiant);
+  background: var(--soft-radiant);
+}
+
+.reveal .example {
+  border-left-color: var(--field);
+  background: var(--soft-field);
+}
+
+.reveal .equation-card .math.display {
+  margin: 0.24em 0;
+}
+
+.reveal .big-equation {
+  margin: 0.22em 0 0.34em;
+  padding: 0.2em 0.3em;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.7);
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.78em;
+  line-height: 1.25;
+  overflow-wrap: anywhere;
+}
+
+.reveal .tag {
+  display: inline-block;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.5em;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 0.22em 0.5em;
+  border-radius: 999px;
+  color: var(--field);
+  background: var(--soft-field);
+}
+
+.reveal .tag.radiant {
+  color: var(--radiant);
+  background: var(--soft-radiant);
+}
+
+.reveal .tag.time {
+  color: var(--time);
+  background: var(--soft-time);
+}
+
+.reveal .tag.action {
+  color: var(--action);
+  background: var(--soft-action);
+}
+
+.reveal .progress-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.38em;
+  margin: 0.5em 0 0.65em;
+}
+
+.reveal .progress-row div {
+  border-top: 4px solid var(--line);
+  padding-top: 0.25em;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.54em;
+  color: var(--muted);
+}
+
+.reveal .progress-row .active {
+  border-top-color: var(--radiant);
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.reveal img {
+  max-height: 56vh;
+  object-fit: contain;
+}
+
+.reveal .img-frame {
+  background: #fff;
+  border: 1px solid var(--line);
+  padding: 0.22em;
+}
+
+.reveal table {
+  font-size: 0.64em;
+  line-height: 1.24;
+}
+
+.reveal th {
+  color: var(--ink);
+}
+
+.reveal .small {
+  font-size: 0.72em;
+}
+
+.reveal .single-claim {
+  font-size: 1.22em;
+  line-height: 1.18;
+  max-width: 850px;
+}
+
+.reveal .round-steps {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.36em;
+  counter-reset: round-step;
+}
+
+.reveal .round-step {
+  position: relative;
+  background: #fff;
+  border: 1px solid var(--line);
+  padding: 0.42em 0.56em 0.42em 2.05em;
+  font-size: 0.76em;
+  line-height: 1.25;
+}
+
+.reveal .round-step::before {
+  counter-increment: round-step;
+  content: counter(round-step);
+  position: absolute;
+  left: 0.52em;
+  top: 0.5em;
+  width: 1.1em;
+  height: 1.1em;
+  border-radius: 999px;
+  background: var(--ink);
+  color: #fff;
+  text-align: center;
+  line-height: 1.1em;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.72em;
+}
+
+.reveal .hint-card {
+  border: 1px solid var(--line);
+  border-left: 5px solid var(--radiant);
+  background: var(--soft-radiant);
+  padding: 0.48em 0.62em;
+  font-size: 0.78em;
+}
+
+.reveal .hint-card.thinner {
+  border-left-color: var(--time);
+  background: var(--soft-time);
+}
+
+.reveal .hint-card.minimal {
+  border-left-color: var(--action);
+  background: var(--soft-action);
+}
+
+.reveal .diagnostic-frame {
+  border-top: 5px solid var(--ink);
+  padding-top: 0.42em;
+}
+
+.reveal .diagnostic-frame p {
+  font-size: 0.9em;
+}
+
+@media (max-width: 900px) {
+  .reveal .split,
+  .reveal .split-40,
+  .reveal .cards-3,
+  .reveal .cards-4,
+  .reveal .progress-row {
+    grid-template-columns: 1fr;
+  }
+}

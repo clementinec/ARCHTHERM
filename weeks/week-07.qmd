@@ -1,0 +1,331 @@
+---
+title: "Week 7 - EnergyPlus As Exposure-State Generator"
+subtitle: "Hourly states, output variables, and model limits"
+format:
+  revealjs:
+    theme: [default, ../slides.scss]
+    slide-number: true
+    center: true
+    width: 1280
+    height: 720
+    margin: 0.07
+    transition: fade
+    incremental: false
+    code-tools: false
+---
+
+## Second Half Frame
+
+By the end of Week 9, A3 should show when a thermal condition accumulates, persists, exceeds a threshold, or fails to dissipate.
+
+Week 7 adds one controlled route for producing that evidence: an inspectable hourly state log from EnergyPlus or from provided EnergyPlus outputs.
+
+:::{.key}
+EnergyPlus is used here as an exposure-state generator. Not truth. Not magic. Not a software credential or design answer.
+:::
+
+## Week 6 Pulse Check Response
+
+Start by naming one adjustment from the Week 6 pulse check:
+
+- which concept needs more support
+- which tool route will be supported in lab
+- which A3 evidence requirement will stay fixed
+- which optional extension will remain optional
+
+:::{.caption}
+The course standard is a defensible thermal argument, not maximum software complexity.
+:::
+
+## What Is An Exposure State?
+
+An exposure state is a time-stamped description of the thermal condition the body or zone receives.
+
+$$
+s_t =
+\left[
+T_{a,t},
+T_{mrt,t},
+T_{op,t},
+RH_t,
+Q_{solar,t},
+Q_{internal,t},
+Q_{HVAC,t}
+\right]
+$$
+
+Where:
+
+- $T_a$ is zone air temperature
+- $T_{mrt}$ is mean radiant temperature
+- $T_{op}$ is operative temperature
+- $RH$ is relative humidity
+- the heat terms help explain why the state changed
+
+## The Core Distinction {.key}
+
+EnergyPlus does not prove that a space is comfortable.
+
+It can help you produce a structured sequence:
+
+- hour
+- weather boundary
+- zone state
+- surface and radiant condition
+- system response, if modeled
+- residual burden under a threshold
+
+That sequence becomes A3 evidence when you interpret it as build-up, lag, exceedance, or dissipation.
+
+## Minimal Model Logic
+
+For this course, a useful EnergyPlus model needs enough structure to explain a thermal sequence:
+
+- weather file or design period
+- zone geometry
+- constructions and surface exposure
+- window and shade assumptions
+- internal gains and schedules
+- ventilation, infiltration, or service state
+- output variables at hourly resolution
+
+:::{.caption}
+More model detail is useful only when it changes the architectural interpretation.
+:::
+
+## Air-Based Models Have Different Promises
+
+Not every tool is solving the same physical question.
+
+| Model type | What it usually gives | What to distrust |
+|---|---|---|
+| zone heat-balance model | hourly air/radiant/humidity/load state | local drafts, stagnant pockets, detailed flow path |
+| airflow network | pressure-driven exchange between zones/nodes | fine-grained occupied-zone velocity field |
+| CFD / Navier-Stokes solver | spatial velocity, pressure, and turbulence fields | boundary assumptions, mesh dependence, false precision |
+| reduced-order model | fast approximation or surrogate | out-of-range behavior and hidden training assumptions |
+
+::: {.key}
+The right model depends on the design claim. A whole-zone output cannot prove a local draft; a CFD image cannot prove comfort without thermal and body assumptions.
+:::
+
+## Heat Balance Handle {.equation-card}
+
+EnergyPlus solves a detailed heat balance. For architectural interpretation, keep this simplified balance visible:
+
+$$
+C_z \frac{dT_z}{dt}
+=
+Q_{solar}
++ Q_{internal}
++ Q_{envelope}
++ Q_{HVAC}
+- Q_{loss}
+$$
+
+Read it as a design question:
+
+- Which gains are driving the state?
+- Which losses are available?
+- Where is storage delaying the peak?
+- Which term can an architect change?
+
+## Navier-Stokes As A Design Warning
+
+If the claim is about where air actually moves, the governing physics shifts toward mass and momentum.
+
+::: {.equation-card}
+Continuity, simplified:
+
+<div class="big-equation">&nabla; &middot; <strong>u</strong> = 0</div>
+
+Momentum, simplified:
+
+<div class="big-equation">&rho;(&part;<strong>u</strong>/&part;t + <strong>u</strong> &middot; &nabla;<strong>u</strong>) = -&nabla;p + &mu;&nabla;<sup>2</sup><strong>u</strong> + <strong>F</strong></div>
+
+Here `u` is velocity, `p` is pressure, `rho` is density, and `mu` is viscosity.
+:::
+
+::: {.warning}
+Architecture takeaway: airflow claims depend on openings, pressure, obstructions, heat plumes, boundary conditions, and turbulence assumptions. A smooth CFD rendering can still be wrong.
+:::
+
+## Where CFD Helps And Where It Does Not
+
+Use CFD or OpenFOAM/Butterfly-style workflows only for bounded questions:
+
+- does air reach the occupied zone?
+- does a fan or opening change the flow path?
+- does a partition block cross ventilation?
+- does a courtyard trap or flush air?
+- where might a local draft occur?
+
+Do not use CFD as visual decoration. A useful airflow model needs a clear boundary condition, mesh/solver note, and design decision.
+
+::: {.artifact}
+For A3, CFD is optional. A clear hourly state log plus an honest airflow limitation is stronger than an unverified flow image.
+:::
+
+## Air, Radiant, Operative, Humidity
+
+Do not collapse the output table into one temperature column.
+
+| Output | Course use | Architectural question |
+|---|---|---|
+| $T_a$ | air state | Is the zone air itself beyond the threshold? |
+| $T_{mrt}$ | radiant field | Are surfaces or solar exposure changing body heat exchange? |
+| $T_{op}$ | combined interpretation | What does the body approximately receive? |
+| $RH$ | moisture context | Is heat stress or evaporative cooling potential changing? |
+| loads/gains | mechanism | Which physical driver should the design address? |
+
+## Operative Temperature Reminder {.equation-card}
+
+A simplified operative temperature is a weighted combination of air and radiant conditions:
+
+$$
+T_{op,t}
+\approx
+w T_{a,t}
++ (1-w)T_{mrt,t}
+$$
+
+The weighting depends on air speed and heat-transfer context. In A3, state the version or output variable you used, then keep the claim within that definition.
+
+## Output Variables To Request
+
+Minimum useful outputs for the Week 7 lab:
+
+- Zone Mean Air Temperature
+- Zone Mean Radiant Temperature
+- Zone Operative Temperature
+- Zone Air Relative Humidity
+- Surface Inside Face Temperature for key surfaces
+- Zone Windows Total Transmitted Solar Radiation, where relevant
+- Zone Ideal Loads or HVAC energy, if service state is modeled
+- outdoor dry-bulb temperature and solar radiation from weather data
+- ventilation, infiltration, or airflow-network outputs if the claim depends on air exchange
+
+:::{.checklist}
+Before plotting, confirm units, timestep, zone name, weather file, and whether the system was allowed to condition the zone.
+:::
+
+## From Output Table To A3 Evidence
+
+A usable A3 state log has three layers:
+
+1. **State:** hourly $T_a$, $T_{mrt}$, $T_{op}$, and $RH$.
+2. **Threshold:** a clear target or failure line.
+3. **Mechanism:** one explanation of gain, loss, capacity, schedule, or exposure.
+
+:::{.artifact}
+Artifact standard: one plot is not enough. Pair the plot with an output dictionary and a short mechanism note.
+:::
+
+## Degree-Hours From Hourly States {.equation-card}
+
+Use degree-hours to compare accumulated exposure rather than only the maximum value.
+
+$$
+DH_{\theta}
+=
+\sum_{t \in W}
+\max \left(T_{op,t} - T_{\theta}, 0 \right)\Delta t
+$$
+
+Where:
+
+- $W$ is the evaluation window
+- $T_{\theta}$ is the threshold
+- $\Delta t$ is the timestep in hours
+- $T_{op,t}$ can be replaced by $T_a$ or another justified variable
+
+## Lab Activity: Hourly State Log {.activity}
+
+Produce an A3 hourly state log for one zone or occupied position.
+
+**Artifact:** a CSV or spreadsheet extract, an output-variable dictionary, and one time-series plot showing $T_a$, $T_{mrt}$, $T_{op}$, $RH$, and a threshold line for at least 72 consecutive hours.
+
+**A3 mapping:** this becomes the temporal build-up evidence for A3. It must show when the condition exceeds the threshold, where lag appears, and which variable carries the strongest design consequence.
+
+## Lab Activity: Mechanism Note {.activity}
+
+Write a six-sentence mechanism note from the hourly state log.
+
+**Artifact:** a short note attached to the A3 plot that names one dominant gain, one loss or missing loss, one schedule or service assumption, and one design lever.
+
+**A3 mapping:** this note prevents the A3 plot from being only descriptive. It connects the time-series to the build-up, capacity, or dissipation mechanism that A3 assesses.
+
+## Session 2: Diagnostic Round
+
+::: {.round-steps}
+::: {.round-step}
+**10 min - case scan.** Choose one case where a model or output table could clarify a design claim.
+:::
+::: {.round-step}
+**5 min - Slack post.** Post the case image and the design question. Keep the output variables you would request hidden.
+:::
+::: {.round-step}
+**20-25 min - round-table guesses.** Classmates guess which outputs are needed and which output would be misleading if read alone.
+:::
+::: {.round-step}
+**10-15 min - host reveal.** The host reveals their output-variable list and explains what the model cannot prove.
+:::
+:::
+
+## Week 7 Hint Level
+
+::: {.hint-card thinner}
+Hints are moderate.
+
+Guess through outputs:
+
+- `Ta`, `T_mrt`, `T_op`, RH;
+- key surface temperature;
+- solar gains;
+- service state or ideal loads;
+- ventilation/infiltration assumption;
+- whether local airflow would require a different model;
+- time window and timestep.
+:::
+
+## Reading A Plot Rigorously
+
+When you inspect a time-series, do not stop at the highest point.
+
+Check:
+
+- first exceedance hour
+- last exceedance hour
+- tail hours after the weather peak
+- difference between $T_a$ and $T_{mrt}$
+- difference between $T_{op}$ and the threshold
+- whether humidity changes the severity of the claim
+- whether the modeled system masked or revealed the burden
+
+## What EnergyPlus Cannot Prove
+
+EnergyPlus cannot automatically prove:
+
+- occupant physiology
+- subjective comfort
+- field accuracy without calibration
+- local air velocity or draft unless explicitly modeled with appropriate assumptions
+- future climate certainty
+- good architectural judgment
+- correctness of schedules, constructions, or control assumptions
+
+:::{.key}
+A model output is evidence only after its assumptions, variables, and limits are visible.
+:::
+
+## Week 7 Exit Ticket {.checklist}
+
+Before next week, each student should have:
+
+- one selected condition for A3
+- one evaluation window
+- one output table or provided output route
+- one threshold
+- one preliminary degree-hour or failure-hour calculation
+- one sentence naming what the model does not include
+
+These items feed Week 8, where the weather file and exposure window become stress-test assumptions.

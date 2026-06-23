@@ -1,0 +1,204 @@
+---
+title: "Week 5 - Radiant Asymmetry"
+subtitle: "Flux delivery, body orientation, and architectural control"
+format:
+  revealjs:
+    theme: [default, ../slides.scss]
+    slide-number: true
+    center: true
+    width: 1280
+    height: 720
+    margin: 0.07
+    transition: fade
+    incremental: false
+    code-tools: false
+---
+
+# Week 5
+
+Radiant asymmetry and flux delivery
+
+**Architecture decides what the body sees**
+
+<span class="tag radiant">A2 due</span>
+
+## Where We Are
+
+::: {.progress-row}
+::: {}
+A1 spatial air field
+:::
+::: {.active}
+A2 radiant exchange
+:::
+::: {}
+A3 temporal build-up
+:::
+::: {}
+A4 design action
+:::
+:::
+
+::: {.key}
+A2 asks students to translate radiant difference into an architectural claim: not "it feels different," but "this surface, exposure, or orientation changes the body's heat exchange."
+:::
+
+## Direction Matters
+
+::: {.split}
+::: {}
+A body is not a sphere floating in an abstract room.
+
+Radiant asymmetry appears when one side of the body faces a different radiant environment than another side.
+:::
+
+::: {.equation-card}
+Radiant exchange is shaped by view exposure:
+
+$$
+q_{rad,i} \propto F_i(T_i^4 - T_{body}^4)
+$$
+
+`F_i` is the fraction of the body's radiant view occupied by surface or source `i`.
+:::
+:::
+
+## Architectural Flux Delivery
+
+| Architectural element | What it changes | Possible design action |
+|---|---|---|
+| glass facade | solar gain, longwave exchange, cold/hot surface view | external shade, low-SHGC glazing, seat offset |
+| pavement | ground longwave and reflected shortwave load | lighter surface, vegetation, canopy |
+| canopy | direct solar exposure and sky view | depth, porosity, orientation |
+| exposed slab | thermal storage and surface temperature | insulation, finish, night flushing |
+| fan or breeze | convective heat exchange | air path, local control |
+| wall material | surface temperature and time lag | finish, insulation, ventilation gap |
+
+## Window Seat Reading
+
+![](../assets/figures/radiant-asymmetry-section.svg){.img-frame}
+
+::: {.caption}
+Use the section as a reasoning template: position, body orientation, surface field, and design action.
+:::
+
+## Indoor Versus Outdoor Radiant Stakes
+
+::: {.cards-3}
+::: {.example}
+**Indoor**
+
+Radiant asymmetry may be subtle but persistent: cold glass, warm perimeter, radiant panels, exposed slab.
+:::
+
+::: {.example}
+**Outdoor**
+
+Solar radiation and hot ground can dominate within seconds or minutes.
+:::
+
+::: {.example}
+**Threshold**
+
+Arcade, lobby, balcony, and entry conditions often mix air-conditioned expectations with outdoor radiant exposure.
+:::
+:::
+
+## A2 Card Structure
+
+::: {.artifact}
+Your Radiant Exchange Card must include:
+
+1. two occupied positions;
+2. air temperature comparison;
+3. surface/radiant/MRT proxy evidence;
+4. body orientation diagram;
+5. one heat-flux or exchange sketch;
+6. one architectural implication;
+7. one uncertainty statement.
+:::
+
+## What A2 Should Not Do
+
+::: {.warning}
+A2 should not become a generic comfort essay or a polished rendering with no thermal mechanism.
+
+If the drawing cannot answer "what exchange changed?", it is not yet an A2 argument.
+:::
+
+## Mini-Case: Shaded Bench
+
+::: {.split}
+::: {}
+Two benches show similar air temperature:
+
+- Bench A is under tree shade on lighter paving.
+- Bench B is under partial glass reflection near dark paving.
+
+A2 asks: what does the body receive from above, below, and around?
+:::
+
+::: {.equation-card}
+The simplified comparison:
+
+$$
+\Delta q_{rad} \approx h_rA(T_{mrt,B}-T_{mrt,A})
+$$
+
+If the MRT proxy differs substantially, the design implication may be shade quality, surface material, or seating relocation.
+:::
+:::
+
+## Session 2: Diagnostic Round
+
+::: {.round-steps}
+::: {.round-step}
+**10 min - case scan.** Choose a design image where body geometry matters: one side of the body faces a different radiant environment.
+:::
+::: {.round-step}
+**5 min - Slack post.** Post the image and identify the body posture or orientation. Keep the thermal diagnosis hidden.
+:::
+::: {.round-step}
+**20-25 min - round-table guesses.** Classmates guess the exposed body side, radiant source or sink, design mitigation, and competing constraint.
+:::
+::: {.round-step}
+**10-15 min - host reveal.** The host explains the actual radiant asymmetry concern and whether the current design response is sufficient.
+:::
+:::
+
+## Week 5 Hint Level
+
+::: {.hint-card thinner}
+Moderate hints.
+
+Do not treat the body as a point. Guess:
+
+- face, back, legs, head, feet, hands;
+- seated, standing, waiting, moving;
+- one-sided glass, pavement, wall, sky, canopy, or radiant panel;
+- what orientation or furniture change would alter exposure.
+:::
+
+## Diagnostic Translation
+
+::: {.activity}
+Turn the host reveal into a radiant exchange card:
+
+- body segment or side exposed;
+- source or sink;
+- design lever;
+- competing constraint;
+- uncertainty.
+:::
+
+## Exit Artifact
+
+::: {.artifact}
+Write:
+
+> This radiant condition may fail when `_____` changes over time.
+:::
+
+## Carry Forward
+
+Next week we stop treating thermal conditions as static. Heat can build, lag, store, and remain risky after the obvious driver has passed.

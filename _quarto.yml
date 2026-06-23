@@ -1,0 +1,88 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - "assets/**"
+  render:
+    - index.qmd
+    - schedule.qmd
+    - assignments.qmd
+    - resources.qmd
+    - weeks/week-01.qmd
+    - weeks/week-02.qmd
+    - weeks/week-03.qmd
+    - weeks/week-04.qmd
+    - weeks/week-05.qmd
+    - weeks/week-06.qmd
+    - weeks/week-07.qmd
+    - weeks/week-08.qmd
+    - weeks/week-09.qmd
+    - weeks/week-10.qmd
+    - weeks/week-11.qmd
+    - weeks/week-12.qmd
+
+website:
+  title: "ARCH7XXX: Thermal Fields in Architecture"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: schedule.qmd
+        text: Schedule
+      - href: assignments.qmd
+        text: Assignments
+      - href: resources.qmd
+        text: Resources
+    right:
+      - icon: github
+        href: https://github.com/
+        aria-label: GitHub
+  sidebar:
+    style: docked
+    search: true
+    collapse-level: 1
+    contents:
+      - section: "Course Overview"
+        contents:
+          - index.qmd
+          - schedule.qmd
+          - assignments.qmd
+          - resources.qmd
+      - section: "Weekly Decks"
+        contents:
+          - text: "W1: Air Is Not Enough"
+            href: weeks/week-01.qmd
+          - text: "W2: Body Heat Balance"
+            href: weeks/week-02.qmd
+          - text: "W3: Sensing Fields"
+            href: weeks/week-03.qmd
+          - text: "W4: MRT + Radiant Exchange"
+            href: weeks/week-04.qmd
+          - text: "W5: Radiant Asymmetry"
+            href: weeks/week-05.qmd
+          - text: "W6: Thermal Build-Up"
+            href: weeks/week-06.qmd
+          - text: "W7: Exposure States"
+            href: weeks/week-07.qmd
+          - text: "W8: Weather + Climate Stress"
+            href: weeks/week-08.qmd
+          - text: "W9: Inverse Questions"
+            href: weeks/week-09.qmd
+          - text: "W10: Failure To Action"
+            href: weeks/week-10.qmd
+          - text: "W11: Roll-Forward Defense"
+            href: weeks/week-11.qmd
+          - text: "W12: Thermal Jury"
+            href: weeks/week-12.qmd
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    code-fold: false
+    code-tools: false
+
+execute:
+  freeze: auto
+  cache: true

@@ -1,0 +1,2834 @@
+[
+  {
+    "objectID": "weeks/week-12.html#jury-purpose",
+    "href": "weeks/week-12.html#jury-purpose",
+    "title": "Week 12 - Thermal Fields Jury",
+    "section": "Jury Purpose",
+    "text": "Jury Purpose\nThe final jury tests whether a student can make and defend one mechanism-informed thermal design intervention under uncertainty.\nThe expected outcome is not a universal solution. It is a bounded architectural claim with evidence, mechanism, validation, and limits.\n\nThe final package answers: what should the architect change, why, and under what limits?",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W12: Thermal Jury"
+    ]
+  },
+  {
+    "objectID": "weeks/week-12.html#presentation-order",
+    "href": "weeks/week-12.html#presentation-order",
+    "title": "Week 12 - Thermal Fields Jury",
+    "section": "Presentation Order",
+    "text": "Presentation Order\nUse this sequence:\n\nthe condition\nthe evidence\nthe heterogeneity\nthe failure mode\nthe design action ladder\nthe minimum found action or censored result\nthe roll-forward validation note\nthe architectural proposal\nthe uncertainty statement\nwhat should be tested next",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W12: Thermal Jury"
+    ]
+  },
+  {
+    "objectID": "weeks/week-12.html#final-evidence-stack",
+    "href": "weeks/week-12.html#final-evidence-stack",
+    "title": "Week 12 - Thermal Fields Jury",
+    "section": "Final Evidence Stack",
+    "text": "Final Evidence Stack\nThe jury should see a chain, not separate assignments.\n\n\n\n\n\n\n\n\nEvidence layer\nArtifact\nRole in A4\n\n\n\n\ncondition\nphoto, plan, section, body position\ndefines the claim boundary\n\n\nspatial air field\n\\(T_a + RH\\) map\nshows heterogeneity\n\n\nradiant exchange\nsurface, MRT, or radiant proxy card\nexplains body heat exchange\n\n\ntemporal build-up\ntime-series and threshold\nshows duration, lag, or accumulation\n\n\naction ladder\nfound/censored table\ntests sufficiency\n\n\nroll-forward note\nchanged stress assumption\ntests robustness",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W12: Thermal Jury"
+    ]
+  },
+  {
+    "objectID": "weeks/week-12.html#design-claim-formula",
+    "href": "weeks/week-12.html#design-claim-formula",
+    "title": "Week 12 - Thermal Fields Jury",
+    "section": "Design Claim Formula",
+    "text": "Design Claim Formula\nA final claim should be compact enough to defend:\n\\[\n\\text{claim}\n=\n\\text{condition}\n+ \\text{mechanism}\n+ \\text{evidence}\n+ \\text{action}\n+ \\text{limit}\n\\]\nExample structure:\nFor this occupied condition, the dominant thermal burden is caused by this mechanism, shown by these artifacts, reduced by this design action, and limited by this uncertainty.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W12: Thermal Jury"
+    ]
+  },
+  {
+    "objectID": "weeks/week-12.html#what-counts-as-convincing",
+    "href": "weeks/week-12.html#what-counts-as-convincing",
+    "title": "Week 12 - Thermal Fields Jury",
+    "section": "What Counts As Convincing",
+    "text": "What Counts As Convincing\nA convincing jury presentation:\n\nnames the occupied position and time window\ndistinguishes air, radiant, operative, and humidity evidence\nuses at least one portable equation correctly\nreports accumulated exposure, not only peak temperature\nshows a bounded action ladder\nstates found, censored, or unresolved outcome\nincludes roll-forward validation\nowns uncertainty without abandoning the claim",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W12: Thermal Jury"
+    ]
+  },
+  {
+    "objectID": "weeks/week-12.html#what-counts-as-weak",
+    "href": "weeks/week-12.html#what-counts-as-weak",
+    "title": "Week 12 - Thermal Fields Jury",
+    "section": "What Counts As Weak",
+    "text": "What Counts As Weak\nWeak final arguments usually:\n\ntreat a single temperature as the whole condition\nshow a plot without a threshold or mechanism\nrely on software authority instead of evidence\nchange weather, design, and target at the same time\nhide censored or unsupported results\npropose a broad redesign instead of one bounded action\nomit reproducibility information\n\n\nThe jury should reward clarity of reasoning, not visual density or tool difficulty.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W12: Thermal Jury"
+    ]
+  },
+  {
+    "objectID": "weeks/week-12.html#jury-activity-final-a4-presentation",
+    "href": "weeks/week-12.html#jury-activity-final-a4-presentation",
+    "title": "Week 12 - Thermal Fields Jury",
+    "section": "Jury Activity: Final A4 Presentation",
+    "text": "Jury Activity: Final A4 Presentation\nDeliver the final five-minute thermal design jury presentation.\nArtifact: final A4 mechanism-informed intervention with condition board, A1/A2/A3 evidence, design action ladder, roll-forward validation note, uncertainty statement, reproducibility capsule, and architectural proposal.\nA4 mapping: this is the final assessed synthesis. It demonstrates that the design action follows from spatial, radiant, temporal, and validation evidence.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W12: Thermal Jury"
+    ]
+  },
+  {
+    "objectID": "weeks/week-12.html#jury-activity-next-test-note",
+    "href": "weeks/week-12.html#jury-activity-next-test-note",
+    "title": "Week 12 - Thermal Fields Jury",
+    "section": "Jury Activity: Next-Test Note",
+    "text": "Jury Activity: Next-Test Note\nAfter the presentation, write the next-test note before revising the final submission.\nArtifact: a short note with one claim to keep, one claim to narrow, one uncertainty to state more clearly, and one future test that would strengthen the action.\nA4 mapping: this note becomes the final “what should be tested next” element of the intervention package.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W12: Thermal Jury"
+    ]
+  },
+  {
+    "objectID": "weeks/week-12.html#questions-the-jury-can-ask",
+    "href": "weeks/week-12.html#questions-the-jury-can-ask",
+    "title": "Week 12 - Thermal Fields Jury",
+    "section": "Questions The Jury Can Ask",
+    "text": "Questions The Jury Can Ask\nGood questions should locate the evidence:\n\nWhich figure proves the condition is spatially uneven?\nWhich surface, solar, or MRT evidence explains the radiant burden?\nWhich time window produces the temporal failure?\nWhich action first reaches the target, or why is the result censored?\nWhat happens when the weather window changes?\nWhat is outside the claim?\nWhat would you test next if this became a studio or practice decision?",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W12: Thermal Jury"
+    ]
+  },
+  {
+    "objectID": "weeks/week-12.html#final-submission-checklist",
+    "href": "weeks/week-12.html#final-submission-checklist",
+    "title": "Week 12 - Thermal Fields Jury",
+    "section": "Final Submission Checklist",
+    "text": "Final Submission Checklist\nSubmit:\n\nfinal boards or slide package\ndesign action memo\nroll-forward validation note\nuncertainty statement\nreproducibility capsule\nsource files or exported tables needed to inspect the figures\n\nEvery figure needs a title, units, time window, threshold where relevant, and a short caption explaining the design consequence.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W12: Thermal Jury"
+    ]
+  },
+  {
+    "objectID": "weeks/week-12.html#course-synthesis",
+    "href": "weeks/week-12.html#course-synthesis",
+    "title": "Week 12 - Thermal Fields Jury",
+    "section": "Course Synthesis",
+    "text": "Course Synthesis\nThe course started by rejecting the average-room claim.\nIt ends with a different design habit:\n\nsample the field\nseparate air, radiant, humidity, and temporal evidence\nexpose assumptions\ntest sufficiency\nreport found, censored, or unresolved results\nvalidate the action under changed stress\ntranslate the result into one architectural decision",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W12: Thermal Jury"
+    ]
+  },
+  {
+    "objectID": "weeks/week-12.html#closing-statement",
+    "href": "weeks/week-12.html#closing-statement",
+    "title": "Week 12 - Thermal Fields Jury",
+    "section": "Closing Statement",
+    "text": "Closing Statement\nThermal design under uncertainty is not the absence of judgment.\nIt is a way to make judgment visible:\n\nwhat was measured or simulated\nwhat was assumed\nwhat changed\nwhat remained risky\nwhat action follows\nwhat should be tested next",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W12: Thermal Jury"
+    ]
+  },
+  {
+    "objectID": "weeks/week-10.html#week-question",
+    "href": "weeks/week-10.html#week-question",
+    "title": "Week 10 - Failure Audit To Design Action",
+    "section": "Week Question",
+    "text": "Week Question\nWhat must change architecturally?\nWeek 10 translates A3 failure evidence into one bounded A4 design action. The goal is not to make a larger proposal. The goal is to make the evidence produce a defensible architectural move.\n\nDesign action is the point where the thermal argument becomes accountable.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W10: Failure To Action"
+    ]
+  },
+  {
+    "objectID": "weeks/week-10.html#pin-up-standard",
+    "href": "weeks/week-10.html#pin-up-standard",
+    "title": "Week 10 - Failure Audit To Design Action",
+    "section": "Pin-Up Standard",
+    "text": "Pin-Up Standard\nFor the A3 pin-up, each student presents:\n\nthe condition and occupied position\nthreshold and time window\ntime-series or sequence strip\ndegree-hours or failure hours\nbuild-up or lag mechanism\nfound, censored, or unresolved action ladder result\ncandidate A4 action\n\nPeers should respond by naming the weakest link in the evidence chain and the strongest design implication.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W10: Failure To Action"
+    ]
+  },
+  {
+    "objectID": "weeks/week-10.html#failure-types",
+    "href": "weeks/week-10.html#failure-types",
+    "title": "Week 10 - Failure Audit To Design Action",
+    "section": "Failure Types",
+    "text": "Failure Types\nUse failure labels to avoid generic critique.\n\n\n\n\n\n\n\n\nFailure type\nMeaning\nDesign implication\n\n\n\n\ncompliance failure\nmetric misses target\nrevise action or threshold\n\n\nprotection failure\nvulnerable occupant remains exposed\nstronger refuge or control\n\n\nspatial failure\naverage hides local burden\nrelocate, shade, separate, or localize\n\n\ntemporal failure\ntail hours or lag remain high\naddress storage, schedule, or purge\n\n\noccupant failure\nuse pattern invalidates claim\nchange program or access\n\n\nmodel failure\nevidence cannot support conclusion\nnarrow claim or add evidence\n\n\nretrofit failure\naction solves one burden and creates another\nbalance components",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W10: Failure To Action"
+    ]
+  },
+  {
+    "objectID": "weeks/week-10.html#thresholds-are-design-choices",
+    "href": "weeks/week-10.html#thresholds-are-design-choices",
+    "title": "Week 10 - Failure Audit To Design Action",
+    "section": "Thresholds Are Design Choices",
+    "text": "Thresholds Are Design Choices\nThresholds are not neutral. They define what counts as a problem.\nFor A4, state:\n\ncomfort or protection target\nstate variable used for evaluation\ntime window\noccupant or use condition\nwhether the target is a hard threshold or a comparison line\n\n\n\\[\n\\text{failure}\n\\Longleftrightarrow\nDH_{\\theta} &gt; DH_{target}\n\\quad \\text{or} \\quad\nFH_{\\theta} &gt; FH_{target}\n\\]",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W10: Failure To Action"
+    ]
+  },
+  {
+    "objectID": "weeks/week-10.html#pivot-logic",
+    "href": "weeks/week-10.html#pivot-logic",
+    "title": "Week 10 - Failure Audit To Design Action",
+    "section": "Pivot Logic",
+    "text": "Pivot Logic\nWhen the evidence fails, do not simply add more technology. Identify the pivot.\n\n\n\n\n\n\n\nIf the failure is driven by\nFirst design pivot to test\n\n\n\n\nsolar gain\nshade, orientation, facade depth\n\n\nwarm surfaces or MRT\nsurface exposure, glazing, material, radiant shield\n\n\nstored heat and lag\nmass strategy, night purge, roof assembly\n\n\nweak heat removal\nventilation path, air movement, schedule\n\n\nhumidity\ndehumidification, exposure timing, refuge logic\n\n\nspatial concentration\nprogram shift, local control, occupied zone redesign\n\n\nservice masking\nreport loads and thermal burden separately",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W10: Failure To Action"
+    ]
+  },
+  {
+    "objectID": "weeks/week-10.html#balance-between-components",
+    "href": "weeks/week-10.html#balance-between-components",
+    "title": "Week 10 - Failure Audit To Design Action",
+    "section": "Balance Between Components",
+    "text": "Balance Between Components\nUse the heat balance to keep the action connected to mechanism:\n\\[\nC_z \\frac{dT_z}{dt}\n=\n\\left(Q_{solar}+Q_{internal}+Q_{envelope}\\right)\n-\n\\left(Q_{vent}+Q_{radiant\\ loss}+Q_{HVAC}\\right)\n\\]\nAn action should name which term it changes and what burden may remain elsewhere.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W10: Failure To Action"
+    ]
+  },
+  {
+    "objectID": "weeks/week-10.html#component-balance-matrix",
+    "href": "weeks/week-10.html#component-balance-matrix",
+    "title": "Week 10 - Failure Audit To Design Action",
+    "section": "Component Balance Matrix",
+    "text": "Component Balance Matrix\nA strong A4 action does not need to solve everything. It must identify tradeoffs.\n\n\n\n\n\n\n\n\n\nAction\nHelps\nMay not solve\nEvidence needed\n\n\n\n\nexternal shade\nsolar and MRT burden\nhumidity, night heat\nsun/radiant and time-series\n\n\ncool roof\nroof heat gain\nperimeter glare or humidity\nroof exposure and lag evidence\n\n\nfan access\nperceived heat and convection\nhigh MRT or poor air quality\nair speed assumption and limit\n\n\nprogram shift\nexposure timing\nphysical heat source\nschedule and occupancy evidence\n\n\nlow-SHGC glazing\nsolar gain\nwinter or daylight tradeoff\nbefore/after state comparison",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W10: Failure To Action"
+    ]
+  },
+  {
+    "objectID": "weeks/week-10.html#from-failure-card-to-action-ladder",
+    "href": "weeks/week-10.html#from-failure-card-to-action-ladder",
+    "title": "Week 10 - Failure Audit To Design Action",
+    "section": "From Failure Card To Action Ladder",
+    "text": "From Failure Card To Action Ladder\nThe A4 ladder should read as an argument:\n\nThe failure mode identifies the problem.\nThe physics identifies the mechanism.\nThe ladder tests bounded interventions.\nThe outcome label reports sufficiency.\nThe design action memo states the architectural consequence.\n\n\nThe ladder can end in found, censored, or unresolved. Each can be defensible if the evidence chain is explicit.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W10: Failure To Action"
+    ]
+  },
+  {
+    "objectID": "weeks/week-10.html#lab-activity-failure-audit-card",
+    "href": "weeks/week-10.html#lab-activity-failure-audit-card",
+    "title": "Week 10 - Failure Audit To Design Action",
+    "section": "Lab Activity: Failure Audit Card",
+    "text": "Lab Activity: Failure Audit Card\nConvert the A3 result into a failure audit card.\nArtifact: a one-page card with failure type, threshold, evidence figure, mechanism, affected occupant or use condition, and one architectural consequence.\nA4 mapping: this card becomes the first page or first slide of the A4 mechanism-informed intervention. It defines why the proposed action is necessary.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W10: Failure To Action"
+    ]
+  },
+  {
+    "objectID": "weeks/week-10.html#lab-activity-alternatives-matrix",
+    "href": "weeks/week-10.html#lab-activity-alternatives-matrix",
+    "title": "Week 10 - Failure Audit To Design Action",
+    "section": "Lab Activity: Alternatives Matrix",
+    "text": "Lab Activity: Alternatives Matrix\nBuild a small alternatives matrix before selecting the A4 action.\nArtifact: a matrix with three candidate actions, the heat-balance term or exposure component each action changes, expected effect on degree-hours or failure hours, residual risk, and evidence needed.\nA4 mapping: this matrix supports the Design Action Memo. It shows that the chosen action is bounded and reasoned, not arbitrary.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W10: Failure To Action"
+    ]
+  },
+  {
+    "objectID": "weeks/week-10.html#session-2-diagnostic-round",
+    "href": "weeks/week-10.html#session-2-diagnostic-round",
+    "title": "Week 10 - Failure Audit To Design Action",
+    "section": "Session 2: Diagnostic Round",
+    "text": "Session 2: Diagnostic Round\n\n\n10 min - case scan. Choose an A4 case where the obvious intervention has a real architectural tradeoff.\n\n\n5 min - Slack post. Post the image and failure mode. Keep the chosen action hidden.\n\n\n20-25 min - round-table guesses. Classmates guess the design action, the thermal term it changes, and the competing requirement that could block it.\n\n\n10-15 min - host reveal. The host reveals their selected action, rejected alternatives, residual risk, and evidence needed.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W10: Failure To Action"
+    ]
+  },
+  {
+    "objectID": "weeks/week-10.html#week-10-hint-level",
+    "href": "weeks/week-10.html#week-10-hint-level",
+    "title": "Week 10 - Failure Audit To Design Action",
+    "section": "Week 10 Hint Level",
+    "text": "Week 10 Hint Level\n::: {.hint-card minimal} Minimal hints.\nEvery guess must name:\n\nmechanism;\nintervention;\ncompeting constraint;\nevidence needed. :::",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W10: Failure To Action"
+    ]
+  },
+  {
+    "objectID": "weeks/week-10.html#choosing-the-a4-action",
+    "href": "weeks/week-10.html#choosing-the-a4-action",
+    "title": "Week 10 - Failure Audit To Design Action",
+    "section": "Choosing The A4 Action",
+    "text": "Choosing The A4 Action\nChoose one primary action using four criteria:\n\nit addresses the dominant failure mechanism\nit is architectural enough to draw in plan, section, detail, or control sequence\nit can be evaluated against the A3 threshold\nits limits can be stated without weakening the whole argument\n\n\nThe final project is one defensible design action, not a whole-building redesign.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W10: Failure To Action"
+    ]
+  },
+  {
+    "objectID": "weeks/week-10.html#design-action-memo-structure",
+    "href": "weeks/week-10.html#design-action-memo-structure",
+    "title": "Week 10 - Failure Audit To Design Action",
+    "section": "Design Action Memo Structure",
+    "text": "Design Action Memo Structure\nUse this order:\n\ncondition and failure mode\nkey evidence from A1, A2, and A3\nproposed design action\nbefore/after threshold comparison\nfound, censored, or unresolved outcome\nresidual burden and uncertainty\nroll-forward test to perform in Week 11\nwhat should be tested next",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W10: Failure To Action"
+    ]
+  },
+  {
+    "objectID": "weeks/week-10.html#critique-questions-with-artifacts",
+    "href": "weeks/week-10.html#critique-questions-with-artifacts",
+    "title": "Week 10 - Failure Audit To Design Action",
+    "section": "Critique Questions With Artifacts",
+    "text": "Critique Questions With Artifacts\nEach critique response must point to an artifact:\n\nWhich A1 map shows the condition is spatially uneven?\nWhich A2 drawing shows the radiant mechanism?\nWhich A3 plot shows accumulation, lag, or duration?\nWhich ladder row justifies the selected action?\nWhich uncertainty might change the conclusion?\n\n\nIf a claim cannot be located on a figure, table, or drawing, it is not ready for A4 defense.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W10: Failure To Action"
+    ]
+  },
+  {
+    "objectID": "weeks/week-10.html#week-10-exit-ticket",
+    "href": "weeks/week-10.html#week-10-exit-ticket",
+    "title": "Week 10 - Failure Audit To Design Action",
+    "section": "Week 10 Exit Ticket",
+    "text": "Week 10 Exit Ticket\nBefore Week 11, each student should have:\n\nselected A4 design action\nfailure audit card\nalternatives matrix\nbefore/after metric or planned comparison\nlist of final figures or boards\none changed stress assumption for roll-forward validation\n\nWeek 11 tests whether the action survives a changed assumption.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W10: Failure To Action"
+    ]
+  },
+  {
+    "objectID": "weeks/week-08.html#week-question",
+    "href": "weeks/week-08.html#week-question",
+    "title": "Week 8 - Weather Files And Stress Windows",
+    "section": "Week Question",
+    "text": "Week Question\nWhat happens when the weather file, exposure period, or boundary condition changes?\nWeek 8 uses weather as a stress-test input. The task is not to predict the future perfectly. The task is to show whether an A3 thermal claim depends on one convenient weather slice.\n\nOne EPW or TMY file is a boundary condition, not the climate.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W8: Weather + Climate Stress"
+    ]
+  },
+  {
+    "objectID": "weeks/week-08.html#what-an-epw-file-gives-you",
+    "href": "weeks/week-08.html#what-an-epw-file-gives-you",
+    "title": "Week 8 - Weather Files And Stress Windows",
+    "section": "What An EPW File Gives You",
+    "text": "What An EPW File Gives You\nAn EPW file is an hourly weather sequence used by simulation tools.\nTypical fields include:\n\ndry-bulb temperature\ndew point and relative humidity\ndirect and diffuse solar radiation\nwind speed and direction\nsky condition and atmospheric indicators\ntime stamp and location metadata\n\n\nThe same building model can produce different indoor exposure states when the weather boundary changes.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W8: Weather + Climate Stress"
+    ]
+  },
+  {
+    "objectID": "weeks/week-08.html#tmy-is-not-an-extreme-year",
+    "href": "weeks/week-08.html#tmy-is-not-an-extreme-year",
+    "title": "Week 8 - Weather Files And Stress Windows",
+    "section": "TMY Is Not An Extreme Year",
+    "text": "TMY Is Not An Extreme Year\nA typical meteorological year is assembled to represent typical conditions. It is useful for many comparisons, but it can understate tail risk.\nFor A3 and A4, ask:\n\nIs the condition evaluated during a typical week, hot week, heatwave, or design period?\nDoes the selected window include the relevant preheat or recovery period?\nAre solar radiation, humidity, and night cooling represented?\nIs the weather file being treated as evidence or as an unexamined default?",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W8: Weather + Climate Stress"
+    ]
+  },
+  {
+    "objectID": "weeks/week-08.html#weather-as-boundary-condition",
+    "href": "weeks/week-08.html#weather-as-boundary-condition",
+    "title": "Week 8 - Weather Files And Stress Windows",
+    "section": "Weather As Boundary Condition",
+    "text": "Weather As Boundary Condition\nThe outdoor state enters the model as a time sequence:\n\\[\nx_t =\n\\left[\nT_{db,t},\nRH_t,\nI_{dir,t},\nI_{dif,t},\nv_t,\n\\omega_t\n\\right]\n\\]\nThe indoor state is the response:\n\\[\ns_t = f(x_t, B, O, S)\n\\]\nWhere \\(B\\) is building assumptions, \\(O\\) is occupancy, and \\(S\\) is service or control state.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W8: Weather + Climate Stress"
+    ]
+  },
+  {
+    "objectID": "weeks/week-08.html#climate-scenarios-without-overclaiming",
+    "href": "weeks/week-08.html#climate-scenarios-without-overclaiming",
+    "title": "Week 8 - Weather Files And Stress Windows",
+    "section": "Climate Scenarios Without Overclaiming",
+    "text": "Climate Scenarios Without Overclaiming\nClimate scenarios can enter the course through:\n\na future or climate-adjusted EPW\na hotter representative week\na heatwave period\na design-day or stress-period construction\na GCM/RCM-derived weather product, if provided\n\nTerms to keep straight:\n\nGCM: global climate model, coarse climate forcing.\nRCM: regional climate model, downscaled regional pattern.\nWeather file: hourly sequence used by the building or microclimate analysis.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W8: Weather + Climate Stress"
+    ]
+  },
+  {
+    "objectID": "weeks/week-08.html#indooroutdoor-continuity",
+    "href": "weeks/week-08.html#indooroutdoor-continuity",
+    "title": "Week 8 - Weather Files And Stress Windows",
+    "section": "Indoor/Outdoor Continuity",
+    "text": "Indoor/Outdoor Continuity\nIndoor and outdoor stress tests share the same logic:\n\n\n\nIndoor condition\nOutdoor or threshold analogue\n\n\n\n\nroof-exposed room\nroof terrace or top-floor walkway\n\n\nglass perimeter\nsun-exposed bench or facade edge\n\n\nnight cooling failure\ncourtyard heat retention\n\n\nmixed-mode classroom\nshaded threshold with weak air movement\n\n\nhumidity burden\nlow evaporative cooling potential\n\n\n\nThe variables differ, but the question is the same: what exposure does the body receive over time?",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W8: Weather + Climate Stress"
+    ]
+  },
+  {
+    "objectID": "weeks/week-08.html#stress-test-comparison",
+    "href": "weeks/week-08.html#stress-test-comparison",
+    "title": "Week 8 - Weather Files And Stress Windows",
+    "section": "Stress-Test Comparison",
+    "text": "Stress-Test Comparison\nCompute degree-hours for the same condition under two weather or exposure assumptions:\n\\[\nDH_{\\theta}(W, E)\n=\n\\sum_{t \\in W}\n\\max \\left(T_t(E) - T_{\\theta}, 0 \\right)\\Delta t\n\\]\nWhere:\n\n\\(W\\) is the weather or time window\n\\(E\\) is the exposure or model assumption\n\\(T_t\\) is the chosen state variable, such as \\(T_{op,t}\\) or \\(T_{a,t}\\)",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W8: Weather + Climate Stress"
+    ]
+  },
+  {
+    "objectID": "weeks/week-08.html#failure-hours",
+    "href": "weeks/week-08.html#failure-hours",
+    "title": "Week 8 - Weather Files And Stress Windows",
+    "section": "Failure Hours",
+    "text": "Failure Hours\nFailure hours count duration beyond a threshold:\n\\[\nFH_{\\theta}\n=\n\\sum_{t \\in W}\n\\mathbf{1}\\left[T_t &gt; T_{\\theta}\\right]\\Delta t\n\\]\nUse both metrics when useful:\n\nfailure hours show duration\ndegree-hours show accumulated burden above the line\nmaximum temperature shows peak severity but not persistence",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W8: Weather + Climate Stress"
+    ]
+  },
+  {
+    "objectID": "weeks/week-08.html#weather-window-cross-validation",
+    "href": "weeks/week-08.html#weather-window-cross-validation",
+    "title": "Week 8 - Weather Files And Stress Windows",
+    "section": "Weather-Window Cross-Validation",
+    "text": "Weather-Window Cross-Validation\n\n\nThe analogy is simple: do not tune the design claim to only one slice of weather. Check whether the conclusion survives another stress window.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W8: Weather + Climate Stress"
+    ]
+  },
+  {
+    "objectID": "weeks/week-08.html#simple-cross-validation-analogy",
+    "href": "weeks/week-08.html#simple-cross-validation-analogy",
+    "title": "Week 8 - Weather Files And Stress Windows",
+    "section": "Simple Cross-Validation Analogy",
+    "text": "Simple Cross-Validation Analogy\nThe A4 version will come later, but the logic begins in A3:\n\\[\n\\text{develop on } W_1:\n\\quad\n\\text{interpret } DH_{\\theta}(W_1)\n\\]\n\\[\n\\text{check on } W_2:\n\\quad\n\\text{compare } DH_{\\theta}(W_2)\n\\text{ and } FH_{\\theta}(W_2)\n\\]\nThis is not machine learning. It is a disciplined way to avoid overclaiming from one selected window.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W8: Weather + Climate Stress"
+    ]
+  },
+  {
+    "objectID": "weeks/week-08.html#stress-test-matrix",
+    "href": "weeks/week-08.html#stress-test-matrix",
+    "title": "Week 8 - Weather Files And Stress Windows",
+    "section": "Stress-Test Matrix",
+    "text": "Stress-Test Matrix\nUse a small comparison, not a scenario catalog.\n\n\n\n\n\n\n\n\nKeep fixed\nChange one item\nReport\n\n\n\n\nzone model\ntypical week to hot week\nchange in degree-hours\n\n\nshade condition\nweather file\nchange in failure hours\n\n\noutdoor position\nsun exposure window\nchange in maximum and duration\n\n\noccupancy schedule\nheatwave length\nchange in tail burden\n\n\nthreshold\nindoor/outdoor boundary\nwhether the claim still holds\n\n\n\n\nIf more than one assumption changes, say so. Do not hide a moving target.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W8: Weather + Climate Stress"
+    ]
+  },
+  {
+    "objectID": "weeks/week-08.html#lab-activity-stress-test-memo",
+    "href": "weeks/week-08.html#lab-activity-stress-test-memo",
+    "title": "Week 8 - Weather Files And Stress Windows",
+    "section": "Lab Activity: Stress-Test Memo",
+    "text": "Lab Activity: Stress-Test Memo\nRun or inspect a two-case stress test for the same condition.\nArtifact: a one-page A3 stress-test memo with two time-series plots or one paired plot, a degree-hour or failure-hour table, and a sentence naming the changed weather, window, or exposure assumption.\nA3 mapping: this memo is the Week 8 development layer for the Temporal Build-Up Audit. It shows whether the A3 failure statement is stable or dependent on one weather slice.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W8: Weather + Climate Stress"
+    ]
+  },
+  {
+    "objectID": "weeks/week-08.html#lab-activity-boundary-explanation",
+    "href": "weeks/week-08.html#lab-activity-boundary-explanation",
+    "title": "Week 8 - Weather Files And Stress Windows",
+    "section": "Lab Activity: Boundary Explanation",
+    "text": "Lab Activity: Boundary Explanation\nWrite a boundary explanation for the stress-test memo.\nArtifact: a four-row table listing weather file or window, modeled service state, occupancy or exposure schedule, and the variable used for threshold evaluation.\nA3 mapping: this table defines the assumptions behind the A3 degree-hour or failure-hour comparison. It also becomes the first draft of the A4 roll-forward validation assumption.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W8: Weather + Climate Stress"
+    ]
+  },
+  {
+    "objectID": "weeks/week-08.html#session-2-diagnostic-round",
+    "href": "weeks/week-08.html#session-2-diagnostic-round",
+    "title": "Week 8 - Weather Files And Stress Windows",
+    "section": "Session 2: Diagnostic Round",
+    "text": "Session 2: Diagnostic Round\n\n\n10 min - case scan. Choose a design condition whose conclusion may change under a different weather, exposure, or occupancy window.\n\n\n5 min - Slack post. Post the image and baseline claim. Keep the stress window you worry about hidden.\n\n\n20-25 min - round-table guesses. Classmates guess which changed weather or stress assumption could reverse, amplify, or weaken the claim.\n\n\n10-15 min - host reveal. The host reveals the stress window and identifies whether the claim is stable, amplified, shifted, masked, or unsupported.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W8: Weather + Climate Stress"
+    ]
+  },
+  {
+    "objectID": "weeks/week-08.html#week-8-hint-level",
+    "href": "weeks/week-08.html#week-8-hint-level",
+    "title": "Week 8 - Weather Files And Stress Windows",
+    "section": "Week 8 Hint Level",
+    "text": "Week 8 Hint Level\n::: {.hint-card thinner} Hints are now about uncertainty, not answers.\nGuess:\n\ntypical week versus heatwave;\ndry-hot versus humid-hot;\nshort stress window versus long window;\ncurrent EPW versus future-adjusted EPW;\nindoor boundary versus outdoor exposure. :::",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W8: Weather + Climate Stress"
+    ]
+  },
+  {
+    "objectID": "weeks/week-08.html#interpreting-a-changed-result",
+    "href": "weeks/week-08.html#interpreting-a-changed-result",
+    "title": "Week 8 - Weather Files And Stress Windows",
+    "section": "Interpreting A Changed Result",
+    "text": "Interpreting A Changed Result\nUse precise labels:\n\nstable: the threshold conclusion is similar in both windows\namplified: the hotter or longer window increases burden\nshifted: failure moves to a different hour or surface condition\nmasked: service or schedule hides an underlying exposure\nunsupported: the evidence cannot support the comparison\n\n\nA changed result is useful. It tells you which assumption the design claim depends on.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W8: Weather + Climate Stress"
+    ]
+  },
+  {
+    "objectID": "weeks/week-08.html#week-8-exit-ticket",
+    "href": "weeks/week-08.html#week-8-exit-ticket",
+    "title": "Week 8 - Weather Files And Stress Windows",
+    "section": "Week 8 Exit Ticket",
+    "text": "Week 8 Exit Ticket\nBefore Week 9, each student should have:\n\none baseline A3 window\none changed weather, window, or exposure assumption\na degree-hour or failure-hour comparison\none sentence explaining why the result changed or did not change\none candidate design target for the inverse ladder\n\nWeek 9 asks the inverse question: what intervention reaches the target?",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W8: Weather + Climate Stress"
+    ]
+  },
+  {
+    "objectID": "weeks/week-06.html#where-we-are",
+    "href": "weeks/week-06.html#where-we-are",
+    "title": "Week 6 - Thermal Build-Up",
+    "section": "Where We Are",
+    "text": "Where We Are\n\n\nA1 spatial air field\n\n\nA2 radiant exchange\n\n\nA3 temporal build-up\n\n\nA4 design action\n\n\n\nA3 asks when the condition becomes problematic. The answer may be duration, lag, accumulation, or the hours after the visible heat source has passed.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W6: Thermal Build-Up"
+    ]
+  },
+  {
+    "objectID": "weeks/week-06.html#thermal-capacity",
+    "href": "weeks/week-06.html#thermal-capacity",
+    "title": "Week 6 - Thermal Build-Up",
+    "section": "Thermal Capacity",
+    "text": "Thermal Capacity\n\n\nHeavy materials can absorb heat without immediately changing temperature. That can be useful or dangerous depending on the sequence.\nThermal mass may delay a peak, flatten a swing, or keep a space warm after the outdoor condition improves.\n\n\nStored heat:\n\\[\nQ = mc\\Delta T\n\\]\nm is mass, c is specific heat capacity, and \\Delta T is temperature change.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W6: Thermal Build-Up"
+    ]
+  },
+  {
+    "objectID": "weeks/week-06.html#conduction-and-envelope",
+    "href": "weeks/week-06.html#conduction-and-envelope",
+    "title": "Week 6 - Thermal Build-Up",
+    "section": "Conduction And Envelope",
+    "text": "Conduction And Envelope\n\nSimple conductive heat flow:\n\\[\n\\dot{Q} = UA\\Delta T\n\\]\nU describes thermal transmittance, A is area, and \\Delta T is the temperature difference across the element.\n\n\nArchitectural use: compare roof, wall, window, exposed slab, or shaded facade as heat-flow pathways rather than decorative objects.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W6: Thermal Build-Up"
+    ]
+  },
+  {
+    "objectID": "weeks/week-06.html#dynamic-heat-balance",
+    "href": "weeks/week-06.html#dynamic-heat-balance",
+    "title": "Week 6 - Thermal Build-Up",
+    "section": "Dynamic Heat Balance",
+    "text": "Dynamic Heat Balance\n\nA simplified zone or surface balance:\n\\[\nC\\frac{dT}{dt} = \\sum \\dot{Q}_{gains} - \\sum \\dot{Q}_{losses}\n\\]\nIf gains exceed losses, the condition builds. If losses increase through night ventilation, shading, or material change, the trajectory can shift.\n\n\nThis is the equation behind many design decisions: shade reduces gains; insulation changes losses; mass changes the pace; ventilation changes removal.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W6: Thermal Build-Up"
+    ]
+  },
+  {
+    "objectID": "weeks/week-06.html#degree-hours",
+    "href": "weeks/week-06.html#degree-hours",
+    "title": "Week 6 - Thermal Build-Up",
+    "section": "Degree-Hours",
+    "text": "Degree-Hours\n\n\n\n\nOriginal course diagram. A peak temperature is not the same as accumulated burden.\n\n\n\nContinuous version:\n\\[\nDH = \\int \\max(T(t)-T_{thr},0)\\,dt\n\\]\nStudent discrete version:\n\\[\nDH \\approx \\sum_t \\max(T_t-T_{thr},0)\\Delta t\n\\]",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W6: Thermal Build-Up"
+    ]
+  },
+  {
+    "objectID": "weeks/week-06.html#fire-engineering-analogy",
+    "href": "weeks/week-06.html#fire-engineering-analogy",
+    "title": "Week 6 - Thermal Build-Up",
+    "section": "Fire Engineering Analogy",
+    "text": "Fire Engineering Analogy\n\n\nFire engineering often treats safety as threshold plus time: smoke layer, heat release, tenability, exposure duration.\nThermal environmental design can use a gentler version of the same logic: exposure can become risky because it persists.\n\n\nThis analogy is conceptual. We are not turning the course into fire engineering. We are borrowing the habit of thinking in thresholds, duration, and failure modes.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W6: Thermal Build-Up"
+    ]
+  },
+  {
+    "objectID": "weeks/week-06.html#a3-prompt",
+    "href": "weeks/week-06.html#a3-prompt",
+    "title": "Week 6 - Thermal Build-Up",
+    "section": "A3 Prompt",
+    "text": "A3 Prompt\n\nChoose one condition from A1/A2 and ask:\n\nWhat time period matters?\nWhat threshold or target is relevant?\nWhat variable will be plotted?\nDoes the issue come from peak, duration, lag, or accumulated exposure?\nWhat design action might change the trajectory?",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W6: Thermal Build-Up"
+    ]
+  },
+  {
+    "objectID": "weeks/week-06.html#a3-outputs",
+    "href": "weeks/week-06.html#a3-outputs",
+    "title": "Week 6 - Thermal Build-Up",
+    "section": "A3 Outputs",
+    "text": "A3 Outputs\n\nTemporal Build-Up Audit:\n\none time-series or sequence strip;\none threshold line or target;\none degree-hour, exceedance, or accumulated exposure calculation;\nexplanation of build-up or lag mechanism;\none failure statement;\none candidate design action.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W6: Thermal Build-Up"
+    ]
+  },
+  {
+    "objectID": "weeks/week-06.html#pulse-check",
+    "href": "weeks/week-06.html#pulse-check",
+    "title": "Week 6 - Thermal Build-Up",
+    "section": "Pulse Check",
+    "text": "Pulse Check\n\nAnonymous 5-minute course alignment check:\n\nIs the course matching what you expected?\nWhich concept or tool route needs more support?\nWhat is unclear about A2, A3, or A4?\nWhat should be adjusted before the second half of semester?\n\n\n\nThe instructor will summarize one or two adjustments in Week 7.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W6: Thermal Build-Up"
+    ]
+  },
+  {
+    "objectID": "weeks/week-06.html#session-2-diagnostic-round",
+    "href": "weeks/week-06.html#session-2-diagnostic-round",
+    "title": "Week 6 - Thermal Build-Up",
+    "section": "Session 2: Diagnostic Round",
+    "text": "Session 2: Diagnostic Round\n\n\n10 min - case scan. Choose a design where heat or moisture may accumulate, lag, or persist.\n\n\n5 min - Slack post. Post the image and state the occupied period. Keep the suspected timing hidden.\n\n\n20-25 min - round-table guesses. Classmates guess when the condition fails, whether the issue is peak, duration, lag, moisture build-up, or poor dissipation.\n\n\n10-15 min - host reveal. The host explains the actual temporal concern, current mitigation, and likely threshold or time window.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W6: Thermal Build-Up"
+    ]
+  },
+  {
+    "objectID": "weeks/week-06.html#week-6-hint-level",
+    "href": "weeks/week-06.html#week-6-hint-level",
+    "title": "Week 6 - Thermal Build-Up",
+    "section": "Week 6 Hint Level",
+    "text": "Week 6 Hint Level\n::: {.hint-card thinner} Moderate hints.\nGuess through time:\n\nmorning warm-up;\nafternoon solar gain;\nnight cooling failure;\nsurface or moisture storage;\ngusty versus reliable air movement;\nthreshold duration rather than peak. :::",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W6: Thermal Build-Up"
+    ]
+  },
+  {
+    "objectID": "weeks/week-06.html#diagnostic-translation",
+    "href": "weeks/week-06.html#diagnostic-translation",
+    "title": "Week 6 - Thermal Build-Up",
+    "section": "Diagnostic Translation",
+    "text": "Diagnostic Translation\n\nBuild a four-frame storyboard from the host case:\n\nstarting condition;\nheat or moisture gain;\ndelayed or accumulated response;\ncandidate design action.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W6: Thermal Build-Up"
+    ]
+  },
+  {
+    "objectID": "weeks/week-06.html#exit-artifact",
+    "href": "weeks/week-06.html#exit-artifact",
+    "title": "Week 6 - Thermal Build-Up",
+    "section": "Exit Artifact",
+    "text": "Exit Artifact\n\nWrite a one-sentence failure claim:\n\nThe condition fails when _____ remains above/below _____ for _____.\n\nThis sentence will be tested with EnergyPlus outputs, measured data, curated data, or a simplified calculation in Weeks 7-8.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W6: Thermal Build-Up"
+    ]
+  },
+  {
+    "objectID": "weeks/week-06.html#carry-forward",
+    "href": "weeks/week-06.html#carry-forward",
+    "title": "Week 6 - Thermal Build-Up",
+    "section": "Carry Forward",
+    "text": "Carry Forward\nNext week we introduce simulation outputs as structured hourly exposure states, not as truth or software certification.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W6: Thermal Build-Up"
+    ]
+  },
+  {
+    "objectID": "weeks/week-04.html#where-we-are",
+    "href": "weeks/week-04.html#where-we-are",
+    "title": "Week 4 - Mean Radiant Temperature",
+    "section": "Where We Are",
+    "text": "Where We Are\n\n\nA1 spatial air field\n\n\nA2 radiant exchange\n\n\nA3 temporal build-up\n\n\nA4 design action\n\n\n\nTwo spaces can have the same air temperature and still be thermally different because the body’s radiant exchange with surrounding surfaces is different.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W4: MRT + Radiant Exchange"
+    ]
+  },
+  {
+    "objectID": "weeks/week-04.html#from-air-to-surroundings",
+    "href": "weeks/week-04.html#from-air-to-surroundings",
+    "title": "Week 4 - Mean Radiant Temperature",
+    "section": "From Air To Surroundings",
+    "text": "From Air To Surroundings\n\n\nAir temperature tells us about convective exchange.\nMean radiant temperature tells us about the radiant field surrounding the body.\nOperative temperature gives a simplified combined reading of air and radiation.\n\n\nSimplified operative temperature:\n\\[\nT_{op} \\approx wT_a + (1-w)T_{mrt}\n\\]\nWhen air speed is low, T_a and T_mrt often carry comparable weight.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W4: MRT + Radiant Exchange"
+    ]
+  },
+  {
+    "objectID": "weeks/week-04.html#mean-radiant-temperature",
+    "href": "weeks/week-04.html#mean-radiant-temperature",
+    "title": "Week 4 - Mean Radiant Temperature",
+    "section": "Mean Radiant Temperature",
+    "text": "Mean Radiant Temperature\n\nConceptual definition:\n\\[\nT_{mrt} = \\text{uniform surrounding temperature producing the same radiant exchange}\n\\]\nIt compresses a complex surface field into one interpretable thermal coordinate.\n\n\nMRT is useful precisely because it is a compression. The architectural work is to remember what got compressed: surface temperatures, view factors, solar exposure, and body orientation.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W4: MRT + Radiant Exchange"
+    ]
+  },
+  {
+    "objectID": "weeks/week-04.html#radiant-exchange-approximation",
+    "href": "weeks/week-04.html#radiant-exchange-approximation",
+    "title": "Week 4 - Mean Radiant Temperature",
+    "section": "Radiant Exchange Approximation",
+    "text": "Radiant Exchange Approximation\n\nFor a teaching-level design reading:\n\\[\nq_{rad} \\approx h_r A(T_{mrt} - T_{skin})\n\\]\nor, for a surface-facing intuition:\n\\[\nq_{rad} \\approx h_r A(T_{surface} - T_{body})\n\\]\n\n\nThe sign matters. Warm surroundings add radiant load; cold surroundings pull heat from the body.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W4: MRT + Radiant Exchange"
+    ]
+  },
+  {
+    "objectID": "weeks/week-04.html#why-outdoors-is-so-radiant",
+    "href": "weeks/week-04.html#why-outdoors-is-so-radiant",
+    "title": "Week 4 - Mean Radiant Temperature",
+    "section": "Why Outdoors Is So Radiant",
+    "text": "Why Outdoors Is So Radiant\n\n\nOutdoor thermal experience can be dominated by radiation because solar load, sky exposure, ground surface temperature, and shade quality change rapidly.\nAir temperature may vary slowly. Radiant exposure can change when the body takes two steps.\n\n\nArchitectural objects:\n\ncanopy depth;\ntree shade;\npavement material;\nfacade reflection;\ncourtyard sky view;\nbench orientation.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W4: MRT + Radiant Exchange"
+    ]
+  },
+  {
+    "objectID": "weeks/week-04.html#week-4-worked-case",
+    "href": "weeks/week-04.html#week-4-worked-case",
+    "title": "Week 4 - Mean Radiant Temperature",
+    "section": "Week 4 Worked Case",
+    "text": "Week 4 Worked Case\n\n\nOriginal course diagram. A2 compares two occupied positions rather than one room average.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W4: MRT + Radiant Exchange"
+    ]
+  },
+  {
+    "objectID": "weeks/week-04.html#a2-prompt",
+    "href": "weeks/week-04.html#a2-prompt",
+    "title": "Week 4 - Mean Radiant Temperature",
+    "section": "A2 Prompt",
+    "text": "A2 Prompt\n\nFind or construct two positions where air temperature alone does not explain the thermal condition.\nGood cases:\n\nwindow seat versus interior seat;\nshaded bench versus sunlit bench;\nglass facade perimeter versus deeper plan;\nconcrete courtyard versus vegetated edge;\nroof terrace sun patch versus shaded threshold.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W4: MRT + Radiant Exchange"
+    ]
+  },
+  {
+    "objectID": "weeks/week-04.html#what-counts-as-radiant-evidence",
+    "href": "weeks/week-04.html#what-counts-as-radiant-evidence",
+    "title": "Week 4 - Mean Radiant Temperature",
+    "section": "What Counts As Radiant Evidence?",
+    "text": "What Counts As Radiant Evidence?\n\n\nDirect\nglobe temperature, radiant sensor, thermal camera, measured surface temperature.\n\n\nProxy\nsun/shade map, surface material reading, solar exposure, facade orientation.\n\n\nModel\nLadybug/Honeybee, EnergyPlus output, manual MRT estimate, annotated section.\n\n\n\nProxy evidence is acceptable if the student states what it can and cannot prove.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W4: MRT + Radiant Exchange"
+    ]
+  },
+  {
+    "objectID": "weeks/week-04.html#session-2-radiant-candidate",
+    "href": "weeks/week-04.html#session-2-radiant-candidate",
+    "title": "Week 4 - Mean Radiant Temperature",
+    "section": "Session 2: Radiant Candidate",
+    "text": "Session 2: Radiant Candidate\n\n\n10 min - case scan. Choose a plan, section, rendering, or site photo where air temperature is probably insufficient.\n\n\n5 min - Slack post. Post the image with one body position. Keep the suspected radiant issue hidden.\n\n\n20-25 min - round-table guesses. Classmates guess what the body sees radiantly: glass, sky, pavement, wall, canopy, sun, shade, or surface temperature.\n\n\n10-15 min - host reveal. The host reveals the actual radiant concern, current mitigation, and what evidence would confirm or reject it.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W4: MRT + Radiant Exchange"
+    ]
+  },
+  {
+    "objectID": "weeks/week-04.html#week-4-hint-level",
+    "href": "weeks/week-04.html#week-4-hint-level",
+    "title": "Week 4 - Mean Radiant Temperature",
+    "section": "Week 4 Hint Level",
+    "text": "Week 4 Hint Level\n::: {.hint-card thinner} Hints become narrower.\nGuess through:\n\nwhat surface occupies the body’s view;\nwhether the body faces or turns away from it;\nwhether shade changes shortwave radiation or only visual glare;\nwhat surface temperature would have to be measured. :::",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W4: MRT + Radiant Exchange"
+    ]
+  },
+  {
+    "objectID": "weeks/week-04.html#diagnostic-translation",
+    "href": "weeks/week-04.html#diagnostic-translation",
+    "title": "Week 4 - Mean Radiant Temperature",
+    "section": "Diagnostic Translation",
+    "text": "Diagnostic Translation\n\nConvert one guess into an A2 comparison:\n\nPosition A differs from position B because the body sees _____ radiantly.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W4: MRT + Radiant Exchange"
+    ]
+  },
+  {
+    "objectID": "weeks/week-04.html#exit-artifact",
+    "href": "weeks/week-04.html#exit-artifact",
+    "title": "Week 4 - Mean Radiant Temperature",
+    "section": "Exit Artifact",
+    "text": "Exit Artifact\n\nWrite your A2 comparison statement:\n\nI will compare position A and position B because air temperature alone misses _____.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W4: MRT + Radiant Exchange"
+    ]
+  },
+  {
+    "objectID": "weeks/week-04.html#carry-forward",
+    "href": "weeks/week-04.html#carry-forward",
+    "title": "Week 4 - Mean Radiant Temperature",
+    "section": "Carry Forward",
+    "text": "Carry Forward\nNext week we turn the radiant comparison into an exchange card: a compact artifact that links surface, body, flux, and architectural action.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W4: MRT + Radiant Exchange"
+    ]
+  },
+  {
+    "objectID": "weeks/week-02.html#where-we-are",
+    "href": "weeks/week-02.html#where-we-are",
+    "title": "Week 2 - Body Heat Balance",
+    "section": "Where We Are",
+    "text": "Where We Are\n\n\nA1 spatial air field\n\n\nA2 radiant exchange\n\n\nA3 temporal build-up\n\n\nA4 design action\n\n\n\nThermal comfort starts from heat balance: the body produces heat and must exchange it with the environment through air, radiation, evaporation, and contact.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W2: Body Heat Balance"
+    ]
+  },
+  {
+    "objectID": "weeks/week-02.html#heat-balance-is-not-abstract",
+    "href": "weeks/week-02.html#heat-balance-is-not-abstract",
+    "title": "Week 2 - Body Heat Balance",
+    "section": "Heat Balance Is Not Abstract",
+    "text": "Heat Balance Is Not Abstract\n\n\nOriginal course diagram. The same body can read different spaces differently because the exchange pathways change.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W2: Body Heat Balance"
+    ]
+  },
+  {
+    "objectID": "weeks/week-02.html#the-small-equation-that-organizes-the-week",
+    "href": "weeks/week-02.html#the-small-equation-that-organizes-the-week",
+    "title": "Week 2 - Body Heat Balance",
+    "section": "The Small Equation That Organizes The Week",
+    "text": "The Small Equation That Organizes The Week\n\nAt a conceptual level:\n\\[\nM - W = C + R + E + K + S\n\\]\nwhere M is metabolic heat, W is external work, C is convection, R is radiation, E is evaporation, K is conduction, and S is body heat storage.\n\n\nFor architecture students, the question is not “solve the full human physiology model.” The question is “which exchange term is my design changing?”",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W2: Body Heat Balance"
+    ]
+  },
+  {
+    "objectID": "weeks/week-02.html#heat-transfer-modes",
+    "href": "weeks/week-02.html#heat-transfer-modes",
+    "title": "Week 2 - Body Heat Balance",
+    "section": "Heat Transfer Modes",
+    "text": "Heat Transfer Modes\n\n\n\n\nDownloaded reference figure: Wikimedia Commons.\n\n\n\nArchitectural translations:\n\nconduction: contact with seat, floor, slab, envelope;\nconvection: air speed, fan, downdraft, ventilation path;\nradiation: warm glass, cold window, sun patch, hot pavement;\nevaporation: humidity and sweat effectiveness.\n\nThe same modes appear in building physics, outdoor microclimate, and fire/tenability thinking.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W2: Body Heat Balance"
+    ]
+  },
+  {
+    "objectID": "weeks/week-02.html#air-speed-belongs-to-the-body-diagram",
+    "href": "weeks/week-02.html#air-speed-belongs-to-the-body-diagram",
+    "title": "Week 2 - Body Heat Balance",
+    "section": "Air Speed Belongs To The Body Diagram",
+    "text": "Air Speed Belongs To The Body Diagram\n\nAir speed changes convection and evaporation at the body:\n\\[\nC \\sim h_c(v_a)(T_{skin}-T_a)\n\\]\n\\[\nE \\sim h_e(v_a)(p_{skin}-p_a)\n\\]\nThe exact coefficients can wait. The design consequence cannot.\n\n\nFans, openings, diffusers, shafts, and corridor pressure paths change the body heat balance even when the thermostat value stays the same.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W2: Body Heat Balance"
+    ]
+  },
+  {
+    "objectID": "weeks/week-02.html#breeze-draft-and-local-discomfort",
+    "href": "weeks/week-02.html#breeze-draft-and-local-discomfort",
+    "title": "Week 2 - Body Heat Balance",
+    "section": "Breeze, Draft, And Local Discomfort",
+    "text": "Breeze, Draft, And Local Discomfort\nAir movement is judged locally.\n\n\n\n\n\n\n\n\nCondition\nLikely reading\nArchitectural lever\n\n\n\n\nwarm humid room + gentle fan\nincreased convective and evaporative relief\nfan placement, air path, body position\n\n\ncool room + diffuser aimed at neck/ankles\ndraft discomfort\ndiffuser direction, velocity, mixing, seating layout\n\n\nopen threshold + gusts\nintermittent relief or irritation\nscreen, vestibule, canopy, operable control\n\n\nstagnant corner\nweak heat and odor removal\ncross-flow path, fan assist, program relocation\n\n\n\n\nDo not call air speed “good” in general. Ask where it lands on the body, at what temperature, with what humidity, for how long.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W2: Body Heat Balance"
+    ]
+  },
+  {
+    "objectID": "weeks/week-02.html#humidity-evaporation-and-dehumidification",
+    "href": "weeks/week-02.html#humidity-evaporation-and-dehumidification",
+    "title": "Week 2 - Body Heat Balance",
+    "section": "Humidity, Evaporation, And Dehumidification",
+    "text": "Humidity, Evaporation, And Dehumidification\nHigh humidity affects the body’s cooling pathway because evaporation becomes less effective.\nFor buildings, this becomes a design and operation question:\n\ndehumidification can improve thermal tolerance without simply lowering Ta;\nvery humid interiors can support mold risk and material damage;\nhumid outdoor air can make ventilation costly or uncomfortable;\ndry air can also become a health and comfort problem in other climates.\n\n\nFor your A1 case, name whether the likely comfort issue is primarily air temperature, humidity, air movement, radiation, or an interaction.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W2: Body Heat Balance"
+    ]
+  },
+  {
+    "objectID": "weeks/week-02.html#human-thermal-image",
+    "href": "weeks/week-02.html#human-thermal-image",
+    "title": "Week 2 - Body Heat Balance",
+    "section": "Human Thermal Image",
+    "text": "Human Thermal Image\n\n\n\n\nDownloaded reference figure: Wikimedia Commons.\n\n\n\nA thermal image reminds us that the body is not a single uniform node.\nThis matters for architecture because a window, wall, fan, floor, or shade device may affect one side of the body more than another.\n\nWindow-seat discomfort can be local, asymmetric, and body-position dependent. A whole-room thermostat may miss it.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W2: Body Heat Balance"
+    ]
+  },
+  {
+    "objectID": "weeks/week-02.html#pmvppd-as-a-useful-but-limited-model",
+    "href": "weeks/week-02.html#pmvppd-as-a-useful-but-limited-model",
+    "title": "Week 2 - Body Heat Balance",
+    "section": "PMV/PPD As A Useful But Limited Model",
+    "text": "PMV/PPD As A Useful But Limited Model\n\nThe PPD relation often used with PMV is:\n\\[\nPPD = 100 - 95e^{-0.03353PMV^4 - 0.2179PMV^2}\n\\]\nIt turns predicted mean vote into a predicted percentage dissatisfied.\n\n\nThe lesson is not that PMV is useless. The lesson is that every model has a domain, assumptions, and blind spots.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W2: Body Heat Balance"
+    ]
+  },
+  {
+    "objectID": "weeks/week-02.html#pmv-comfort-representations",
+    "href": "weeks/week-02.html#pmv-comfort-representations",
+    "title": "Week 2 - Body Heat Balance",
+    "section": "PMV Comfort Representations",
+    "text": "PMV Comfort Representations\n\n\n\n\nCourse-authored PPD curve generated from the standard PMV/PPD relation.\n\n\n\nPMV/PPD is a population-level prediction, not a certificate of individual experience.\nThe curve is useful because it makes one thing visible: even at predicted neutrality, some dissatisfaction remains. Thermal comfort is not a universal yes/no state.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W2: Body Heat Balance"
+    ]
+  },
+  {
+    "objectID": "weeks/week-02.html#pmvppd-worked-cases",
+    "href": "weeks/week-02.html#pmvppd-worked-cases",
+    "title": "Week 2 - Body Heat Balance",
+    "section": "PMV/PPD Worked Cases",
+    "text": "PMV/PPD Worked Cases\n\n\nCourse-authored examples computed with PMV/PPD inputs. They are illustrative, not a substitute for checking model assumptions.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W2: Body Heat Balance"
+    ]
+  },
+  {
+    "objectID": "weeks/week-02.html#how-to-read-the-pmv-example",
+    "href": "weeks/week-02.html#how-to-read-the-pmv-example",
+    "title": "Week 2 - Body Heat Balance",
+    "section": "How To Read The PMV Example",
+    "text": "How To Read The PMV Example\n\nFor each case, ask:\n\nWhat changed besides air temperature?\nWhich heat-exchange term changed most?\nDoes PPD rise because the model predicts too warm, too cool, or both?\nWhat would an architect change first?\n\n\n\nPMV is not a single-temperature comfort calculator. It is a multi-input heat-balance model that turns declared assumptions into a population-level prediction.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W2: Body Heat Balance"
+    ]
+  },
+  {
+    "objectID": "weeks/week-02.html#gh-bridge-ladybug-comfort-route",
+    "href": "weeks/week-02.html#gh-bridge-ladybug-comfort-route",
+    "title": "Week 2 - Body Heat Balance",
+    "section": "GH Bridge: Ladybug Comfort Route",
+    "text": "GH Bridge: Ladybug Comfort Route\nLadybug Tools gives Grasshopper/Rhino users a bridge into climate and comfort workflows.\nFor Week 2, the relevant workflow is:\n\nTa + MRT + RH + air speed + met + clo\n-&gt; PMV / PPD or comfort map\n-&gt; discomfort hours, spatial comparison, or design alternative\n\n\nThe component can calculate quickly. It cannot choose the right input assumptions for you.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W2: Body Heat Balance"
+    ]
+  },
+  {
+    "objectID": "weeks/week-02.html#ladybug-route-what-to-export",
+    "href": "weeks/week-02.html#ladybug-route-what-to-export",
+    "title": "Week 2 - Body Heat Balance",
+    "section": "Ladybug Route: What To Export",
+    "text": "Ladybug Route: What To Export\nIf students use Ladybug Tools later, ask them to document:\n\nwhich comfort model or component they used;\nthe source of Ta, MRT, RH, and air speed;\nmetabolic rate and clothing assumptions;\nwhether the case is indoor, outdoor, mixed-mode, or naturally ventilated;\nwhether the output is point-in-time, annual hours, or a scenario comparison;\nwhat the model does not see.\n\n\nGH output only becomes course evidence when the input assumptions and model limits are visible.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W2: Body Heat Balance"
+    ]
+  },
+  {
+    "objectID": "weeks/week-02.html#pmv-comfort-zones",
+    "href": "weeks/week-02.html#pmv-comfort-zones",
+    "title": "Week 2 - Body Heat Balance",
+    "section": "PMV Comfort Zones",
+    "text": "PMV Comfort Zones\n\n\n\n\nPMV psychrometric representation, Wikimedia Commons.\n\n\n\n\n\nPMV temperature-RH representation, Wikimedia Commons.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W2: Body Heat Balance"
+    ]
+  },
+  {
+    "objectID": "weeks/week-02.html#thermal-comfort-is-a-family-of-models",
+    "href": "weeks/week-02.html#thermal-comfort-is-a-family-of-models",
+    "title": "Week 2 - Body Heat Balance",
+    "section": "Thermal Comfort Is A Family Of Models",
+    "text": "Thermal Comfort Is A Family Of Models\nDifferent indices answer different questions.\n\nDo not ask one metric to do every job. Comfort, heat stress, outdoor exposure, occupational safety, and perceived stuffiness are related but not identical claims.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W2: Body Heat Balance"
+    ]
+  },
+  {
+    "objectID": "weeks/week-02.html#common-metrics-indoor-comfort",
+    "href": "weeks/week-02.html#common-metrics-indoor-comfort",
+    "title": "Week 2 - Body Heat Balance",
+    "section": "Common Metrics: Indoor Comfort",
+    "text": "Common Metrics: Indoor Comfort\n\n\n\n\n\n\n\n\n\nMetric\nInputs it cares about\nTypical use\nMain caution\n\n\n\n\nPMV / PPD\nTa, MRT, air speed, RH, metabolic rate, clothing\nmechanically conditioned indoor comfort\npopulation prediction, not individual truth\n\n\nAdaptive comfort\nprevailing outdoor temperature, operative temperature, adaptation context\nnaturally ventilated or mixed-mode comfort\nvalid only within defined model conditions\n\n\nSET / two-node models\nheat balance, clothing, activity, air, radiant, humidity\ntranslating combined exposures to standard condition\nstronger physiology assumptions\n\n\n\n\nThese are comfort models, not full health-protection guarantees.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W2: Body Heat Balance"
+    ]
+  },
+  {
+    "objectID": "weeks/week-02.html#common-metrics-heat-stress-and-outdoor-exposure",
+    "href": "weeks/week-02.html#common-metrics-heat-stress-and-outdoor-exposure",
+    "title": "Week 2 - Body Heat Balance",
+    "section": "Common Metrics: Heat Stress And Outdoor Exposure",
+    "text": "Common Metrics: Heat Stress And Outdoor Exposure\n\n\n\n\n\n\n\n\n\nMetric\nInputs it cares about\nTypical use\nMain caution\n\n\n\n\nHeat Index / humidity index\nair temperature + humidity\npublic hot-humid warning language\nusually shade/light-wind assumptions\n\n\nWBGT\nwet bulb, globe temperature, dry bulb; sometimes workload\noccupational, sports, heat-stress screening\nscreening index, not architectural diagnosis\n\n\nUTCI\nair temperature, wind, humidity, radiation, clothing/activity assumptions\noutdoor biometeorology and urban climate comparison\ncomplex model; still not a design answer alone\n\n\n\n\nOutdoor indices often contain radiation and wind more explicitly than indoor comfort shortcuts. That is why shaded streets and exposed plazas cannot be reduced to air temperature.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W2: Body Heat Balance"
+    ]
+  },
+  {
+    "objectID": "weeks/week-02.html#standards-and-reference-bodies",
+    "href": "weeks/week-02.html#standards-and-reference-bodies",
+    "title": "Week 2 - Body Heat Balance",
+    "section": "Standards And Reference Bodies",
+    "text": "Standards And Reference Bodies\n\n\n\n\n\n\n\nBody / standard family\nWhat it is commonly used for in this course\n\n\n\n\nASHRAE Standard 55\nindoor thermal environmental conditions for occupancy, including PMV and adaptive approaches\n\n\nISO 7730\nPMV/PPD and local thermal discomfort evaluation\n\n\nISO 7243\nWBGT-based heat stress assessment\n\n\nNational weather agencies\npublic heat-index or apparent-temperature warning systems\n\n\nOccupational health agencies\nworkload, rest, hydration, exposure management, and heat-stress guidance\n\n\nUTCI consortium / biometeorology community\noutdoor thermal climate comparison and urban microclimate interpretation\n\n\n\n\nThe architect’s job is to choose the index that matches the claim, then state what that index cannot see.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W2: Body Heat Balance"
+    ]
+  },
+  {
+    "objectID": "weeks/week-02.html#what-the-model-requires",
+    "href": "weeks/week-02.html#what-the-model-requires",
+    "title": "Week 2 - Body Heat Balance",
+    "section": "What The Model Requires",
+    "text": "What The Model Requires\n\n\n\n\n\n\n\nInput\nArchitectural reading\n\n\n\n\nair temperature\nlocation, height, time, HVAC control\n\n\nmean radiant temperature\nsurfaces, glass, sun, shade, material\n\n\nair speed\nfan, opening, diffuser, draft path, stagnant pocket\n\n\nrelative humidity\nevaporative potential, latent stress, dehumidification\n\n\nmetabolic rate\nactivity, program, task\n\n\nclothing insulation\nseason, culture, expectation, control\n\n\n\n\nIf a student cannot state the input assumptions, they should not overstate the comfort claim.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W2: Body Heat Balance"
+    ]
+  },
+  {
+    "objectID": "weeks/week-02.html#heat-exchange-is-a-multi-input-function",
+    "href": "weeks/week-02.html#heat-exchange-is-a-multi-input-function",
+    "title": "Week 2 - Body Heat Balance",
+    "section": "Heat Exchange Is A Multi-Input Function",
+    "text": "Heat Exchange Is A Multi-Input Function\nEach heat-transfer mode depends on more than one variable.\n\n\n\n\n\n\n\n\nTerm\nSimplified dependency\nDesign translation\n\n\n\n\nconvection C\nf(T_skin, T_a, v_a, clothing, posture)\nfan, diffuser, opening, body position\n\n\nradiation R\nf(T_skin, T_mrt, surface temps, view factors)\nglass, shade, surface material, orientation\n\n\nevaporation E\nf(RH, vapor pressure, air speed, sweating, clothing)\ndehumidification, ventilation, fan, activity\n\n\nconduction K\nf(contact area, material, surface temp)\nseat, floor, handrail, slab, ground\n\n\nstorage S\nf(exposure duration, metabolism, heat loss)\nrisk accumulates over time",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W2: Body Heat Balance"
+    ]
+  },
+  {
+    "objectID": "weeks/week-02.html#what-analytically-solved-means-here",
+    "href": "weeks/week-02.html#what-analytically-solved-means-here",
+    "title": "Week 2 - Body Heat Balance",
+    "section": "What “Analytically Solved” Means Here",
+    "text": "What “Analytically Solved” Means Here\n\nGiven assumptions and inputs, the model computes a result from heat-balance logic:\n\\[\n\\text{comfort or stress output} = f(T_a,\\ RH,\\ v_a,\\ T_{mrt},\\ M,\\ I_{cl},\\ \\text{time})\n\\]\n\nThis is not a vibe score.\nIt is also not pure truth.\n\nAnalytical solution means the calculation follows declared equations and coefficients. The result is only as good as the inputs, domain, and assumptions.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W2: Body Heat Balance"
+    ]
+  },
+  {
+    "objectID": "weeks/week-02.html#adaptive-comfort-as-a-boundary",
+    "href": "weeks/week-02.html#adaptive-comfort-as-a-boundary",
+    "title": "Week 2 - Body Heat Balance",
+    "section": "Adaptive Comfort As A Boundary",
+    "text": "Adaptive Comfort As A Boundary\n\n\nAdaptive comfort chart source: Wikimedia Commons. The boundary links acceptable indoor operative temperature to prevailing outdoor temperature.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W2: Body Heat Balance"
+    ]
+  },
+  {
+    "objectID": "weeks/week-02.html#adaptive-comfort-as-search-space",
+    "href": "weeks/week-02.html#adaptive-comfort-as-search-space",
+    "title": "Week 2 - Body Heat Balance",
+    "section": "Adaptive Comfort As Search Space",
+    "text": "Adaptive Comfort As Search Space\n\n\nThe adaptive zone is useful because it bounds the plausible search space. It says: within this domain, extrapolation is more meaningful; outside it, the claim needs a different model or stronger evidence.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W2: Body Heat Balance"
+    ]
+  },
+  {
+    "objectID": "weeks/week-02.html#machine-learning-analogy",
+    "href": "weeks/week-02.html#machine-learning-analogy",
+    "title": "Week 2 - Body Heat Balance",
+    "section": "Machine-Learning Analogy",
+    "text": "Machine-Learning Analogy\n\nModel output is reliable only inside a represented domain:\n\nxcase ∈ Xtrained / validated / standardized\n\n\nFor architecture:\n\ndo not use PMV to answer every outdoor heat question;\ndo not use adaptive comfort for sealed mechanically conditioned assumptions without care;\ndo not use heat index to diagnose radiant asymmetry;\ndo not use UTCI as a facade-detail answer without spatial translation.\n\n\nFor your case, name the metric you would start with and one reason it might be the wrong metric.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W2: Body Heat Balance"
+    ]
+  },
+  {
+    "objectID": "weeks/week-02.html#a1-link-better-sampling",
+    "href": "weeks/week-02.html#a1-link-better-sampling",
+    "title": "Week 2 - Body Heat Balance",
+    "section": "A1 Link: Better Sampling",
+    "text": "A1 Link: Better Sampling\n\nUpgrade last week’s A1 seed\nFor your chosen condition, add one body note:\n\nWhat is the person doing?\nHow long are they there?\nWhat clothing or expectation seems plausible?\nWhich heat-exchange term might dominate?\n\n\n\nThis does not turn A1 into a full comfort-model submission. It makes the air/humidity map more honest.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W2: Body Heat Balance"
+    ]
+  },
+  {
+    "objectID": "weeks/week-02.html#session-2-diagnostic-round",
+    "href": "weeks/week-02.html#session-2-diagnostic-round",
+    "title": "Week 2 - Body Heat Balance",
+    "section": "Session 2: Diagnostic Round",
+    "text": "Session 2: Diagnostic Round\n\n\n10 min - case scan. Choose a design image where a body occupies a clear position: seat, desk, walkway, bed, bench, queue, or threshold.\n\n\n5 min - Slack post. Post the image and identify only the body position. Keep your suspected thermal mechanism hidden.\n\n\n20-25 min - round-table guesses. Classmates guess which heat-exchange pathway dominates and what design intervention would differ if another pathway dominated.\n\n\n10-15 min - host reveal. The host clarifies their actual concern and names which pathway the design currently addresses or ignores.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W2: Body Heat Balance"
+    ]
+  },
+  {
+    "objectID": "weeks/week-02.html#week-2-hint-level",
+    "href": "weeks/week-02.html#week-2-hint-level",
+    "title": "Week 2 - Body Heat Balance",
+    "section": "Week 2 Hint Level",
+    "text": "Week 2 Hint Level\n\nStill generous.\nGuess through the body:\n\nconvection: air speed, fan, downdraft, still pocket;\nradiation: hot/cold surface, sun patch, glass, sky view;\nevaporation: humidity, sweat, dehumidification, clothing;\nconduction: floor, seat, wall contact;\nmetabolism: activity and duration.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W2: Body Heat Balance"
+    ]
+  },
+  {
+    "objectID": "weeks/week-02.html#diagnostic-translation",
+    "href": "weeks/week-02.html#diagnostic-translation",
+    "title": "Week 2 - Body Heat Balance",
+    "section": "Diagnostic Translation",
+    "text": "Diagnostic Translation\n\nAfter the host reveal, sketch one body in the selected condition and label the dominant heat-exchange pathway.\nThen name the architectural lever and the competing constraint.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W2: Body Heat Balance"
+    ]
+  },
+  {
+    "objectID": "weeks/week-02.html#exit-artifact",
+    "href": "weeks/week-02.html#exit-artifact",
+    "title": "Week 2 - Body Heat Balance",
+    "section": "Exit Artifact",
+    "text": "Exit Artifact\n\nComplete this sentence:\n\nIf _____ dominates the body’s heat exchange, the design response should change by _____, but the competing constraint is _____.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W2: Body Heat Balance"
+    ]
+  },
+  {
+    "objectID": "weeks/week-02.html#carry-forward",
+    "href": "weeks/week-02.html#carry-forward",
+    "title": "Week 2 - Body Heat Balance",
+    "section": "Carry Forward",
+    "text": "Carry Forward\nNext week we ask whether our sensing protocol can actually support the claim.\n\nThe first course skill is not running software. It is knowing what a thermal claim would need before it deserves confidence.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W2: Body Heat Balance"
+    ]
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "This page tracks the first local resource layer. It will grow into starter notebooks, workbooks, sensing templates, EnergyPlus examples, and final-package templates.",
+    "crumbs": [
+      "Home",
+      "Course Overview",
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "resources.html#downloaded-teaching-figures",
+    "href": "resources.html#downloaded-teaching-figures",
+    "title": "Resources",
+    "section": "Downloaded Teaching Figures",
+    "text": "Downloaded Teaching Figures\n\n\n\nFile\nUse\nSource\n\n\n\n\nassets/figures/psychrometric-chart-sealevel-si.svg\nWeek 1 psychrometrics and humidity reading\nWikimedia Commons\n\n\nassets/figures/pmv-psychrometric-chart.png\nWeek 2 PMV method visual\nWikimedia Commons\n\n\nassets/figures/pmv-temperature-rh-chart.png\nWeek 2 temperature-RH comfort visual\nWikimedia Commons\n\n\nassets/figures/adaptive-comfort-chart.png\nWeek 7/8 adaptive model contrast\nWikimedia Commons\n\n\nassets/figures/human-infrared.jpg\nWeek 2 thermal image reference\nWikimedia Commons\n\n\nassets/figures/heat-transfer-modes-web.jpg\nWeek 2 heat-transfer modes reference\nWikimedia Commons",
+    "crumbs": [
+      "Home",
+      "Course Overview",
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "resources.html#original-course-diagrams",
+    "href": "resources.html#original-course-diagrams",
+    "title": "Resources",
+    "section": "Original Course Diagrams",
+    "text": "Original Course Diagrams\nThese SVGs are locally authored for the course so the physical ideas can be read architecturally.\n\nassets/figures/body-heat-balance.svg\nassets/figures/air-rh-field-map.svg\nassets/figures/pmv-ppd-curve.svg\nassets/figures/radiant-asymmetry-section.svg\nassets/figures/thermal-lag-degree-hours.svg\nassets/figures/field-to-action-ladder.svg\nassets/figures/weather-window-cross-validation.svg\nassets/figures/roll-forward-validation.svg\nassets/figures/diagnostic-round-workflow.svg\nassets/figures/thermal-field-contour-map.svg",
+    "crumbs": [
+      "Home",
+      "Course Overview",
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "resources.html#pmvppd-reading-to-revisit",
+    "href": "resources.html#pmvppd-reading-to-revisit",
+    "title": "Resources",
+    "section": "PMV/PPD Reading To Revisit",
+    "text": "PMV/PPD Reading To Revisit\n\nCheung, Schiavon, Parkinson, Li, and Brager (2019), “Analysis of the accuracy on PMV - PPD model using the ASHRAE Global Thermal Comfort Database II”. This is a useful Week 2/Week 7 caution that model fluency does not equal field accuracy.",
+    "crumbs": [
+      "Home",
+      "Course Overview",
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "resources.html#grasshopper-bridge-routes",
+    "href": "resources.html#grasshopper-bridge-routes",
+    "title": "Resources",
+    "section": "Grasshopper Bridge Routes",
+    "text": "Grasshopper Bridge Routes\nThese routes are supported as optional bridges for students already working in Rhino/Grasshopper. They are not required for completing the core assignments.\n\n\n\nCourse moment\nGH route\nUse\nCaution\n\n\n\n\nWeek 1 / airflow claims\nButterfly / OpenFOAM via Ladybug Tools\nstagnant pockets, draft risk, courtyard flushing, fan/opening effects\ndeclare boundary conditions, mesh/solver assumptions, and occupied position\n\n\nWeek 2 / comfort models\nLadybug Tools\nPMV/PPD, adaptive comfort, UTCI, weather-linked comfort exploration\ndocument Ta, MRT, RH, air speed, metabolic rate, clothing, and model domain\n\n\nLater weeks / simulation handoff\nLadybug Tools / Honeybee / EnergyPlus routes\nhourly outputs, radiant/operative temperature, weather stress tests\nGH output is evidence only when assumptions and exported data are inspectable",
+    "crumbs": [
+      "Home",
+      "Course Overview",
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "resources.html#research-context",
+    "href": "resources.html#research-context",
+    "title": "Resources",
+    "section": "Research Context",
+    "text": "Research Context\nThe course is informed by Hongshan Guo’s public research profile at FORGE: Future, Occupant, Risk, and Generative Environments, especially work on human-building-climate systems, mean radiant temperature, future weather uncertainty, EnergyPlus/co-simulation, stochastic weather, thermal comfort prediction, and design-facing AI pedagogy.",
+    "crumbs": [
+      "Home",
+      "Course Overview",
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "resources.html#starter-kits-to-build-next",
+    "href": "resources.html#starter-kits-to-build-next",
+    "title": "Resources",
+    "section": "Starter Kits To Build Next",
+    "text": "Starter Kits To Build Next\n\nTa/RH spatial field workbook and CSV template.\nRadiant exchange calculator using surface temperature, globe temperature, or SMART-style radiant sensing data.\nTemporal build-up notebook for degree-hours and threshold exceedance.\nEnergyPlus hourly exposure-state example with precomputed CSV fallback.\nWeather-window roll-forward notebook.\nFinal package reproducibility capsule template.",
+    "crumbs": [
+      "Home",
+      "Course Overview",
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "The semester is structured around four accumulative artifacts. Weeks 1-6 teach physical and sensing concepts; Weeks 7-12 turn those concepts into stress tests, design action, validation, and defense.",
+    "crumbs": [
+      "Home",
+      "Course Overview",
+      "Schedule"
+    ]
+  },
+  {
+    "objectID": "schedule.html#rhythm",
+    "href": "schedule.html#rhythm",
+    "title": "Schedule",
+    "section": "Rhythm",
+    "text": "Rhythm\nEach week has a short conceptual lecture, a worked example, and an artifact-building session. Session 2 is a diagnostic round: students bring one design image, classmates make educated guesses under the weekly lens, and the host reveals the actual thermal question, mitigation, and evidence limit.",
+    "crumbs": [
+      "Home",
+      "Course Overview",
+      "Schedule"
+    ]
+  },
+  {
+    "objectID": "schedule.html#session-2-diagnostic-round",
+    "href": "schedule.html#session-2-diagnostic-round",
+    "title": "Schedule",
+    "section": "Session 2 Diagnostic Round",
+    "text": "Session 2 Diagnostic Round\n\n\n\n\n\n\n\n\n\nPhase\nTime\nWhat Happens\nOutput\n\n\n\n\nCandidate scan\n10 min\nstudents choose their own or existing design image\none plan, section, rendering, or site photo\n\n\nSlack post\n5 min\nhost posts image and minimal context; diagnosis stays hidden\nshared image thread\n\n\nRound-table guesses\n20-25 min\nclassmates guess problem spot, mechanism, intervention, and competing constraint\nannotated guesses / votes\n\n\nHost reveal + translation\n10-15 min\nhost explains actual issue, mitigation, evidence, and uncertainty\nassignment seed or revision note\n\n\n\nHints are generous in Weeks 1-3, moderate in Weeks 4-8, and deliberately thinner in Weeks 9-12.",
+    "crumbs": [
+      "Home",
+      "Course Overview",
+      "Schedule"
+    ]
+  },
+  {
+    "objectID": "schedule.html#week-6-pulse-check",
+    "href": "schedule.html#week-6-pulse-check",
+    "title": "Schedule",
+    "section": "Week 6 Pulse Check",
+    "text": "Week 6 Pulse Check\nAn anonymous 5-minute pulse check asks:\n\nIs the course matching what you expected?\nWhich concept or tool route needs more support?\nWhat is unclear about A2, A3, or the final package?\nWhat should be adjusted before the second half of semester?\n\nThe instructor summarizes one or two adjustments in Week 7.",
+    "crumbs": [
+      "Home",
+      "Course Overview",
+      "Schedule"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Thermal Fields in Architecture",
+    "section": "",
+    "text": "Thermal design is not the delivery of one average indoor condition. It is the interpretation and shaping of uneven air, radiant, temporal, and human thermal fields — across bodies, surfaces, rooms, thresholds, buildings, and climates, under uncertainty.\nA 12-week MArch elective at HKU (Hongshan Guo). Research-led, but the assessed work stays architectural: you build a small thermal evidence deck and use it to defend one mechanism-informed design intervention.",
+    "crumbs": [
+      "Home",
+      "Course Overview",
+      "Thermal Fields in Architecture"
+    ]
+  },
+  {
+    "objectID": "index.html#the-semester-asks-four-questions",
+    "href": "index.html#the-semester-asks-four-questions",
+    "title": "Thermal Fields in Architecture",
+    "section": "The semester asks four questions",
+    "text": "The semester asks four questions\nEvery week attaches one thermal mechanism to one architectural object — a window seat, courtyard, roof slab, shaded bench, facade edge, or a vulnerable occupant.\n\n\n01\n\nWhat is the thermal condition?\n\nNot “the room is 24 °C.” A thermal condition is a sampled field — which location, hour, surface, body, weather, and model.\n\n\n02\n\nWhere does it vary?\n\nSpatial heterogeneity is the architectural core. Plan, section, surface, and body all matter.\n\n\n03\n\nWhen does it vary?\n\nThermal design is choreography, not a compliance snapshot — diurnal swings, heatwaves, failure hours.\n\n\n04\n\nWhat does design do?\n\nShade, expose, shelter, ventilate, relocate, re-section. Compliance is not protection.",
+    "crumbs": [
+      "Home",
+      "Course Overview",
+      "Thermal Fields in Architecture"
+    ]
+  },
+  {
+    "objectID": "index.html#one-accumulating-evidence-deck",
+    "href": "index.html#one-accumulating-evidence-deck",
+    "title": "Thermal Fields in Architecture",
+    "section": "One accumulating evidence deck",
+    "text": "One accumulating evidence deck\nYou are not asked to restart at a final project. Each artifact builds on the last into a single defended argument.\n\n\n\n\n\n\n\n\nWeeks\nArtifact\nProves\n\n\n\n\n1–3\nCondition Card + Spatial Air Field Map\nthe condition is specific, and the air/humidity field varies by position\n\n\n4–5\nRadiant Exchange Card\nthe same air temperature can mean different body heat exchange\n\n\n6–9\nThermal Build-Up Audit\nheat accumulates, lags, or exceeds thresholds over time\n\n\n9–10\nDesign Action Ladder\na bounded action space — found, censored, or unresolved\n\n\n10–12\nRoll-Forward Validation + Design Action Memo\nthe action holds (or weakens) under a changed climate stress\n\n\n12\nReproducibility Capsule\nanother person can inspect or re-run the evidence",
+    "crumbs": [
+      "Home",
+      "Course Overview",
+      "Thermal Fields in Architecture"
+    ]
+  },
+  {
+    "objectID": "index.html#portable-physics-a-few-equations-used-architecturally",
+    "href": "index.html#portable-physics-a-few-equations-used-architecturally",
+    "title": "Thermal Fields in Architecture",
+    "section": "Portable physics — a few equations, used architecturally",
+    "text": "Portable physics — a few equations, used architecturally\nYou will not become a thermal engineer. You will learn a small set of equations well enough to reason with them.\n\n\n\n\n\n\n\n\nPhysics idea\nConcept\nArchitectural consequence\n\n\n\n\nspatial difference\nΔT = T_B − T_A\none room or threshold is not one condition\n\n\nconduction\nq = U·A·ΔT\nenvelope area, U-value, and temperature difference matter\n\n\nstored heat\nQ = m·c·ΔT\nmaterial capacity creates thermal build-up and lag\n\n\nheat balance\nC·dT/dt = gains − losses\nshade, ventilation, insulation, and gains change time behaviour\n\n\naccumulated exposure\ndegree-hours = Σ max(T − T_threshold, 0)\nduration and tail hours matter, not annual averages\n\n\nradiant exchange\nq_rad ≈ h_r·A·(T_surface − T_body)\nsurface temperature and body position change perceived heat",
+    "crumbs": [
+      "Home",
+      "Course Overview",
+      "Thermal Fields in Architecture"
+    ]
+  },
+  {
+    "objectID": "index.html#from-a-thermal-finding-to-an-architectural-action",
+    "href": "index.html#from-a-thermal-finding-to-an-architectural-action",
+    "title": "Thermal Fields in Architecture",
+    "section": "From a thermal finding to an architectural action",
+    "text": "From a thermal finding to an architectural action\nThe payoff is translation — evidence becoming one defensible design move.\n\n\n\n\n\n\n\nThermal finding\nArchitectural translation\n\n\n\n\nPerimeter zone overheats in the afternoon\nexternal shading, lower SHGC, program relocation, facade depth\n\n\nAir temperature passes but MRT fails\nsurface-temperature control, glazing strategy, radiant-asymmetry mitigation\n\n\nRoof-exposed room fails during a heatwave\nroof insulation, cool roof, ventilated cavity, night purge\n\n\nAverage comfort passes but tail hours fail\ndesign for extreme periods, not the annual average\n\n\nOne weather file passes, a future file fails\nclimate stress-test; robust rather than optimised design",
+    "crumbs": [
+      "Home",
+      "Course Overview",
+      "Thermal Fields in Architecture"
+    ]
+  },
+  {
+    "objectID": "index.html#how-class-runs",
+    "href": "index.html#how-class-runs",
+    "title": "Thermal Fields in Architecture",
+    "section": "How class runs",
+    "text": "How class runs\nEach two-hour class is a lecture/tool demo, then a studio-lab.\n\nSession 2 is a thermal diagnostic round, not a generic discussion. A student hosts one design image; the class makes educated guesses; the host reveals the actual thermal question, evidence, mitigation, and limits. The question is never “is this a bad spot?” — it is what mechanism is this design organising, ignoring, or worsening, and what intervention acts on it?",
+    "crumbs": [
+      "Home",
+      "Course Overview",
+      "Thermal Fields in Architecture"
+    ]
+  },
+  {
+    "objectID": "index.html#what-you-will-be-able-to-say",
+    "href": "index.html#what-you-will-be-able-to-say",
+    "title": "Thermal Fields in Architecture",
+    "section": "What you will be able to say",
+    "text": "What you will be able to say\n\nI can see thermal environments as uneven, uncertain, embodied, and designed — and translate one thermal finding into one architectural action without overclaiming.",
+    "crumbs": [
+      "Home",
+      "Course Overview",
+      "Thermal Fields in Architecture"
+    ]
+  },
+  {
+    "objectID": "assignments.html",
+    "href": "assignments.html",
+    "title": "Assignments",
+    "section": "",
+    "text": "The assessment spine is deliberately separable. Each assignment owns one physical idea and one visual output, so grading can focus on whether the thermal reasoning is accurate, bounded, and architecturally consequential.",
+    "crumbs": [
+      "Home",
+      "Course Overview",
+      "Assignments"
+    ]
+  },
+  {
+    "objectID": "assignments.html#a4-is-an-assembly",
+    "href": "assignments.html#a4-is-an-assembly",
+    "title": "Assignments",
+    "section": "A4 Is An Assembly",
+    "text": "A4 Is An Assembly",
+    "crumbs": [
+      "Home",
+      "Course Overview",
+      "Assignments"
+    ]
+  },
+  {
+    "objectID": "assignments.html#a1-map-standard",
+    "href": "assignments.html#a1-map-standard",
+    "title": "Assignments",
+    "section": "A1 Map Standard",
+    "text": "A1 Map Standard\nA1 can be submitted as a point map, gradient map, or contour/heat map.\n\nMinimum: sampled or curated Ta/RH points on a plan or section.\nStronger: interpolated contour or heat map with sampled points still visible.\nBest: thermal field plus architectural overlay: body position, program, facade, opening, diffuser, shade, material, or threshold.\n\nAny smooth field must state how it was produced. A heat map is a spatial hypothesis unless every location was actually measured.\nA4 is assembled from A1-A3. It should not be restarted from scratch in Weeks 10-12.\nStudents choose one condition and one bounded action route:\n\nroom or interior condition;\nfacade or envelope edge;\noutdoor or threshold microclimate;\noperational or air-movement choice.",
+    "crumbs": [
+      "Home",
+      "Course Overview",
+      "Assignments"
+    ]
+  },
+  {
+    "objectID": "assignments.html#roll-forward-validation",
+    "href": "assignments.html#roll-forward-validation",
+    "title": "Assignments",
+    "section": "Roll-Forward Validation",
+    "text": "Roll-Forward Validation\nThe required final note is not a decade-by-decade retrofit thesis. Each student changes one stress assumption and asks whether the action still holds.\nExamples:\n\nhotter week instead of typical week;\n3-day, 7-day, or 14-day stress window;\ncurrent versus future-adjusted weather;\ndry-hot versus humid-hot period;\nchanged occupancy schedule;\nchanged glazing/window assumption.\n\nThe outcome should be labeled robust, weakened, censored, or unsupported. Multi-window reruns are distinction-level evidence when they improve architectural judgment, not because they add computation.",
+    "crumbs": [
+      "Home",
+      "Course Overview",
+      "Assignments"
+    ]
+  },
+  {
+    "objectID": "assignments.html#grading-emphasis",
+    "href": "assignments.html#grading-emphasis",
+    "title": "Assignments",
+    "section": "Grading Emphasis",
+    "text": "Grading Emphasis\n\nPhysical reasoning is correct and portable.\nVisual evidence makes spatial or temporal difference visible.\nClaims stay within the evidence.\nUncertainty is owned, not hidden.\nDesign action follows from the failure mechanism.\nReproducibility is sufficient for a reader to inspect or rerun the result.",
+    "crumbs": [
+      "Home",
+      "Course Overview",
+      "Assignments"
+    ]
+  },
+  {
+    "objectID": "weeks/week-01.html#full-semester-build",
+    "href": "weeks/week-01.html#full-semester-build",
+    "title": "Week 1 - Air Is Not Enough",
+    "section": "Full-Semester Build",
+    "text": "Full-Semester Build\n\n\nA1 spatial air field\n\n\nA2 radiant exchange\n\n\nA3 temporal build-up\n\n\nA4 design action\n\n\n\nThe course starts by asking students to distrust one-number thermal claims. A room is not thermally comfortable because one thermostat says so.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W1: Air Is Not Enough"
+    ]
+  },
+  {
+    "objectID": "weeks/week-01.html#the-first-question",
+    "href": "weeks/week-01.html#the-first-question",
+    "title": "Week 1 - Air Is Not Enough",
+    "section": "The First Question",
+    "text": "The First Question\nWhat does it mean to say a space is hot, cold, comfortable, stuffy, drafty, or risky?\n\n\nCommon claim:\n\n“This studio is 24 C.”\n\nThermal reasoning question:\n\nWhich position, height, time, humidity state, air speed, ventilation context, exposure, body, and activity does that number represent?\n\n\n\nA1 output by Week 3\nStudents make a spatial air field map with Ta, RH, air-movement observations, sampling points, an uncertainty note, one defensible claim, and one claim they cannot defend.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W1: Air Is Not Enough"
+    ]
+  },
+  {
+    "objectID": "weeks/week-01.html#air-temperature-is-a-sample",
+    "href": "weeks/week-01.html#air-temperature-is-a-sample",
+    "title": "Week 1 - Air Is Not Enough",
+    "section": "Air Temperature Is A Sample",
+    "text": "Air Temperature Is A Sample\n\nSpatial difference is already a thermal argument:\n\\[\n\\Delta T_a = T_{a,B} - T_{a,A}\n\\]\nIf A is the window seat and B is the shaded interior, the sign and magnitude of \\Delta T_a tell us whether one room-temperature claim is hiding a spatial field.\n\n\nArtifact move\nDraw a plan or section. Mark 3-5 positions. Give each position a Ta value, an RH value, and a time stamp.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W1: Air Is Not Enough"
+    ]
+  },
+  {
+    "objectID": "weeks/week-01.html#from-points-to-thermal-field",
+    "href": "weeks/week-01.html#from-points-to-thermal-field",
+    "title": "Week 1 - Air Is Not Enough",
+    "section": "From Points To Thermal Field",
+    "text": "From Points To Thermal Field\n\n\nCourse-authored contour example. The sampled points stay visible because the smooth field is an interpolation, not a direct measurement everywhere.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W1: Air Is Not Enough"
+    ]
+  },
+  {
+    "objectID": "weeks/week-01.html#what-a-field-map-adds",
+    "href": "weeks/week-01.html#what-a-field-map-adds",
+    "title": "Week 1 - Air Is Not Enough",
+    "section": "What A Field Map Adds",
+    "text": "What A Field Map Adds\n\nA point map answers:\n\nWhat did we measure here?\n\nA field map asks:\n\nWhat spatial pattern might connect those measurements, and where does that pattern matter architecturally?\n\n\n\nHeat maps are powerful because they look certain. For A1, students must state whether a gradient is measured, interpolated, assumed, or only diagrammed.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W1: Air Is Not Enough"
+    ]
+  },
+  {
+    "objectID": "weeks/week-01.html#humidity-changes-the-meaning-of-heat",
+    "href": "weeks/week-01.html#humidity-changes-the-meaning-of-heat",
+    "title": "Week 1 - Air Is Not Enough",
+    "section": "Humidity Changes The Meaning Of Heat",
+    "text": "Humidity Changes The Meaning Of Heat\n\n\nTwo locations can share the same air temperature but differ in evaporation potential.\nIn humid air, sweat evaporation is less effective. In dry air, the same Ta can feel different and can stress the body differently.\n\n\nRelative humidity:\n\\[\nRH = 100 \\times \\frac{p_v}{p_{sat}(T_a)}\n\\]\np_v is water vapor pressure. p_sat(T_a) is saturation vapor pressure at the same air temperature.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W1: Air Is Not Enough"
+    ]
+  },
+  {
+    "objectID": "weeks/week-01.html#psychrometric-reading",
+    "href": "weeks/week-01.html#psychrometric-reading",
+    "title": "Week 1 - Air Is Not Enough",
+    "section": "Psychrometric Reading",
+    "text": "Psychrometric Reading\n\n\n\n\nPsychrometric chart source: Wikimedia Commons.\n\n\n\nWhat this figure gives students:\n\ndry-bulb temperature as only one axis;\nrelative humidity as a state relation, not decoration;\nwet-bulb and moisture content as signals of evaporative stress;\na reason Hong Kong thermal claims cannot ignore humidity.\n\n\nThe point is not to memorize the chart in Week 1. The point is to see that air has more than one thermally relevant coordinate.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W1: Air Is Not Enough"
+    ]
+  },
+  {
+    "objectID": "weeks/week-01.html#air-has-more-than-one-coordinate",
+    "href": "weeks/week-01.html#air-has-more-than-one-coordinate",
+    "title": "Week 1 - Air Is Not Enough",
+    "section": "Air Has More Than One Coordinate",
+    "text": "Air Has More Than One Coordinate\n\nAn air-based thermal claim needs more than dry-bulb temperature:\n\\[\n\\text{air state for design}\n\\approx\n\\left[T_a,\\ RH,\\ v_a,\\ \\text{ventilation context}\\right]\n\\]\nwhere v_a is local air speed at the occupied position.\n\n\nWeek 1 does not ask students to solve the whole airflow field. It asks them to stop pretending air temperature alone describes the condition.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W1: Air Is Not Enough"
+    ]
+  },
+  {
+    "objectID": "weeks/week-01.html#stagnant-air-is-a-thermal-condition",
+    "href": "weeks/week-01.html#stagnant-air-is-a-thermal-condition",
+    "title": "Week 1 - Air Is Not Enough",
+    "section": "Stagnant Air Is A Thermal Condition",
+    "text": "Stagnant Air Is A Thermal Condition\nSame Ta, same RH, different experience:\n\nair does not remove heat from the body effectively;\nsweat evaporation may feel weaker in humid air;\nmoisture and odors can linger;\na corner, alcove, deep plan, or blocked path can become a local pocket;\nthe room average may look acceptable while the occupied position does not.\n\n\nFor A1, students can mark air movement qualitatively: still, weak, noticeable, fan-driven, diffuser-driven, cross-flow, or draft-prone.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W1: Air Is Not Enough"
+    ]
+  },
+  {
+    "objectID": "weeks/week-01.html#air-movement-can-help-or-hurt",
+    "href": "weeks/week-01.html#air-movement-can-help-or-hurt",
+    "title": "Week 1 - Air Is Not Enough",
+    "section": "Air Movement Can Help Or Hurt",
+    "text": "Air Movement Can Help Or Hurt\n\nConvective heat exchange increases when air speed increases:\n\\[\nq_{conv} \\approx h_c(v_a)A(T_{skin}-T_a)\n\\]\nh_c rises with air speed, but the consequence depends on air temperature, humidity, clothing, activity, and body location.\n\n\nWarm breeze can support cooling. Cold unwanted air movement can become draft discomfort. Air speed is not automatically good or bad.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W1: Air Is Not Enough"
+    ]
+  },
+  {
+    "objectID": "weeks/week-01.html#ventilation-is-not-cooling",
+    "href": "weeks/week-01.html#ventilation-is-not-cooling",
+    "title": "Week 1 - Air Is Not Enough",
+    "section": "Ventilation Is Not Cooling",
+    "text": "Ventilation Is Not Cooling\nIncreasing outdoor air can improve perceived air quality and dilute pollutants.\nIt may also add:\n\nsensible heat load when outdoor air is hot;\nlatent load when outdoor air is humid;\nlocal draft near openings or diffusers;\nuneven exposure if the airflow path bypasses occupied areas.\n\n\nVentilation, air movement, cooling, and comfort overlap, but they are not the same design claim.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W1: Air Is Not Enough"
+    ]
+  },
+  {
+    "objectID": "weeks/week-01.html#air-based-cooling-primer",
+    "href": "weeks/week-01.html#air-based-cooling-primer",
+    "title": "Week 1 - Air Is Not Enough",
+    "section": "Air-Based Cooling Primer",
+    "text": "Air-Based Cooling Primer\n\n\nCourse-authored schematic. The cycle helps explain why many buildings start by conditioning air, while thermal experience still depends on humidity, air movement, surfaces, radiation, and position.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W1: Air Is Not Enough"
+    ]
+  },
+  {
+    "objectID": "weeks/week-01.html#what-ac-can-miss",
+    "href": "weeks/week-01.html#what-ac-can-miss",
+    "title": "Week 1 - Air Is Not Enough",
+    "section": "What AC Can Miss",
+    "text": "What AC Can Miss\n\n\nStagnant corner\nThe system may condition return air while an occupied pocket remains weakly mixed.\n\n\nDraft path\nA diffuser or leakage path can overcool one body position while the room average looks normal.\n\n\nRadiant load\nCool air may not remove one-sided heat from glass, sun, pavement, or warm surfaces.\n\n\n\nWeek 1 question: which of these is visible in your case image, and which would need measurement?",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W1: Air Is Not Enough"
+    ]
+  },
+  {
+    "objectID": "weeks/week-01.html#gh-bridge-butterfly-openfoam",
+    "href": "weeks/week-01.html#gh-bridge-butterfly-openfoam",
+    "title": "Week 1 - Air Is Not Enough",
+    "section": "GH Bridge: Butterfly / OpenFOAM",
+    "text": "GH Bridge: Butterfly / OpenFOAM\nIf the design claim is about where air moves, Butterfly / OpenFOAM can provide a Grasshopper bridge later.\n\nRhino / GH geometry\n-&gt; Butterfly case setup\n-&gt; OpenFOAM solver\n-&gt; velocity / pressure field\n-&gt; occupied-zone interpretation\n\n\nButterfly is not a Week 1 requirement. It is a route for questions about stagnant pockets, drafts, courtyard flushing, fan effects, or opening strategies.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W1: Air Is Not Enough"
+    ]
+  },
+  {
+    "objectID": "weeks/week-01.html#butterfly-route-what-must-be-declared",
+    "href": "weeks/week-01.html#butterfly-route-what-must-be-declared",
+    "title": "Week 1 - Air Is Not Enough",
+    "section": "Butterfly Route: What Must Be Declared",
+    "text": "Butterfly Route: What Must Be Declared\nBefore trusting an airflow image, document:\n\nopening and inlet/outlet assumptions;\nboundary conditions;\nfan, heat source, or buoyancy assumptions;\nmesh and solver setup;\nwhere the body is located;\nwhat the model does not include.\n\n\nNo boundary condition, no airflow claim. A beautiful CFD image is not evidence by itself.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W1: Air Is Not Enough"
+    ]
+  },
+  {
+    "objectID": "weeks/week-01.html#worked-example-studio-perimeter",
+    "href": "weeks/week-01.html#worked-example-studio-perimeter",
+    "title": "Week 1 - Air Is Not Enough",
+    "section": "Worked Example: Studio Perimeter",
+    "text": "Worked Example: Studio Perimeter\n\n\nAn architecture student says:\n\n“The desk near the curtain wall is always uncomfortable.”\n\nPossible readings:\n\nhigher Ta near the facade;\nhigher RH because air is stagnant;\nsolar gain through glass;\nwarm surface radiation;\nno air movement;\ndraft from diffuser or leakage path;\nexpectation or task duration.\n\n\n\nA1 only takes the first step.\nThis week we do not solve the whole condition. We map whether the air, humidity, and air-movement field supports the claim.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W1: Air Is Not Enough"
+    ]
+  },
+  {
+    "objectID": "weeks/week-01.html#hidden-defaults",
+    "href": "weeks/week-01.html#hidden-defaults",
+    "title": "Week 1 - Air Is Not Enough",
+    "section": "Hidden Defaults",
+    "text": "Hidden Defaults\n\n\n\n\n\n\n\n\nDefault\nWhat it hides\nArchitectural consequence\n\n\n\n\none room\nperimeter/core, height, threshold, exterior edge\nplan and section matter\n\n\none body\nclothing, age, activity, sensitivity\noccupant profile matters\n\n\none hour\nmorning, afternoon, heatwave, shoulder season\ntime matters\n\n\none sensor\nplacement, height, logging interval\nevidence protocol matters\n\n\none air speed\nstagnant pockets, drafts, bypass flow\nventilation path matters\n\n\none model\nmissing variables, calibration, weather assumptions\nuncertainty matters",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W1: Air Is Not Enough"
+    ]
+  },
+  {
+    "objectID": "weeks/week-01.html#a1-visual-grammar",
+    "href": "weeks/week-01.html#a1-visual-grammar",
+    "title": "Week 1 - Air Is Not Enough",
+    "section": "A1 Visual Grammar",
+    "text": "A1 Visual Grammar\n\n\nOriginal course diagram. The map is intentionally simple: location plus Ta/RH plus claim limit.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W1: Air Is Not Enough"
+    ]
+  },
+  {
+    "objectID": "weeks/week-01.html#session-2-diagnostic-round",
+    "href": "weeks/week-01.html#session-2-diagnostic-round",
+    "title": "Week 1 - Air Is Not Enough",
+    "section": "Session 2: Diagnostic Round",
+    "text": "Session 2: Diagnostic Round\n\n\nThe host reveals the diagnosis only after classmates make educated guesses.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W1: Air Is Not Enough"
+    ]
+  },
+  {
+    "objectID": "weeks/week-01.html#session-2-timebox",
+    "href": "weeks/week-01.html#session-2-timebox",
+    "title": "Week 1 - Air Is Not Enough",
+    "section": "Session 2 Timebox",
+    "text": "Session 2 Timebox\n\n\n10 min - case scan. Choose your own studio project or an existing design. Use one plan, section, rendering, or site photo.\n\n\n5 min - Slack post. Post the image with minimal context: project type, location or climate, and where the body might be.\n\n\n20-25 min - round-table guesses. Classmates guess where Ta/RH may vary, why, and what design feature may already mitigate or worsen it.\n\n\n10-15 min - host reveal. The host explains the actual concern, the evidence they have, the mitigation they believe exists, and what remains uncertain.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W1: Air Is Not Enough"
+    ]
+  },
+  {
+    "objectID": "weeks/week-01.html#week-1-hint-level",
+    "href": "weeks/week-01.html#week-1-hint-level",
+    "title": "Week 1 - Air Is Not Enough",
+    "section": "Week 1 Hint Level",
+    "text": "Week 1 Hint Level\n\nHints are generous this week.\nGuess using these lenses:\n\nfacade edge, roof, floor, threshold, courtyard, shaded interior;\nhigh/low Ta;\nhigh/low RH;\nstagnant air pocket;\nsensor location that could mislead the claim.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W1: Air Is Not Enough"
+    ]
+  },
+  {
+    "objectID": "weeks/week-01.html#diagnostic-translation",
+    "href": "weeks/week-01.html#diagnostic-translation",
+    "title": "Week 1 - Air Is Not Enough",
+    "section": "Diagnostic Translation",
+    "text": "Diagnostic Translation\n\nThe class is not judging whether the design is good or bad. The class is practicing thermal reading.\nFor every guess, name:\n\nthe suspected problem spot;\nthe mechanism;\nthe design feature that might help;\nthe competing constraint.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W1: Air Is Not Enough"
+    ]
+  },
+  {
+    "objectID": "weeks/week-01.html#exit-artifact",
+    "href": "weeks/week-01.html#exit-artifact",
+    "title": "Week 1 - Air Is Not Enough",
+    "section": "Exit Artifact",
+    "text": "Exit Artifact\n\nWrite a 4-line A1 seed:\n\nMy case image is…\nThe suspected Ta/RH difference is…\nThe design feature that may matter is…\nThe air-movement condition seems…\nThe claim I cannot yet defend is…",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W1: Air Is Not Enough"
+    ]
+  },
+  {
+    "objectID": "weeks/week-01.html#what-carries-forward",
+    "href": "weeks/week-01.html#what-carries-forward",
+    "title": "Week 1 - Air Is Not Enough",
+    "section": "What Carries Forward",
+    "text": "What Carries Forward\n\n\nA1 spatial air field\n\n\nA2 radiant exchange\n\n\nA3 temporal build-up\n\n\nA4 design action\n\n\nNext week: the body enters the diagram. Air and humidity matter because the body must exchange heat with a space.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W1: Air Is Not Enough"
+    ]
+  },
+  {
+    "objectID": "weeks/week-03.html#this-weeks-job",
+    "href": "weeks/week-03.html#this-weeks-job",
+    "title": "Week 3 - Sensing Thermal Fields",
+    "section": "This Week’s Job",
+    "text": "This Week’s Job\n\n\nA1 spatial air field\n\n\nA2 radiant exchange\n\n\nA3 temporal build-up\n\n\nA4 design action\n\n\n\nThe sensor does not simply reveal the thermal field. Its location, height, interval, shielding, calibration, and missing variables shape the field we think we saw.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W3: Sensing Fields"
+    ]
+  },
+  {
+    "objectID": "weeks/week-03.html#the-sensing-claim",
+    "href": "weeks/week-03.html#the-sensing-claim",
+    "title": "Week 3 - Sensing Thermal Fields",
+    "section": "The Sensing Claim",
+    "text": "The Sensing Claim\n\n\nWeak claim:\n\n“I measured the room and it was 27 C.”\n\nArchitecturally useful claim:\n\n“At seated height, the facade-side desk was 1.8 C warmer and 6% RH higher than the interior desk between 14:00 and 15:00; I did not measure MRT or air speed.”\n\n\n\nSpatial differential:\n\\[\n\\Delta T_a = T_{a,\\text{facade}} - T_{a,\\text{interior}}\n\\]\nHumidity differential:\n\\[\n\\Delta RH = RH_{\\text{facade}} - RH_{\\text{interior}}\n\\]",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W3: Sensing Fields"
+    ]
+  },
+  {
+    "objectID": "weeks/week-03.html#sampling-bias-is-architectural",
+    "href": "weeks/week-03.html#sampling-bias-is-architectural",
+    "title": "Week 3 - Sensing Thermal Fields",
+    "section": "Sampling Bias Is Architectural",
+    "text": "Sampling Bias Is Architectural\n\n\n\n\n\n\n\n\nSampling choice\nBias introduced\nBetter question\n\n\n\n\none point\nhides gradients\nwhere is the body?\n\n\none hour\nhides sequence\nwhen is the claim true?\n\n\none height\nhides stratification\nbreathing zone, ankle, head?\n\n\nno surface reading\nhides radiant difference\nwhat is the body facing?\n\n\nno air speed\nhides convection\nis there a path or stagnant pocket?\n\n\nno occupant note\nhides activity and expectation\nwho is the thermal subject?",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W3: Sensing Fields"
+    ]
+  },
+  {
+    "objectID": "weeks/week-03.html#from-samples-to-contours",
+    "href": "weeks/week-03.html#from-samples-to-contours",
+    "title": "Week 3 - Sensing Thermal Fields",
+    "section": "From Samples To Contours",
+    "text": "From Samples To Contours\n\n\nThe contour map makes spatial relevance legible. It also makes uncertainty easier to hide if the sampled points disappear.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W3: Sensing Fields"
+    ]
+  },
+  {
+    "objectID": "weeks/week-03.html#interpolation-is-a-claim",
+    "href": "weeks/week-03.html#interpolation-is-a-claim",
+    "title": "Week 3 - Sensing Thermal Fields",
+    "section": "Interpolation Is A Claim",
+    "text": "Interpolation Is A Claim\n\nA field value between sensors is estimated:\n\nTa(x,y) ≈ f(Ta,1, Ta,2, …, Ta,n, x, y)\n\n\nCommon routes:\n\nnearest sampled point;\ninverse-distance weighting;\nsmoothed contour / heat map;\nmanual diagram from a measured gradient.\n\n\nDo not present a smooth contour as measured fact. Say how it was made and where the samples are sparse.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W3: Sensing Fields"
+    ]
+  },
+  {
+    "objectID": "weeks/week-03.html#a1-field-map-standard",
+    "href": "weeks/week-03.html#a1-field-map-standard",
+    "title": "Week 3 - Sensing Thermal Fields",
+    "section": "A1 Field Map Standard",
+    "text": "A1 Field Map Standard\n\nMinimum: measured or curated points on plan/section.\nStronger: contour or heat map with points still visible.\nBest: contour plus architectural overlay: body position, program, facade, opening, diffuser, shade, or material.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W3: Sensing Fields"
+    ]
+  },
+  {
+    "objectID": "weeks/week-03.html#measuring-air-movement-is-harder-than-naming-it",
+    "href": "weeks/week-03.html#measuring-air-movement-is-harder-than-naming-it",
+    "title": "Week 3 - Sensing Thermal Fields",
+    "section": "Measuring Air Movement Is Harder Than Naming It",
+    "text": "Measuring Air Movement Is Harder Than Naming It\nAir speed near a body can change quickly by position, height, posture, opening state, fan setting, and diffuser direction.\nFor A1-level evidence, acceptable descriptions include:\n\nmeasured air speed, if an anemometer is available;\nvisible airflow cue, such as fan, diffuser, open window, door gap, curtain motion, smoke/string test if safe;\nqualitative label: stagnant, weak, noticeable, intermittent, draft-prone;\nposition note: head, torso, ankle, seated height, standing height.\n\n\nDo not average away airflow. A draft at ankle height and still air at face height are different occupied conditions.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W3: Sensing Fields"
+    ]
+  },
+  {
+    "objectID": "weeks/week-03.html#ventilation-rate-is-not-local-exposure",
+    "href": "weeks/week-03.html#ventilation-rate-is-not-local-exposure",
+    "title": "Week 3 - Sensing Thermal Fields",
+    "section": "Ventilation Rate Is Not Local Exposure",
+    "text": "Ventilation Rate Is Not Local Exposure\n\nA useful ventilation intuition:\n\\[\n\\text{well ventilated room}\n\\not\\Rightarrow\n\\text{well served occupied position}\n\\]\nAir can short-circuit, bypass the body, stagnate in corners, or create a local draft.\n\n\nThis is why sensing locations are architectural choices. The question is not only “how much air enters?” but “where does it go, what does it carry, and who receives it?”",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W3: Sensing Fields"
+    ]
+  },
+  {
+    "objectID": "weeks/week-03.html#perceived-air-quality-and-thermal-comfort-can-split",
+    "href": "weeks/week-03.html#perceived-air-quality-and-thermal-comfort-can-split",
+    "title": "Week 3 - Sensing Thermal Fields",
+    "section": "Perceived Air Quality And Thermal Comfort Can Split",
+    "text": "Perceived Air Quality And Thermal Comfort Can Split\nIncreasing outdoor air can make a space feel fresher by diluting odors and pollutants.\nBut the same move can:\n\nincrease humidity load in Hong Kong;\nincrease cooling energy demand;\ncreate local draft discomfort;\nmove pollutants or heat toward another occupied position;\nimprove perceived air quality while worsening thermal stress.\n\n\nFor your case, separate the claim into two lines: one about thermal condition and one about perceived air quality.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W3: Sensing Fields"
+    ]
+  },
+  {
+    "objectID": "weeks/week-03.html#smart-style-radiant-sensing",
+    "href": "weeks/week-03.html#smart-style-radiant-sensing",
+    "title": "Week 3 - Sensing Thermal Fields",
+    "section": "SMART-Style Radiant Sensing",
+    "text": "SMART-Style Radiant Sensing\n\n\nThe course can incorporate a SMART-style radiant sensing module when hardware is available.\nThe key architectural payoff is not the device itself. It is the ability to compare:\n\nair temperature;\nsurface temperature;\ndirectional radiant signal;\nglobe or MRT proxy;\noccupied position.\n\n\n\nSensor sophistication does not remove uncertainty. Better sensors make uncertainty more visible and more specific.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W3: Sensing Fields"
+    ]
+  },
+  {
+    "objectID": "weeks/week-03.html#indoor-and-outdoor-are-linked",
+    "href": "weeks/week-03.html#indoor-and-outdoor-are-linked",
+    "title": "Week 3 - Sensing Thermal Fields",
+    "section": "Indoor And Outdoor Are Linked",
+    "text": "Indoor And Outdoor Are Linked\n\n\nIndoor\nFacade-adjacent seat, studio corner, roof-exposed room, atrium edge.\n\n\nThreshold\nCorridor-door condition, lobby edge, shaded arcade, balcony.\n\n\nOutdoor\nCourtyard, walkway, bus stop, roof terrace, playground edge.\n\n\n\nThermal fields cross architectural boundaries. A shaded threshold, ventilated lobby, or hot pavement can change the meaning of the adjacent room.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W3: Sensing Fields"
+    ]
+  },
+  {
+    "objectID": "weeks/week-03.html#ventilation-analogy",
+    "href": "weeks/week-03.html#ventilation-analogy",
+    "title": "Week 3 - Sensing Thermal Fields",
+    "section": "Ventilation Analogy",
+    "text": "Ventilation Analogy\n\n\nCOVID-era ventilation debates made one thing obvious:\n\none average room condition can hide local exposure.\n\nThermal sensing has the same warning. A well-mixed assumption may be useful, but it should be questioned near facades, atria, courtyards, doors, fans, and heat sources.\n\n\nSimple air-change intuition:\n\\[\n\\text{exposure} \\neq \\text{room average}\n\\]\nThe person occupies a position, not an abstract zone.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W3: Sensing Fields"
+    ]
+  },
+  {
+    "objectID": "weeks/week-03.html#a1-submission-checklist",
+    "href": "weeks/week-03.html#a1-submission-checklist",
+    "title": "Week 3 - Sensing Thermal Fields",
+    "section": "A1 Submission Checklist",
+    "text": "A1 Submission Checklist\n\nYour A1 must include:\n\na plan or section with 3-5 sampling points;\nTa and RH values or a clearly labeled curated sample data set;\ntime stamp and sensor height;\nair-movement observation or measurement note;\none point map, gradient map, marked differential, or clearly labeled contour/heat map;\nfield notes;\none defensible claim;\none claim you cannot defend yet.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W3: Sensing Fields"
+    ]
+  },
+  {
+    "objectID": "weeks/week-03.html#worked-example-claim-limit",
+    "href": "weeks/week-03.html#worked-example-claim-limit",
+    "title": "Week 3 - Sensing Thermal Fields",
+    "section": "Worked Example: Claim Limit",
+    "text": "Worked Example: Claim Limit\n\n\nDefensible:\n\nThe facade-side desk was warmer and more humid than the interior desk during this measured hour.\n\nNot yet defensible:\n\nThe facade design makes the studio thermally uncomfortable all semester.\n\n\n\nThe second statement may become defensible later, but only after radiant evidence, temporal evidence, and stress-window evidence are added.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W3: Sensing Fields"
+    ]
+  },
+  {
+    "objectID": "weeks/week-03.html#session-2-diagnostic-round",
+    "href": "weeks/week-03.html#session-2-diagnostic-round",
+    "title": "Week 3 - Sensing Thermal Fields",
+    "section": "Session 2: Diagnostic Round",
+    "text": "Session 2: Diagnostic Round\n\n\n10 min - case scan. Choose a design where sensing could become part of the design logic, not just a temporary survey.\n\n\n5 min - Slack post. Post the image and state the use condition. Do not reveal where you would place sensors.\n\n\n20-25 min - round-table guesses. Classmates guess where sensors should go, what they would miss, and what discipline would resist the sensor placement.\n\n\n10-15 min - host reveal. The host explains the sensing protocol, what the design can accommodate, and what evidence would remain invisible.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W3: Sensing Fields"
+    ]
+  },
+  {
+    "objectID": "weeks/week-03.html#week-3-hint-level",
+    "href": "weeks/week-03.html#week-3-hint-level",
+    "title": "Week 3 - Sensing Thermal Fields",
+    "section": "Week 3 Hint Level",
+    "text": "Week 3 Hint Level\n\nGenerous, but now tied to evidence quality.\nGuess through these tensions:\n\nrepresentative point versus occupied point;\nvisible sensor versus integrated sensor;\ncalibration and maintenance;\nprivacy and trust;\narchitectural finish, cost, and operations.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W3: Sensing Fields"
+    ]
+  },
+  {
+    "objectID": "weeks/week-03.html#diagnostic-translation",
+    "href": "weeks/week-03.html#diagnostic-translation",
+    "title": "Week 3 - Sensing Thermal Fields",
+    "section": "Diagnostic Translation",
+    "text": "Diagnostic Translation\n\nFor one class guess, translate the sensor placement into a design decision:\n\nwhat it measures;\nwhat it misses;\nwhere it lives architecturally;\nwhich competing requirement could make it fail.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W3: Sensing Fields"
+    ]
+  },
+  {
+    "objectID": "weeks/week-03.html#exit-artifact",
+    "href": "weeks/week-03.html#exit-artifact",
+    "title": "Week 3 - Sensing Thermal Fields",
+    "section": "Exit Artifact",
+    "text": "Exit Artifact\n\nWrite a sensing statement:\n\nI would place sensors at _____ because _____; the likely blind spot is _____.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W3: Sensing Fields"
+    ]
+  },
+  {
+    "objectID": "weeks/week-03.html#carry-forward",
+    "href": "weeks/week-03.html#carry-forward",
+    "title": "Week 3 - Sensing Thermal Fields",
+    "section": "Carry Forward",
+    "text": "Carry Forward\nNext week we add surfaces, solar exposure, and mean radiant temperature.\n\nA1 gave us air and humidity. A2 asks what the body sees radiantly.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W3: Sensing Fields"
+    ]
+  },
+  {
+    "objectID": "weeks/week-05.html#where-we-are",
+    "href": "weeks/week-05.html#where-we-are",
+    "title": "Week 5 - Radiant Asymmetry",
+    "section": "Where We Are",
+    "text": "Where We Are\n\n\nA1 spatial air field\n\n\nA2 radiant exchange\n\n\nA3 temporal build-up\n\n\nA4 design action\n\n\n\nA2 asks students to translate radiant difference into an architectural claim: not “it feels different,” but “this surface, exposure, or orientation changes the body’s heat exchange.”",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W5: Radiant Asymmetry"
+    ]
+  },
+  {
+    "objectID": "weeks/week-05.html#direction-matters",
+    "href": "weeks/week-05.html#direction-matters",
+    "title": "Week 5 - Radiant Asymmetry",
+    "section": "Direction Matters",
+    "text": "Direction Matters\n\n\nA body is not a sphere floating in an abstract room.\nRadiant asymmetry appears when one side of the body faces a different radiant environment than another side.\n\n\nRadiant exchange is shaped by view exposure:\n\\[\nq_{rad,i} \\propto F_i(T_i^4 - T_{body}^4)\n\\]\nF_i is the fraction of the body’s radiant view occupied by surface or source i.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W5: Radiant Asymmetry"
+    ]
+  },
+  {
+    "objectID": "weeks/week-05.html#architectural-flux-delivery",
+    "href": "weeks/week-05.html#architectural-flux-delivery",
+    "title": "Week 5 - Radiant Asymmetry",
+    "section": "Architectural Flux Delivery",
+    "text": "Architectural Flux Delivery\n\n\n\n\n\n\n\n\nArchitectural element\nWhat it changes\nPossible design action\n\n\n\n\nglass facade\nsolar gain, longwave exchange, cold/hot surface view\nexternal shade, low-SHGC glazing, seat offset\n\n\npavement\nground longwave and reflected shortwave load\nlighter surface, vegetation, canopy\n\n\ncanopy\ndirect solar exposure and sky view\ndepth, porosity, orientation\n\n\nexposed slab\nthermal storage and surface temperature\ninsulation, finish, night flushing\n\n\nfan or breeze\nconvective heat exchange\nair path, local control\n\n\nwall material\nsurface temperature and time lag\nfinish, insulation, ventilation gap",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W5: Radiant Asymmetry"
+    ]
+  },
+  {
+    "objectID": "weeks/week-05.html#window-seat-reading",
+    "href": "weeks/week-05.html#window-seat-reading",
+    "title": "Week 5 - Radiant Asymmetry",
+    "section": "Window Seat Reading",
+    "text": "Window Seat Reading\n\n\nUse the section as a reasoning template: position, body orientation, surface field, and design action.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W5: Radiant Asymmetry"
+    ]
+  },
+  {
+    "objectID": "weeks/week-05.html#indoor-versus-outdoor-radiant-stakes",
+    "href": "weeks/week-05.html#indoor-versus-outdoor-radiant-stakes",
+    "title": "Week 5 - Radiant Asymmetry",
+    "section": "Indoor Versus Outdoor Radiant Stakes",
+    "text": "Indoor Versus Outdoor Radiant Stakes\n\n\nIndoor\nRadiant asymmetry may be subtle but persistent: cold glass, warm perimeter, radiant panels, exposed slab.\n\n\nOutdoor\nSolar radiation and hot ground can dominate within seconds or minutes.\n\n\nThreshold\nArcade, lobby, balcony, and entry conditions often mix air-conditioned expectations with outdoor radiant exposure.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W5: Radiant Asymmetry"
+    ]
+  },
+  {
+    "objectID": "weeks/week-05.html#a2-card-structure",
+    "href": "weeks/week-05.html#a2-card-structure",
+    "title": "Week 5 - Radiant Asymmetry",
+    "section": "A2 Card Structure",
+    "text": "A2 Card Structure\n\nYour Radiant Exchange Card must include:\n\ntwo occupied positions;\nair temperature comparison;\nsurface/radiant/MRT proxy evidence;\nbody orientation diagram;\none heat-flux or exchange sketch;\none architectural implication;\none uncertainty statement.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W5: Radiant Asymmetry"
+    ]
+  },
+  {
+    "objectID": "weeks/week-05.html#what-a2-should-not-do",
+    "href": "weeks/week-05.html#what-a2-should-not-do",
+    "title": "Week 5 - Radiant Asymmetry",
+    "section": "What A2 Should Not Do",
+    "text": "What A2 Should Not Do\n\nA2 should not become a generic comfort essay or a polished rendering with no thermal mechanism.\nIf the drawing cannot answer “what exchange changed?”, it is not yet an A2 argument.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W5: Radiant Asymmetry"
+    ]
+  },
+  {
+    "objectID": "weeks/week-05.html#mini-case-shaded-bench",
+    "href": "weeks/week-05.html#mini-case-shaded-bench",
+    "title": "Week 5 - Radiant Asymmetry",
+    "section": "Mini-Case: Shaded Bench",
+    "text": "Mini-Case: Shaded Bench\n\n\nTwo benches show similar air temperature:\n\nBench A is under tree shade on lighter paving.\nBench B is under partial glass reflection near dark paving.\n\nA2 asks: what does the body receive from above, below, and around?\n\n\nThe simplified comparison:\n\\[\n\\Delta q_{rad} \\approx h_rA(T_{mrt,B}-T_{mrt,A})\n\\]\nIf the MRT proxy differs substantially, the design implication may be shade quality, surface material, or seating relocation.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W5: Radiant Asymmetry"
+    ]
+  },
+  {
+    "objectID": "weeks/week-05.html#session-2-diagnostic-round",
+    "href": "weeks/week-05.html#session-2-diagnostic-round",
+    "title": "Week 5 - Radiant Asymmetry",
+    "section": "Session 2: Diagnostic Round",
+    "text": "Session 2: Diagnostic Round\n\n\n10 min - case scan. Choose a design image where body geometry matters: one side of the body faces a different radiant environment.\n\n\n5 min - Slack post. Post the image and identify the body posture or orientation. Keep the thermal diagnosis hidden.\n\n\n20-25 min - round-table guesses. Classmates guess the exposed body side, radiant source or sink, design mitigation, and competing constraint.\n\n\n10-15 min - host reveal. The host explains the actual radiant asymmetry concern and whether the current design response is sufficient.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W5: Radiant Asymmetry"
+    ]
+  },
+  {
+    "objectID": "weeks/week-05.html#week-5-hint-level",
+    "href": "weeks/week-05.html#week-5-hint-level",
+    "title": "Week 5 - Radiant Asymmetry",
+    "section": "Week 5 Hint Level",
+    "text": "Week 5 Hint Level\n::: {.hint-card thinner} Moderate hints.\nDo not treat the body as a point. Guess:\n\nface, back, legs, head, feet, hands;\nseated, standing, waiting, moving;\none-sided glass, pavement, wall, sky, canopy, or radiant panel;\nwhat orientation or furniture change would alter exposure. :::",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W5: Radiant Asymmetry"
+    ]
+  },
+  {
+    "objectID": "weeks/week-05.html#diagnostic-translation",
+    "href": "weeks/week-05.html#diagnostic-translation",
+    "title": "Week 5 - Radiant Asymmetry",
+    "section": "Diagnostic Translation",
+    "text": "Diagnostic Translation\n\nTurn the host reveal into a radiant exchange card:\n\nbody segment or side exposed;\nsource or sink;\ndesign lever;\ncompeting constraint;\nuncertainty.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W5: Radiant Asymmetry"
+    ]
+  },
+  {
+    "objectID": "weeks/week-05.html#exit-artifact",
+    "href": "weeks/week-05.html#exit-artifact",
+    "title": "Week 5 - Radiant Asymmetry",
+    "section": "Exit Artifact",
+    "text": "Exit Artifact\n\nWrite:\n\nThis radiant condition may fail when _____ changes over time.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W5: Radiant Asymmetry"
+    ]
+  },
+  {
+    "objectID": "weeks/week-05.html#carry-forward",
+    "href": "weeks/week-05.html#carry-forward",
+    "title": "Week 5 - Radiant Asymmetry",
+    "section": "Carry Forward",
+    "text": "Carry Forward\nNext week we stop treating thermal conditions as static. Heat can build, lag, store, and remain risky after the obvious driver has passed.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W5: Radiant Asymmetry"
+    ]
+  },
+  {
+    "objectID": "weeks/week-07.html#second-half-frame",
+    "href": "weeks/week-07.html#second-half-frame",
+    "title": "Week 7 - EnergyPlus As Exposure-State Generator",
+    "section": "Second Half Frame",
+    "text": "Second Half Frame\nBy the end of Week 9, A3 should show when a thermal condition accumulates, persists, exceeds a threshold, or fails to dissipate.\nWeek 7 adds one controlled route for producing that evidence: an inspectable hourly state log from EnergyPlus or from provided EnergyPlus outputs.\n\nEnergyPlus is used here as an exposure-state generator. Not truth. Not magic. Not a software credential or design answer.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W7: Exposure States"
+    ]
+  },
+  {
+    "objectID": "weeks/week-07.html#week-6-pulse-check-response",
+    "href": "weeks/week-07.html#week-6-pulse-check-response",
+    "title": "Week 7 - EnergyPlus As Exposure-State Generator",
+    "section": "Week 6 Pulse Check Response",
+    "text": "Week 6 Pulse Check Response\nStart by naming one adjustment from the Week 6 pulse check:\n\nwhich concept needs more support\nwhich tool route will be supported in lab\nwhich A3 evidence requirement will stay fixed\nwhich optional extension will remain optional\n\n\nThe course standard is a defensible thermal argument, not maximum software complexity.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W7: Exposure States"
+    ]
+  },
+  {
+    "objectID": "weeks/week-07.html#what-is-an-exposure-state",
+    "href": "weeks/week-07.html#what-is-an-exposure-state",
+    "title": "Week 7 - EnergyPlus As Exposure-State Generator",
+    "section": "What Is An Exposure State?",
+    "text": "What Is An Exposure State?\nAn exposure state is a time-stamped description of the thermal condition the body or zone receives.\n\\[\ns_t =\n\\left[\nT_{a,t},\nT_{mrt,t},\nT_{op,t},\nRH_t,\nQ_{solar,t},\nQ_{internal,t},\nQ_{HVAC,t}\n\\right]\n\\]\nWhere:\n\n\\(T_a\\) is zone air temperature\n\\(T_{mrt}\\) is mean radiant temperature\n\\(T_{op}\\) is operative temperature\n\\(RH\\) is relative humidity\nthe heat terms help explain why the state changed",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W7: Exposure States"
+    ]
+  },
+  {
+    "objectID": "weeks/week-07.html#the-core-distinction",
+    "href": "weeks/week-07.html#the-core-distinction",
+    "title": "Week 7 - EnergyPlus As Exposure-State Generator",
+    "section": "The Core Distinction",
+    "text": "The Core Distinction\nEnergyPlus does not prove that a space is comfortable.\nIt can help you produce a structured sequence:\n\nhour\nweather boundary\nzone state\nsurface and radiant condition\nsystem response, if modeled\nresidual burden under a threshold\n\nThat sequence becomes A3 evidence when you interpret it as build-up, lag, exceedance, or dissipation.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W7: Exposure States"
+    ]
+  },
+  {
+    "objectID": "weeks/week-07.html#minimal-model-logic",
+    "href": "weeks/week-07.html#minimal-model-logic",
+    "title": "Week 7 - EnergyPlus As Exposure-State Generator",
+    "section": "Minimal Model Logic",
+    "text": "Minimal Model Logic\nFor this course, a useful EnergyPlus model needs enough structure to explain a thermal sequence:\n\nweather file or design period\nzone geometry\nconstructions and surface exposure\nwindow and shade assumptions\ninternal gains and schedules\nventilation, infiltration, or service state\noutput variables at hourly resolution\n\n\nMore model detail is useful only when it changes the architectural interpretation.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W7: Exposure States"
+    ]
+  },
+  {
+    "objectID": "weeks/week-07.html#air-based-models-have-different-promises",
+    "href": "weeks/week-07.html#air-based-models-have-different-promises",
+    "title": "Week 7 - EnergyPlus As Exposure-State Generator",
+    "section": "Air-Based Models Have Different Promises",
+    "text": "Air-Based Models Have Different Promises\nNot every tool is solving the same physical question.\n\n\n\n\n\n\n\n\nModel type\nWhat it usually gives\nWhat to distrust\n\n\n\n\nzone heat-balance model\nhourly air/radiant/humidity/load state\nlocal drafts, stagnant pockets, detailed flow path\n\n\nairflow network\npressure-driven exchange between zones/nodes\nfine-grained occupied-zone velocity field\n\n\nCFD / Navier-Stokes solver\nspatial velocity, pressure, and turbulence fields\nboundary assumptions, mesh dependence, false precision\n\n\nreduced-order model\nfast approximation or surrogate\nout-of-range behavior and hidden training assumptions\n\n\n\n\nThe right model depends on the design claim. A whole-zone output cannot prove a local draft; a CFD image cannot prove comfort without thermal and body assumptions.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W7: Exposure States"
+    ]
+  },
+  {
+    "objectID": "weeks/week-07.html#heat-balance-handle",
+    "href": "weeks/week-07.html#heat-balance-handle",
+    "title": "Week 7 - EnergyPlus As Exposure-State Generator",
+    "section": "Heat Balance Handle",
+    "text": "Heat Balance Handle\nEnergyPlus solves a detailed heat balance. For architectural interpretation, keep this simplified balance visible:\n\\[\nC_z \\frac{dT_z}{dt}\n=\nQ_{solar}\n+ Q_{internal}\n+ Q_{envelope}\n+ Q_{HVAC}\n- Q_{loss}\n\\]\nRead it as a design question:\n\nWhich gains are driving the state?\nWhich losses are available?\nWhere is storage delaying the peak?\nWhich term can an architect change?",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W7: Exposure States"
+    ]
+  },
+  {
+    "objectID": "weeks/week-07.html#navier-stokes-as-a-design-warning",
+    "href": "weeks/week-07.html#navier-stokes-as-a-design-warning",
+    "title": "Week 7 - EnergyPlus As Exposure-State Generator",
+    "section": "Navier-Stokes As A Design Warning",
+    "text": "Navier-Stokes As A Design Warning\nIf the claim is about where air actually moves, the governing physics shifts toward mass and momentum.\n\nContinuity, simplified:\n\n∇ · u = 0\n\nMomentum, simplified:\n\nρ(∂u/∂t + u · ∇u) = -∇p + μ∇2u + F\n\nHere u is velocity, p is pressure, rho is density, and mu is viscosity.\n\n\nArchitecture takeaway: airflow claims depend on openings, pressure, obstructions, heat plumes, boundary conditions, and turbulence assumptions. A smooth CFD rendering can still be wrong.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W7: Exposure States"
+    ]
+  },
+  {
+    "objectID": "weeks/week-07.html#where-cfd-helps-and-where-it-does-not",
+    "href": "weeks/week-07.html#where-cfd-helps-and-where-it-does-not",
+    "title": "Week 7 - EnergyPlus As Exposure-State Generator",
+    "section": "Where CFD Helps And Where It Does Not",
+    "text": "Where CFD Helps And Where It Does Not\nUse CFD or OpenFOAM/Butterfly-style workflows only for bounded questions:\n\ndoes air reach the occupied zone?\ndoes a fan or opening change the flow path?\ndoes a partition block cross ventilation?\ndoes a courtyard trap or flush air?\nwhere might a local draft occur?\n\nDo not use CFD as visual decoration. A useful airflow model needs a clear boundary condition, mesh/solver note, and design decision.\n\nFor A3, CFD is optional. A clear hourly state log plus an honest airflow limitation is stronger than an unverified flow image.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W7: Exposure States"
+    ]
+  },
+  {
+    "objectID": "weeks/week-07.html#air-radiant-operative-humidity",
+    "href": "weeks/week-07.html#air-radiant-operative-humidity",
+    "title": "Week 7 - EnergyPlus As Exposure-State Generator",
+    "section": "Air, Radiant, Operative, Humidity",
+    "text": "Air, Radiant, Operative, Humidity\nDo not collapse the output table into one temperature column.\n\n\n\n\n\n\n\n\nOutput\nCourse use\nArchitectural question\n\n\n\n\n\\(T_a\\)\nair state\nIs the zone air itself beyond the threshold?\n\n\n\\(T_{mrt}\\)\nradiant field\nAre surfaces or solar exposure changing body heat exchange?\n\n\n\\(T_{op}\\)\ncombined interpretation\nWhat does the body approximately receive?\n\n\n\\(RH\\)\nmoisture context\nIs heat stress or evaporative cooling potential changing?\n\n\nloads/gains\nmechanism\nWhich physical driver should the design address?",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W7: Exposure States"
+    ]
+  },
+  {
+    "objectID": "weeks/week-07.html#operative-temperature-reminder",
+    "href": "weeks/week-07.html#operative-temperature-reminder",
+    "title": "Week 7 - EnergyPlus As Exposure-State Generator",
+    "section": "Operative Temperature Reminder",
+    "text": "Operative Temperature Reminder\nA simplified operative temperature is a weighted combination of air and radiant conditions:\n\\[\nT_{op,t}\n\\approx\nw T_{a,t}\n+ (1-w)T_{mrt,t}\n\\]\nThe weighting depends on air speed and heat-transfer context. In A3, state the version or output variable you used, then keep the claim within that definition.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W7: Exposure States"
+    ]
+  },
+  {
+    "objectID": "weeks/week-07.html#output-variables-to-request",
+    "href": "weeks/week-07.html#output-variables-to-request",
+    "title": "Week 7 - EnergyPlus As Exposure-State Generator",
+    "section": "Output Variables To Request",
+    "text": "Output Variables To Request\nMinimum useful outputs for the Week 7 lab:\n\nZone Mean Air Temperature\nZone Mean Radiant Temperature\nZone Operative Temperature\nZone Air Relative Humidity\nSurface Inside Face Temperature for key surfaces\nZone Windows Total Transmitted Solar Radiation, where relevant\nZone Ideal Loads or HVAC energy, if service state is modeled\noutdoor dry-bulb temperature and solar radiation from weather data\nventilation, infiltration, or airflow-network outputs if the claim depends on air exchange\n\n\nBefore plotting, confirm units, timestep, zone name, weather file, and whether the system was allowed to condition the zone.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W7: Exposure States"
+    ]
+  },
+  {
+    "objectID": "weeks/week-07.html#from-output-table-to-a3-evidence",
+    "href": "weeks/week-07.html#from-output-table-to-a3-evidence",
+    "title": "Week 7 - EnergyPlus As Exposure-State Generator",
+    "section": "From Output Table To A3 Evidence",
+    "text": "From Output Table To A3 Evidence\nA usable A3 state log has three layers:\n\nState: hourly \\(T_a\\), \\(T_{mrt}\\), \\(T_{op}\\), and \\(RH\\).\nThreshold: a clear target or failure line.\nMechanism: one explanation of gain, loss, capacity, schedule, or exposure.\n\n\nArtifact standard: one plot is not enough. Pair the plot with an output dictionary and a short mechanism note.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W7: Exposure States"
+    ]
+  },
+  {
+    "objectID": "weeks/week-07.html#degree-hours-from-hourly-states",
+    "href": "weeks/week-07.html#degree-hours-from-hourly-states",
+    "title": "Week 7 - EnergyPlus As Exposure-State Generator",
+    "section": "Degree-Hours From Hourly States",
+    "text": "Degree-Hours From Hourly States\nUse degree-hours to compare accumulated exposure rather than only the maximum value.\n\\[\nDH_{\\theta}\n=\n\\sum_{t \\in W}\n\\max \\left(T_{op,t} - T_{\\theta}, 0 \\right)\\Delta t\n\\]\nWhere:\n\n\\(W\\) is the evaluation window\n\\(T_{\\theta}\\) is the threshold\n\\(\\Delta t\\) is the timestep in hours\n\\(T_{op,t}\\) can be replaced by \\(T_a\\) or another justified variable",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W7: Exposure States"
+    ]
+  },
+  {
+    "objectID": "weeks/week-07.html#lab-activity-hourly-state-log",
+    "href": "weeks/week-07.html#lab-activity-hourly-state-log",
+    "title": "Week 7 - EnergyPlus As Exposure-State Generator",
+    "section": "Lab Activity: Hourly State Log",
+    "text": "Lab Activity: Hourly State Log\nProduce an A3 hourly state log for one zone or occupied position.\nArtifact: a CSV or spreadsheet extract, an output-variable dictionary, and one time-series plot showing \\(T_a\\), \\(T_{mrt}\\), \\(T_{op}\\), \\(RH\\), and a threshold line for at least 72 consecutive hours.\nA3 mapping: this becomes the temporal build-up evidence for A3. It must show when the condition exceeds the threshold, where lag appears, and which variable carries the strongest design consequence.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W7: Exposure States"
+    ]
+  },
+  {
+    "objectID": "weeks/week-07.html#lab-activity-mechanism-note",
+    "href": "weeks/week-07.html#lab-activity-mechanism-note",
+    "title": "Week 7 - EnergyPlus As Exposure-State Generator",
+    "section": "Lab Activity: Mechanism Note",
+    "text": "Lab Activity: Mechanism Note\nWrite a six-sentence mechanism note from the hourly state log.\nArtifact: a short note attached to the A3 plot that names one dominant gain, one loss or missing loss, one schedule or service assumption, and one design lever.\nA3 mapping: this note prevents the A3 plot from being only descriptive. It connects the time-series to the build-up, capacity, or dissipation mechanism that A3 assesses.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W7: Exposure States"
+    ]
+  },
+  {
+    "objectID": "weeks/week-07.html#session-2-diagnostic-round",
+    "href": "weeks/week-07.html#session-2-diagnostic-round",
+    "title": "Week 7 - EnergyPlus As Exposure-State Generator",
+    "section": "Session 2: Diagnostic Round",
+    "text": "Session 2: Diagnostic Round\n\n\n10 min - case scan. Choose one case where a model or output table could clarify a design claim.\n\n\n5 min - Slack post. Post the case image and the design question. Keep the output variables you would request hidden.\n\n\n20-25 min - round-table guesses. Classmates guess which outputs are needed and which output would be misleading if read alone.\n\n\n10-15 min - host reveal. The host reveals their output-variable list and explains what the model cannot prove.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W7: Exposure States"
+    ]
+  },
+  {
+    "objectID": "weeks/week-07.html#week-7-hint-level",
+    "href": "weeks/week-07.html#week-7-hint-level",
+    "title": "Week 7 - EnergyPlus As Exposure-State Generator",
+    "section": "Week 7 Hint Level",
+    "text": "Week 7 Hint Level\n::: {.hint-card thinner} Hints are moderate.\nGuess through outputs:\n\nTa, T_mrt, T_op, RH;\nkey surface temperature;\nsolar gains;\nservice state or ideal loads;\nventilation/infiltration assumption;\nwhether local airflow would require a different model;\ntime window and timestep. :::",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W7: Exposure States"
+    ]
+  },
+  {
+    "objectID": "weeks/week-07.html#reading-a-plot-rigorously",
+    "href": "weeks/week-07.html#reading-a-plot-rigorously",
+    "title": "Week 7 - EnergyPlus As Exposure-State Generator",
+    "section": "Reading A Plot Rigorously",
+    "text": "Reading A Plot Rigorously\nWhen you inspect a time-series, do not stop at the highest point.\nCheck:\n\nfirst exceedance hour\nlast exceedance hour\ntail hours after the weather peak\ndifference between \\(T_a\\) and \\(T_{mrt}\\)\ndifference between \\(T_{op}\\) and the threshold\nwhether humidity changes the severity of the claim\nwhether the modeled system masked or revealed the burden",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W7: Exposure States"
+    ]
+  },
+  {
+    "objectID": "weeks/week-07.html#what-energyplus-cannot-prove",
+    "href": "weeks/week-07.html#what-energyplus-cannot-prove",
+    "title": "Week 7 - EnergyPlus As Exposure-State Generator",
+    "section": "What EnergyPlus Cannot Prove",
+    "text": "What EnergyPlus Cannot Prove\nEnergyPlus cannot automatically prove:\n\noccupant physiology\nsubjective comfort\nfield accuracy without calibration\nlocal air velocity or draft unless explicitly modeled with appropriate assumptions\nfuture climate certainty\ngood architectural judgment\ncorrectness of schedules, constructions, or control assumptions\n\n\nA model output is evidence only after its assumptions, variables, and limits are visible.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W7: Exposure States"
+    ]
+  },
+  {
+    "objectID": "weeks/week-07.html#week-7-exit-ticket",
+    "href": "weeks/week-07.html#week-7-exit-ticket",
+    "title": "Week 7 - EnergyPlus As Exposure-State Generator",
+    "section": "Week 7 Exit Ticket",
+    "text": "Week 7 Exit Ticket\nBefore next week, each student should have:\n\none selected condition for A3\none evaluation window\none output table or provided output route\none threshold\none preliminary degree-hour or failure-hour calculation\none sentence naming what the model does not include\n\nThese items feed Week 8, where the weather file and exposure window become stress-test assumptions.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W7: Exposure States"
+    ]
+  },
+  {
+    "objectID": "weeks/week-09.html#week-question",
+    "href": "weeks/week-09.html#week-question",
+    "title": "Week 9 - Inverse Questions",
+    "section": "Week Question",
+    "text": "Week Question\nInstead of asking only “How does this design perform?”, ask:\n\nWhat intervention is sufficient to reach the target, and what happens if the tested ladder cannot reach it?\n\nWeek 9 closes A3 and launches A4 by converting temporal failure evidence into a bounded design action ladder.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W9: Inverse Questions"
+    ]
+  },
+  {
+    "objectID": "weeks/week-09.html#forward-versus-inverse",
+    "href": "weeks/week-09.html#forward-versus-inverse",
+    "title": "Week 9 - Inverse Questions",
+    "section": "Forward Versus Inverse",
+    "text": "Forward Versus Inverse\nForward question:\n\nGiven a design, what exposure state does it produce?\n\nInverse question:\n\nGiven a target, what action is needed to reach it?\n\nFor this course, inverse work is not global optimization. It is a disciplined ladder of design actions that can be inspected and defended.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W9: Inverse Questions"
+    ]
+  },
+  {
+    "objectID": "weeks/week-09.html#define-the-target-first",
+    "href": "weeks/week-09.html#define-the-target-first",
+    "title": "Week 9 - Inverse Questions",
+    "section": "Define The Target First",
+    "text": "Define The Target First\nAn action ladder is meaningless without a target.\nTargets may be:\n\nmaximum \\(T_{op}\\) below a chosen line\ndegree-hours below an A3 threshold\nfailure hours reduced below a limit\nradiant asymmetry reduced at an occupied position\nhumidity or air movement condition improved enough to support the claim\n\n\nThe target must name the variable, threshold, time window, and occupied condition.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W9: Inverse Questions"
+    ]
+  },
+  {
+    "objectID": "weeks/week-09.html#action-space",
+    "href": "weeks/week-09.html#action-space",
+    "title": "Week 9 - Inverse Questions",
+    "section": "Action Space",
+    "text": "Action Space\nThe required ladder has a maximum of three levels:\n\nUse or position action: move the body, change schedule, change activity, provide refuge, or change control access.\nSpatial or surface action: shade, material, vegetation, facade depth, surface exposure, or program placement.\nEnvelope, air movement, or system action: glazing, insulation, ventilation, fan, mixed-mode rule, setpoint, or control change.\n\nThe ladder is small because the goal is a defensible action, not exhaustive optimization.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W9: Inverse Questions"
+    ]
+  },
+  {
+    "objectID": "weeks/week-09.html#field-to-action-ladder",
+    "href": "weeks/week-09.html#field-to-action-ladder",
+    "title": "Week 9 - Inverse Questions",
+    "section": "Field To Action Ladder",
+    "text": "Field To Action Ladder\n\n\nThe ladder should preserve the evidence chain: spatial field, radiant mechanism, temporal burden, design action.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W9: Inverse Questions"
+    ]
+  },
+  {
+    "objectID": "weeks/week-09.html#found-and-censored-logic",
+    "href": "weeks/week-09.html#found-and-censored-logic",
+    "title": "Week 9 - Inverse Questions",
+    "section": "Found And Censored Logic",
+    "text": "Found And Censored Logic\nLet the tested action ladder be:\n\\[\n\\mathcal{A} = \\{a_0, a_1, a_2, \\ldots, a_k\\}\n\\]\nLet the residual burden for each action be:\n\\[\nD_i = DH_{\\theta}(a_i)\n\\]\nThe first found action is:\n\\[\ni^* =\n\\min \\left\\{ i : D_i \\le D_{target} \\right\\}\n\\]",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W9: Inverse Questions"
+    ]
+  },
+  {
+    "objectID": "weeks/week-09.html#found-censored-unresolved",
+    "href": "weeks/week-09.html#found-censored-unresolved",
+    "title": "Week 9 - Inverse Questions",
+    "section": "Found, Censored, Unresolved",
+    "text": "Found, Censored, Unresolved\nUse three possible outcome labels:\n\\[\n\\text{found}\n\\Longleftrightarrow\n\\exists i \\in \\{0,\\ldots,k\\}\n\\text{ such that }\nD_i \\le D_{target}\n\\]\n\\[\n\\text{censored}\n\\Longleftrightarrow\n\\forall i \\in \\{0,\\ldots,k\\},\nD_i &gt; D_{target}\n\\]\n\\[\n\\text{unresolved}\n\\Longleftrightarrow\n\\text{the evidence is insufficient to classify the ladder}\n\\]",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W9: Inverse Questions"
+    ]
+  },
+  {
+    "objectID": "weeks/week-09.html#why-censored-is-valid",
+    "href": "weeks/week-09.html#why-censored-is-valid",
+    "title": "Week 9 - Inverse Questions",
+    "section": "Why Censored Is Valid",
+    "text": "Why Censored Is Valid\nA censored result is not a failed student project.\nIt can be a rigorous finding:\n\nthe target was explicit\nthe ladder boundary was explicit\nevery tested action remained insufficient\nthe remaining burden was reported\nthe next intervention class was named\n\n\n“This ladder cannot reach the target” is often a stronger design conclusion than an overclaimed success.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W9: Inverse Questions"
+    ]
+  },
+  {
+    "objectID": "weeks/week-09.html#stopping-rules",
+    "href": "weeks/week-09.html#stopping-rules",
+    "title": "Week 9 - Inverse Questions",
+    "section": "Stopping Rules",
+    "text": "Stopping Rules\nBefore testing actions, define when you stop.\nValid stopping rules:\n\nfirst action reaches the target\nall required ladder levels have been tested\nevidence quality no longer supports comparison\naction leaves the project boundary\naction creates a conflict that must be reported\n\nStopping rules prevent the ladder from becoming an open-ended retrofit wish list.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W9: Inverse Questions"
+    ]
+  },
+  {
+    "objectID": "weeks/week-09.html#service-state-and-masked-burden",
+    "href": "weeks/week-09.html#service-state-and-masked-burden",
+    "title": "Week 9 - Inverse Questions",
+    "section": "Service State And Masked Burden",
+    "text": "Service State And Masked Burden\nState whether the model or evidence includes a service system:\n\npassive or free-running\nconditioned to a setpoint\nmixed-mode\nfan-assisted\nscheduled ventilation\nrefuge or intermittent use\n\n\nA low indoor temperature with high cooling load may be a service achievement, not a passive architectural success.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W9: Inverse Questions"
+    ]
+  },
+  {
+    "objectID": "weeks/week-09.html#lab-activity-foundcensored-ladder",
+    "href": "weeks/week-09.html#lab-activity-foundcensored-ladder",
+    "title": "Week 9 - Inverse Questions",
+    "section": "Lab Activity: Found/Censored Ladder",
+    "text": "Lab Activity: Found/Censored Ladder\nBuild a three-level action ladder from the A3 failure statement.\nArtifact: a table with baseline plus up to three action rows. Each row must include the action, changed assumption, threshold result, degree-hours or failure hours, and outcome label: found, censored, or unresolved.\nA3 mapping: this completes the A3 Temporal Build-Up Audit by showing how the temporal burden responds to bounded actions.\nA4 mapping: the same table becomes the first Design Action Ladder for the final mechanism-informed intervention.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W9: Inverse Questions"
+    ]
+  },
+  {
+    "objectID": "weeks/week-09.html#lab-activity-minimum-action-statement",
+    "href": "weeks/week-09.html#lab-activity-minimum-action-statement",
+    "title": "Week 9 - Inverse Questions",
+    "section": "Lab Activity: Minimum Action Statement",
+    "text": "Lab Activity: Minimum Action Statement\nWrite the minimum action statement or censored result statement.\nArtifact: a three-sentence statement naming the target, the first found action or censored boundary, and the residual burden.\nA3 mapping: this is the A3 conclusion. It converts the build-up plot into a claim about sufficiency.\nA4 mapping: this becomes the opening design claim for A4 and identifies what must be defended in Week 10.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W9: Inverse Questions"
+    ]
+  },
+  {
+    "objectID": "weeks/week-09.html#session-2-diagnostic-round",
+    "href": "weeks/week-09.html#session-2-diagnostic-round",
+    "title": "Week 9 - Inverse Questions",
+    "section": "Session 2: Diagnostic Round",
+    "text": "Session 2: Diagnostic Round\n\n\n10 min - case scan. Choose a case with one visible thermal failure and several possible interventions.\n\n\n5 min - Slack post. Post the image and threshold target. Keep your preferred action ladder hidden.\n\n\n20-25 min - round-table guesses. Classmates guess the smallest plausible intervention, the next stronger action, and where the ladder may become censored.\n\n\n10-15 min - host reveal. The host reveals their action ladder and whether the result is found, censored, or unresolved.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W9: Inverse Questions"
+    ]
+  },
+  {
+    "objectID": "weeks/week-09.html#week-9-hint-level",
+    "href": "weeks/week-09.html#week-9-hint-level",
+    "title": "Week 9 - Inverse Questions",
+    "section": "Week 9 Hint Level",
+    "text": "Week 9 Hint Level\n::: {.hint-card minimal} Hints are thin.\nDo not list green features. Guess the action that acts directly on the failure mechanism. :::",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W9: Inverse Questions"
+    ]
+  },
+  {
+    "objectID": "weeks/week-09.html#a3-submission-checkpoint",
+    "href": "weeks/week-09.html#a3-submission-checkpoint",
+    "title": "Week 9 - Inverse Questions",
+    "section": "A3 Submission Checkpoint",
+    "text": "A3 Submission Checkpoint\nA complete A3 submission includes:\n\ncondition and occupied position\ntime window and threshold\nhourly or sequenced thermal evidence\ndegree-hour or failure-hour calculation\nbuild-up, lag, or dissipation mechanism\nstress-test comparison from Week 8\nfound, censored, or unresolved action ladder result\none candidate A4 design action",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W9: Inverse Questions"
+    ]
+  },
+  {
+    "objectID": "weeks/week-09.html#launching-a4",
+    "href": "weeks/week-09.html#launching-a4",
+    "title": "Week 9 - Inverse Questions",
+    "section": "Launching A4",
+    "text": "Launching A4\nA4 asks:\nWhat thermal condition is uneven or risky, how do we know, what physical mechanism matters, what uncertainty remains, and what should the architect change?\nYour A4 should not restart the semester. It should assemble:\n\nA1 spatial air field\nA2 radiant exchange\nA3 temporal build-up\nWeek 9 action ladder\nWeek 11 roll-forward validation note",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W9: Inverse Questions"
+    ]
+  },
+  {
+    "objectID": "weeks/week-09.html#week-9-exit-ticket",
+    "href": "weeks/week-09.html#week-9-exit-ticket",
+    "title": "Week 9 - Inverse Questions",
+    "section": "Week 9 Exit Ticket",
+    "text": "Week 9 Exit Ticket\nFor Week 10, bring:\n\nA3 board or draft\naction ladder table\none found, censored, or unresolved statement\none design action you are willing to defend\none concern about evidence quality or model scope\n\nWeek 10 turns the failure audit into a design action argument.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W9: Inverse Questions"
+    ]
+  },
+  {
+    "objectID": "weeks/week-11.html#week-question",
+    "href": "weeks/week-11.html#week-question",
+    "title": "Week 11 - Roll-Forward Validation",
+    "section": "Week Question",
+    "text": "Week Question\nHow do you defend a thermal action under changed climate or stress assumptions without overclaiming?\nWeek 11 adds the required A4 roll-forward validation note, uncertainty statement, and reproducibility capsule.\n\nThe design action stays fixed. One stress assumption changes. The conclusion is tested for robustness.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W11: Roll-Forward Defense"
+    ]
+  },
+  {
+    "objectID": "weeks/week-11.html#roll-forward-validation",
+    "href": "weeks/week-11.html#roll-forward-validation",
+    "title": "Week 11 - Roll-Forward Validation",
+    "section": "Roll-Forward Validation",
+    "text": "Roll-Forward Validation\n\n\nRoll-forward validation checks whether the A4 action remains defensible when the weather window, climate stress, or evaluation assumption changes.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W11: Roll-Forward Defense"
+    ]
+  },
+  {
+    "objectID": "weeks/week-11.html#required-a4-version",
+    "href": "weeks/week-11.html#required-a4-version",
+    "title": "Week 11 - Roll-Forward Validation",
+    "section": "Required A4 Version",
+    "text": "Required A4 Version\nMinimum roll-forward validation:\n\nkeep the design action fixed\nchange one stress assumption\nreport whether the action is robust, weakened, censored, or unsupported\nstate one future-proofing implication\nown one limitation honestly\n\nChanged assumptions may include a hotter week, heatwave, future weather file, longer window, altered occupancy, changed ventilation availability, or changed indoor/outdoor boundary.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W11: Roll-Forward Defense"
+    ]
+  },
+  {
+    "objectID": "weeks/week-11.html#validation-window-change",
+    "href": "weeks/week-11.html#validation-window-change",
+    "title": "Week 11 - Roll-Forward Validation",
+    "section": "Validation Window Change",
+    "text": "Validation Window Change\nBaseline:\n\\[\nB = (a^*, W_0, O_0, E_0)\n\\]\nRoll-forward case:\n\\[\nR = (a^*, W_1, O_0, E_0)\n\\]\nChange in accumulated burden:\n\\[\n\\Delta DH_{\\theta}\n=\nDH_{\\theta}(R)\n-\nDH_{\\theta}(B)\n\\]\nThe action \\(a^*\\) stays fixed. The window changes from \\(W_0\\) to \\(W_1\\).",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W11: Roll-Forward Defense"
+    ]
+  },
+  {
+    "objectID": "weeks/week-11.html#more-than-one-window",
+    "href": "weeks/week-11.html#more-than-one-window",
+    "title": "Week 11 - Roll-Forward Validation",
+    "section": "More Than One Window",
+    "text": "More Than One Window\nDistinction-level work may compare multiple windows:\n\\[\nW_{3d} \\subset W_{7d} \\subset W_{14d}\n\\]\nor:\n\\[\nW_{typical}, \\quad W_{hot}, \\quad W_{heatwave}\n\\]\nThe point is not more computation. The point is to see whether the design conclusion survives a different slice of climate stress.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W11: Roll-Forward Defense"
+    ]
+  },
+  {
+    "objectID": "weeks/week-11.html#simple-ml-analogy",
+    "href": "weeks/week-11.html#simple-ml-analogy",
+    "title": "Week 11 - Roll-Forward Validation",
+    "section": "Simple ML Analogy",
+    "text": "Simple ML Analogy\nThe analogy to cross-validation is limited but useful:\n\\[\n\\text{choose action on } W_{dev}:\n\\quad\na^* = f(W_{dev})\n\\]\n\\[\n\\text{test fixed action on } W_{holdout}:\n\\quad\nDH_{\\theta}(a^*, W_{holdout})\n\\]\nIn design terms: do not choose the action and judge it only on the same convenient weather window.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W11: Roll-Forward Defense"
+    ]
+  },
+  {
+    "objectID": "weeks/week-11.html#outcome-labels",
+    "href": "weeks/week-11.html#outcome-labels",
+    "title": "Week 11 - Roll-Forward Validation",
+    "section": "Outcome Labels",
+    "text": "Outcome Labels\n\n\n\n\n\n\n\nLabel\nMeaning\n\n\n\n\nrobust\naction still meets or plausibly supports the target\n\n\nweakened\naction helps, but with reduced margin or residual burden\n\n\ncensored\naction does not reach the target within tested assumptions\n\n\nunsupported\nevidence is insufficient to make a roll-forward claim\n\n\n\n\nUse labels to reduce ambiguity. Then explain the physical reason behind the label.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W11: Roll-Forward Defense"
+    ]
+  },
+  {
+    "objectID": "weeks/week-11.html#uncertainty-statement",
+    "href": "weeks/week-11.html#uncertainty-statement",
+    "title": "Week 11 - Roll-Forward Validation",
+    "section": "Uncertainty Statement",
+    "text": "Uncertainty Statement\nA rigorous uncertainty statement names limits without dissolving the claim.\nInclude:\n\nmeasurement uncertainty\nweather file or climate scenario uncertainty\nmodel input uncertainty\nthreshold and occupant assumption\nvariables not measured or simulated\nschedule or service-state assumptions\nout-of-support conditions\n\n\nUncertainty is not an apology. It is the boundary of the claim.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W11: Roll-Forward Defense"
+    ]
+  },
+  {
+    "objectID": "weeks/week-11.html#reproducibility-capsule",
+    "href": "weeks/week-11.html#reproducibility-capsule",
+    "title": "Week 11 - Roll-Forward Validation",
+    "section": "Reproducibility Capsule",
+    "text": "Reproducibility Capsule\nThe A4 reproducibility capsule should let another person inspect the evidence path.\nMinimum contents:\n\nsource list\ndata table or CSV\nnotebook, workbook, script, or model file if used\nexported key figure\nrerun or inspection instructions\nknown assumptions and limits\n\nNo hidden spreadsheet operations. No unlabeled scenario files. No final plot without the input route.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W11: Roll-Forward Defense"
+    ]
+  },
+  {
+    "objectID": "weeks/week-11.html#lab-activity-roll-forward-validation-card",
+    "href": "weeks/week-11.html#lab-activity-roll-forward-validation-card",
+    "title": "Week 11 - Roll-Forward Validation",
+    "section": "Lab Activity: Roll-Forward Validation Card",
+    "text": "Lab Activity: Roll-Forward Validation Card\nTest the selected A4 action against one changed stress assumption.\nArtifact: a roll-forward validation card with baseline case, changed case, fixed action, changed assumption, degree-hour or failure-hour comparison, outcome label, future-proofing implication, and one limitation.\nA4 mapping: this card is a required final deliverable. It proves the student can defend the design action under uncertainty rather than only under the original A3 window.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W11: Roll-Forward Defense"
+    ]
+  },
+  {
+    "objectID": "weeks/week-11.html#lab-activity-uncertainty-and-reproducibility-capsule",
+    "href": "weeks/week-11.html#lab-activity-uncertainty-and-reproducibility-capsule",
+    "title": "Week 11 - Roll-Forward Validation",
+    "section": "Lab Activity: Uncertainty And Reproducibility Capsule",
+    "text": "Lab Activity: Uncertainty And Reproducibility Capsule\nPrepare the final evidence boundary.\nArtifact: a one-page uncertainty statement plus a reproducibility checklist naming inputs, files, calculation route, exported figures, and known limits.\nA4 mapping: this supports the oral defense and prevents the final design claim from exceeding the evidence.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W11: Roll-Forward Defense"
+    ]
+  },
+  {
+    "objectID": "weeks/week-11.html#session-2-diagnostic-round",
+    "href": "weeks/week-11.html#session-2-diagnostic-round",
+    "title": "Week 11 - Roll-Forward Validation",
+    "section": "Session 2: Diagnostic Round",
+    "text": "Session 2: Diagnostic Round\n\n\n10 min - case scan. Choose one A4 action and one changed assumption that could weaken it.\n\n\n5 min - Slack post. Post the baseline design action and baseline claim. Keep the changed assumption hidden.\n\n\n20-25 min - round-table guesses. Classmates guess which assumption should be changed for roll-forward validation and what outcome label may result.\n\n\n10-15 min - host reveal. The host reveals the changed window or scenario, outcome label, future-proofing implication, and limit of claim.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W11: Roll-Forward Defense"
+    ]
+  },
+  {
+    "objectID": "weeks/week-11.html#week-11-hint-level",
+    "href": "weeks/week-11.html#week-11-hint-level",
+    "title": "Week 11 - Roll-Forward Validation",
+    "section": "Week 11 Hint Level",
+    "text": "Week 11 Hint Level\n::: {.hint-card minimal} Minimal hints.\nThe strongest guess is not the most dramatic scenario. It is the changed assumption most likely to test the design claim honestly. :::",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W11: Roll-Forward Defense"
+    ]
+  },
+  {
+    "objectID": "weeks/week-11.html#defense-clinic",
+    "href": "weeks/week-11.html#defense-clinic",
+    "title": "Week 11 - Roll-Forward Validation",
+    "section": "Defense Clinic",
+    "text": "Defense Clinic\nUse a five-minute mock defense:\n\ncondition\nevidence\nfailure mode\ndesign action\nroll-forward outcome\nuncertainty boundary\nnext test\n\nPeers ask only questions that can be answered by pointing to a figure, table, drawing, equation, or declared limitation.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W11: Roll-Forward Defense"
+    ]
+  },
+  {
+    "objectID": "weeks/week-11.html#presenting-censored-results",
+    "href": "weeks/week-11.html#presenting-censored-results",
+    "title": "Week 11 - Roll-Forward Validation",
+    "section": "Presenting Censored Results",
+    "text": "Presenting Censored Results\nIf the roll-forward result is censored, present it clearly:\n\ntarget and threshold\nfixed action\nchanged stress assumption\nremaining degree-hours or failure hours\nwhat intervention class would need to change next\nwhy the current action remains useful, insufficient, or rejected\n\n\nA censored roll-forward result can be a strong future-proofing finding if the remaining burden is visible.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W11: Roll-Forward Defense"
+    ]
+  },
+  {
+    "objectID": "weeks/week-11.html#week-11-exit-ticket",
+    "href": "weeks/week-11.html#week-11-exit-ticket",
+    "title": "Week 11 - Roll-Forward Validation",
+    "section": "Week 11 Exit Ticket",
+    "text": "Week 11 Exit Ticket\nBefore Week 12, each student should have:\n\nfinal A4 action\nfinal evidence figures from A1, A2, and A3\ndesign action ladder\nroll-forward validation card\nuncertainty statement\nreproducibility capsule\nfive-minute jury sequence\n\nWeek 12 is the thermal design jury.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W11: Roll-Forward Defense"
+    ]
+  }
+]

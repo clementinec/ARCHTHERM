@@ -1,0 +1,60 @@
+---
+title: "Assignments"
+format:
+  html:
+    code-tools: false
+---
+
+The assessment spine is deliberately separable. Each assignment owns one physical idea and one visual output, so grading can focus on whether the thermal reasoning is accurate, bounded, and architecturally consequential.
+
+| Assignment | Weight | Physical Idea | Required Output | Core Test |
+|---|---:|---|---|---|
+| A1 Spatial Air Field Map | 20% | air temperature, humidity, sampling uncertainty | plan/section with Ta/RH points, optional contour/heat map, protocol, claim/limit | Can the student show that a thermal condition is sampled rather than universal? |
+| A2 Radiant Exchange Card | 20% | surface temperature, MRT, radiant flux, body exposure | two-position radiant comparison, body orientation, air-vs-radiant distinction | Can the student explain why same air temperature is not same thermal condition? |
+| A3 Temporal Build-Up Audit | 25% | thermal capacity, lag, accumulated exposure, threshold exceedance | time-series, threshold, degree-hour/exceedance calculation, failure statement | Can the student show when thermal risk accumulates or persists? |
+| A4 Mechanism-Informed Thermal Design Intervention | 35% | bounded intervention, validation, uncertainty, architectural defense | assembled evidence deck, design action memo, roll-forward note, reproducibility capsule | Can the student turn evidence into one defensible architectural action? |
+
+## A4 Is An Assembly
+
+## A1 Map Standard
+
+A1 can be submitted as a point map, gradient map, or contour/heat map.
+
+- Minimum: sampled or curated `Ta/RH` points on a plan or section.
+- Stronger: interpolated contour or heat map with sampled points still visible.
+- Best: thermal field plus architectural overlay: body position, program, facade, opening, diffuser, shade, material, or threshold.
+
+Any smooth field must state how it was produced. A heat map is a spatial hypothesis unless every location was actually measured.
+
+A4 is assembled from A1-A3. It should not be restarted from scratch in Weeks 10-12.
+
+Students choose one condition and one bounded action route:
+
+- room or interior condition;
+- facade or envelope edge;
+- outdoor or threshold microclimate;
+- operational or air-movement choice.
+
+## Roll-Forward Validation
+
+The required final note is not a decade-by-decade retrofit thesis. Each student changes one stress assumption and asks whether the action still holds.
+
+Examples:
+
+- hotter week instead of typical week;
+- 3-day, 7-day, or 14-day stress window;
+- current versus future-adjusted weather;
+- dry-hot versus humid-hot period;
+- changed occupancy schedule;
+- changed glazing/window assumption.
+
+The outcome should be labeled **robust**, **weakened**, **censored**, or **unsupported**. Multi-window reruns are distinction-level evidence when they improve architectural judgment, not because they add computation.
+
+## Grading Emphasis
+
+- Physical reasoning is correct and portable.
+- Visual evidence makes spatial or temporal difference visible.
+- Claims stay within the evidence.
+- Uncertainty is owned, not hidden.
+- Design action follows from the failure mechanism.
+- Reproducibility is sufficient for a reader to inspect or rerun the result.

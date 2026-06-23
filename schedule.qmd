@@ -1,0 +1,49 @@
+---
+title: "Schedule"
+format:
+  html:
+    code-tools: false
+---
+
+The semester is structured around four accumulative artifacts. Weeks 1-6 teach physical and sensing concepts; Weeks 7-12 turn those concepts into stress tests, design action, validation, and defense.
+
+| Week | Main Question | Concepts | In-Class Artifact | Assignment |
+|---:|---|---|---|---|
+| 1 | Why is air temperature not enough? | Ta, RH, air speed, stagnant air, ventilation context, psychrometrics, point-to-field mapping, hidden defaults | thermal claim autopsy + field-map teaser | A1 launch |
+| 2 | How does a body exchange heat with space? | metabolism, clothing, convection, draft/breeze, radiation, evaporation, dehumidification, PMV/PPD, adaptive comfort, UTCI, WBGT, heat index | body heat-balance sketch | A1 evidence setup |
+| 3 | What can sensing prove? | sensors, sampling bias, spatial field, interpolation, air-movement observation, ventilation versus local exposure | Ta/RH/air-movement transect + point/contour protocol | A1 due |
+| 4 | Why does radiant environment change the reading? | surface temperature, MRT, operative temperature, outdoor exposure | radiant plan/section | A2 launch |
+| 5 | How does radiant asymmetry become architecture? | view factor, orientation, glass, shade, flux delivery | radiant exchange card | A2 due |
+| 6 | When does heat build up? | capacity, lag, heat balance, degree-hours, thresholds | temporal storyboard + pulse check | A3 launch |
+| 7 | What is a simulation output actually? | EnergyPlus exposure states, Ta/MRT/Top/RH, airflow-network and CFD solver literacy | hourly state log | A3 development |
+| 8 | What changes when weather changes? | EPW, TMY, GCM/RCM, stress windows, future weather | weather stress memo | A3 development |
+| 9 | What does it take to reach a target? | inverse query, found/censored action ladder | action ladder checkpoint | A3 due / A4 launch |
+| 10 | What must change architecturally? | failure modes, thresholds, pivot logic | design action alternatives | A4 development |
+| 11 | Does the action survive changed assumptions? | roll-forward validation, uncertainty, reproducibility | validation note + defense clinic | A4 draft |
+| 12 | Can the thermal argument be defended? | synthesis, limits, design consequence | thermal design jury | A4 due |
+
+## Rhythm
+
+Each week has a short conceptual lecture, a worked example, and an artifact-building session. Session 2 is a diagnostic round: students bring one design image, classmates make educated guesses under the weekly lens, and the host reveals the actual thermal question, mitigation, and evidence limit.
+
+## Session 2 Diagnostic Round
+
+| Phase | Time | What Happens | Output |
+|---|---:|---|---|
+| Candidate scan | 10 min | students choose their own or existing design image | one plan, section, rendering, or site photo |
+| Slack post | 5 min | host posts image and minimal context; diagnosis stays hidden | shared image thread |
+| Round-table guesses | 20-25 min | classmates guess problem spot, mechanism, intervention, and competing constraint | annotated guesses / votes |
+| Host reveal + translation | 10-15 min | host explains actual issue, mitigation, evidence, and uncertainty | assignment seed or revision note |
+
+Hints are generous in Weeks 1-3, moderate in Weeks 4-8, and deliberately thinner in Weeks 9-12.
+
+## Week 6 Pulse Check
+
+An anonymous 5-minute pulse check asks:
+
+- Is the course matching what you expected?
+- Which concept or tool route needs more support?
+- What is unclear about A2, A3, or the final package?
+- What should be adjusted before the second half of semester?
+
+The instructor summarizes one or two adjustments in Week 7.

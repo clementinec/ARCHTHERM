@@ -1,0 +1,168 @@
+---
+title: "Week 12 - Thermal Fields Jury"
+subtitle: "Synthesis, defense, and final mechanism-informed intervention"
+format:
+  revealjs:
+    theme: [default, ../slides.scss]
+    slide-number: true
+    center: true
+    width: 1280
+    height: 720
+    margin: 0.07
+    transition: fade
+    incremental: false
+    code-tools: false
+---
+
+## Jury Purpose
+
+The final jury tests whether a student can make and defend one mechanism-informed thermal design intervention under uncertainty.
+
+The expected outcome is not a universal solution. It is a bounded architectural claim with evidence, mechanism, validation, and limits.
+
+:::{.key}
+The final package answers: what should the architect change, why, and under what limits?
+:::
+
+## Presentation Order
+
+Use this sequence:
+
+1. the condition
+2. the evidence
+3. the heterogeneity
+4. the failure mode
+5. the design action ladder
+6. the minimum found action or censored result
+7. the roll-forward validation note
+8. the architectural proposal
+9. the uncertainty statement
+10. what should be tested next
+
+## Final Evidence Stack
+
+The jury should see a chain, not separate assignments.
+
+| Evidence layer | Artifact | Role in A4 |
+|---|---|---|
+| condition | photo, plan, section, body position | defines the claim boundary |
+| spatial air field | $T_a + RH$ map | shows heterogeneity |
+| radiant exchange | surface, MRT, or radiant proxy card | explains body heat exchange |
+| temporal build-up | time-series and threshold | shows duration, lag, or accumulation |
+| action ladder | found/censored table | tests sufficiency |
+| roll-forward note | changed stress assumption | tests robustness |
+
+## Design Claim Formula {.equation-card}
+
+A final claim should be compact enough to defend:
+
+$$
+\text{claim}
+=
+\text{condition}
++ \text{mechanism}
++ \text{evidence}
++ \text{action}
++ \text{limit}
+$$
+
+Example structure:
+
+For this occupied condition, the dominant thermal burden is caused by this mechanism, shown by these artifacts, reduced by this design action, and limited by this uncertainty.
+
+## What Counts As Convincing
+
+A convincing jury presentation:
+
+- names the occupied position and time window
+- distinguishes air, radiant, operative, and humidity evidence
+- uses at least one portable equation correctly
+- reports accumulated exposure, not only peak temperature
+- shows a bounded action ladder
+- states found, censored, or unresolved outcome
+- includes roll-forward validation
+- owns uncertainty without abandoning the claim
+
+## What Counts As Weak
+
+Weak final arguments usually:
+
+- treat a single temperature as the whole condition
+- show a plot without a threshold or mechanism
+- rely on software authority instead of evidence
+- change weather, design, and target at the same time
+- hide censored or unsupported results
+- propose a broad redesign instead of one bounded action
+- omit reproducibility information
+
+:::{.caption}
+The jury should reward clarity of reasoning, not visual density or tool difficulty.
+:::
+
+## Jury Activity: Final A4 Presentation {.activity}
+
+Deliver the final five-minute thermal design jury presentation.
+
+**Artifact:** final A4 mechanism-informed intervention with condition board, A1/A2/A3 evidence, design action ladder, roll-forward validation note, uncertainty statement, reproducibility capsule, and architectural proposal.
+
+**A4 mapping:** this is the final assessed synthesis. It demonstrates that the design action follows from spatial, radiant, temporal, and validation evidence.
+
+## Jury Activity: Next-Test Note {.activity}
+
+After the presentation, write the next-test note before revising the final submission.
+
+**Artifact:** a short note with one claim to keep, one claim to narrow, one uncertainty to state more clearly, and one future test that would strengthen the action.
+
+**A4 mapping:** this note becomes the final "what should be tested next" element of the intervention package.
+
+## Questions The Jury Can Ask
+
+Good questions should locate the evidence:
+
+- Which figure proves the condition is spatially uneven?
+- Which surface, solar, or MRT evidence explains the radiant burden?
+- Which time window produces the temporal failure?
+- Which action first reaches the target, or why is the result censored?
+- What happens when the weather window changes?
+- What is outside the claim?
+- What would you test next if this became a studio or practice decision?
+
+## Final Submission Checklist {.checklist}
+
+Submit:
+
+- final boards or slide package
+- design action memo
+- roll-forward validation note
+- uncertainty statement
+- reproducibility capsule
+- source files or exported tables needed to inspect the figures
+
+Every figure needs a title, units, time window, threshold where relevant, and a short caption explaining the design consequence.
+
+## Course Synthesis
+
+The course started by rejecting the average-room claim.
+
+It ends with a different design habit:
+
+- sample the field
+- separate air, radiant, humidity, and temporal evidence
+- expose assumptions
+- test sufficiency
+- report found, censored, or unresolved results
+- validate the action under changed stress
+- translate the result into one architectural decision
+
+## Closing Statement
+
+Thermal design under uncertainty is not the absence of judgment.
+
+It is a way to make judgment visible:
+
+- what was measured or simulated
+- what was assumed
+- what changed
+- what remained risky
+- what action follows
+- what should be tested next

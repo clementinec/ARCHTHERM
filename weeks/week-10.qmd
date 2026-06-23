@@ -1,0 +1,228 @@
+---
+title: "Week 10 - Failure Audit To Design Action"
+subtitle: "Thresholds, pivots, and bounded architectural change"
+format:
+  revealjs:
+    theme: [default, ../slides.scss]
+    slide-number: true
+    center: true
+    width: 1280
+    height: 720
+    margin: 0.07
+    transition: fade
+    incremental: false
+    code-tools: false
+---
+
+## Week Question
+
+What must change architecturally?
+
+Week 10 translates A3 failure evidence into one bounded A4 design action. The goal is not to make a larger proposal. The goal is to make the evidence produce a defensible architectural move.
+
+:::{.key}
+Design action is the point where the thermal argument becomes accountable.
+:::
+
+## Pin-Up Standard
+
+For the A3 pin-up, each student presents:
+
+- the condition and occupied position
+- threshold and time window
+- time-series or sequence strip
+- degree-hours or failure hours
+- build-up or lag mechanism
+- found, censored, or unresolved action ladder result
+- candidate A4 action
+
+Peers should respond by naming the weakest link in the evidence chain and the strongest design implication.
+
+## Failure Types
+
+Use failure labels to avoid generic critique.
+
+| Failure type | Meaning | Design implication |
+|---|---|---|
+| compliance failure | metric misses target | revise action or threshold |
+| protection failure | vulnerable occupant remains exposed | stronger refuge or control |
+| spatial failure | average hides local burden | relocate, shade, separate, or localize |
+| temporal failure | tail hours or lag remain high | address storage, schedule, or purge |
+| occupant failure | use pattern invalidates claim | change program or access |
+| model failure | evidence cannot support conclusion | narrow claim or add evidence |
+| retrofit failure | action solves one burden and creates another | balance components |
+
+## Thresholds Are Design Choices
+
+Thresholds are not neutral. They define what counts as a problem.
+
+For A4, state:
+
+- comfort or protection target
+- state variable used for evaluation
+- time window
+- occupant or use condition
+- whether the target is a hard threshold or a comparison line
+
+:::{.equation-card}
+$$
+\text{failure}
+\Longleftrightarrow
+DH_{\theta} > DH_{target}
+\quad \text{or} \quad
+FH_{\theta} > FH_{target}
+$$
+:::
+
+## Pivot Logic
+
+When the evidence fails, do not simply add more technology. Identify the pivot.
+
+| If the failure is driven by | First design pivot to test |
+|---|---|
+| solar gain | shade, orientation, facade depth |
+| warm surfaces or MRT | surface exposure, glazing, material, radiant shield |
+| stored heat and lag | mass strategy, night purge, roof assembly |
+| weak heat removal | ventilation path, air movement, schedule |
+| humidity | dehumidification, exposure timing, refuge logic |
+| spatial concentration | program shift, local control, occupied zone redesign |
+| service masking | report loads and thermal burden separately |
+
+## Balance Between Components {.equation-card}
+
+Use the heat balance to keep the action connected to mechanism:
+
+$$
+C_z \frac{dT_z}{dt}
+=
+\left(Q_{solar}+Q_{internal}+Q_{envelope}\right)
+-
+\left(Q_{vent}+Q_{radiant\ loss}+Q_{HVAC}\right)
+$$
+
+An action should name which term it changes and what burden may remain elsewhere.
+
+## Component Balance Matrix
+
+A strong A4 action does not need to solve everything. It must identify tradeoffs.
+
+| Action | Helps | May not solve | Evidence needed |
+|---|---|---|---|
+| external shade | solar and MRT burden | humidity, night heat | sun/radiant and time-series |
+| cool roof | roof heat gain | perimeter glare or humidity | roof exposure and lag evidence |
+| fan access | perceived heat and convection | high MRT or poor air quality | air speed assumption and limit |
+| program shift | exposure timing | physical heat source | schedule and occupancy evidence |
+| low-SHGC glazing | solar gain | winter or daylight tradeoff | before/after state comparison |
+
+## From Failure Card To Action Ladder
+
+The A4 ladder should read as an argument:
+
+1. The failure mode identifies the problem.
+2. The physics identifies the mechanism.
+3. The ladder tests bounded interventions.
+4. The outcome label reports sufficiency.
+5. The design action memo states the architectural consequence.
+
+:::{.caption}
+The ladder can end in found, censored, or unresolved. Each can be defensible if the evidence chain is explicit.
+:::
+
+## Lab Activity: Failure Audit Card {.activity}
+
+Convert the A3 result into a failure audit card.
+
+**Artifact:** a one-page card with failure type, threshold, evidence figure, mechanism, affected occupant or use condition, and one architectural consequence.
+
+**A4 mapping:** this card becomes the first page or first slide of the A4 mechanism-informed intervention. It defines why the proposed action is necessary.
+
+## Lab Activity: Alternatives Matrix {.activity}
+
+Build a small alternatives matrix before selecting the A4 action.
+
+**Artifact:** a matrix with three candidate actions, the heat-balance term or exposure component each action changes, expected effect on degree-hours or failure hours, residual risk, and evidence needed.
+
+**A4 mapping:** this matrix supports the Design Action Memo. It shows that the chosen action is bounded and reasoned, not arbitrary.
+
+## Session 2: Diagnostic Round
+
+::: {.round-steps}
+::: {.round-step}
+**10 min - case scan.** Choose an A4 case where the obvious intervention has a real architectural tradeoff.
+:::
+::: {.round-step}
+**5 min - Slack post.** Post the image and failure mode. Keep the chosen action hidden.
+:::
+::: {.round-step}
+**20-25 min - round-table guesses.** Classmates guess the design action, the thermal term it changes, and the competing requirement that could block it.
+:::
+::: {.round-step}
+**10-15 min - host reveal.** The host reveals their selected action, rejected alternatives, residual risk, and evidence needed.
+:::
+:::
+
+## Week 10 Hint Level
+
+::: {.hint-card minimal}
+Minimal hints.
+
+Every guess must name:
+
+- mechanism;
+- intervention;
+- competing constraint;
+- evidence needed.
+:::
+
+## Choosing The A4 Action
+
+Choose one primary action using four criteria:
+
+- it addresses the dominant failure mechanism
+- it is architectural enough to draw in plan, section, detail, or control sequence
+- it can be evaluated against the A3 threshold
+- its limits can be stated without weakening the whole argument
+
+:::{.key}
+The final project is one defensible design action, not a whole-building redesign.
+:::
+
+## Design Action Memo Structure
+
+Use this order:
+
+1. condition and failure mode
+2. key evidence from A1, A2, and A3
+3. proposed design action
+4. before/after threshold comparison
+5. found, censored, or unresolved outcome
+6. residual burden and uncertainty
+7. roll-forward test to perform in Week 11
+8. what should be tested next
+
+## Critique Questions With Artifacts
+
+Each critique response must point to an artifact:
+
+- Which A1 map shows the condition is spatially uneven?
+- Which A2 drawing shows the radiant mechanism?
+- Which A3 plot shows accumulation, lag, or duration?
+- Which ladder row justifies the selected action?
+- Which uncertainty might change the conclusion?
+
+:::{.caption}
+If a claim cannot be located on a figure, table, or drawing, it is not ready for A4 defense.
+:::
+
+## Week 10 Exit Ticket {.checklist}
+
+Before Week 11, each student should have:
+
+- selected A4 design action
+- failure audit card
+- alternatives matrix
+- before/after metric or planned comparison
+- list of final figures or boards
+- one changed stress assumption for roll-forward validation
+
+Week 11 tests whether the action survives a changed assumption.

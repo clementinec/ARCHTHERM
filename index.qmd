@@ -1,0 +1,110 @@
+---
+title: "Thermal Fields in Architecture"
+subtitle: "Bodies · Moisture · Radiation · Climate Stress"
+format:
+  html:
+    toc: false
+    code-tools: false
+---
+
+::: {.course-thesis}
+Thermal design is not the delivery of one average indoor condition. It is the interpretation and shaping of uneven air, radiant, temporal, and human thermal fields — across bodies, surfaces, rooms, thresholds, buildings, and climates, under uncertainty.
+:::
+
+A 12-week MArch elective at HKU (Hongshan Guo). Research-led, but the assessed work stays architectural: you build a small **thermal evidence deck** and use it to defend **one mechanism-informed design intervention**.
+
+::: {.grid-4}
+::: {.tile}
+### [Schedule](schedule.qmd)
+Twelve weeks, two-session classes, what is due when.
+:::
+::: {.tile}
+### [Weekly Decks](weeks/week-01.qmd)
+Lecture + a Session-2 thermal diagnostic round.
+:::
+::: {.tile}
+### [Assignments](assignments.qmd)
+A1 → A4, one accumulating evidence deck.
+:::
+::: {.tile}
+### [Resources](resources.qmd)
+Equations, sensing kit, weather data, and tools.
+:::
+:::
+
+## The semester asks four questions
+
+Every week attaches one thermal mechanism to one architectural object — a window seat, courtyard, roof slab, shaded bench, facade edge, or a vulnerable occupant.
+
+::: {.grid-4}
+::: {.tile}
+<span class="pill">01</span>
+<h3 class="question-title">What is the thermal condition?</h3>
+Not "the room is 24 °C." A thermal condition is a **sampled field** — which location, hour, surface, body, weather, and model.
+:::
+::: {.tile}
+<span class="pill radiant">02</span>
+<h3 class="question-title">Where does it vary?</h3>
+Spatial heterogeneity is the architectural core. Plan, section, surface, and body all matter.
+:::
+::: {.tile}
+<span class="pill time">03</span>
+<h3 class="question-title">When does it vary?</h3>
+Thermal design is **choreography, not a compliance snapshot** — diurnal swings, heatwaves, failure hours.
+:::
+::: {.tile}
+<span class="pill action">04</span>
+<h3 class="question-title">What does design do?</h3>
+Shade, expose, shelter, ventilate, relocate, re-section. **Compliance is not protection.**
+:::
+:::
+
+## One accumulating evidence deck
+
+You are not asked to restart at a final project. Each artifact builds on the last into a single defended argument.
+
+| Weeks | Artifact | Proves |
+|---|---|---|
+| 1–3 | **Condition Card** + Spatial Air Field Map | the condition is specific, and the air/humidity field varies by position |
+| 4–5 | **Radiant Exchange Card** | the same air temperature can mean different body heat exchange |
+| 6–9 | **Thermal Build-Up Audit** | heat accumulates, lags, or exceeds thresholds over time |
+| 9–10 | **Design Action Ladder** | a bounded action space — found, censored, or unresolved |
+| 10–12 | **Roll-Forward Validation** + Design Action Memo | the action holds (or weakens) under a changed climate stress |
+| 12 | **Reproducibility Capsule** | another person can inspect or re-run the evidence |
+
+## Portable physics — a few equations, used architecturally
+
+You will not become a thermal engineer. You will learn a small set of equations well enough to reason with them.
+
+| Physics idea | Concept | Architectural consequence |
+|---|---|---|
+| spatial difference | `ΔT = T_B − T_A` | one room or threshold is not one condition |
+| conduction | `q = U·A·ΔT` | envelope area, U-value, and temperature difference matter |
+| stored heat | `Q = m·c·ΔT` | material capacity creates thermal build-up and lag |
+| heat balance | `C·dT/dt = gains − losses` | shade, ventilation, insulation, and gains change time behaviour |
+| accumulated exposure | `degree-hours = Σ max(T − T_threshold, 0)` | duration and tail hours matter, not annual averages |
+| radiant exchange | `q_rad ≈ h_r·A·(T_surface − T_body)` | surface temperature and body position change perceived heat |
+
+## From a thermal finding to an architectural action
+
+The payoff is translation — evidence becoming one defensible design move.
+
+| Thermal finding | Architectural translation |
+|---|---|
+| Perimeter zone overheats in the afternoon | external shading, lower SHGC, program relocation, facade depth |
+| Air temperature passes but MRT fails | surface-temperature control, glazing strategy, radiant-asymmetry mitigation |
+| Roof-exposed room fails during a heatwave | roof insulation, cool roof, ventilated cavity, night purge |
+| Average comfort passes but tail hours fail | design for extreme periods, not the annual average |
+| One weather file passes, a future file fails | climate stress-test; robust rather than optimised design |
+
+## How class runs
+
+Each two-hour class is a lecture/tool demo, then a studio-lab.
+
+::: {.callout-simple}
+**Session 2 is a thermal diagnostic round, not a generic discussion.** A student hosts one design image; the class makes educated guesses; the host reveals the actual thermal question, evidence, mitigation, and limits. The question is never "is this a bad spot?" — it is **what mechanism is this design organising, ignoring, or worsening, and what intervention acts on it?**
+:::
+
+## What you will be able to say
+
+> I can see thermal environments as uneven, uncertain, embodied, and designed — and translate one thermal finding into one architectural action without overclaiming.

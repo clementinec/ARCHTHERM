@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-label="Thermal evidence to design action ladder">
+  <rect width="1280" height="720" fill="#fbfaf7"/>
+  <text x="70" y="76" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#15171a">From evidence field to bounded design action</text>
+  <text x="72" y="114" font-family="Arial, sans-serif" font-size="19" fill="#606773">A4 is not a total redesign. It is one defensible intervention ladder.</text>
+  <g font-family="Arial, sans-serif">
+    <rect x="110" y="190" width="230" height="310" fill="#e8f2f6" stroke="#1f6f8b" stroke-width="3"/>
+    <text x="135" y="235" font-size="22" font-weight="700" fill="#1f6f8b">1 Spatial field</text>
+    <text x="135" y="285" font-size="17" fill="#15171a">Ta / RH map</text>
+    <text x="135" y="325" font-size="17" fill="#15171a">sampling protocol</text>
+    <text x="135" y="365" font-size="17" fill="#15171a">claim and limit</text>
+    <rect x="380" y="190" width="230" height="310" fill="#f5e7e3" stroke="#b34838" stroke-width="3"/>
+    <text x="405" y="235" font-size="22" font-weight="700" fill="#b34838">2 Radiant card</text>
+    <text x="405" y="285" font-size="17" fill="#15171a">surface / MRT proxy</text>
+    <text x="405" y="325" font-size="17" fill="#15171a">body orientation</text>
+    <text x="405" y="365" font-size="17" fill="#15171a">radiant mechanism</text>
+    <rect x="650" y="190" width="230" height="310" fill="#f3edda" stroke="#8a6f22" stroke-width="3"/>
+    <text x="675" y="235" font-size="22" font-weight="700" fill="#8a6f22">3 Build-up</text>
+    <text x="675" y="285" font-size="17" fill="#15171a">time-series</text>
+    <text x="675" y="325" font-size="17" fill="#15171a">threshold / degree-hours</text>
+    <text x="675" y="365" font-size="17" fill="#15171a">failure mode</text>
+    <rect x="920" y="190" width="250" height="310" fill="#ebe9f4" stroke="#4c4a80" stroke-width="3"/>
+    <text x="945" y="235" font-size="22" font-weight="700" fill="#4c4a80">4 Design action</text>
+    <text x="945" y="285" font-size="17" fill="#15171a">use / position</text>
+    <text x="945" y="325" font-size="17" fill="#15171a">surface / shade</text>
+    <text x="945" y="365" font-size="17" fill="#15171a">envelope / air movement</text>
+  </g>
+  <path d="M340 345 L380 345" stroke="#15171a" stroke-width="4" marker-end="url(#arrow)"/>
+  <path d="M610 345 L650 345" stroke="#15171a" stroke-width="4" marker-end="url(#arrow)"/>
+  <path d="M880 345 L920 345" stroke="#15171a" stroke-width="4" marker-end="url(#arrow)"/>
+  <text x="112" y="610" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#15171a">Final defense:</text>
+  <text x="262" y="610" font-family="Arial, sans-serif" font-size="23" fill="#606773">what fails, what changes, what remains uncertain, what should be tested next</text>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#15171a"/></marker>
+  </defs>
+</svg>
+
