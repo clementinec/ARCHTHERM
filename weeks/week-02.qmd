@@ -18,7 +18,7 @@ format:
 
 Body, surface, air, and moisture
 
-**The body is the thermal receiver**
+**The body is the site where the thermal field becomes consequence**
 
 <span class="tag">A1 support</span> <span class="tag radiant">comfort models</span>
 
@@ -40,7 +40,7 @@ A4 design action
 :::
 
 ::: {.key}
-Thermal comfort starts from heat balance: the body produces heat and must exchange it with the environment through air, radiation, evaporation, and contact.
+Thermal fields matter because the body has to receive them. Air, surfaces, moisture, wind, clothing, activity, and duration become consequential only when they change body heat exchange.
 :::
 
 ## Heat Balance Is Not Abstract
@@ -54,7 +54,7 @@ Original course diagram. The same body can read different spaces differently bec
 ## The Small Equation That Organizes The Week
 
 ::: {.equation-card}
-At a conceptual level:
+Use the heat-balance equation as a map of design levers, not as an engineering derivation.
 
 $$
 M - W = C + R + E + K + S
@@ -64,7 +64,21 @@ where `M` is metabolic heat, `W` is external work, `C` is convection, `R` is rad
 :::
 
 ::: {.warning}
-For architecture students, the question is not "solve the full human physiology model." The question is "which exchange term is my design changing?"
+The architectural question is not "can I solve the full physiology model?" The question is "which exchange term is my design changing?"
+:::
+
+## Heat Balance As Design-Lever Map
+
+| Heat-exchange term | Architectural lever |
+|---|---|
+| convection | air movement, openings, fans, stagnant zones |
+| radiation | surfaces, glazing, shade, sky exposure |
+| evaporation | humidity, air movement, activity, clothing |
+| conduction | contact surfaces, ground, furniture, envelope |
+| storage | duration, exposure, thermal build-up |
+
+::: {.key}
+This is the Week 2 translation move: each term points to a design decision, not just a variable in a formula.
 :::
 
 ## Heat Transfer Modes
@@ -88,6 +102,34 @@ Architectural translations:
 
 The same modes appear in building physics, outdoor microclimate, and fire/tenability thinking.
 :::
+:::
+
+## Heat Exchange Is A Multi-Input Function
+
+Each heat-transfer mode depends on more than one variable.
+
+| Term | Simplified dependency | Design translation |
+|---|---|---|
+| convection `C` | `f(T_skin, T_a, v_a, clothing, posture)` | fan, diffuser, opening, body position |
+| radiation `R` | `f(T_skin, T_mrt, surface temps, view factors)` | glass, shade, surface material, orientation |
+| evaporation `E` | `f(RH, vapor pressure, air speed, sweating, clothing)` | dehumidification, ventilation, fan, activity |
+| conduction `K` | `f(contact area, material, surface temp)` | seat, floor, handrail, slab, ground |
+| storage `S` | `f(exposure duration, metabolism, heat loss)` | risk accumulates over time |
+
+## What "Analytically Solved" Means Here
+
+::: {.equation-card}
+Given assumptions and inputs, the model computes a result from heat-balance logic:
+
+<div class="big-equation">comfort/stress output = f(T<sub>a</sub>, RH, v<sub>a</sub>, T<sub>mrt</sub>, M, I<sub>cl</sub>, time)</div>
+:::
+
+This is not a vibe score.
+
+It is also not pure truth.
+
+::: {.warning}
+Analytical solution means the calculation follows declared equations and coefficients. The result is only as good as the inputs, domain, and assumptions.
 :::
 
 ## Air Speed Belongs To The Body Diagram
@@ -160,6 +202,24 @@ This matters for architecture because a window, wall, fan, floor, or shade devic
 Window-seat discomfort can be local, asymmetric, and body-position dependent. A whole-room thermostat may miss it.
 :::
 :::
+:::
+
+## Thermal Indices Are Claim Systems
+
+PMV, adaptive comfort, UTCI, WBGT, and heat index are not interchangeable labels.
+
+Each one makes a different kind of claim:
+
+| Claim system | Better question |
+|---|---|
+| PMV / PPD | What does a declared indoor heat-balance model predict for a population? |
+| adaptive comfort | What indoor range is plausible under occupant adaptation and outdoor history? |
+| UTCI | What outdoor thermal stress does a standard reference person receive? |
+| WBGT | What heat-stress screening signal matters for work, sport, or exposure management? |
+| heat index | How does hot-humid air translate into public warning language? |
+
+::: {.key}
+Choose the claim system that matches the architectural question, then state what it cannot see.
 :::
 
 ## PMV/PPD As A Useful But Limited Model
@@ -272,17 +332,15 @@ PMV temperature-RH representation, Wikimedia Commons.
 :::
 :::
 
-## Thermal Comfort Is A Family Of Models
+## Indoor Comfort Claim Systems
 
-Different indices answer different questions.
+Indoor comfort models answer different claims about bodies, rooms, and assumptions.
 
 ::: {.key}
 Do not ask one metric to do every job. Comfort, heat stress, outdoor exposure, occupational safety, and perceived stuffiness are related but not identical claims.
 :::
 
-## Common Metrics: Indoor Comfort
-
-| Metric | Inputs it cares about | Typical use | Main caution |
+| Claim system | Inputs it cares about | Typical use | Main caution |
 |---|---|---|---|
 | PMV / PPD | `Ta`, MRT, air speed, RH, metabolic rate, clothing | mechanically conditioned indoor comfort | population prediction, not individual truth |
 | Adaptive comfort | prevailing outdoor temperature, operative temperature, adaptation context | naturally ventilated or mixed-mode comfort | valid only within defined model conditions |
@@ -292,9 +350,9 @@ Do not ask one metric to do every job. Comfort, heat stress, outdoor exposure, o
 These are comfort models, not full health-protection guarantees.
 :::
 
-## Common Metrics: Heat Stress And Outdoor Exposure
+## Heat-Stress And Outdoor Claim Systems
 
-| Metric | Inputs it cares about | Typical use | Main caution |
+| Claim system | Inputs it cares about | Typical use | Main caution |
 |---|---|---|---|
 | Heat Index / humidity index | air temperature + humidity | public hot-humid warning language | usually shade/light-wind assumptions |
 | WBGT | wet bulb, globe temperature, dry bulb; sometimes workload | occupational, sports, heat-stress screening | screening index, not architectural diagnosis |
@@ -332,36 +390,6 @@ The architect's job is to choose the index that matches the claim, then state wh
 
 ::: {.warning}
 If a student cannot state the input assumptions, they should not overstate the comfort claim.
-:::
-
-## Heat Exchange Is A Multi-Input Function
-
-Each heat-transfer mode depends on more than one variable.
-
-| Term | Simplified dependency | Design translation |
-|---|---|---|
-| convection `C` | `f(T_skin, T_a, v_a, clothing, posture)` | fan, diffuser, opening, body position |
-| radiation `R` | `f(T_skin, T_mrt, surface temps, view factors)` | glass, shade, surface material, orientation |
-| evaporation `E` | `f(RH, vapor pressure, air speed, sweating, clothing)` | dehumidification, ventilation, fan, activity |
-| conduction `K` | `f(contact area, material, surface temp)` | seat, floor, handrail, slab, ground |
-| storage `S` | `f(exposure duration, metabolism, heat loss)` | risk accumulates over time |
-
-## What "Analytically Solved" Means Here
-
-::: {.equation-card}
-Given assumptions and inputs, the model computes a result from heat-balance logic:
-
-$$
-\text{comfort or stress output} = f(T_a,\ RH,\ v_a,\ T_{mrt},\ M,\ I_{cl},\ \text{time})
-$$
-:::
-
-This is not a vibe score.
-
-It is also not pure truth.
-
-::: {.warning}
-Analytical solution means the calculation follows declared equations and coefficients. The result is only as good as the inputs, domain, and assumptions.
 :::
 
 ## Adaptive Comfort As A Boundary

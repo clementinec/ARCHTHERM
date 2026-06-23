@@ -336,7 +336,7 @@
 <section id="week-2" class="title-slide slide level1 center">
 <h1>Week 2</h1>
 <p>Body, surface, air, and moisture</p>
-<p><strong>The body is the thermal receiver</strong></p>
+<p><strong>The body is the site where the thermal field becomes consequence</strong></p>
 <p><span class="tag">A1 support</span> <span class="tag radiant">comfort models</span></p>
 </section>
 <section id="where-we-are" class="slide level2 center">
@@ -356,7 +356,7 @@
 </div>
 </div>
 <div class="key">
-<p>Thermal comfort starts from heat balance: the body produces heat and must exchange it with the environment through air, radiation, evaporation, and contact.</p>
+<p>Thermal fields matter because the body has to receive them. Air, surfaces, moisture, wind, clothing, activity, and duration become consequential only when they change body heat exchange.</p>
 </div>
 </section>
 <section id="heat-balance-is-not-abstract" class="slide level2 center">
@@ -369,14 +369,50 @@
 <section id="the-small-equation-that-organizes-the-week" class="slide level2 center">
 <h2>The Small Equation That Organizes The Week</h2>
 <div class="equation-card">
-<p>At a conceptual level:</p>
+<p>Use the heat-balance equation as a map of design levers, not as an engineering derivation.</p>
 <p><span class="math display">\[
 M - W = C + R + E + K + S
 \]</span></p>
 <p>where <code>M</code> is metabolic heat, <code>W</code> is external work, <code>C</code> is convection, <code>R</code> is radiation, <code>E</code> is evaporation, <code>K</code> is conduction, and <code>S</code> is body heat storage.</p>
 </div>
 <div class="warning">
-<p>For architecture students, the question is not “solve the full human physiology model.” The question is “which exchange term is my design changing?”</p>
+<p>The architectural question is not “can I solve the full physiology model?” The question is “which exchange term is my design changing?”</p>
+</div>
+</section>
+<section id="heat-balance-as-design-lever-map" class="slide level2 center">
+<h2>Heat Balance As Design-Lever Map</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Heat-exchange term</th>
+<th>Architectural lever</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>convection</td>
+<td>air movement, openings, fans, stagnant zones</td>
+</tr>
+<tr class="even">
+<td>radiation</td>
+<td>surfaces, glazing, shade, sky exposure</td>
+</tr>
+<tr class="odd">
+<td>evaporation</td>
+<td>humidity, air movement, activity, clothing</td>
+</tr>
+<tr class="even">
+<td>conduction</td>
+<td>contact surfaces, ground, furniture, envelope</td>
+</tr>
+<tr class="odd">
+<td>storage</td>
+<td>duration, exposure, thermal build-up</td>
+</tr>
+</tbody>
+</table>
+<div class="key">
+<p>This is the Week 2 translation move: each term points to a design decision, not just a variable in a formula.</p>
 </div>
 </section>
 <section id="heat-transfer-modes" class="slide level2 center">
@@ -398,6 +434,65 @@ M - W = C + R + E + K + S
 </ul>
 <p>The same modes appear in building physics, outdoor microclimate, and fire/tenability thinking.</p>
 </div>
+</div>
+</section>
+<section id="heat-exchange-is-a-multi-input-function" class="slide level2 center">
+<h2>Heat Exchange Is A Multi-Input Function</h2>
+<p>Each heat-transfer mode depends on more than one variable.</p>
+<table>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Term</th>
+<th>Simplified dependency</th>
+<th>Design translation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>convection <code>C</code></td>
+<td><code>f(T_skin, T_a, v_a, clothing, posture)</code></td>
+<td>fan, diffuser, opening, body position</td>
+</tr>
+<tr class="even">
+<td>radiation <code>R</code></td>
+<td><code>f(T_skin, T_mrt, surface temps, view factors)</code></td>
+<td>glass, shade, surface material, orientation</td>
+</tr>
+<tr class="odd">
+<td>evaporation <code>E</code></td>
+<td><code>f(RH, vapor pressure, air speed, sweating, clothing)</code></td>
+<td>dehumidification, ventilation, fan, activity</td>
+</tr>
+<tr class="even">
+<td>conduction <code>K</code></td>
+<td><code>f(contact area, material, surface temp)</code></td>
+<td>seat, floor, handrail, slab, ground</td>
+</tr>
+<tr class="odd">
+<td>storage <code>S</code></td>
+<td><code>f(exposure duration, metabolism, heat loss)</code></td>
+<td>risk accumulates over time</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="what-analytically-solved-means-here" class="slide level2 center">
+<h2>What “Analytically Solved” Means Here</h2>
+<div class="equation-card">
+<p>Given assumptions and inputs, the model computes a result from heat-balance logic:</p>
+<div class="big-equation">
+comfort/stress output = f(T<sub>a</sub>, RH, v<sub>a</sub>, T<sub>mrt</sub>, M, I<sub>cl</sub>, time)
+</div>
+</div>
+<p>This is not a vibe score.</p>
+<p>It is also not pure truth.</p>
+<div class="warning">
+<p>Analytical solution means the calculation follows declared equations and coefficients. The result is only as good as the inputs, domain, and assumptions.</p>
 </div>
 </section>
 <section id="air-speed-belongs-to-the-body-diagram" class="slide level2 center">
@@ -489,6 +584,48 @@ E \sim h_e(v_a)(p_{skin}-p_a)
 <p>Window-seat discomfort can be local, asymmetric, and body-position dependent. A whole-room thermostat may miss it.</p>
 </div>
 </div>
+</div>
+</section>
+<section id="thermal-indices-are-claim-systems" class="slide level2 center">
+<h2>Thermal Indices Are Claim Systems</h2>
+<p>PMV, adaptive comfort, UTCI, WBGT, and heat index are not interchangeable labels.</p>
+<p>Each one makes a different kind of claim:</p>
+<table>
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Claim system</th>
+<th>Better question</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>PMV / PPD</td>
+<td>What does a declared indoor heat-balance model predict for a population?</td>
+</tr>
+<tr class="even">
+<td>adaptive comfort</td>
+<td>What indoor range is plausible under occupant adaptation and outdoor history?</td>
+</tr>
+<tr class="odd">
+<td>UTCI</td>
+<td>What outdoor thermal stress does a standard reference person receive?</td>
+</tr>
+<tr class="even">
+<td>WBGT</td>
+<td>What heat-stress screening signal matters for work, sport, or exposure management?</td>
+</tr>
+<tr class="odd">
+<td>heat index</td>
+<td>How does hot-humid air translate into public warning language?</td>
+</tr>
+</tbody>
+</table>
+<div class="key">
+<p>Choose the claim system that matches the architectural question, then state what it cannot see.</p>
 </div>
 </section>
 <section id="pmvppd-as-a-useful-but-limited-model" class="slide level2 center">
@@ -586,15 +723,12 @@ PPD = 100 - 95e^{-0.03353PMV^4 - 0.2179PMV^2}
 </div>
 </div>
 </section>
-<section id="thermal-comfort-is-a-family-of-models" class="slide level2 center">
-<h2>Thermal Comfort Is A Family Of Models</h2>
-<p>Different indices answer different questions.</p>
+<section id="indoor-comfort-claim-systems" class="slide level2 center">
+<h2>Indoor Comfort Claim Systems</h2>
+<p>Indoor comfort models answer different claims about bodies, rooms, and assumptions.</p>
 <div class="key">
 <p>Do not ask one metric to do every job. Comfort, heat stress, outdoor exposure, occupational safety, and perceived stuffiness are related but not identical claims.</p>
 </div>
-</section>
-<section id="common-metrics-indoor-comfort" class="slide level2 center">
-<h2>Common Metrics: Indoor Comfort</h2>
 <table>
 <colgroup>
 <col style="width: 25%">
@@ -604,7 +738,7 @@ PPD = 100 - 95e^{-0.03353PMV^4 - 0.2179PMV^2}
 </colgroup>
 <thead>
 <tr class="header">
-<th>Metric</th>
+<th>Claim system</th>
 <th>Inputs it cares about</th>
 <th>Typical use</th>
 <th>Main caution</th>
@@ -635,8 +769,8 @@ PPD = 100 - 95e^{-0.03353PMV^4 - 0.2179PMV^2}
 <p>These are comfort models, not full health-protection guarantees.</p>
 </div>
 </section>
-<section id="common-metrics-heat-stress-and-outdoor-exposure" class="slide level2 center">
-<h2>Common Metrics: Heat Stress And Outdoor Exposure</h2>
+<section id="heat-stress-and-outdoor-claim-systems" class="slide level2 center">
+<h2>Heat-Stress And Outdoor Claim Systems</h2>
 <table>
 <colgroup>
 <col style="width: 25%">
@@ -646,7 +780,7 @@ PPD = 100 - 95e^{-0.03353PMV^4 - 0.2179PMV^2}
 </colgroup>
 <thead>
 <tr class="header">
-<th>Metric</th>
+<th>Claim system</th>
 <th>Inputs it cares about</th>
 <th>Typical use</th>
 <th>Main caution</th>
@@ -763,65 +897,6 @@ PPD = 100 - 95e^{-0.03353PMV^4 - 0.2179PMV^2}
 </table>
 <div class="warning">
 <p>If a student cannot state the input assumptions, they should not overstate the comfort claim.</p>
-</div>
-</section>
-<section id="heat-exchange-is-a-multi-input-function" class="slide level2 center">
-<h2>Heat Exchange Is A Multi-Input Function</h2>
-<p>Each heat-transfer mode depends on more than one variable.</p>
-<table>
-<colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Term</th>
-<th>Simplified dependency</th>
-<th>Design translation</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>convection <code>C</code></td>
-<td><code>f(T_skin, T_a, v_a, clothing, posture)</code></td>
-<td>fan, diffuser, opening, body position</td>
-</tr>
-<tr class="even">
-<td>radiation <code>R</code></td>
-<td><code>f(T_skin, T_mrt, surface temps, view factors)</code></td>
-<td>glass, shade, surface material, orientation</td>
-</tr>
-<tr class="odd">
-<td>evaporation <code>E</code></td>
-<td><code>f(RH, vapor pressure, air speed, sweating, clothing)</code></td>
-<td>dehumidification, ventilation, fan, activity</td>
-</tr>
-<tr class="even">
-<td>conduction <code>K</code></td>
-<td><code>f(contact area, material, surface temp)</code></td>
-<td>seat, floor, handrail, slab, ground</td>
-</tr>
-<tr class="odd">
-<td>storage <code>S</code></td>
-<td><code>f(exposure duration, metabolism, heat loss)</code></td>
-<td>risk accumulates over time</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="what-analytically-solved-means-here" class="slide level2 center">
-<h2>What “Analytically Solved” Means Here</h2>
-<div class="equation-card">
-<p>Given assumptions and inputs, the model computes a result from heat-balance logic:</p>
-<p><span class="math display">\[
-\text{comfort or stress output} = f(T_a,\ RH,\ v_a,\ T_{mrt},\ M,\ I_{cl},\ \text{time})
-\]</span></p>
-</div>
-<p>This is not a vibe score.</p>
-<p>It is also not pure truth.</p>
-<div class="warning">
-<p>Analytical solution means the calculation follows declared equations and coefficients. The result is only as good as the inputs, domain, and assumptions.</p>
 </div>
 </section>
 <section id="adaptive-comfort-as-a-boundary" class="slide level2 center">
