@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>ARCH7XXX: Thermal Fields in Architecture - Resources</title>
+<title>ARCH7XXX: Thermal Fields in Architecture - Starter Kit: EnergyPlus Exposure-State Case</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -17,28 +17,62 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,7 +102,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-sidebar docked nav-fixed">
@@ -78,7 +112,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">ARCH7XXX: Thermal Fields in Architecture</span>
     </a>
   </div>
@@ -89,28 +123,28 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link active" href="../../index.html" aria-current="page">
 <span class="menu-text">Home</span></a>
-  </li>  
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="./schedule.html"> 
+    <a class="nav-link" href="../../schedule.html">
 <span class="menu-text">Schedule</span></a>
-  </li>  
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="./assignments.html"> 
+    <a class="nav-link" href="../../assignments.html">
 <span class="menu-text">Assignments</span></a>
-  </li>  
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="./resources.html"> 
+    <a class="nav-link" href="../../resources.html">
 <span class="menu-text">Resources</span></a>
-  </li>  
+  </li>
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img" aria-label="GitHub">
-</i> 
+</i>
 <span class="menu-text"></span></a>
-  </li>  
+  </li>
 </ul>
           </div> <!-- /navcollapse -->
           <div class="quarto-navbar-tools">
@@ -122,8 +156,8 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Course Overview</a></li><li class="breadcrumb-item"><a href="./resources.html">Resources</a></li></ol></nav>
-        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Starter Kit: EnergyPlus Exposure-State Case</li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
@@ -140,121 +174,121 @@ ul.task-list li input[type="checkbox"] {
         <div id="quarto-search" class="" title="Search"></div>
         </div>
         </div>
-    <div class="sidebar-menu-container"> 
+    <div class="sidebar-menu-container">
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+      <div class="sidebar-item-container">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">
  <span class="menu-text">Course Overview</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
+          </a>
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">
           <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">
+  <div class="sidebar-item-container">
+  <a href="../../index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Thermal Fields in Architecture</span></a>
   </div>
 </li>
           <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./schedule.html" class="sidebar-item-text sidebar-link">
+  <div class="sidebar-item-container">
+  <a href="../../schedule.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Schedule</span></a>
   </div>
 </li>
           <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./assignments.html" class="sidebar-item-text sidebar-link">
+  <div class="sidebar-item-container">
+  <a href="../../assignments.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Assignments</span></a>
   </div>
 </li>
           <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./resources.html" class="sidebar-item-text sidebar-link active">
+  <div class="sidebar-item-container">
+  <a href="../../resources.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Resources</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
+      <div class="sidebar-item-container">
             <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">
  <span class="menu-text">Weekly Decks</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
+          </a>
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">
           <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./weeks/week-01.html" class="sidebar-item-text sidebar-link">
+  <div class="sidebar-item-container">
+  <a href="../../weeks/week-01.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">W1: Air Is Not Enough</span></a>
   </div>
 </li>
           <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./weeks/week-02.html" class="sidebar-item-text sidebar-link">
+  <div class="sidebar-item-container">
+  <a href="../../weeks/week-02.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">W2: Body Heat Balance</span></a>
   </div>
 </li>
           <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./weeks/week-03.html" class="sidebar-item-text sidebar-link">
+  <div class="sidebar-item-container">
+  <a href="../../weeks/week-03.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">W3: Sensing Fields</span></a>
   </div>
 </li>
           <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./weeks/week-04.html" class="sidebar-item-text sidebar-link">
+  <div class="sidebar-item-container">
+  <a href="../../weeks/week-04.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">W4: MRT + Radiant Exchange</span></a>
   </div>
 </li>
           <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./weeks/week-05.html" class="sidebar-item-text sidebar-link">
+  <div class="sidebar-item-container">
+  <a href="../../weeks/week-05.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">W5: Radiant Asymmetry</span></a>
   </div>
 </li>
           <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./weeks/week-06.html" class="sidebar-item-text sidebar-link">
+  <div class="sidebar-item-container">
+  <a href="../../weeks/week-06.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">W6: Thermal Build-Up</span></a>
   </div>
 </li>
           <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./weeks/week-07.html" class="sidebar-item-text sidebar-link">
+  <div class="sidebar-item-container">
+  <a href="../../weeks/week-07.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">W7: Exposure States</span></a>
   </div>
 </li>
           <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./weeks/week-08.html" class="sidebar-item-text sidebar-link">
+  <div class="sidebar-item-container">
+  <a href="../../weeks/week-08.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">W8: Weather + Climate Stress</span></a>
   </div>
 </li>
           <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./weeks/week-09.html" class="sidebar-item-text sidebar-link">
+  <div class="sidebar-item-container">
+  <a href="../../weeks/week-09.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">W9: Inverse Questions</span></a>
   </div>
 </li>
           <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./weeks/week-10.html" class="sidebar-item-text sidebar-link">
+  <div class="sidebar-item-container">
+  <a href="../../weeks/week-10.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">W10: Failure To Action</span></a>
   </div>
 </li>
           <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./weeks/week-11.html" class="sidebar-item-text sidebar-link">
+  <div class="sidebar-item-container">
+  <a href="../../weeks/week-11.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">W11: Roll-Forward Defense</span></a>
   </div>
 </li>
           <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./weeks/week-12.html" class="sidebar-item-text sidebar-link">
+  <div class="sidebar-item-container">
+  <a href="../../weeks/week-12.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">W12: Thermal Jury</span></a>
   </div>
 </li>
@@ -268,215 +302,212 @@ ul.task-list li input[type="checkbox"] {
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
-   
+
   <ul>
-  <li><a href="#production-tools" id="toc-production-tools" class="nav-link active" data-scroll-target="#production-tools">Production Tools</a></li>
-  <li><a href="#downloaded-teaching-figures" id="toc-downloaded-teaching-figures" class="nav-link" data-scroll-target="#downloaded-teaching-figures">Downloaded Teaching Figures</a></li>
-  <li><a href="#original-course-diagrams" id="toc-original-course-diagrams" class="nav-link" data-scroll-target="#original-course-diagrams">Original Course Diagrams</a></li>
-  <li><a href="#pmvppd-reading-to-revisit" id="toc-pmvppd-reading-to-revisit" class="nav-link" data-scroll-target="#pmvppd-reading-to-revisit">PMV/PPD Reading To Revisit</a></li>
-  <li><a href="#grasshopper-bridge-routes" id="toc-grasshopper-bridge-routes" class="nav-link" data-scroll-target="#grasshopper-bridge-routes">Grasshopper Bridge Routes</a></li>
-  <li><a href="#research-context" id="toc-research-context" class="nav-link" data-scroll-target="#research-context">Research Context</a></li>
-  <li><a href="#starter-kits-to-build-next" id="toc-starter-kits-to-build-next" class="nav-link" data-scroll-target="#starter-kits-to-build-next">Starter Kits To Build Next</a></li>
+  <li><a href="#files" id="toc-files" class="nav-link active" data-scroll-target="#files">Files</a></li>
+  <li><a href="#what-this-demonstrates" id="toc-what-this-demonstrates" class="nav-link" data-scroll-target="#what-this-demonstrates">What This Demonstrates</a></li>
+  <li><a href="#variables-to-inspect" id="toc-variables-to-inspect" class="nav-link" data-scroll-target="#variables-to-inspect">Variables To Inspect</a></li>
+  <li><a href="#a3-use" id="toc-a3-use" class="nav-link" data-scroll-target="#a3-use">A3 Use</a></li>
+  <li><a href="#a4-use" id="toc-a4-use" class="nav-link" data-scroll-target="#a4-use">A4 Use</a></li>
+  <li><a href="#optional-local-run" id="toc-optional-local-run" class="nav-link" data-scroll-target="#optional-local-run">Optional Local Run</a></li>
+  <li><a href="#grasshopper-honeybee-bridge" id="toc-grasshopper-honeybee-bridge" class="nav-link" data-scroll-target="#grasshopper-honeybee-bridge">Grasshopper / Honeybee Bridge</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Course Overview</a></li><li class="breadcrumb-item"><a href="./resources.html">Resources</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Resources</h1>
+<h1 class="title">Starter Kit: EnergyPlus Exposure-State Case</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    
-  
-    
+
+
+
   </div>
-  
+
 
 
 </header>
 
 
-<p>This page tracks the first local resource layer. It will grow into starter notebooks, workbooks, sensing templates, EnergyPlus examples, and final-package templates.</p>
-<section id="production-tools" class="level2">
-<h2 class="anchored" data-anchor-id="production-tools">Production Tools</h2>
-<table class="table">
-<thead>
-<tr class="header">
-<th>Tool</th>
-<th>Course Use</th>
-<th>What It Produces</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a href="tools/radiant-box/index.html">A2 Radiant Box Tool</a></td>
-<td>Week 4-5 radiant exchange card</td>
-<td>two-position <code>T_mrt</code> / <code>T_op</code> comparison, surface view-factor table, heatmap PNG, CSV export</td>
-</tr>
-<tr class="even">
-<td><a href="./starter_kits/energyplus-exposure-state/README.html">A3 EnergyPlus Exposure-State Kit</a></td>
-<td>Week 7-9 temporal build-up audit</td>
-<td>checked hourly CSV, two-week chart, optional EnergyPlus CLI rerun</td>
-</tr>
-</tbody>
-</table>
-<p>The radiant box is intentionally simple: a well-mixed air temperature, six surface temperatures, two body points, approximate view factors, and exportable evidence. Use it when you need a transparent fallback before moving to Ladybug, Honeybee, EnergyPlus, thermal camera, globe temperature, or a Grasshopper view-factor workflow.</p>
-<p>The EnergyPlus kit is intentionally bounded: a stock model, synthetic Hong Kong-like summer weather, July 8-21 hourly outputs, and a compact chart. Use it to practice exposure-state reading before claiming anything about a student building.</p>
-</section>
-<section id="downloaded-teaching-figures" class="level2">
-<h2 class="anchored" data-anchor-id="downloaded-teaching-figures">Downloaded Teaching Figures</h2>
+<p>This kit gives A3 a runnable simulation route without making EnergyPlus installation the assignment.</p>
+<p>Use it in two ways:</p>
+<ol type="1">
+<li><strong>Checked-output route:</strong> inspect the provided CSV and chart.</li>
+<li><strong>Local-run route:</strong> install EnergyPlus and rerun the same two-week case.</li>
+</ol>
+<p>The intellectual task is the same either way: draw a system boundary, read an hourly thermal sequence, set a threshold, and explain what the sequence can and cannot prove.</p>
+<section id="files" class="level2">
+<h2 class="anchored" data-anchor-id="files">Files</h2>
 <table class="table">
 <thead>
 <tr class="header">
 <th>File</th>
 <th>Use</th>
-<th>Source</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><code>assets/figures/psychrometric-chart-sealevel-si.svg</code></td>
-<td>Week 1 psychrometrics and humidity reading</td>
-<td><a href="https://commons.wikimedia.org/wiki/File:PsychrometricChart.SeaLevel.SI.svg">Wikimedia Commons</a></td>
+<td><a href="outputs/energyplus_two_week/monitored_outputs.csv"><code>outputs/energyplus_two_week/monitored_outputs.csv</code></a></td>
+<td>precomputed hourly state log</td>
 </tr>
 <tr class="even">
-<td><code>assets/figures/pmv-psychrometric-chart.png</code></td>
-<td>Week 2 PMV method visual</td>
-<td><a href="https://commons.wikimedia.org/wiki/File:Psychrometric_chart_-_PMV_method.png">Wikimedia Commons</a></td>
+<td><a href="outputs/energyplus_two_week/monitored_outputs.png"><code>outputs/energyplus_two_week/monitored_outputs.png</code></a></td>
+<td>quick visual check of outdoor dry bulb, zone air temperature, operative temperature, and setpoints</td>
 </tr>
 <tr class="odd">
-<td><code>assets/figures/pmv-temperature-rh-chart.png</code></td>
-<td>Week 2 temperature-RH comfort visual</td>
-<td><a href="https://commons.wikimedia.org/wiki/File:Temperature-relative_humidity_chart_-_PMV_method.png">Wikimedia Commons</a></td>
+<td><a href="outputs/energyplus_two_week/two_week_summary.txt"><code>outputs/energyplus_two_week/two_week_summary.txt</code></a></td>
+<td>run summary and extracted row count</td>
 </tr>
 <tr class="even">
-<td><code>assets/figures/adaptive-comfort-chart.png</code></td>
-<td>Week 7/8 adaptive model contrast</td>
-<td><a href="https://commons.wikimedia.org/wiki/File:Adaptive_chart_-_adaptive_method.png">Wikimedia Commons</a></td>
+<td><a href="a3_boundary_box_template.csv"><code>a3_boundary_box_template.csv</code></a></td>
+<td>fill-in template for the A3 system boundary</td>
 </tr>
 <tr class="odd">
-<td><code>assets/figures/human-infrared.jpg</code></td>
-<td>Week 2 thermal image reference</td>
-<td><a href="https://commons.wikimedia.org/wiki/File:Human-Infrared.jpg">Wikimedia Commons</a></td>
-</tr>
-<tr class="even">
-<td><code>assets/figures/heat-transfer-modes-web.jpg</code></td>
-<td>Week 2 heat-transfer modes reference</td>
-<td><a href="https://commons.wikimedia.org/wiki/File:Heat-transmittance-means2.jpg">Wikimedia Commons</a></td>
-</tr>
-<tr class="odd">
-<td><code>assets/figures/solar-spectrum.png</code></td>
-<td>Week 4 solar radiation and spectral distribution</td>
-<td><a href="https://commons.wikimedia.org/wiki/File:Solar_Spectrum.png">Wikimedia Commons</a></td>
-</tr>
-<tr class="even">
-<td><code>assets/figures/airmass-geometry.png</code></td>
-<td>Optional Week 4 solar angle / air-mass reference</td>
-<td><a href="https://commons.wikimedia.org/wiki/File:Airmass_geometry.png">Wikimedia Commons</a></td>
-</tr>
-<tr class="odd">
-<td><code>assets/figures/leslies-cube-emissivity.png</code></td>
-<td>Week 5 emissivity and surface finish reference</td>
-<td><a href="https://commons.wikimedia.org/wiki/File:LesliesCube.png">Wikimedia Commons</a></td>
-</tr>
-<tr class="even">
-<td><code>assets/figures/emissivity-cosine-model.png</code></td>
-<td>Optional Week 5 directional emissivity reference</td>
-<td><a href="https://commons.wikimedia.org/wiki/File:Emissivity_cosine_model.png">Wikimedia Commons</a></td>
-</tr>
-<tr class="odd">
-<td><code>assets/figures/lcz-classification-chart.png</code></td>
-<td>Week 8 Local Climate Zone vocabulary</td>
-<td><a href="https://www.nature.com/articles/s41597-020-00605-z">Demuzere et al.&nbsp;/ Scientific Data</a></td>
-</tr>
-<tr class="even">
-<td><code>assets/figures/urban-heat-island-profile.svg</code></td>
-<td>Week 8 urban heat island and night recovery</td>
-<td><a href="https://commons.wikimedia.org/wiki/File:Urban_heat_island.svg">Wikimedia Commons</a></td>
+<td><a href="run_energyplus_two_week_case.py"><code>run_energyplus_two_week_case.py</code></a></td>
+<td>optional local runner that patches a stock IDF, generates a synthetic Hong Kong-like summer EPW, runs EnergyPlus, and extracts a compact CSV</td>
 </tr>
 </tbody>
 </table>
+<p><img src="outputs/energyplus_two_week/monitored_outputs.png" class="img-fluid" alt="Two-week EnergyPlus plot showing outdoor dry bulb, zone air temperature, operative temperature, heating setpoint, and cooling setpoint."></p>
 </section>
-<section id="original-course-diagrams" class="level2">
-<h2 class="anchored" data-anchor-id="original-course-diagrams">Original Course Diagrams</h2>
-<p>These SVGs are locally authored for the course so the physical ideas can be read architecturally.</p>
-<ul>
-<li><code>assets/figures/body-heat-balance.svg</code></li>
-<li><code>assets/figures/air-rh-field-map.svg</code></li>
-<li><code>assets/figures/pmv-ppd-curve.svg</code></li>
-<li><code>assets/figures/radiant-asymmetry-section.svg</code></li>
-<li><code>assets/figures/thermal-lag-degree-hours.svg</code></li>
-<li><code>assets/figures/field-to-action-ladder.svg</code></li>
-<li><code>assets/figures/weather-window-cross-validation.svg</code></li>
-<li><code>assets/figures/roll-forward-validation.svg</code></li>
-<li><code>assets/figures/diagnostic-round-workflow.svg</code></li>
-<li><code>assets/figures/thermal-field-contour-map.svg</code></li>
-</ul>
-</section>
-<section id="pmvppd-reading-to-revisit" class="level2">
-<h2 class="anchored" data-anchor-id="pmvppd-reading-to-revisit">PMV/PPD Reading To Revisit</h2>
-<ul>
-<li>Cheung, Schiavon, Parkinson, Li, and Brager (2019), <a href="https://escholarship.org/uc/item/2kd0135t">“Analysis of the accuracy on PMV - PPD model using the ASHRAE Global Thermal Comfort Database II”</a>. This is a useful Week 2/Week 7 caution that model fluency does not equal field accuracy.</li>
-</ul>
-</section>
-<section id="grasshopper-bridge-routes" class="level2">
-<h2 class="anchored" data-anchor-id="grasshopper-bridge-routes">Grasshopper Bridge Routes</h2>
-<p>These routes are supported as optional bridges for students already working in Rhino/Grasshopper. They are not required for completing the core assignments.</p>
+<section id="what-this-demonstrates" class="level2">
+<h2 class="anchored" data-anchor-id="what-this-demonstrates">What This Demonstrates</h2>
+<p>EnergyPlus is used here as an exposure-state generator, not as proof of comfort.</p>
+<p>The kit makes these assumptions inspectable:</p>
 <table class="table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
 <thead>
 <tr class="header">
-<th>Course moment</th>
-<th>GH route</th>
-<th>Use</th>
-<th>Caution</th>
+<th>Boundary</th>
+<th>Classroom choice</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Week 1 / airflow claims</td>
-<td><a href="https://www.ladybug.tools/butterfly.html">Butterfly / OpenFOAM via Ladybug Tools</a></td>
-<td>stagnant pockets, draft risk, courtyard flushing, fan/opening effects</td>
-<td>declare boundary conditions, mesh/solver assumptions, and occupied position</td>
+<td>spatial</td>
+<td>one selected zone from a stock EnergyPlus example model</td>
 </tr>
 <tr class="even">
-<td>Week 2 / comfort models</td>
-<td><a href="https://www.ladybug.tools/">Ladybug Tools</a></td>
-<td>PMV/PPD, adaptive comfort, UTCI, weather-linked comfort exploration</td>
-<td>document <code>Ta</code>, MRT, RH, air speed, metabolic rate, clothing, and model domain</td>
+<td>temporal</td>
+<td>July 8-21, hourly output</td>
 </tr>
 <tr class="odd">
-<td>Week 4-5 / radiant exchange</td>
-<td><a href="tools/radiant-box/index.html">A2 Radiant Box Tool</a> first, then Ladybug/Honeybee/GH if needed</td>
-<td>source/sink comparison, approximate view factors, <code>T_mrt</code>, <code>T_op</code></td>
-<td>rectangular proxy; state limits before translating to complex geometry</td>
+<td>climate</td>
+<td>synthetic Hong Kong-like summer EPW generated by the script</td>
 </tr>
 <tr class="even">
-<td>Later weeks / simulation handoff</td>
-<td>Ladybug Tools / Honeybee / EnergyPlus routes</td>
-<td>hourly outputs, radiant/operative temperature, weather stress tests</td>
-<td>GH output is evidence only when assumptions and exported data are inspectable</td>
+<td>service</td>
+<td>stock controlled model with heating and cooling thermostat setpoints</td>
+</tr>
+<tr class="odd">
+<td>evidence</td>
+<td>EnergyPlus stock IDF, generated weather, extracted CSV, and chart</td>
+</tr>
+<tr class="even">
+<td>limits</td>
+<td>not calibrated, not a student building, not a compliance model, not a local airflow model</td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="research-context" class="level2">
-<h2 class="anchored" data-anchor-id="research-context">Research Context</h2>
-<p>The course is informed by Hongshan Guo’s public research profile at <a href="https://thermalcomfort.zone/">FORGE: Future, Occupant, Risk, and Generative Environments</a>, especially work on human-building-climate systems, mean radiant temperature, future weather uncertainty, EnergyPlus/co-simulation, stochastic weather, thermal comfort prediction, and design-facing AI pedagogy.</p>
+<section id="variables-to-inspect" class="level2">
+<h2 class="anchored" data-anchor-id="variables-to-inspect">Variables To Inspect</h2>
+<table class="table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Variable</th>
+<th>Design question</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>outdoor dry-bulb temperature</td>
+<td>what weather sequence is driving the case?</td>
+</tr>
+<tr class="even">
+<td>zone mean air temperature</td>
+<td>does the air condition exceed the selected threshold?</td>
+</tr>
+<tr class="odd">
+<td>zone operative temperature</td>
+<td>does the combined air/radiant condition change the body-facing claim?</td>
+</tr>
+<tr class="even">
+<td>cooling setpoint</td>
+<td>what service target is the model trying to hold?</td>
+</tr>
+<tr class="odd">
+<td>heating setpoint</td>
+<td>is the model carrying a control assumption that matters?</td>
+</tr>
+<tr class="even">
+<td>cooling output, if present</td>
+<td>where does the system mask or reveal thermal burden?</td>
+</tr>
+</tbody>
+</table>
 </section>
-<section id="starter-kits-to-build-next" class="level2">
-<h2 class="anchored" data-anchor-id="starter-kits-to-build-next">Starter Kits To Build Next</h2>
+<section id="a3-use" class="level2">
+<h2 class="anchored" data-anchor-id="a3-use">A3 Use</h2>
+<p>For A3, students can use the checked CSV directly.</p>
+<p>Minimum A3 transformation:</p>
+<ol type="1">
+<li>choose a variable: air temperature, operative temperature, or another justified output;</li>
+<li>declare a threshold;</li>
+<li>count exceedance hours or degree-hours across the two-week window;</li>
+<li>add the boundary table;</li>
+<li>write a mechanism note explaining whether the pattern is driven by weather, service, storage, exposure, or model limits.</li>
+</ol>
+<p>This is enough for a defensible temporal build-up audit. Rerunning EnergyPlus is optional.</p>
+</section>
+<section id="a4-use" class="level2">
+<h2 class="anchored" data-anchor-id="a4-use">A4 Use</h2>
+<p>For A4, this kit can become a seed rather than a final answer.</p>
+<p>Possible extensions:</p>
 <ul>
-<li>Ta/RH spatial field workbook and CSV template.</li>
-<li>Temporal build-up notebook for degree-hours and threshold exceedance.</li>
-<li>Weather-window roll-forward notebook.</li>
-<li>Final package reproducibility capsule template.</li>
+<li>change the evaluation window;</li>
+<li>compare the checked CSV with a student-generated Honeybee or EnergyPlus export;</li>
+<li>hold the threshold fixed and test one design assumption;</li>
+<li>use the plot as a model-limit example when explaining why a studio project needs a different boundary.</li>
 </ul>
+<p>The final claim must stay bounded. A stock model can teach exposure-state reasoning; it cannot prove a student’s building performs.</p>
+</section>
+<section id="optional-local-run" class="level2">
+<h2 class="anchored" data-anchor-id="optional-local-run">Optional Local Run</h2>
+<p>Install EnergyPlus from the <a href="https://energyplus.net/downloads">official EnergyPlus download page</a> or from <a href="https://github.com/NREL/EnergyPlus/releases">NREL’s GitHub releases</a>, then run:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> run_energyplus_two_week_case.py</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>If the executable is not on <code>PATH</code>, set <code>ENERGYPLUS_EXE</code>.</p>
+<p>macOS:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="bu">export</span> <span class="va">ENERGYPLUS_EXE</span><span class="op">=</span><span class="st">"/Applications/EnergyPlus-25-1-0/energyplus"</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> run_energyplus_two_week_case.py</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Windows PowerShell:</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode powershell code-with-copy"><code class="sourceCode powershell"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="va">$env</span><span class="op">:</span><span class="va">ENERGYPLUS_EXE</span><span class="op">=</span><span class="st">"C:\EnergyPlusV25-1-0\energyplus.exe"</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>python run_energyplus_two_week_case<span class="op">.</span><span class="fu">py</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>The script looks for common stock IDFs such as <code>5ZoneAirCooled.idf</code>. If needed, set <code>ENERGYPLUS_IDF</code> to a stock IDF with real heating and cooling thermostat setpoints.</p>
+</section>
+<section id="grasshopper-honeybee-bridge" class="level2">
+<h2 class="anchored" data-anchor-id="grasshopper-honeybee-bridge">Grasshopper / Honeybee Bridge</h2>
+<p>Students already working in Rhino/Grasshopper can treat the CSV as a handoff format:</p>
+<ul>
+<li>import the CSV into Grasshopper for visualization;</li>
+<li>reproduce the output route later through Honeybee/EnergyPlus;</li>
+<li>keep the exported data, weather window, zone name, and service state visible.</li>
+</ul>
+<p>The bridge rule is simple: a parametric workflow becomes evidence only when the assumptions and exported outputs remain inspectable.</p>
 
 
 </section>
@@ -501,7 +532,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       toggleBodyColorMode(bsSheetEl);
     }
   }
-  toggleBodyColorPrimary();  
+  toggleBodyColorPrimary();
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {
@@ -511,7 +542,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
-      if (clz.startsWith('code-annotation-')) {                     
+      if (clz.startsWith('code-annotation-')) {
         return true;
       }
     }
@@ -542,11 +573,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       button.setAttribute("data-bs-toggle", "tooltip");
       button.setAttribute("data-bs-placement", "left");
       button.setAttribute("data-bs-title", "Copied!");
-      tooltip = new bootstrap.Tooltip(button, 
-        { trigger: "manual", 
+      tooltip = new bootstrap.Tooltip(button,
+        { trigger: "manual",
           customClass: "code-copy-button-tooltip",
           offset: [0, -8]});
-      tooltip.show();    
+      tooltip.show();
     }
     setTimeout(function() {
       if (tooltip) {
@@ -584,7 +615,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     if (onUntriggerFn) {
       config.onUntrigger = onUntriggerFn;
     }
-    window.tippy(el, config); 
+    window.tippy(el, config);
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
   for (var i=0; i<noterefs.length; i++) {
@@ -656,7 +687,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     tippyHover(xref, undefined, function(instance) {
       instance.disable();
       let url = xref.getAttribute('href');
-      let hash = undefined; 
+      let hash = undefined;
       if (url.startsWith('#')) {
         hash = url;
       } else {
@@ -684,7 +715,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             if (note !== null) {
               const html = processXRef(id, note);
               instance.setContent(html);
-            } 
+            }
           }).finally(() => {
             instance.enable();
             instance.show();
@@ -708,7 +739,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             const html = processXRef(null, note);
             instance.setContent(html);
-          } 
+          }
         }).finally(() => {
           instance.enable();
           instance.show();
@@ -748,7 +779,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             height = bottom - top;
           }
           if (top !== null && height !== null && parent !== null) {
-            // cook up a div (if necessary) and position it 
+            // cook up a div (if necessary) and position it
             let div = window.document.getElementById("code-annotation-line-highlight");
             if (div === null) {
               div = window.document.createElement("div");

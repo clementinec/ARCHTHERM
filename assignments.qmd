@@ -62,6 +62,8 @@ Each submission includes a system boundary box:
 
 The required A3 comparison can be modest: one baseline window and one changed weather, exposure, or climate snapshot. The goal is to show whether the failure claim depends on a single convenient time slice.
 
+Students do not need a local EnergyPlus installation to complete A3. They may use the [A3 EnergyPlus Exposure-State Kit](starter_kits/energyplus-exposure-state/README.md), their own measured/logger data, a Honeybee/EnergyPlus export, or another bounded hourly dataset as long as the system boundary and variables are explicit.
+
 ::: {.key}
 Students are not expected to become climate modelers. They are expected to state which climate snapshot their design claim depends on.
 :::

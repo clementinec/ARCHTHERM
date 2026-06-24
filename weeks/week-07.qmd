@@ -24,6 +24,10 @@ Week 7 adds one controlled route for producing that evidence: an inspectable hou
 EnergyPlus is used here as an exposure-state generator. Not truth. Not magic. Not a software credential or design answer.
 :::
 
+:::{.artifact}
+Class starter route: [A3 EnergyPlus Exposure-State Kit](../starter_kits/energyplus-exposure-state/README.md). Use the checked CSV if EnergyPlus is not installed; rerun the script only if the local setup is ready.
+:::
+
 ## Week 6 Pulse Check Response
 
 Start by naming one adjustment from the Week 6 pulse check:
@@ -275,7 +279,7 @@ Where:
 
 Produce an A3 hourly state log for one zone or occupied position.
 
-**Artifact:** a CSV or spreadsheet extract, an output-variable dictionary, and one time-series plot showing $T_a$, $T_{mrt}$, $T_{op}$, $RH$, and a threshold line for at least 72 consecutive hours.
+**Artifact:** a CSV or spreadsheet extract, an output-variable dictionary, and one time-series plot showing available thermal state variables and a threshold line for at least 72 consecutive hours. The starter kit provides outdoor dry bulb, zone air temperature, operative temperature, and setpoints; student-generated routes may add $T_{mrt}$, RH, surface temperature, or solar outputs.
 
 **A3 mapping:** this becomes the temporal build-up evidence for A3. It must show when the condition exceeds the threshold, where lag appears, and which variable carries the strongest design consequence.
 

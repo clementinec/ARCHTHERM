@@ -12,8 +12,11 @@ This page tracks the first local resource layer. It will grow into starter noteb
 | Tool | Course Use | What It Produces |
 |---|---|---|
 | [A2 Radiant Box Tool](tools/radiant-box/index.html) | Week 4-5 radiant exchange card | two-position `T_mrt` / `T_op` comparison, surface view-factor table, heatmap PNG, CSV export |
+| [A3 EnergyPlus Exposure-State Kit](starter_kits/energyplus-exposure-state/README.md) | Week 7-9 temporal build-up audit | checked hourly CSV, two-week chart, optional EnergyPlus CLI rerun |
 
 The radiant box is intentionally simple: a well-mixed air temperature, six surface temperatures, two body points, approximate view factors, and exportable evidence. Use it when you need a transparent fallback before moving to Ladybug, Honeybee, EnergyPlus, thermal camera, globe temperature, or a Grasshopper view-factor workflow.
+
+The EnergyPlus kit is intentionally bounded: a stock model, synthetic Hong Kong-like summer weather, July 8-21 hourly outputs, and a compact chart. Use it to practice exposure-state reading before claiming anything about a student building.
 
 ## Downloaded Teaching Figures
 
@@ -70,6 +73,5 @@ The course is informed by Hongshan Guo's public research profile at [FORGE: Futu
 
 - Ta/RH spatial field workbook and CSV template.
 - Temporal build-up notebook for degree-hours and threshold exceedance.
-- EnergyPlus hourly exposure-state example with precomputed CSV fallback.
 - Weather-window roll-forward notebook.
 - Final package reproducibility capsule template.

@@ -1,0 +1,8 @@
+boundary,student_statement,question_to_answer
+spatial,,Which room zone threshold facade edge or body location does this claim apply to?
+temporal,,What start end timestep occupied hours and recovery period are included?
+climate,,Is this measured typical synthetic stress future-adjusted or otherwise bounded weather?
+service,,Is the condition passive fan-assisted conditioned mixed-mode refuge-based or otherwise controlled?
+evidence,,Which data source model output assumed variable and excluded variable define the claim?
+threshold,,What line creates failure exceedance degree-hours or sufficiency?
+limit,,What can this evidence not prove?

@@ -1,0 +1,13 @@
+ARCH7XXX A3 EnergyPlus Exposure-State Case
+EnergyPlus executable: /usr/local/bin/energyplus
+Source IDF: /Applications/EnergyPlus-25-1-0/ExampleFiles/5ZoneAirCooled.idf
+Patched model: work/energyplus_two_week/two_week_model.idf
+Weather file: work/energyplus_two_week/synthetic_hk_summer.epw
+Run period: July 8 to July 21
+Extracted outputs: outputs/energyplus_two_week/monitored_outputs.csv
+Extracted hourly rows: 336
+Warnings: 2
+Severe errors: 0
+Fatal errors: 0
+
+Use this as an inspectable exposure-state scenario, not as a measured performance claim.
