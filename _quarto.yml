@@ -11,6 +11,7 @@ project:
     - assignments.qmd
     - resources.qmd
     - starter_kits/energyplus-exposure-state/README.md
+    - starter_kits/future-weather-windows/README.md
     - weeks/week-01.qmd
     - weeks/week-02.qmd
     - weeks/week-03.qmd

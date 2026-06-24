@@ -64,6 +64,8 @@ The required A3 comparison can be modest: one baseline window and one changed we
 
 Students do not need a local EnergyPlus installation to complete A3. They may use the [A3 EnergyPlus Exposure-State Kit](starter_kits/energyplus-exposure-state/README.md), their own measured/logger data, a Honeybee/EnergyPlus export, or another bounded hourly dataset as long as the system boundary and variables are explicit.
 
+For the changed weather or climate snapshot, students may also use the [Future Weather Windows Kit](starter_kits/future-weather-windows/README.md). It provides small hourly slices for Guangzhou and Phoenix under SSP245 and SSP585, so the comparison can be about weather-boundary reasoning rather than data hunting.
+
 ::: {.key}
 Students are not expected to become climate modelers. They are expected to state which climate snapshot their design claim depends on.
 :::

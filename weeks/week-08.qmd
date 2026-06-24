@@ -24,6 +24,10 @@ Week 8 uses weather as a stress-test input. The task is not to predict the futur
 One EPW or TMY file is a boundary condition, not the climate.
 :::
 
+:::{.artifact}
+Class starter route: [Future Weather Windows Kit](../starter_kits/future-weather-windows/README.md). Use the checked hot-window CSVs if you need a quick changed-weather comparison; rebuild only when the local CMIP source folder is available.
+:::
+
 ## What An EPW File Gives You
 
 An EPW file is an hourly weather sequence used by simulation tools.
@@ -294,7 +298,7 @@ If more than one assumption changes, say so. Do not hide a moving target.
 
 Run or inspect a two-case stress test for the same condition.
 
-**Artifact:** a one-page A3 stress-test memo with two time-series plots or one paired plot, a degree-hour or failure-hour table, and a sentence naming the changed weather, window, or exposure assumption.
+**Artifact:** a one-page A3 stress-test memo with two time-series plots or one paired plot, a degree-hour or failure-hour table, and a sentence naming the changed weather, window, or exposure assumption. The future-weather kit can supply the changed weather slice when students do not have a project-specific EPW route yet.
 
 **A3 mapping:** this memo is the Week 8 development layer for the Temporal Build-Up Audit. It shows whether the A3 failure statement is stable or dependent on one weather slice.
 
