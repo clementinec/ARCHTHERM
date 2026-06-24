@@ -976,7 +976,7 @@
     "href": "weeks/week-04.html#a2-prompt",
     "title": "Week 4 - Mean Radiant Temperature",
     "section": "A2 Prompt",
-    "text": "A2 Prompt\n\nFind or construct two positions where air temperature alone does not explain the thermal condition.\nGood cases:\n\nwindow seat versus interior seat;\nshaded bench versus sunlit bench;\nglass facade perimeter versus deeper plan;\nconcrete courtyard versus vegetated edge;\nroof terrace sun patch versus shaded threshold.\n\n\n\nFor each position, name the dominant radiant source or sink: direct sun, sky, hot surface, cool surface, reflected solar, or night-sky exposure.",
+    "text": "A2 Prompt\n\nFind or construct two positions where air temperature alone does not explain the thermal condition.\nGood cases:\n\nwindow seat versus interior seat;\nshaded bench versus sunlit bench;\nglass facade perimeter versus deeper plan;\nconcrete courtyard versus vegetated edge;\nroof terrace sun patch versus shaded threshold.\n\n\n\nFor each position, name the dominant radiant source or sink: direct sun, sky, hot surface, cool surface, reflected solar, or night-sky exposure.\n\n\nTool route for the first pass: A2 Radiant Box Tool. Use it to compare two body positions, export a heatmap and CSV, then state what the rectangular proxy cannot prove.",
     "crumbs": [
       "Home",
       "Weekly Decks",
@@ -1476,6 +1476,18 @@
     ]
   },
   {
+    "objectID": "resources.html#production-tools",
+    "href": "resources.html#production-tools",
+    "title": "Resources",
+    "section": "Production Tools",
+    "text": "Production Tools\n\n\n\nTool\nCourse Use\nWhat It Produces\n\n\n\n\nA2 Radiant Box Tool\nWeek 4-5 radiant exchange card\ntwo-position T_mrt / T_op comparison, surface view-factor table, heatmap PNG, CSV export\n\n\n\nThe radiant box is intentionally simple: a well-mixed air temperature, six surface temperatures, two body points, approximate view factors, and exportable evidence. Use it when you need a transparent fallback before moving to Ladybug, Honeybee, EnergyPlus, thermal camera, globe temperature, or a Grasshopper view-factor workflow.",
+    "crumbs": [
+      "Home",
+      "Course Overview",
+      "Resources"
+    ]
+  },
+  {
     "objectID": "resources.html#downloaded-teaching-figures",
     "href": "resources.html#downloaded-teaching-figures",
     "title": "Resources",
@@ -1516,7 +1528,7 @@
     "href": "resources.html#grasshopper-bridge-routes",
     "title": "Resources",
     "section": "Grasshopper Bridge Routes",
-    "text": "Grasshopper Bridge Routes\nThese routes are supported as optional bridges for students already working in Rhino/Grasshopper. They are not required for completing the core assignments.\n\n\n\nCourse moment\nGH route\nUse\nCaution\n\n\n\n\nWeek 1 / airflow claims\nButterfly / OpenFOAM via Ladybug Tools\nstagnant pockets, draft risk, courtyard flushing, fan/opening effects\ndeclare boundary conditions, mesh/solver assumptions, and occupied position\n\n\nWeek 2 / comfort models\nLadybug Tools\nPMV/PPD, adaptive comfort, UTCI, weather-linked comfort exploration\ndocument Ta, MRT, RH, air speed, metabolic rate, clothing, and model domain\n\n\nLater weeks / simulation handoff\nLadybug Tools / Honeybee / EnergyPlus routes\nhourly outputs, radiant/operative temperature, weather stress tests\nGH output is evidence only when assumptions and exported data are inspectable",
+    "text": "Grasshopper Bridge Routes\nThese routes are supported as optional bridges for students already working in Rhino/Grasshopper. They are not required for completing the core assignments.\n\n\n\nCourse moment\nGH route\nUse\nCaution\n\n\n\n\nWeek 1 / airflow claims\nButterfly / OpenFOAM via Ladybug Tools\nstagnant pockets, draft risk, courtyard flushing, fan/opening effects\ndeclare boundary conditions, mesh/solver assumptions, and occupied position\n\n\nWeek 2 / comfort models\nLadybug Tools\nPMV/PPD, adaptive comfort, UTCI, weather-linked comfort exploration\ndocument Ta, MRT, RH, air speed, metabolic rate, clothing, and model domain\n\n\nWeek 4-5 / radiant exchange\nA2 Radiant Box Tool first, then Ladybug/Honeybee/GH if needed\nsource/sink comparison, approximate view factors, T_mrt, T_op\nrectangular proxy; state limits before translating to complex geometry\n\n\nLater weeks / simulation handoff\nLadybug Tools / Honeybee / EnergyPlus routes\nhourly outputs, radiant/operative temperature, weather stress tests\nGH output is evidence only when assumptions and exported data are inspectable",
     "crumbs": [
       "Home",
       "Course Overview",
@@ -1540,7 +1552,7 @@
     "href": "resources.html#starter-kits-to-build-next",
     "title": "Resources",
     "section": "Starter Kits To Build Next",
-    "text": "Starter Kits To Build Next\n\nTa/RH spatial field workbook and CSV template.\nRadiant exchange calculator using surface temperature, globe temperature, or SMART-style radiant sensing data.\nTemporal build-up notebook for degree-hours and threshold exceedance.\nEnergyPlus hourly exposure-state example with precomputed CSV fallback.\nWeather-window roll-forward notebook.\nFinal package reproducibility capsule template.",
+    "text": "Starter Kits To Build Next\n\nTa/RH spatial field workbook and CSV template.\nTemporal build-up notebook for degree-hours and threshold exceedance.\nEnergyPlus hourly exposure-state example with precomputed CSV fallback.\nWeather-window roll-forward notebook.\nFinal package reproducibility capsule template.",
     "crumbs": [
       "Home",
       "Course Overview",
@@ -1708,7 +1720,7 @@
     "href": "assignments.html#a2-radiant-card-standard",
     "title": "Assignments",
     "section": "A2 Radiant Card Standard",
-    "text": "A2 Radiant Card Standard\nA2 treats solar, sky, and surfaces as heat sources or sinks.\nEach card should include:\n\ntwo occupied positions with similar or comparable air-temperature context;\nbody orientation and major surfaces in view;\ndominant radiant source or sink: direct sun, diffuse sky, reflected solar, hot surface, cool surface, or night sky;\napproximate magnitude where possible: solar wattage order of magnitude, surface temperature, MRT difference, or operative-temperature contribution;\nmaterial-property note where relevant: reflectivity/albedo, absorptivity, emissivity, thermal capacity, or glazing transmittance;\none design implication: shade, surface temperature, material, sky view, body offset, facade depth, canopy, or controlled radiant surface;\none uncertainty statement.\n\n\nA2 does not ask students to design homogeneous comfort. It asks them to identify how architecture can block, expose, cool, warm, store, or release radiant energy.",
+    "text": "A2 Radiant Card Standard\nA2 treats solar, sky, and surfaces as heat sources or sinks.\nUse the A2 Radiant Box Tool when you need a transparent fallback model for a two-position comparison. Advanced workflows are welcome, but the required artifact is the comparison and claim, not the software route.\nEach card should include:\n\ntwo occupied positions with similar or comparable air-temperature context;\nbody orientation and major surfaces in view;\ndominant radiant source or sink: direct sun, diffuse sky, reflected solar, hot surface, cool surface, or night sky;\napproximate magnitude where possible: solar wattage order of magnitude, surface temperature, MRT difference, or operative-temperature contribution;\nmaterial-property note where relevant: reflectivity/albedo, absorptivity, emissivity, thermal capacity, or glazing transmittance;\none design implication: shade, surface temperature, material, sky view, body offset, facade depth, canopy, or controlled radiant surface;\none uncertainty statement.\n\n\nA2 does not ask students to design homogeneous comfort. It asks them to identify how architecture can block, expose, cool, warm, store, or release radiant energy.",
     "crumbs": [
       "Home",
       "Course Overview",
@@ -2464,7 +2476,7 @@
     "href": "weeks/week-05.html#a2-card-structure",
     "title": "Week 5 - Radiant Asymmetry",
     "section": "A2 Card Structure",
-    "text": "A2 Card Structure\n\nYour Radiant Exchange Card must include:\n\ntwo occupied positions;\nair temperature comparison;\nsurface/radiant/MRT proxy evidence;\nbody orientation diagram;\none approximate radiant source/sink note, using wattage, surface temperature, material property, or MRT difference where possible;\none heat-flux or exchange sketch;\none architectural implication;\none uncertainty statement.",
+    "text": "A2 Card Structure\n\nYour Radiant Exchange Card must include:\n\ntwo occupied positions;\nair temperature comparison;\nsurface/radiant/MRT proxy evidence;\nbody orientation diagram;\none approximate radiant source/sink note, using wattage, surface temperature, material property, or MRT difference where possible;\none heat-flux or exchange sketch;\none architectural implication;\none uncertainty statement.\n\n\n\nIf your project geometry is too complex for the browser box, the point is still transferable: define surfaces, assign temperatures, estimate view fractions, compute T_mrt, then explain the design consequence.",
     "crumbs": [
       "Home",
       "Weekly Decks",

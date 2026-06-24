@@ -30,6 +30,8 @@ CO2, odor, particulates, or IAQ observations may be included when they affect th
 
 A2 treats solar, sky, and surfaces as heat sources or sinks.
 
+Use the [A2 Radiant Box Tool](tools/radiant-box/index.html) when you need a transparent fallback model for a two-position comparison. Advanced workflows are welcome, but the required artifact is the comparison and claim, not the software route.
+
 Each card should include:
 
 - two occupied positions with similar or comparable air-temperature context;

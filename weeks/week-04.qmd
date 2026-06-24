@@ -236,6 +236,10 @@ Good cases:
 For each position, name the dominant radiant source or sink: direct sun, sky, hot surface, cool surface, reflected solar, or night-sky exposure.
 :::
 
+::: {.key}
+Tool route for the first pass: [A2 Radiant Box Tool](../tools/radiant-box/index.html). Use it to compare two body positions, export a heatmap and CSV, then state what the rectangular proxy cannot prove.
+:::
+
 ## What Counts As Radiant Evidence?
 
 ::: {.cards-3}

@@ -270,7 +270,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#downloaded-teaching-figures" id="toc-downloaded-teaching-figures" class="nav-link active" data-scroll-target="#downloaded-teaching-figures">Downloaded Teaching Figures</a></li>
+  <li><a href="#production-tools" id="toc-production-tools" class="nav-link active" data-scroll-target="#production-tools">Production Tools</a></li>
+  <li><a href="#downloaded-teaching-figures" id="toc-downloaded-teaching-figures" class="nav-link" data-scroll-target="#downloaded-teaching-figures">Downloaded Teaching Figures</a></li>
   <li><a href="#original-course-diagrams" id="toc-original-course-diagrams" class="nav-link" data-scroll-target="#original-course-diagrams">Original Course Diagrams</a></li>
   <li><a href="#pmvppd-reading-to-revisit" id="toc-pmvppd-reading-to-revisit" class="nav-link" data-scroll-target="#pmvppd-reading-to-revisit">PMV/PPD Reading To Revisit</a></li>
   <li><a href="#grasshopper-bridge-routes" id="toc-grasshopper-bridge-routes" class="nav-link" data-scroll-target="#grasshopper-bridge-routes">Grasshopper Bridge Routes</a></li>
@@ -302,6 +303,26 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>This page tracks the first local resource layer. It will grow into starter notebooks, workbooks, sensing templates, EnergyPlus examples, and final-package templates.</p>
+<section id="production-tools" class="level2">
+<h2 class="anchored" data-anchor-id="production-tools">Production Tools</h2>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Tool</th>
+<th>Course Use</th>
+<th>What It Produces</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a href="tools/radiant-box/index.html">A2 Radiant Box Tool</a></td>
+<td>Week 4-5 radiant exchange card</td>
+<td>two-position <code>T_mrt</code> / <code>T_op</code> comparison, surface view-factor table, heatmap PNG, CSV export</td>
+</tr>
+</tbody>
+</table>
+<p>The radiant box is intentionally simple: a well-mixed air temperature, six surface temperatures, two body points, approximate view factors, and exportable evidence. Use it when you need a transparent fallback before moving to Ladybug, Honeybee, EnergyPlus, thermal camera, globe temperature, or a Grasshopper view-factor workflow.</p>
+</section>
 <section id="downloaded-teaching-figures" class="level2">
 <h2 class="anchored" data-anchor-id="downloaded-teaching-figures">Downloaded Teaching Figures</h2>
 <table class="table">
@@ -424,6 +445,12 @@ ul.task-list li input[type="checkbox"] {
 <td>document <code>Ta</code>, MRT, RH, air speed, metabolic rate, clothing, and model domain</td>
 </tr>
 <tr class="odd">
+<td>Week 4-5 / radiant exchange</td>
+<td><a href="tools/radiant-box/index.html">A2 Radiant Box Tool</a> first, then Ladybug/Honeybee/GH if needed</td>
+<td>source/sink comparison, approximate view factors, <code>T_mrt</code>, <code>T_op</code></td>
+<td>rectangular proxy; state limits before translating to complex geometry</td>
+</tr>
+<tr class="even">
 <td>Later weeks / simulation handoff</td>
 <td>Ladybug Tools / Honeybee / EnergyPlus routes</td>
 <td>hourly outputs, radiant/operative temperature, weather stress tests</td>
@@ -440,7 +467,6 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="starter-kits-to-build-next">Starter Kits To Build Next</h2>
 <ul>
 <li>Ta/RH spatial field workbook and CSV template.</li>
-<li>Radiant exchange calculator using surface temperature, globe temperature, or SMART-style radiant sensing data.</li>
 <li>Temporal build-up notebook for degree-hours and threshold exceedance.</li>
 <li>EnergyPlus hourly exposure-state example with precomputed CSV fallback.</li>
 <li>Weather-window roll-forward notebook.</li>

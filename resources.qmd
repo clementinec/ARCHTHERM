@@ -7,6 +7,14 @@ format:
 
 This page tracks the first local resource layer. It will grow into starter notebooks, workbooks, sensing templates, EnergyPlus examples, and final-package templates.
 
+## Production Tools
+
+| Tool | Course Use | What It Produces |
+|---|---|---|
+| [A2 Radiant Box Tool](tools/radiant-box/index.html) | Week 4-5 radiant exchange card | two-position `T_mrt` / `T_op` comparison, surface view-factor table, heatmap PNG, CSV export |
+
+The radiant box is intentionally simple: a well-mixed air temperature, six surface temperatures, two body points, approximate view factors, and exportable evidence. Use it when you need a transparent fallback before moving to Ladybug, Honeybee, EnergyPlus, thermal camera, globe temperature, or a Grasshopper view-factor workflow.
+
 ## Downloaded Teaching Figures
 
 | File | Use | Source |
@@ -51,6 +59,7 @@ These routes are supported as optional bridges for students already working in R
 |---|---|---|---|
 | Week 1 / airflow claims | [Butterfly / OpenFOAM via Ladybug Tools](https://www.ladybug.tools/butterfly.html) | stagnant pockets, draft risk, courtyard flushing, fan/opening effects | declare boundary conditions, mesh/solver assumptions, and occupied position |
 | Week 2 / comfort models | [Ladybug Tools](https://www.ladybug.tools/) | PMV/PPD, adaptive comfort, UTCI, weather-linked comfort exploration | document `Ta`, MRT, RH, air speed, metabolic rate, clothing, and model domain |
+| Week 4-5 / radiant exchange | [A2 Radiant Box Tool](tools/radiant-box/index.html) first, then Ladybug/Honeybee/GH if needed | source/sink comparison, approximate view factors, `T_mrt`, `T_op` | rectangular proxy; state limits before translating to complex geometry |
 | Later weeks / simulation handoff | Ladybug Tools / Honeybee / EnergyPlus routes | hourly outputs, radiant/operative temperature, weather stress tests | GH output is evidence only when assumptions and exported data are inspectable |
 
 ## Research Context
@@ -60,7 +69,6 @@ The course is informed by Hongshan Guo's public research profile at [FORGE: Futu
 ## Starter Kits To Build Next
 
 - Ta/RH spatial field workbook and CSV template.
-- Radiant exchange calculator using surface temperature, globe temperature, or SMART-style radiant sensing data.
 - Temporal build-up notebook for degree-hours and threshold exceedance.
 - EnergyPlus hourly exposure-state example with precomputed CSV fallback.
 - Weather-window roll-forward notebook.

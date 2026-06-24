@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>A2 Radiant Box Tool</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="app-header">
+    <div>
+      <p class="eyebrow">ARCH7XXX / A2 Radiant Exchange Card</p>
+      <h1>Radiant Box Tool</h1>
+      <p class="lede">A quick room model for comparing two body positions with the same air temperature but different radiant surroundings.</p>
+    </div>
+    <div class="formula-card">
+      <span>T<sub>mrt</sub> = (&Sigma; F<sub>i</sub>T<sub>i</sub><sup>4</sup>)<sup>1/4</sup></span>
+      <span>T<sub>op</sub> &asymp; wT<sub>a</sub> + (1-w)T<sub>mrt</sub></span>
+    </div>
+  </header>
+
+  <main class="app-shell">
+    <section class="control-panel" aria-label="Inputs">
+      <div class="panel-section">
+        <h2>Room + Air</h2>
+        <div class="input-grid">
+          <label>Width X (m)<input id="roomWidth" type="number" min="2" max="30" step="0.5" value="8"></label>
+          <label>Depth Y (m)<input id="roomDepth" type="number" min="2" max="30" step="0.5" value="5"></label>
+          <label>Height Z (m)<input id="roomHeight" type="number" min="2" max="8" step="0.1" value="3"></label>
+          <label>Air temp Ta (deg C)<input id="airTemp" type="number" min="10" max="45" step="0.1" value="26"></label>
+          <label>Radiant weight<input id="radWeight" type="number" min="0.1" max="0.9" step="0.05" value="0.5"></label>
+          <label>Ray count<input id="rayCount" type="number" min="180" max="1440" step="180" value="540"></label>
+        </div>
+      </div>
+
+      <div class="panel-section">
+        <h2>Surface Temperatures</h2>
+        <div class="surface-grid" id="surfaceControls"></div>
+      </div>
+
+      <div class="panel-section">
+        <h2>Positions</h2>
+        <div class="position-grid">
+          <div class="position-card a">
+            <h3>Position A</h3>
+            <label>X (m)<input id="ax" type="number" min="0.1" step="0.1" value="2"></label>
+            <label>Y (m)<input id="ay" type="number" min="0.1" step="0.1" value="2.5"></label>
+            <label>Z (m)<input id="az" type="number" min="0.2" step="0.1" value="1.1"></label>
+          </div>
+          <div class="position-card b">
+            <h3>Position B</h3>
+            <label>X (m)<input id="bx" type="number" min="0.1" step="0.1" value="6.6"></label>
+            <label>Y (m)<input id="by" type="number" min="0.1" step="0.1" value="2.5"></label>
+            <label>Z (m)<input id="bz" type="number" min="0.2" step="0.1" value="1.1"></label>
+          </div>
+        </div>
+        <div class="button-row">
+          <button id="placeA" class="toggle active" type="button">Click Sets A</button>
+          <button id="placeB" class="toggle" type="button">Click Sets B</button>
+        </div>
+      </div>
+
+      <div class="panel-section">
+        <h2>Export</h2>
+        <div class="button-row">
+          <button id="downloadCsv" type="button">Download CSV</button>
+          <button id="downloadPng" type="button">Download PNG</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="visual-panel" aria-label="Radiant results">
+      <div class="viz-toolbar">
+        <div>
+          <h2>Plan Heatmap</h2>
+          <p>Computed at the selected body height. Click the plan to move A or B.</p>
+        </div>
+        <label>Map variable
+          <select id="metric">
+            <option value="tmrt">T_mrt</option>
+            <option value="top">T_op</option>
+          </select>
+        </label>
+      </div>
+      <canvas id="heatmap" width="900" height="560" aria-label="Plan heatmap"></canvas>
+      <div class="legend">
+        <span id="legendMin">min</span>
+        <div class="legend-bar"></div>
+        <span id="legendMax">max</span>
+      </div>
+    </section>
+
+    <section class="output-panel" aria-label="Outputs">
+      <div class="results-grid">
+        <article class="result-card a">
+          <h2>Position A</h2>
+          <dl>
+            <div><dt>T<sub>mrt</sub></dt><dd id="aTmrt">--</dd></div>
+            <div><dt>T<sub>op</sub></dt><dd id="aTop">--</dd></div>
+          </dl>
+        </article>
+        <article class="result-card b">
+          <h2>Position B</h2>
+          <dl>
+            <div><dt>T<sub>mrt</sub></dt><dd id="bTmrt">--</dd></div>
+            <div><dt>T<sub>op</sub></dt><dd id="bTop">--</dd></div>
+          </dl>
+        </article>
+        <article class="result-card delta">
+          <h2>Difference B - A</h2>
+          <dl>
+            <div><dt>&Delta;T<sub>mrt</sub></dt><dd id="dTmrt">--</dd></div>
+            <div><dt>&Delta;T<sub>op</sub></dt><dd id="dTop">--</dd></div>
+          </dl>
+        </article>
+      </div>
+
+      <h2>View Factor Table</h2>
+      <table id="viewTable">
+        <thead>
+          <tr><th>Surface</th><th>Temp</th><th>F at A</th><th>F at B</th><th>Main reading</th></tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+
+      <div class="writeup">
+        <h2>What This Tool Does</h2>
+        <p>This is a teaching model, not a certification tool. It assumes a rectangular room, uniform surface temperatures, a point-like body location, and a well-mixed air temperature. The view factors are estimated by casting rays from the body point and counting which surface each ray reaches first.</p>
+        <p>For A2, use it to make a bounded claim: <strong>Position B differs from Position A because the body sees more of a warmer or cooler surface.</strong> Export the CSV and PNG, then add your own plan/section and uncertainty note.</p>
+        <h2>Grasshopper Translation</h2>
+        <ol>
+          <li>Define room or urban-canyon surfaces and assign surface temperatures.</li>
+          <li>Define one or more body points at seated or standing height.</li>
+          <li>Estimate view factors by ray intersection or a Ladybug view-analysis route.</li>
+          <li>Compute <code>sum(F_i * T_i^4)</code> in Kelvin and convert back to deg C.</li>
+          <li>Compute operative temperature using a declared weighting.</li>
+          <li>Export a table that shows inputs, view factors, T_mrt, T_op, and limits.</li>
+        </ol>
+      </div>
+    </section>
+  </main>
+
+  <footer class="app-footer">
+    <p>Use this tool as a transparent proxy for A2. If the real project needs solar position, complex geometry, outdoor longwave sky, or body orientation, state those as limits or move to Ladybug/Honeybee/GH.</p>
+  </footer>
+
+  <script src="radiant-box.js"></script>
+</body>
+</html>

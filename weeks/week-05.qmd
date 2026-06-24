@@ -206,6 +206,10 @@ Your Radiant Exchange Card must include:
 8. one uncertainty statement.
 :::
 
+::: {.key}
+If your project geometry is too complex for the browser box, the point is still transferable: define surfaces, assign temperatures, estimate view fractions, compute `T_mrt`, then explain the design consequence.
+:::
+
 ## What A2 Should Not Do
 
 ::: {.warning}

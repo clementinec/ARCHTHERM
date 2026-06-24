@@ -1,0 +1,18 @@
+"Radiant Box Tool Sample Export"
+"room_width_m","8"
+"room_depth_m","5"
+"room_height_m","3"
+"air_temp_c","26"
+"radiant_weight","0.5"
+
+"position","x_m","y_m","z_m","tmrt_c","top_c"
+"A","2","2.5","1.1","30.9","28.5"
+"B","6.6","2.5","1.1","32.6","29.3"
+
+"surface","temp_c","view_factor_A","view_factor_B"
+"Left wall","28","0.150","0.026"
+"Right wall","38","0.031","0.217"
+"Front wall","29","0.130","0.115"
+"Back wall","36","0.131","0.119"
+"Floor","33","0.324","0.306"
+"Ceiling","27","0.233","0.219"
