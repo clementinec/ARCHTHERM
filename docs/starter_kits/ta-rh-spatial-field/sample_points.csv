@@ -1,0 +1,11 @@
+point_id,x_m,y_m,Ta_C,RH_percent,CO2_ppm,note
+P01,0.5,0.5,24.8,68.0,620,near entry and corridor air exchange
+P02,2.0,0.8,25.1,69.5,710,desk cluster with moderate occupancy
+P03,4.2,0.6,26.2,72.0,830,glass edge with weak air mixing
+P04,6.0,1.1,27.1,74.5,880,sun-adjacent facade zone
+P05,1.0,3.0,24.3,66.5,650,interior shaded position
+P06,3.2,3.4,25.0,68.8,760,central occupied zone
+P07,5.6,3.2,26.5,73.2,910,facade-adjacent workstation
+P08,0.8,5.1,24.0,65.8,610,near return path
+P09,3.4,5.4,24.7,67.0,700,interior reference point
+P10,6.2,5.0,25.9,71.0,840,corner with higher surface exposure

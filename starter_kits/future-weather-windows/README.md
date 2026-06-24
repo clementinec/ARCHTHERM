@@ -20,7 +20,7 @@ The source material is a local set of CMIP6-derived hourly forecast CSV files fo
 | Phoenix | SSP245 |
 | Phoenix | SSP585 |
 
-For each city-scenario pair, the script selects the hottest 14-day dry-bulb window in 2025, 2050, and 2080.
+For each city-scenario pair, the script selects the hottest 14-day dry-bulb window in 2025, 2050, and 2080. These are stress windows, not same-calendar-week comparisons.
 
 ## Files
 
@@ -28,10 +28,9 @@ For each city-scenario pair, the script selects the hottest 14-day dry-bulb wind
 |---|---|
 | [`outputs/future_weather_hot14_summary.csv`](outputs/future_weather_hot14_summary.csv) | compact comparison table for all city/scenario/year windows |
 | [`outputs/future_weather_hot14_slices.csv`](outputs/future_weather_hot14_slices.csv) | combined hourly table for all 12 selected windows |
-| [`outputs/slices/`](outputs/slices/) | individual city/scenario/year CSV windows |
 | [`outputs/plots/future_weather_hot14_temp_profiles.png`](outputs/plots/future_weather_hot14_temp_profiles.png) | dry-bulb profiles for the selected 14-day windows |
 | [`outputs/plots/future_weather_hot14_degree_hours.png`](outputs/plots/future_weather_hot14_degree_hours.png) | degree-hours above 30 deg C across windows |
-| [`build_future_weather_windows.py`](build_future_weather_windows.py) | rebuild script for the local CMIP forecast CSV source |
+| [`build_future_weather_windows.py`](build_future_weather_windows.py) | instructor rebuild script for local CMIP forecast CSV source files |
 
 ![](outputs/plots/future_weather_hot14_temp_profiles.png){fig-alt="Line plots comparing hottest 14-day dry-bulb temperature profiles for Guangzhou and Phoenix under SSP245 and SSP585 in 2025, 2050, and 2080."}
 
@@ -81,13 +80,15 @@ The important move is not scenario quantity. It is whether the student can say h
 
 ## Rebuild
 
-To rebuild from the local CMIP folders:
+The checked CSVs and plots are already distributed. Students do not need the source CMIP files to use the kit.
+
+The rebuild script is for the instructor or for students who have been given equivalent source forecast CSVs. To rebuild from local CMIP folders:
 
 ```bash
 CMIP_SOURCE_ROOT="/path/to/CMIPs" python build_future_weather_windows.py
 ```
 
-If `CMIP_SOURCE_ROOT` is not set, the script looks for the CMIP folder under the instructor's OneDrive-style path.
+If `CMIP_SOURCE_ROOT` is not set, the script looks for the instructor's local OneDrive-style path. That source folder is not part of the public course repository.
 
 ## Limits
 
@@ -95,7 +96,7 @@ These files are not EPWs and are not compliance weather files.
 
 They are hourly weather windows for architectural stress testing. They are useful for questions about duration, burden, humidity, solar exposure, wind, and climate sensitivity. They do not directly prove courtyard microclimate, facade surface temperature, indoor comfort, or future climate certainty.
 
-The windows are selected by hottest 14-day dry-bulb mean within each target year. Do not over-read one bar as a full probabilistic ranking of scenarios. Use the slices to ask how a design claim changes when the weather boundary changes.
+The windows are selected by hottest 14-day dry-bulb mean within each target year. They are not month-aligned across years. Do not read them as "the same week under warming" or as a full probabilistic ranking of scenarios. Use the slices to ask how a design claim changes when the weather boundary changes.
 
 ## Grasshopper / Ladybug Bridge
 

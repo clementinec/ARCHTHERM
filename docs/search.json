@@ -76,7 +76,7 @@
     "href": "weeks/week-12.html#jury-activity-final-a4-presentation",
     "title": "Week 12 - Thermal Fields Jury",
     "section": "Jury Activity: Final A4 Presentation",
-    "text": "Jury Activity: Final A4 Presentation\nDeliver the final five-minute thermal design jury presentation.\nArtifact: final A4 mechanism-informed intervention with condition board, A1/A2/A3 evidence, design action ladder, roll-forward validation note, uncertainty statement, reproducibility capsule, and architectural proposal.\nA4 mapping: this is the final assessed synthesis. It demonstrates that the design action follows from spatial, radiant, temporal, and validation evidence.",
+    "text": "Jury Activity: Final A4 Presentation\nDeliver the final five-minute thermal design jury presentation.\nArtifact: final A4 mechanism-informed intervention with condition board, A1/A2/A3 evidence, design action ladder, roll-forward validation note, uncertainty statement, reproducibility capsule, and architectural proposal.\nA4 mapping: this is the final assessed synthesis. It demonstrates that the design action follows from spatial, radiant, temporal, and validation evidence.\n\nFinal package route: A4 Reproducibility Capsule. Use it to make the evidence inputs, boundaries, thresholds, rerun steps, and limits inspectable.",
     "crumbs": [
       "Home",
       "Weekly Decks",
@@ -1464,210 +1464,220 @@
     ]
   },
   {
-    "objectID": "starter_kits/future-weather-windows/README.html",
-    "href": "starter_kits/future-weather-windows/README.html",
-    "title": "Starter Kit: Future Weather Windows",
+    "objectID": "starter_kits/reproducibility-capsule/README.html",
+    "href": "starter_kits/reproducibility-capsule/README.html",
+    "title": "Starter Kit: A4 Reproducibility Capsule",
     "section": "",
-    "text": "This kit gives Week 8, A3, and A4 a small future-facing weather artifact.\nIt does not ask students to become climate modelers. It gives them hourly weather windows they can inspect, plot, threshold, and compare."
+    "text": "This kit is the landing place for A4.\nThe course now has analysis routes for spatial fields, radiant exchange, temporal degree-hours, EnergyPlus exposure states, and future-weather stress windows. The reproducibility capsule makes those routes inspectable in the final package."
   },
   {
-    "objectID": "starter_kits/future-weather-windows/README.html#what-it-contains",
-    "href": "starter_kits/future-weather-windows/README.html#what-it-contains",
-    "title": "Starter Kit: Future Weather Windows",
-    "section": "What It Contains",
-    "text": "What It Contains\nThe source material is a local set of CMIP6-derived hourly forecast CSV files for two cities and two scenarios:\n\n\n\nCity\nScenario\n\n\n\n\nGuangzhou\nSSP245\n\n\nGuangzhou\nSSP585\n\n\nPhoenix\nSSP245\n\n\nPhoenix\nSSP585\n\n\n\nFor each city-scenario pair, the script selects the hottest 14-day dry-bulb window in 2025, 2050, and 2080."
-  },
-  {
-    "objectID": "starter_kits/future-weather-windows/README.html#files",
-    "href": "starter_kits/future-weather-windows/README.html#files",
-    "title": "Starter Kit: Future Weather Windows",
+    "objectID": "starter_kits/reproducibility-capsule/README.html#files",
+    "href": "starter_kits/reproducibility-capsule/README.html#files",
+    "title": "Starter Kit: A4 Reproducibility Capsule",
     "section": "Files",
-    "text": "Files\n\n\n\nFile\nUse\n\n\n\n\noutputs/future_weather_hot14_summary.csv\ncompact comparison table for all city/scenario/year windows\n\n\noutputs/future_weather_hot14_slices.csv\ncombined hourly table for all 12 selected windows\n\n\noutputs/slices/\nindividual city/scenario/year CSV windows\n\n\noutputs/plots/future_weather_hot14_temp_profiles.png\ndry-bulb profiles for the selected 14-day windows\n\n\noutputs/plots/future_weather_hot14_degree_hours.png\ndegree-hours above 30 deg C across windows\n\n\nbuild_future_weather_windows.py\nrebuild script for the local CMIP forecast CSV source"
+    "text": "Files\n\n\n\nFile\nUse\n\n\n\n\nreproducibility_capsule_template.md\nfill-in A4 capsule\n\n\nreproducibility_capsule_checklist.csv\nquick self-check before jury"
   },
   {
-    "objectID": "starter_kits/future-weather-windows/README.html#how-to-read-it",
-    "href": "starter_kits/future-weather-windows/README.html#how-to-read-it",
-    "title": "Starter Kit: Future Weather Windows",
-    "section": "How To Read It",
-    "text": "How To Read It\nThe summary table includes:\n\n\n\n\n\n\n\nColumn\nDesign reading\n\n\n\n\nmean_temp_C\nsustained background heat across the selected window\n\n\nmax_temp_C\npeak dry-bulb severity\n\n\nhours_temp_ge_30C\nduration above a simple heat threshold\n\n\ndegree_hours_above_30C\naccumulated thermal burden above the threshold\n\n\nhot_humid_hours_temp_ge_30C_RH_ge_60\nhours where heat and humidity combine\n\n\nhot_still_hours_temp_ge_30C_wind_le_1ms\nhours where air movement may be weak\n\n\nhot_sunny_hours_temp_ge_30C_GHI_ge_600\nhours where shade and solar control matter\n\n\n\nThe threshold is deliberately simple. Students may change it, but they must explain why."
-  },
-  {
-    "objectID": "starter_kits/future-weather-windows/README.html#a3-use",
-    "href": "starter_kits/future-weather-windows/README.html#a3-use",
-    "title": "Starter Kit: Future Weather Windows",
-    "section": "A3 Use",
-    "text": "A3 Use\nUse this kit when A3 needs a changed weather, window, or climate snapshot.\nMinimum A3 transformation:\n\nchoose one city/scenario/year slice;\nplot temperature, RH, GHI, or wind speed across the 14-day window;\nset a threshold;\ncalculate failure hours or degree-hours;\nstate what design mechanism the weather sequence stresses: night recovery, shade, moisture, air movement, or service load."
-  },
-  {
-    "objectID": "starter_kits/future-weather-windows/README.html#a4-use",
-    "href": "starter_kits/future-weather-windows/README.html#a4-use",
-    "title": "Starter Kit: Future Weather Windows",
+    "objectID": "starter_kits/reproducibility-capsule/README.html#a4-use",
+    "href": "starter_kits/reproducibility-capsule/README.html#a4-use",
+    "title": "Starter Kit: A4 Reproducibility Capsule",
     "section": "A4 Use",
-    "text": "A4 Use\nFor A4, this becomes a roll-forward check.\nPossible claims:\n\na shading strategy remains useful under a hotter future window;\na passive ventilation claim weakens when wind is low during hot hours;\na humidity-sensitive material or dehumidification claim needs a different boundary;\na design action is robust in Guangzhou but not in Phoenix, or vice versa;\na conclusion is unsupported because the future-weather slice is not a microclimate model.\n\nThe important move is not scenario quantity. It is whether the student can say how the design claim changes when the weather boundary changes."
+    "text": "A4 Use\nThe capsule should answer four questions:\n\nWhat evidence did you use?\nWhat boundary did you draw?\nWhat did you do to the data or model?\nWhat can the final claim not prove?\n\nThis is not administrative paperwork. It is the defense layer of the design argument."
   },
   {
-    "objectID": "starter_kits/future-weather-windows/README.html#rebuild",
-    "href": "starter_kits/future-weather-windows/README.html#rebuild",
-    "title": "Starter Kit: Future Weather Windows",
-    "section": "Rebuild",
-    "text": "Rebuild\nTo rebuild from the local CMIP folders:\nCMIP_SOURCE_ROOT=\"/path/to/CMIPs\" python build_future_weather_windows.py\nIf CMIP_SOURCE_ROOT is not set, the script looks for the CMIP folder under the instructor’s OneDrive-style path."
+    "objectID": "starter_kits/reproducibility-capsule/README.html#minimum-capsule",
+    "href": "starter_kits/reproducibility-capsule/README.html#minimum-capsule",
+    "title": "Starter Kit: A4 Reproducibility Capsule",
+    "section": "Minimum Capsule",
+    "text": "Minimum Capsule\nEvery A4 package should include:\n\none project claim;\none evidence-input table;\none system-boundary table;\none toolchain table;\none threshold/decision table;\none roll-forward result label;\none limits-of-claim statement."
   },
   {
-    "objectID": "starter_kits/future-weather-windows/README.html#limits",
-    "href": "starter_kits/future-weather-windows/README.html#limits",
-    "title": "Starter Kit: Future Weather Windows",
-    "section": "Limits",
-    "text": "Limits\nThese files are not EPWs and are not compliance weather files.\nThey are hourly weather windows for architectural stress testing. They are useful for questions about duration, burden, humidity, solar exposure, wind, and climate sensitivity. They do not directly prove courtyard microclimate, facade surface temperature, indoor comfort, or future climate certainty.\nThe windows are selected by hottest 14-day dry-bulb mean within each target year. Do not over-read one bar as a full probabilistic ranking of scenarios. Use the slices to ask how a design claim changes when the weather boundary changes."
+    "objectID": "starter_kits/reproducibility-capsule/README.html#jury-standard",
+    "href": "starter_kits/reproducibility-capsule/README.html#jury-standard",
+    "title": "Starter Kit: A4 Reproducibility Capsule",
+    "section": "Jury Standard",
+    "text": "Jury Standard\nA strong A4 does not need maximum computation. It needs a reader to understand how the evidence was made, what changed, what stayed fixed, and why the design action follows from the thermal mechanism."
   },
   {
-    "objectID": "starter_kits/future-weather-windows/README.html#grasshopper-ladybug-bridge",
-    "href": "starter_kits/future-weather-windows/README.html#grasshopper-ladybug-bridge",
-    "title": "Starter Kit: Future Weather Windows",
-    "section": "Grasshopper / Ladybug Bridge",
-    "text": "Grasshopper / Ladybug Bridge\nUse the CSVs as a transparent handoff:\n\nimport hourly columns into Grasshopper for plotting or geometry-linked annotation;\nuse Ladybug/Honeybee weather workflows later if an EPW route is needed;\nkeep the selected city, scenario, year, threshold, and weather variables visible.\n\nThe architectural standard is the same as the rest of the course: the tool matters less than whether the boundary and claim are inspectable."
-  },
-  {
-    "objectID": "resources.html",
-    "href": "resources.html",
-    "title": "Resources",
+    "objectID": "starter_kits/ta-rh-spatial-field/README.html",
+    "href": "starter_kits/ta-rh-spatial-field/README.html",
+    "title": "Starter Kit: Ta/RH Spatial Field",
     "section": "",
-    "text": "This page tracks the first local resource layer. It will grow into starter notebooks, workbooks, sensing templates, EnergyPlus examples, and final-package templates.",
-    "crumbs": [
-      "Home",
-      "Course Overview",
-      "Resources"
-    ]
+    "text": "This kit fills the A1 spatial half of the course.\nIt turns sampled air temperature and relative humidity points into an interpolated field hypothesis, while keeping the measured points visible. The purpose is not to pretend the whole room was measured. The purpose is to make sampling, interpolation, and spatial uncertainty explicit."
   },
   {
-    "objectID": "resources.html#production-tools",
-    "href": "resources.html#production-tools",
-    "title": "Resources",
-    "section": "Production Tools",
-    "text": "Production Tools\n\n\n\nTool\nCourse Use\nWhat It Produces\n\n\n\n\nA2 Radiant Box Tool\nWeek 4-5 radiant exchange card\ntwo-position T_mrt / T_op comparison, surface view-factor table, heatmap PNG, CSV export\n\n\nA3 EnergyPlus Exposure-State Kit\nWeek 7-9 temporal build-up audit\nchecked hourly CSV, two-week chart, optional EnergyPlus CLI rerun\n\n\nFuture Weather Windows Kit\nWeek 8 climate stress test and A4 roll-forward validation\nGuangzhou/Phoenix SSP245/SSP585 hot-window slices, summary metrics, plots, rebuild script\n\n\n\nThe radiant box is intentionally simple: a well-mixed air temperature, six surface temperatures, two body points, approximate view factors, and exportable evidence. Use it when you need a transparent fallback before moving to Ladybug, Honeybee, EnergyPlus, thermal camera, globe temperature, or a Grasshopper view-factor workflow.\nThe EnergyPlus kit is intentionally bounded: a stock model, synthetic Hong Kong-like summer weather, July 8-21 hourly outputs, and a compact chart. Use it to practice exposure-state reading before claiming anything about a student building.\nThe future-weather kit is also bounded: it slices long CMIP6-derived hourly forecast files into inspectable 14-day stress windows. Use it to test whether a thermal claim changes when the weather boundary shifts.",
-    "crumbs": [
-      "Home",
-      "Course Overview",
-      "Resources"
-    ]
+    "objectID": "starter_kits/ta-rh-spatial-field/README.html#files",
+    "href": "starter_kits/ta-rh-spatial-field/README.html#files",
+    "title": "Starter Kit: Ta/RH Spatial Field",
+    "section": "Files",
+    "text": "Files\n\n\n\nFile\nUse\n\n\n\n\nsample_points.csv\neditable A1 sample-point template\n\n\nta_rh_idw_notebook.py\nrunnable notebook-style script\n\n\nta_rh_idw_notebook.ipynb\nJupyter wrapper for the same workflow\n\n\noutputs/ta_rh_idw_grid.csv\ngridded Ta/RH field generated from the sample points\n\n\noutputs/ta_rh_idw_summary.csv\nsample range, IDW settings, and leave-one-out error check\n\n\noutputs/ta_field_idw.png\nair-temperature field map\n\n\noutputs/rh_field_idw.png\nrelative-humidity field map"
   },
   {
-    "objectID": "resources.html#downloaded-teaching-figures",
-    "href": "resources.html#downloaded-teaching-figures",
-    "title": "Resources",
-    "section": "Downloaded Teaching Figures",
-    "text": "Downloaded Teaching Figures\n\n\n\nFile\nUse\nSource\n\n\n\n\nassets/figures/psychrometric-chart-sealevel-si.svg\nWeek 1 psychrometrics and humidity reading\nWikimedia Commons\n\n\nassets/figures/pmv-psychrometric-chart.png\nWeek 2 PMV method visual\nWikimedia Commons\n\n\nassets/figures/pmv-temperature-rh-chart.png\nWeek 2 temperature-RH comfort visual\nWikimedia Commons\n\n\nassets/figures/adaptive-comfort-chart.png\nWeek 7/8 adaptive model contrast\nWikimedia Commons\n\n\nassets/figures/human-infrared.jpg\nWeek 2 thermal image reference\nWikimedia Commons\n\n\nassets/figures/heat-transfer-modes-web.jpg\nWeek 2 heat-transfer modes reference\nWikimedia Commons\n\n\nassets/figures/solar-spectrum.png\nWeek 4 solar radiation and spectral distribution\nWikimedia Commons\n\n\nassets/figures/airmass-geometry.png\nOptional Week 4 solar angle / air-mass reference\nWikimedia Commons\n\n\nassets/figures/leslies-cube-emissivity.png\nWeek 5 emissivity and surface finish reference\nWikimedia Commons\n\n\nassets/figures/emissivity-cosine-model.png\nOptional Week 5 directional emissivity reference\nWikimedia Commons\n\n\nassets/figures/lcz-classification-chart.png\nWeek 8 Local Climate Zone vocabulary\nDemuzere et al. / Scientific Data\n\n\nassets/figures/urban-heat-island-profile.svg\nWeek 8 urban heat island and night recovery\nWikimedia Commons",
-    "crumbs": [
-      "Home",
-      "Course Overview",
-      "Resources"
-    ]
+    "objectID": "starter_kits/ta-rh-spatial-field/README.html#run",
+    "href": "starter_kits/ta-rh-spatial-field/README.html#run",
+    "title": "Starter Kit: Ta/RH Spatial Field",
+    "section": "Run",
+    "text": "Run\nFrom this folder:\npython ta_rh_idw_notebook.py\nOptional settings:\nA1_POINTS_CSV=\"sample_points.csv\" A1_IDW_POWER=2.0 python ta_rh_idw_notebook.py"
   },
   {
-    "objectID": "resources.html#original-course-diagrams",
-    "href": "resources.html#original-course-diagrams",
-    "title": "Resources",
-    "section": "Original Course Diagrams",
-    "text": "Original Course Diagrams\nThese SVGs are locally authored for the course so the physical ideas can be read architecturally.\n\nassets/figures/body-heat-balance.svg\nassets/figures/air-rh-field-map.svg\nassets/figures/pmv-ppd-curve.svg\nassets/figures/radiant-asymmetry-section.svg\nassets/figures/thermal-lag-degree-hours.svg\nassets/figures/field-to-action-ladder.svg\nassets/figures/weather-window-cross-validation.svg\nassets/figures/roll-forward-validation.svg\nassets/figures/diagnostic-round-workflow.svg\nassets/figures/thermal-field-contour-map.svg",
-    "crumbs": [
-      "Home",
-      "Course Overview",
-      "Resources"
-    ]
+    "objectID": "starter_kits/ta-rh-spatial-field/README.html#a1-use",
+    "href": "starter_kits/ta-rh-spatial-field/README.html#a1-use",
+    "title": "Starter Kit: Ta/RH Spatial Field",
+    "section": "A1 Use",
+    "text": "A1 Use\nMinimum A1 transformation:\n\nreplace sample_points.csv with your measured or curated points;\nrun the notebook;\nput the field map beside the original point map;\nstate the sensor protocol or data source;\nstate the interpolation limit."
   },
   {
-    "objectID": "resources.html#pmvppd-reading-to-revisit",
-    "href": "resources.html#pmvppd-reading-to-revisit",
-    "title": "Resources",
-    "section": "PMV/PPD Reading To Revisit",
-    "text": "PMV/PPD Reading To Revisit\n\nCheung, Schiavon, Parkinson, Li, and Brager (2019), “Analysis of the accuracy on PMV - PPD model using the ASHRAE Global Thermal Comfort Database II”. This is a useful Week 2/Week 7 caution that model fluency does not equal field accuracy.",
-    "crumbs": [
-      "Home",
-      "Course Overview",
-      "Resources"
-    ]
+    "objectID": "starter_kits/ta-rh-spatial-field/README.html#what-to-claim",
+    "href": "starter_kits/ta-rh-spatial-field/README.html#what-to-claim",
+    "title": "Starter Kit: Ta/RH Spatial Field",
+    "section": "What To Claim",
+    "text": "What To Claim\nAcceptable A1 claims:\n\nthe sampled field suggests a warmer facade-adjacent zone;\nRH and Ta do not necessarily peak at the same location;\nthe sample layout is too weak to support a smooth field claim;\na design decision should respond to a sampled gradient, not one room-average value.\n\nUnacceptable claims:\n\nevery location is known because the heat map is smooth;\nIDW proves a causal mechanism;\nCO2 or IAQ values replace the thermal field claim;\nthe field is valid outside the sampled boundary."
   },
   {
-    "objectID": "resources.html#grasshopper-bridge-routes",
-    "href": "resources.html#grasshopper-bridge-routes",
-    "title": "Resources",
-    "section": "Grasshopper Bridge Routes",
-    "text": "Grasshopper Bridge Routes\nThese routes are supported as optional bridges for students already working in Rhino/Grasshopper. They are not required for completing the core assignments.\n\n\n\nCourse moment\nGH route\nUse\nCaution\n\n\n\n\nWeek 1 / airflow claims\nButterfly / OpenFOAM via Ladybug Tools\nstagnant pockets, draft risk, courtyard flushing, fan/opening effects\ndeclare boundary conditions, mesh/solver assumptions, and occupied position\n\n\nWeek 2 / comfort models\nLadybug Tools\nPMV/PPD, adaptive comfort, UTCI, weather-linked comfort exploration\ndocument Ta, MRT, RH, air speed, metabolic rate, clothing, and model domain\n\n\nWeek 4-5 / radiant exchange\nA2 Radiant Box Tool first, then Ladybug/Honeybee/GH if needed\nsource/sink comparison, approximate view factors, T_mrt, T_op\nrectangular proxy; state limits before translating to complex geometry\n\n\nLater weeks / simulation handoff\nLadybug Tools / Honeybee / EnergyPlus routes\nhourly outputs, radiant/operative temperature, weather stress tests\nGH output is evidence only when assumptions and exported data are inspectable",
-    "crumbs": [
-      "Home",
-      "Course Overview",
-      "Resources"
-    ]
+    "objectID": "starter_kits/ta-rh-spatial-field/README.html#grasshopper-bridge",
+    "href": "starter_kits/ta-rh-spatial-field/README.html#grasshopper-bridge",
+    "title": "Starter Kit: Ta/RH Spatial Field",
+    "section": "Grasshopper Bridge",
+    "text": "Grasshopper Bridge\nImport outputs/ta_rh_idw_grid.csv into Grasshopper when students want geometry-linked visualization. The GH route should keep the original points visible and annotate the interpolation method.\nThe standard is simple: a field map is useful only when the sampling, interpolation, and uncertainty remain visible."
   },
   {
-    "objectID": "resources.html#research-context",
-    "href": "resources.html#research-context",
-    "title": "Resources",
-    "section": "Research Context",
-    "text": "Research Context\nThe course is informed by Hongshan Guo’s public research profile at FORGE: Future, Occupant, Risk, and Generative Environments, especially work on human-building-climate systems, mean radiant temperature, future weather uncertainty, EnergyPlus/co-simulation, stochastic weather, thermal comfort prediction, and design-facing AI pedagogy.",
-    "crumbs": [
-      "Home",
-      "Course Overview",
-      "Resources"
-    ]
-  },
-  {
-    "objectID": "resources.html#starter-kits-to-build-next",
-    "href": "resources.html#starter-kits-to-build-next",
-    "title": "Resources",
-    "section": "Starter Kits To Build Next",
-    "text": "Starter Kits To Build Next\n\nTa/RH spatial field workbook and CSV template.\nTemporal build-up notebook for degree-hours and threshold exceedance.\nFinal package reproducibility capsule template.",
-    "crumbs": [
-      "Home",
-      "Course Overview",
-      "Resources"
-    ]
-  },
-  {
-    "objectID": "schedule.html",
-    "href": "schedule.html",
-    "title": "Schedule",
+    "objectID": "starter_kits/energyplus-exposure-state/README.html",
+    "href": "starter_kits/energyplus-exposure-state/README.html",
+    "title": "Starter Kit: EnergyPlus Exposure-State Case",
     "section": "",
-    "text": "The semester is structured around four accumulative artifacts. Weeks 1-6 teach physical and sensing concepts; Weeks 7-12 turn those concepts into stress tests, design action, validation, and defense.",
+    "text": "This kit gives A3 a runnable simulation route without making EnergyPlus installation the assignment.\nUse it in two ways:\nThe intellectual task is the same either way: draw a system boundary, read an hourly thermal sequence, set a threshold, and explain what the sequence can and cannot prove."
+  },
+  {
+    "objectID": "starter_kits/energyplus-exposure-state/README.html#files",
+    "href": "starter_kits/energyplus-exposure-state/README.html#files",
+    "title": "Starter Kit: EnergyPlus Exposure-State Case",
+    "section": "Files",
+    "text": "Files\n\n\n\nFile\nUse\n\n\n\n\noutputs/energyplus_two_week/monitored_outputs.csv\nprecomputed hourly state log\n\n\noutputs/energyplus_two_week/monitored_outputs.png\nquick visual check of outdoor dry bulb, zone air temperature, operative temperature, and setpoints\n\n\noutputs/energyplus_two_week/two_week_summary.txt\nrun summary and extracted row count\n\n\na3_boundary_box_template.csv\nfill-in template for the A3 system boundary\n\n\nrun_energyplus_two_week_case.py\noptional local runner that patches a stock IDF, generates a synthetic Hong Kong-like summer EPW, runs EnergyPlus, and extracts a compact CSV"
+  },
+  {
+    "objectID": "starter_kits/energyplus-exposure-state/README.html#what-this-demonstrates",
+    "href": "starter_kits/energyplus-exposure-state/README.html#what-this-demonstrates",
+    "title": "Starter Kit: EnergyPlus Exposure-State Case",
+    "section": "What This Demonstrates",
+    "text": "What This Demonstrates\nEnergyPlus is used here as an exposure-state generator, not as proof of comfort.\nThe kit makes these assumptions inspectable:\n\n\n\n\n\n\n\nBoundary\nClassroom choice\n\n\n\n\nspatial\none selected zone from a stock EnergyPlus example model\n\n\ntemporal\nJuly 8-21, hourly output\n\n\nclimate\nsynthetic Hong Kong-like summer EPW generated by the script\n\n\nservice\nstock controlled model with heating and cooling thermostat setpoints\n\n\nevidence\nEnergyPlus stock IDF, generated weather, extracted CSV, and chart\n\n\nlimits\nnot calibrated, not a student building, not a compliance model, not a local airflow model"
+  },
+  {
+    "objectID": "starter_kits/energyplus-exposure-state/README.html#variables-to-inspect",
+    "href": "starter_kits/energyplus-exposure-state/README.html#variables-to-inspect",
+    "title": "Starter Kit: EnergyPlus Exposure-State Case",
+    "section": "Variables To Inspect",
+    "text": "Variables To Inspect\n\n\n\n\n\n\n\nVariable\nDesign question\n\n\n\n\noutdoor dry-bulb temperature\nwhat weather sequence is driving the case?\n\n\nzone mean air temperature\ndoes the air condition exceed the selected threshold?\n\n\nzone operative temperature\ndoes the combined air/radiant condition change the body-facing claim?\n\n\ncooling setpoint\nwhat service target is the model trying to hold?\n\n\nheating setpoint\nis the model carrying a control assumption that matters?\n\n\ncooling output, if present\nwhere does the system mask or reveal thermal burden?"
+  },
+  {
+    "objectID": "starter_kits/energyplus-exposure-state/README.html#a3-use",
+    "href": "starter_kits/energyplus-exposure-state/README.html#a3-use",
+    "title": "Starter Kit: EnergyPlus Exposure-State Case",
+    "section": "A3 Use",
+    "text": "A3 Use\nFor A3, students can use the checked CSV directly.\nMinimum A3 transformation:\n\nchoose a variable: air temperature, operative temperature, or another justified output;\ndeclare a threshold;\ncount exceedance hours or degree-hours across the two-week window;\nadd the boundary table;\nwrite a mechanism note explaining whether the pattern is driven by weather, service, storage, exposure, or model limits.\n\nThis is enough for a defensible temporal build-up audit. Rerunning EnergyPlus is optional."
+  },
+  {
+    "objectID": "starter_kits/energyplus-exposure-state/README.html#a4-use",
+    "href": "starter_kits/energyplus-exposure-state/README.html#a4-use",
+    "title": "Starter Kit: EnergyPlus Exposure-State Case",
+    "section": "A4 Use",
+    "text": "A4 Use\nFor A4, this kit can become a seed rather than a final answer.\nPossible extensions:\n\nchange the evaluation window;\ncompare the checked CSV with a student-generated Honeybee or EnergyPlus export;\nhold the threshold fixed and test one design assumption;\nuse the plot as a model-limit example when explaining why a studio project needs a different boundary.\n\nThe final claim must stay bounded. A stock model can teach exposure-state reasoning; it cannot prove a student’s building performs."
+  },
+  {
+    "objectID": "starter_kits/energyplus-exposure-state/README.html#optional-local-run",
+    "href": "starter_kits/energyplus-exposure-state/README.html#optional-local-run",
+    "title": "Starter Kit: EnergyPlus Exposure-State Case",
+    "section": "Optional Local Run",
+    "text": "Optional Local Run\nInstall EnergyPlus from the official EnergyPlus download page or from NREL’s GitHub releases, then run:\npython run_energyplus_two_week_case.py\nIf the executable is not on PATH, set ENERGYPLUS_EXE.\nmacOS:\nexport ENERGYPLUS_EXE=\"/Applications/EnergyPlus-25-1-0/energyplus\"\npython run_energyplus_two_week_case.py\nWindows PowerShell:\n$env:ENERGYPLUS_EXE=\"C:\\EnergyPlusV25-1-0\\energyplus.exe\"\npython run_energyplus_two_week_case.py\nThe script looks for common stock IDFs such as 5ZoneAirCooled.idf. If needed, set ENERGYPLUS_IDF to a stock IDF with real heating and cooling thermostat setpoints."
+  },
+  {
+    "objectID": "starter_kits/energyplus-exposure-state/README.html#grasshopper-honeybee-bridge",
+    "href": "starter_kits/energyplus-exposure-state/README.html#grasshopper-honeybee-bridge",
+    "title": "Starter Kit: EnergyPlus Exposure-State Case",
+    "section": "Grasshopper / Honeybee Bridge",
+    "text": "Grasshopper / Honeybee Bridge\nStudents already working in Rhino/Grasshopper can treat the CSV as a handoff format:\n\nimport the CSV into Grasshopper for visualization;\nreproduce the output route later through Honeybee/EnergyPlus;\nkeep the exported data, weather window, zone name, and service state visible.\n\nThe bridge rule is simple: a parametric workflow becomes evidence only when the assumptions and exported outputs remain inspectable."
+  },
+  {
+    "objectID": "assignments.html",
+    "href": "assignments.html",
+    "title": "Assignments",
+    "section": "",
+    "text": "The assessment spine is deliberately separable. Each assignment owns one physical idea and one visual output, so grading can focus on whether the thermal reasoning is accurate, bounded, and architecturally consequential.",
     "crumbs": [
       "Home",
       "Course Overview",
-      "Schedule"
+      "Assignments"
     ]
   },
   {
-    "objectID": "schedule.html#rhythm",
-    "href": "schedule.html#rhythm",
-    "title": "Schedule",
-    "section": "Rhythm",
-    "text": "Rhythm\nEach week has a short conceptual lecture, a worked example, and an artifact-building session. Session 2 is a diagnostic round: students bring one design image, classmates make educated guesses under the weekly lens, and the host reveals the actual thermal question, mitigation, and evidence limit.",
+    "objectID": "assignments.html#a1-map-standard",
+    "href": "assignments.html#a1-map-standard",
+    "title": "Assignments",
+    "section": "A1 Map Standard",
+    "text": "A1 Map Standard\nA1 can be submitted as a point map, gradient map, or contour/heat map.\n\nMinimum: sampled or curated Ta/RH points on a plan or section.\nStronger: interpolated contour or heat map with sampled points still visible.\nBest: thermal field plus architectural overlay: body position, program, facade, opening, diffuser, shade, material, or threshold.\n\nUse the A1 Ta/RH Spatial Field Kit when you need a transparent point-to-field workflow. The IDW map is a hypothesis from sampled points, not proof that every location was measured.\nAny smooth field must state how it was produced. A heat map is a spatial hypothesis unless every location was actually measured.\nCO2, odor, particulates, or IAQ observations may be included when they affect the design question, but they do not replace the thermal evidence. If used, state whether the claim is about thermal air movement, ventilation quantity, ventilation effectiveness, or perceived air quality.",
     "crumbs": [
       "Home",
       "Course Overview",
-      "Schedule"
+      "Assignments"
     ]
   },
   {
-    "objectID": "schedule.html#session-2-diagnostic-round",
-    "href": "schedule.html#session-2-diagnostic-round",
-    "title": "Schedule",
-    "section": "Session 2 Diagnostic Round",
-    "text": "Session 2 Diagnostic Round\n\n\n\n\n\n\n\n\n\nPhase\nTime\nWhat Happens\nOutput\n\n\n\n\nCandidate scan\n10 min\nstudents choose their own or existing design image\none plan, section, rendering, or site photo\n\n\nSlack post\n5 min\nhost posts image and minimal context; diagnosis stays hidden\nshared image thread\n\n\nRound-table guesses\n20-25 min\nclassmates guess problem spot, mechanism, intervention, and competing constraint\nannotated guesses / votes\n\n\nHost reveal + translation\n10-15 min\nhost explains actual issue, mitigation, evidence, and uncertainty\nassignment seed or revision note\n\n\n\nHints are generous in Weeks 1-3, moderate in Weeks 4-8, and deliberately thinner in Weeks 9-12.",
+    "objectID": "assignments.html#a2-radiant-card-standard",
+    "href": "assignments.html#a2-radiant-card-standard",
+    "title": "Assignments",
+    "section": "A2 Radiant Card Standard",
+    "text": "A2 Radiant Card Standard\nA2 treats solar, sky, and surfaces as heat sources or sinks.\nUse the A2 Radiant Box Tool when you need a transparent fallback model for a two-position comparison. Advanced workflows are welcome, but the required artifact is the comparison and claim, not the software route.\nEach card should include:\n\ntwo occupied positions with similar or comparable air-temperature context;\nbody orientation and major surfaces in view;\ndominant radiant source or sink: direct sun, diffuse sky, reflected solar, hot surface, cool surface, or night sky;\napproximate magnitude where possible: solar wattage order of magnitude, surface temperature, MRT difference, or operative-temperature contribution;\nmaterial-property note where relevant: reflectivity/albedo, absorptivity, emissivity, thermal capacity, or glazing transmittance;\none design implication: shade, surface temperature, material, sky view, body offset, facade depth, canopy, or controlled radiant surface;\none uncertainty statement.\n\n\nA2 does not ask students to design homogeneous comfort. It asks them to identify how architecture can block, expose, cool, warm, store, or release radiant energy.",
     "crumbs": [
       "Home",
       "Course Overview",
-      "Schedule"
+      "Assignments"
     ]
   },
   {
-    "objectID": "schedule.html#week-6-pulse-check",
-    "href": "schedule.html#week-6-pulse-check",
-    "title": "Schedule",
-    "section": "Week 6 Pulse Check",
-    "text": "Week 6 Pulse Check\nAn anonymous 5-minute pulse check asks:\n\nIs the course matching what you expected?\nWhich concept or tool route needs more support?\nWhat is unclear about A2, A3, or the final package?\nWhat should be adjusted before the second half of semester?\n\nThe instructor summarizes one or two adjustments in Week 7.",
+    "objectID": "assignments.html#a3-boundary-standard",
+    "href": "assignments.html#a3-boundary-standard",
+    "title": "Assignments",
+    "section": "A3 Boundary Standard",
+    "text": "A3 Boundary Standard\nA3 is not just a plot of temperature over time. It must show where the analysis box is drawn.\nEach submission includes a system boundary box:\n\n\n\n\n\n\n\nBoundary\nRequired statement\n\n\n\n\nspatial\nroom, zone, threshold, facade edge, outdoor position, or body location\n\n\ntemporal\nbaseline window, timestep, occupied hours, preheat/recovery period\n\n\nclimate\nhistorical/typical, hot-humid stress, measured period, or future-adjusted snapshot\n\n\nservice\npassive, fan-assisted, conditioned, mixed-mode, refuge, or other control state\n\n\nevidence\nmeasured, simulated, curated, assumed, excluded\n\n\n\nThe required A3 comparison can be modest: one baseline window and one changed weather, exposure, or climate snapshot. The goal is to show whether the failure claim depends on a single convenient time slice.\nStudents do not need a local EnergyPlus installation to complete A3. They may use the A3 EnergyPlus Exposure-State Kit, their own measured/logger data, a Honeybee/EnergyPlus export, or another bounded hourly dataset as long as the system boundary and variables are explicit.\nUse the A3 Temporal Degree-Hours Kit to turn an hourly CSV into failure hours, degree-hours, and a threshold plot.\nFor the changed weather or climate snapshot, students may also use the Future Weather Windows Kit. It provides small hourly slices for Guangzhou and Phoenix under SSP245 and SSP585, so the comparison can be about weather-boundary reasoning rather than data hunting.\n\nStudents are not expected to become climate modelers. They are expected to state which climate snapshot their design claim depends on.",
     "crumbs": [
       "Home",
       "Course Overview",
-      "Schedule"
+      "Assignments"
+    ]
+  },
+  {
+    "objectID": "assignments.html#a4-is-an-assembly",
+    "href": "assignments.html#a4-is-an-assembly",
+    "title": "Assignments",
+    "section": "A4 Is An Assembly",
+    "text": "A4 Is An Assembly\nA4 is assembled from A1-A3. It should not be restarted from scratch in Weeks 10-12.\nUse the A4 Reproducibility Capsule as the final package landing place for files, assumptions, thresholds, rerun notes, and limits of claim.\nStudents choose one condition and one bounded action route:\n\nroom or interior condition;\nfacade or envelope edge;\noutdoor or threshold microclimate;\noperational or air-movement choice.\n\nThe final intervention may reduce a harmful heterogeneity or deliberately organize a beneficial one. Students must name the intervention posture:\n\n\n\n\n\n\n\n\nPosture\nWhat it does\nA4 example\n\n\n\n\nsuppress\nremoves a harmful difference\nreduce condensation risk at a cold bridge\n\n\nbuffer\nabsorbs, delays, or softens exposure\nshaded threshold, thermal mass, moisture-buffering material\n\n\nredirect\nmoves burden away from bodies or programs\nexhaust humid air, shift seating, re-section airflow\n\n\ncelebrate\nmakes useful difference spatially legible\ncool refuge, breezy threshold, shaded humid garden edge\n\n\n\n\nCelebrating heterogeneity is acceptable only when the mechanism, body consequence, evidence limit, and climate-stress risk are explicit.",
+    "crumbs": [
+      "Home",
+      "Course Overview",
+      "Assignments"
+    ]
+  },
+  {
+    "objectID": "assignments.html#roll-forward-validation",
+    "href": "assignments.html#roll-forward-validation",
+    "title": "Assignments",
+    "section": "Roll-Forward Validation",
+    "text": "Roll-Forward Validation\nThe required final note is not a decade-by-decade retrofit thesis. Each student changes one stress assumption and asks whether the action still holds.\nExamples:\n\nhotter week instead of typical week;\n3-day, 7-day, or 14-day stress window;\ncurrent versus future-adjusted weather;\ndry-hot versus humid-hot period;\nchanged occupancy schedule;\nchanged glazing/window assumption.\n\nThe outcome should be labeled robust, weakened, censored, or unsupported. Multi-window reruns are distinction-level evidence when they improve architectural judgment, not because they add computation.",
+    "crumbs": [
+      "Home",
+      "Course Overview",
+      "Assignments"
+    ]
+  },
+  {
+    "objectID": "assignments.html#grading-emphasis",
+    "href": "assignments.html#grading-emphasis",
+    "title": "Assignments",
+    "section": "Grading Emphasis",
+    "text": "Grading Emphasis\n\nPhysical reasoning is correct and portable.\nVisual evidence makes spatial or temporal difference visible.\nClaims stay within the evidence.\nUncertainty is owned, not hidden.\nDesign action follows from the failure mechanism.\nIntervention posture is named and defended.\nReproducibility is sufficient for a reader to inspect or rerun the result.",
+    "crumbs": [
+      "Home",
+      "Course Overview",
+      "Assignments"
     ]
   },
   {
@@ -1755,144 +1765,246 @@
     ]
   },
   {
-    "objectID": "assignments.html",
-    "href": "assignments.html",
-    "title": "Assignments",
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Schedule",
     "section": "",
-    "text": "The assessment spine is deliberately separable. Each assignment owns one physical idea and one visual output, so grading can focus on whether the thermal reasoning is accurate, bounded, and architecturally consequential.",
+    "text": "The semester is structured around four accumulative artifacts. Weeks 1-6 teach physical and sensing concepts; Weeks 7-12 turn those concepts into stress tests, design action, validation, and defense.",
     "crumbs": [
       "Home",
       "Course Overview",
-      "Assignments"
+      "Schedule"
     ]
   },
   {
-    "objectID": "assignments.html#a1-map-standard",
-    "href": "assignments.html#a1-map-standard",
-    "title": "Assignments",
-    "section": "A1 Map Standard",
-    "text": "A1 Map Standard\nA1 can be submitted as a point map, gradient map, or contour/heat map.\n\nMinimum: sampled or curated Ta/RH points on a plan or section.\nStronger: interpolated contour or heat map with sampled points still visible.\nBest: thermal field plus architectural overlay: body position, program, facade, opening, diffuser, shade, material, or threshold.\n\nAny smooth field must state how it was produced. A heat map is a spatial hypothesis unless every location was actually measured.\nCO2, odor, particulates, or IAQ observations may be included when they affect the design question, but they do not replace the thermal evidence. If used, state whether the claim is about thermal air movement, ventilation quantity, ventilation effectiveness, or perceived air quality.",
+    "objectID": "schedule.html#rhythm",
+    "href": "schedule.html#rhythm",
+    "title": "Schedule",
+    "section": "Rhythm",
+    "text": "Rhythm\nEach week has a short conceptual lecture, a worked example, and an artifact-building session. Session 2 is a diagnostic round: students bring one design image, classmates make educated guesses under the weekly lens, and the host reveals the actual thermal question, mitigation, and evidence limit.",
     "crumbs": [
       "Home",
       "Course Overview",
-      "Assignments"
+      "Schedule"
     ]
   },
   {
-    "objectID": "assignments.html#a2-radiant-card-standard",
-    "href": "assignments.html#a2-radiant-card-standard",
-    "title": "Assignments",
-    "section": "A2 Radiant Card Standard",
-    "text": "A2 Radiant Card Standard\nA2 treats solar, sky, and surfaces as heat sources or sinks.\nUse the A2 Radiant Box Tool when you need a transparent fallback model for a two-position comparison. Advanced workflows are welcome, but the required artifact is the comparison and claim, not the software route.\nEach card should include:\n\ntwo occupied positions with similar or comparable air-temperature context;\nbody orientation and major surfaces in view;\ndominant radiant source or sink: direct sun, diffuse sky, reflected solar, hot surface, cool surface, or night sky;\napproximate magnitude where possible: solar wattage order of magnitude, surface temperature, MRT difference, or operative-temperature contribution;\nmaterial-property note where relevant: reflectivity/albedo, absorptivity, emissivity, thermal capacity, or glazing transmittance;\none design implication: shade, surface temperature, material, sky view, body offset, facade depth, canopy, or controlled radiant surface;\none uncertainty statement.\n\n\nA2 does not ask students to design homogeneous comfort. It asks them to identify how architecture can block, expose, cool, warm, store, or release radiant energy.",
+    "objectID": "schedule.html#session-2-diagnostic-round",
+    "href": "schedule.html#session-2-diagnostic-round",
+    "title": "Schedule",
+    "section": "Session 2 Diagnostic Round",
+    "text": "Session 2 Diagnostic Round\n\n\n\n\n\n\n\n\n\nPhase\nTime\nWhat Happens\nOutput\n\n\n\n\nCandidate scan\n10 min\nstudents choose their own or existing design image\none plan, section, rendering, or site photo\n\n\nSlack post\n5 min\nhost posts image and minimal context; diagnosis stays hidden\nshared image thread\n\n\nRound-table guesses\n20-25 min\nclassmates guess problem spot, mechanism, intervention, and competing constraint\nannotated guesses / votes\n\n\nHost reveal + translation\n10-15 min\nhost explains actual issue, mitigation, evidence, and uncertainty\nassignment seed or revision note\n\n\n\nHints are generous in Weeks 1-3, moderate in Weeks 4-8, and deliberately thinner in Weeks 9-12.",
     "crumbs": [
       "Home",
       "Course Overview",
-      "Assignments"
+      "Schedule"
     ]
   },
   {
-    "objectID": "assignments.html#a3-boundary-standard",
-    "href": "assignments.html#a3-boundary-standard",
-    "title": "Assignments",
-    "section": "A3 Boundary Standard",
-    "text": "A3 Boundary Standard\nA3 is not just a plot of temperature over time. It must show where the analysis box is drawn.\nEach submission includes a system boundary box:\n\n\n\n\n\n\n\nBoundary\nRequired statement\n\n\n\n\nspatial\nroom, zone, threshold, facade edge, outdoor position, or body location\n\n\ntemporal\nbaseline window, timestep, occupied hours, preheat/recovery period\n\n\nclimate\nhistorical/typical, hot-humid stress, measured period, or future-adjusted snapshot\n\n\nservice\npassive, fan-assisted, conditioned, mixed-mode, refuge, or other control state\n\n\nevidence\nmeasured, simulated, curated, assumed, excluded\n\n\n\nThe required A3 comparison can be modest: one baseline window and one changed weather, exposure, or climate snapshot. The goal is to show whether the failure claim depends on a single convenient time slice.\nStudents do not need a local EnergyPlus installation to complete A3. They may use the A3 EnergyPlus Exposure-State Kit, their own measured/logger data, a Honeybee/EnergyPlus export, or another bounded hourly dataset as long as the system boundary and variables are explicit.\nFor the changed weather or climate snapshot, students may also use the Future Weather Windows Kit. It provides small hourly slices for Guangzhou and Phoenix under SSP245 and SSP585, so the comparison can be about weather-boundary reasoning rather than data hunting.\n\nStudents are not expected to become climate modelers. They are expected to state which climate snapshot their design claim depends on.",
+    "objectID": "schedule.html#week-6-pulse-check",
+    "href": "schedule.html#week-6-pulse-check",
+    "title": "Schedule",
+    "section": "Week 6 Pulse Check",
+    "text": "Week 6 Pulse Check\nAn anonymous 5-minute pulse check asks:\n\nIs the course matching what you expected?\nWhich concept or tool route needs more support?\nWhat is unclear about A2, A3, or the final package?\nWhat should be adjusted before the second half of semester?\n\nThe instructor summarizes one or two adjustments in Week 7.",
     "crumbs": [
       "Home",
       "Course Overview",
-      "Assignments"
+      "Schedule"
     ]
   },
   {
-    "objectID": "assignments.html#a4-is-an-assembly",
-    "href": "assignments.html#a4-is-an-assembly",
-    "title": "Assignments",
-    "section": "A4 Is An Assembly",
-    "text": "A4 Is An Assembly\nA4 is assembled from A1-A3. It should not be restarted from scratch in Weeks 10-12.\nStudents choose one condition and one bounded action route:\n\nroom or interior condition;\nfacade or envelope edge;\noutdoor or threshold microclimate;\noperational or air-movement choice.\n\nThe final intervention may reduce a harmful heterogeneity or deliberately organize a beneficial one. Students must name the intervention posture:\n\n\n\n\n\n\n\n\nPosture\nWhat it does\nA4 example\n\n\n\n\nsuppress\nremoves a harmful difference\nreduce condensation risk at a cold bridge\n\n\nbuffer\nabsorbs, delays, or softens exposure\nshaded threshold, thermal mass, moisture-buffering material\n\n\nredirect\nmoves burden away from bodies or programs\nexhaust humid air, shift seating, re-section airflow\n\n\ncelebrate\nmakes useful difference spatially legible\ncool refuge, breezy threshold, shaded humid garden edge\n\n\n\n\nCelebrating heterogeneity is acceptable only when the mechanism, body consequence, evidence limit, and climate-stress risk are explicit.",
-    "crumbs": [
-      "Home",
-      "Course Overview",
-      "Assignments"
-    ]
-  },
-  {
-    "objectID": "assignments.html#roll-forward-validation",
-    "href": "assignments.html#roll-forward-validation",
-    "title": "Assignments",
-    "section": "Roll-Forward Validation",
-    "text": "Roll-Forward Validation\nThe required final note is not a decade-by-decade retrofit thesis. Each student changes one stress assumption and asks whether the action still holds.\nExamples:\n\nhotter week instead of typical week;\n3-day, 7-day, or 14-day stress window;\ncurrent versus future-adjusted weather;\ndry-hot versus humid-hot period;\nchanged occupancy schedule;\nchanged glazing/window assumption.\n\nThe outcome should be labeled robust, weakened, censored, or unsupported. Multi-window reruns are distinction-level evidence when they improve architectural judgment, not because they add computation.",
-    "crumbs": [
-      "Home",
-      "Course Overview",
-      "Assignments"
-    ]
-  },
-  {
-    "objectID": "assignments.html#grading-emphasis",
-    "href": "assignments.html#grading-emphasis",
-    "title": "Assignments",
-    "section": "Grading Emphasis",
-    "text": "Grading Emphasis\n\nPhysical reasoning is correct and portable.\nVisual evidence makes spatial or temporal difference visible.\nClaims stay within the evidence.\nUncertainty is owned, not hidden.\nDesign action follows from the failure mechanism.\nIntervention posture is named and defended.\nReproducibility is sufficient for a reader to inspect or rerun the result.",
-    "crumbs": [
-      "Home",
-      "Course Overview",
-      "Assignments"
-    ]
-  },
-  {
-    "objectID": "starter_kits/energyplus-exposure-state/README.html",
-    "href": "starter_kits/energyplus-exposure-state/README.html",
-    "title": "Starter Kit: EnergyPlus Exposure-State Case",
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
     "section": "",
-    "text": "This kit gives A3 a runnable simulation route without making EnergyPlus installation the assignment.\nUse it in two ways:\nThe intellectual task is the same either way: draw a system boundary, read an hourly thermal sequence, set a threshold, and explain what the sequence can and cannot prove."
+    "text": "This page tracks the first local resource layer. It will grow into starter notebooks, workbooks, sensing templates, EnergyPlus examples, and final-package templates.",
+    "crumbs": [
+      "Home",
+      "Course Overview",
+      "Resources"
+    ]
   },
   {
-    "objectID": "starter_kits/energyplus-exposure-state/README.html#files",
-    "href": "starter_kits/energyplus-exposure-state/README.html#files",
-    "title": "Starter Kit: EnergyPlus Exposure-State Case",
+    "objectID": "resources.html#production-tools",
+    "href": "resources.html#production-tools",
+    "title": "Resources",
+    "section": "Production Tools",
+    "text": "Production Tools\n\n\n\nTool\nCourse Use\nWhat It Produces\n\n\n\n\nA1 Ta/RH Spatial Field Kit\nWeek 3 spatial air-field map\npoint template, IDW gridded CSV, Ta/RH field maps, interpolation summary\n\n\nA2 Radiant Box Tool\nWeek 4-5 radiant exchange card\ntwo-position T_mrt / T_op comparison, surface view-factor table, heatmap PNG, CSV export\n\n\nA3 EnergyPlus Exposure-State Kit\nWeek 7-9 temporal build-up audit\nchecked hourly CSV, two-week chart, optional EnergyPlus CLI rerun\n\n\nA3 Temporal Degree-Hours Kit\nWeek 7-9 threshold and burden calculation\nEnergyPlus CSV ingestion, failure-hour table, degree-hour table, threshold plot\n\n\nFuture Weather Windows Kit\nWeek 8 climate stress test and A4 roll-forward validation\nGuangzhou/Phoenix SSP245/SSP585 hot-window slices, summary metrics, plots, rebuild script\n\n\nA4 Reproducibility Capsule\nWeek 12 jury and final package\nfill-in evidence, boundary, toolchain, threshold, roll-forward, and limits template\n\n\n\nThe Ta/RH field kit is intentionally modest: it turns sampled points into an interpolated field hypothesis and keeps the sample points visible. Use it to make spatial uncertainty discussable, not to pretend every location was measured.\nThe radiant box is intentionally simple: a well-mixed air temperature, six surface temperatures, two body points, approximate view factors, and exportable evidence. Use it when you need a transparent fallback before moving to Ladybug, Honeybee, EnergyPlus, thermal camera, globe temperature, or a Grasshopper view-factor workflow.\nThe EnergyPlus kit is intentionally bounded: a stock model, synthetic Hong Kong-like summer weather, July 8-21 hourly outputs, and a compact chart. Use it to practice exposure-state reading before claiming anything about a student building.\nThe temporal degree-hours kit turns an hourly state log into failure hours and accumulated burden. Use it when a time-series needs to become an A3 threshold argument.\nThe future-weather kit is also bounded: it slices long CMIP6-derived hourly forecast files into inspectable 14-day stress windows. Use it to test whether a thermal claim changes when the weather boundary shifts.",
+    "crumbs": [
+      "Home",
+      "Course Overview",
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "resources.html#downloaded-teaching-figures",
+    "href": "resources.html#downloaded-teaching-figures",
+    "title": "Resources",
+    "section": "Downloaded Teaching Figures",
+    "text": "Downloaded Teaching Figures\n\n\n\nFile\nUse\nSource\n\n\n\n\nassets/figures/psychrometric-chart-sealevel-si.svg\nWeek 1 psychrometrics and humidity reading\nWikimedia Commons\n\n\nassets/figures/pmv-psychrometric-chart.png\nWeek 2 PMV method visual\nWikimedia Commons\n\n\nassets/figures/pmv-temperature-rh-chart.png\nWeek 2 temperature-RH comfort visual\nWikimedia Commons\n\n\nassets/figures/adaptive-comfort-chart.png\nWeek 7/8 adaptive model contrast\nWikimedia Commons\n\n\nassets/figures/human-infrared.jpg\nWeek 2 thermal image reference\nWikimedia Commons\n\n\nassets/figures/heat-transfer-modes-web.jpg\nWeek 2 heat-transfer modes reference\nWikimedia Commons\n\n\nassets/figures/solar-spectrum.png\nWeek 4 solar radiation and spectral distribution\nWikimedia Commons\n\n\nassets/figures/airmass-geometry.png\nOptional Week 4 solar angle / air-mass reference\nWikimedia Commons\n\n\nassets/figures/leslies-cube-emissivity.png\nWeek 5 emissivity and surface finish reference\nWikimedia Commons\n\n\nassets/figures/emissivity-cosine-model.png\nOptional Week 5 directional emissivity reference\nWikimedia Commons\n\n\nassets/figures/lcz-classification-chart.png\nWeek 8 Local Climate Zone vocabulary\nDemuzere et al. / Scientific Data\n\n\nassets/figures/urban-heat-island-profile.svg\nWeek 8 urban heat island and night recovery\nWikimedia Commons",
+    "crumbs": [
+      "Home",
+      "Course Overview",
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "resources.html#original-course-diagrams",
+    "href": "resources.html#original-course-diagrams",
+    "title": "Resources",
+    "section": "Original Course Diagrams",
+    "text": "Original Course Diagrams\nThese SVGs are locally authored for the course so the physical ideas can be read architecturally.\n\nassets/figures/body-heat-balance.svg\nassets/figures/air-rh-field-map.svg\nassets/figures/pmv-ppd-curve.svg\nassets/figures/radiant-asymmetry-section.svg\nassets/figures/thermal-lag-degree-hours.svg\nassets/figures/field-to-action-ladder.svg\nassets/figures/weather-window-cross-validation.svg\nassets/figures/roll-forward-validation.svg\nassets/figures/diagnostic-round-workflow.svg\nassets/figures/thermal-field-contour-map.svg",
+    "crumbs": [
+      "Home",
+      "Course Overview",
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "resources.html#pmvppd-reading-to-revisit",
+    "href": "resources.html#pmvppd-reading-to-revisit",
+    "title": "Resources",
+    "section": "PMV/PPD Reading To Revisit",
+    "text": "PMV/PPD Reading To Revisit\n\nCheung, Schiavon, Parkinson, Li, and Brager (2019), “Analysis of the accuracy on PMV - PPD model using the ASHRAE Global Thermal Comfort Database II”. This is a useful Week 2/Week 7 caution that model fluency does not equal field accuracy.",
+    "crumbs": [
+      "Home",
+      "Course Overview",
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "resources.html#grasshopper-bridge-routes",
+    "href": "resources.html#grasshopper-bridge-routes",
+    "title": "Resources",
+    "section": "Grasshopper Bridge Routes",
+    "text": "Grasshopper Bridge Routes\nThese routes are supported as optional bridges for students already working in Rhino/Grasshopper. They are not required for completing the core assignments.\n\n\n\nCourse moment\nGH route\nUse\nCaution\n\n\n\n\nWeek 1 / airflow claims\nButterfly / OpenFOAM via Ladybug Tools\nstagnant pockets, draft risk, courtyard flushing, fan/opening effects\ndeclare boundary conditions, mesh/solver assumptions, and occupied position\n\n\nWeek 2 / comfort models\nLadybug Tools\nPMV/PPD, adaptive comfort, UTCI, weather-linked comfort exploration\ndocument Ta, MRT, RH, air speed, metabolic rate, clothing, and model domain\n\n\nWeek 4-5 / radiant exchange\nA2 Radiant Box Tool first, then Ladybug/Honeybee/GH if needed\nsource/sink comparison, approximate view factors, T_mrt, T_op\nrectangular proxy; state limits before translating to complex geometry\n\n\nLater weeks / simulation handoff\nLadybug Tools / Honeybee / EnergyPlus routes\nhourly outputs, radiant/operative temperature, weather stress tests\nGH output is evidence only when assumptions and exported data are inspectable",
+    "crumbs": [
+      "Home",
+      "Course Overview",
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "resources.html#research-context",
+    "href": "resources.html#research-context",
+    "title": "Resources",
+    "section": "Research Context",
+    "text": "Research Context\nThe course is informed by Hongshan Guo’s public research profile at FORGE: Future, Occupant, Risk, and Generative Environments, especially work on human-building-climate systems, mean radiant temperature, future weather uncertainty, EnergyPlus/co-simulation, stochastic weather, thermal comfort prediction, and design-facing AI pedagogy.",
+    "crumbs": [
+      "Home",
+      "Course Overview",
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "resources.html#starter-kits-to-refine-next",
+    "href": "resources.html#starter-kits-to-refine-next",
+    "title": "Resources",
+    "section": "Starter Kits To Refine Next",
+    "text": "Starter Kits To Refine Next\n\nSensor logger import template for common classroom devices.\nOptional GH/Honeybee handoff examples once the native Grasshopper environment is ready.",
+    "crumbs": [
+      "Home",
+      "Course Overview",
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "starter_kits/future-weather-windows/README.html",
+    "href": "starter_kits/future-weather-windows/README.html",
+    "title": "Starter Kit: Future Weather Windows",
+    "section": "",
+    "text": "This kit gives Week 8, A3, and A4 a small future-facing weather artifact.\nIt does not ask students to become climate modelers. It gives them hourly weather windows they can inspect, plot, threshold, and compare."
+  },
+  {
+    "objectID": "starter_kits/future-weather-windows/README.html#what-it-contains",
+    "href": "starter_kits/future-weather-windows/README.html#what-it-contains",
+    "title": "Starter Kit: Future Weather Windows",
+    "section": "What It Contains",
+    "text": "What It Contains\nThe source material is a local set of CMIP6-derived hourly forecast CSV files for two cities and two scenarios:\n\n\n\nCity\nScenario\n\n\n\n\nGuangzhou\nSSP245\n\n\nGuangzhou\nSSP585\n\n\nPhoenix\nSSP245\n\n\nPhoenix\nSSP585\n\n\n\nFor each city-scenario pair, the script selects the hottest 14-day dry-bulb window in 2025, 2050, and 2080. These are stress windows, not same-calendar-week comparisons."
+  },
+  {
+    "objectID": "starter_kits/future-weather-windows/README.html#files",
+    "href": "starter_kits/future-weather-windows/README.html#files",
+    "title": "Starter Kit: Future Weather Windows",
     "section": "Files",
-    "text": "Files\n\n\n\nFile\nUse\n\n\n\n\noutputs/energyplus_two_week/monitored_outputs.csv\nprecomputed hourly state log\n\n\noutputs/energyplus_two_week/monitored_outputs.png\nquick visual check of outdoor dry bulb, zone air temperature, operative temperature, and setpoints\n\n\noutputs/energyplus_two_week/two_week_summary.txt\nrun summary and extracted row count\n\n\na3_boundary_box_template.csv\nfill-in template for the A3 system boundary\n\n\nrun_energyplus_two_week_case.py\noptional local runner that patches a stock IDF, generates a synthetic Hong Kong-like summer EPW, runs EnergyPlus, and extracts a compact CSV"
+    "text": "Files\n\n\n\nFile\nUse\n\n\n\n\noutputs/future_weather_hot14_summary.csv\ncompact comparison table for all city/scenario/year windows\n\n\noutputs/future_weather_hot14_slices.csv\ncombined hourly table for all 12 selected windows\n\n\noutputs/plots/future_weather_hot14_temp_profiles.png\ndry-bulb profiles for the selected 14-day windows\n\n\noutputs/plots/future_weather_hot14_degree_hours.png\ndegree-hours above 30 deg C across windows\n\n\nbuild_future_weather_windows.py\ninstructor rebuild script for local CMIP forecast CSV source files"
   },
   {
-    "objectID": "starter_kits/energyplus-exposure-state/README.html#what-this-demonstrates",
-    "href": "starter_kits/energyplus-exposure-state/README.html#what-this-demonstrates",
-    "title": "Starter Kit: EnergyPlus Exposure-State Case",
-    "section": "What This Demonstrates",
-    "text": "What This Demonstrates\nEnergyPlus is used here as an exposure-state generator, not as proof of comfort.\nThe kit makes these assumptions inspectable:\n\n\n\n\n\n\n\nBoundary\nClassroom choice\n\n\n\n\nspatial\none selected zone from a stock EnergyPlus example model\n\n\ntemporal\nJuly 8-21, hourly output\n\n\nclimate\nsynthetic Hong Kong-like summer EPW generated by the script\n\n\nservice\nstock controlled model with heating and cooling thermostat setpoints\n\n\nevidence\nEnergyPlus stock IDF, generated weather, extracted CSV, and chart\n\n\nlimits\nnot calibrated, not a student building, not a compliance model, not a local airflow model"
+    "objectID": "starter_kits/future-weather-windows/README.html#how-to-read-it",
+    "href": "starter_kits/future-weather-windows/README.html#how-to-read-it",
+    "title": "Starter Kit: Future Weather Windows",
+    "section": "How To Read It",
+    "text": "How To Read It\nThe summary table includes:\n\n\n\n\n\n\n\nColumn\nDesign reading\n\n\n\n\nmean_temp_C\nsustained background heat across the selected window\n\n\nmax_temp_C\npeak dry-bulb severity\n\n\nhours_temp_ge_30C\nduration above a simple heat threshold\n\n\ndegree_hours_above_30C\naccumulated thermal burden above the threshold\n\n\nhot_humid_hours_temp_ge_30C_RH_ge_60\nhours where heat and humidity combine\n\n\nhot_still_hours_temp_ge_30C_wind_le_1ms\nhours where air movement may be weak\n\n\nhot_sunny_hours_temp_ge_30C_GHI_ge_600\nhours where shade and solar control matter\n\n\n\nThe threshold is deliberately simple. Students may change it, but they must explain why."
   },
   {
-    "objectID": "starter_kits/energyplus-exposure-state/README.html#variables-to-inspect",
-    "href": "starter_kits/energyplus-exposure-state/README.html#variables-to-inspect",
-    "title": "Starter Kit: EnergyPlus Exposure-State Case",
-    "section": "Variables To Inspect",
-    "text": "Variables To Inspect\n\n\n\n\n\n\n\nVariable\nDesign question\n\n\n\n\noutdoor dry-bulb temperature\nwhat weather sequence is driving the case?\n\n\nzone mean air temperature\ndoes the air condition exceed the selected threshold?\n\n\nzone operative temperature\ndoes the combined air/radiant condition change the body-facing claim?\n\n\ncooling setpoint\nwhat service target is the model trying to hold?\n\n\nheating setpoint\nis the model carrying a control assumption that matters?\n\n\ncooling output, if present\nwhere does the system mask or reveal thermal burden?"
-  },
-  {
-    "objectID": "starter_kits/energyplus-exposure-state/README.html#a3-use",
-    "href": "starter_kits/energyplus-exposure-state/README.html#a3-use",
-    "title": "Starter Kit: EnergyPlus Exposure-State Case",
+    "objectID": "starter_kits/future-weather-windows/README.html#a3-use",
+    "href": "starter_kits/future-weather-windows/README.html#a3-use",
+    "title": "Starter Kit: Future Weather Windows",
     "section": "A3 Use",
-    "text": "A3 Use\nFor A3, students can use the checked CSV directly.\nMinimum A3 transformation:\n\nchoose a variable: air temperature, operative temperature, or another justified output;\ndeclare a threshold;\ncount exceedance hours or degree-hours across the two-week window;\nadd the boundary table;\nwrite a mechanism note explaining whether the pattern is driven by weather, service, storage, exposure, or model limits.\n\nThis is enough for a defensible temporal build-up audit. Rerunning EnergyPlus is optional."
+    "text": "A3 Use\nUse this kit when A3 needs a changed weather, window, or climate snapshot.\nMinimum A3 transformation:\n\nchoose one city/scenario/year slice;\nplot temperature, RH, GHI, or wind speed across the 14-day window;\nset a threshold;\ncalculate failure hours or degree-hours;\nstate what design mechanism the weather sequence stresses: night recovery, shade, moisture, air movement, or service load."
   },
   {
-    "objectID": "starter_kits/energyplus-exposure-state/README.html#a4-use",
-    "href": "starter_kits/energyplus-exposure-state/README.html#a4-use",
-    "title": "Starter Kit: EnergyPlus Exposure-State Case",
+    "objectID": "starter_kits/future-weather-windows/README.html#a4-use",
+    "href": "starter_kits/future-weather-windows/README.html#a4-use",
+    "title": "Starter Kit: Future Weather Windows",
     "section": "A4 Use",
-    "text": "A4 Use\nFor A4, this kit can become a seed rather than a final answer.\nPossible extensions:\n\nchange the evaluation window;\ncompare the checked CSV with a student-generated Honeybee or EnergyPlus export;\nhold the threshold fixed and test one design assumption;\nuse the plot as a model-limit example when explaining why a studio project needs a different boundary.\n\nThe final claim must stay bounded. A stock model can teach exposure-state reasoning; it cannot prove a student’s building performs."
+    "text": "A4 Use\nFor A4, this becomes a roll-forward check.\nPossible claims:\n\na shading strategy remains useful under a hotter future window;\na passive ventilation claim weakens when wind is low during hot hours;\na humidity-sensitive material or dehumidification claim needs a different boundary;\na design action is robust in Guangzhou but not in Phoenix, or vice versa;\na conclusion is unsupported because the future-weather slice is not a microclimate model.\n\nThe important move is not scenario quantity. It is whether the student can say how the design claim changes when the weather boundary changes."
   },
   {
-    "objectID": "starter_kits/energyplus-exposure-state/README.html#optional-local-run",
-    "href": "starter_kits/energyplus-exposure-state/README.html#optional-local-run",
-    "title": "Starter Kit: EnergyPlus Exposure-State Case",
-    "section": "Optional Local Run",
-    "text": "Optional Local Run\nInstall EnergyPlus from the official EnergyPlus download page or from NREL’s GitHub releases, then run:\npython run_energyplus_two_week_case.py\nIf the executable is not on PATH, set ENERGYPLUS_EXE.\nmacOS:\nexport ENERGYPLUS_EXE=\"/Applications/EnergyPlus-25-1-0/energyplus\"\npython run_energyplus_two_week_case.py\nWindows PowerShell:\n$env:ENERGYPLUS_EXE=\"C:\\EnergyPlusV25-1-0\\energyplus.exe\"\npython run_energyplus_two_week_case.py\nThe script looks for common stock IDFs such as 5ZoneAirCooled.idf. If needed, set ENERGYPLUS_IDF to a stock IDF with real heating and cooling thermostat setpoints."
+    "objectID": "starter_kits/future-weather-windows/README.html#rebuild",
+    "href": "starter_kits/future-weather-windows/README.html#rebuild",
+    "title": "Starter Kit: Future Weather Windows",
+    "section": "Rebuild",
+    "text": "Rebuild\nThe checked CSVs and plots are already distributed. Students do not need the source CMIP files to use the kit.\nThe rebuild script is for the instructor or for students who have been given equivalent source forecast CSVs. To rebuild from local CMIP folders:\nCMIP_SOURCE_ROOT=\"/path/to/CMIPs\" python build_future_weather_windows.py\nIf CMIP_SOURCE_ROOT is not set, the script looks for the instructor’s local OneDrive-style path. That source folder is not part of the public course repository."
   },
   {
-    "objectID": "starter_kits/energyplus-exposure-state/README.html#grasshopper-honeybee-bridge",
-    "href": "starter_kits/energyplus-exposure-state/README.html#grasshopper-honeybee-bridge",
-    "title": "Starter Kit: EnergyPlus Exposure-State Case",
-    "section": "Grasshopper / Honeybee Bridge",
-    "text": "Grasshopper / Honeybee Bridge\nStudents already working in Rhino/Grasshopper can treat the CSV as a handoff format:\n\nimport the CSV into Grasshopper for visualization;\nreproduce the output route later through Honeybee/EnergyPlus;\nkeep the exported data, weather window, zone name, and service state visible.\n\nThe bridge rule is simple: a parametric workflow becomes evidence only when the assumptions and exported outputs remain inspectable."
+    "objectID": "starter_kits/future-weather-windows/README.html#limits",
+    "href": "starter_kits/future-weather-windows/README.html#limits",
+    "title": "Starter Kit: Future Weather Windows",
+    "section": "Limits",
+    "text": "Limits\nThese files are not EPWs and are not compliance weather files.\nThey are hourly weather windows for architectural stress testing. They are useful for questions about duration, burden, humidity, solar exposure, wind, and climate sensitivity. They do not directly prove courtyard microclimate, facade surface temperature, indoor comfort, or future climate certainty.\nThe windows are selected by hottest 14-day dry-bulb mean within each target year. They are not month-aligned across years. Do not read them as “the same week under warming” or as a full probabilistic ranking of scenarios. Use the slices to ask how a design claim changes when the weather boundary changes."
+  },
+  {
+    "objectID": "starter_kits/future-weather-windows/README.html#grasshopper-ladybug-bridge",
+    "href": "starter_kits/future-weather-windows/README.html#grasshopper-ladybug-bridge",
+    "title": "Starter Kit: Future Weather Windows",
+    "section": "Grasshopper / Ladybug Bridge",
+    "text": "Grasshopper / Ladybug Bridge\nUse the CSVs as a transparent handoff:\n\nimport hourly columns into Grasshopper for plotting or geometry-linked annotation;\nuse Ladybug/Honeybee weather workflows later if an EPW route is needed;\nkeep the selected city, scenario, year, threshold, and weather variables visible.\n\nThe architectural standard is the same as the rest of the course: the tool matters less than whether the boundary and claim are inspectable."
+  },
+  {
+    "objectID": "starter_kits/temporal-degree-hours/README.html",
+    "href": "starter_kits/temporal-degree-hours/README.html",
+    "title": "Starter Kit: Temporal Degree-Hours",
+    "section": "",
+    "text": "This kit makes the A3 degree-hours calculation explicit.\nIt ingests the checked EnergyPlus exposure-state CSV by default and calculates failure hours plus degree-hours above a chosen threshold. Students can then swap in a Honeybee export, measured logger file, future-weather slice, or spreadsheet-derived hourly table."
+  },
+  {
+    "objectID": "starter_kits/temporal-degree-hours/README.html#files",
+    "href": "starter_kits/temporal-degree-hours/README.html#files",
+    "title": "Starter Kit: Temporal Degree-Hours",
+    "section": "Files",
+    "text": "Files\n\n\n\nFile\nUse\n\n\n\n\ndegree_hours_notebook.py\nrunnable notebook-style script\n\n\ndegree_hours_notebook.ipynb\nJupyter wrapper for the same workflow\n\n\noutputs/energyplus_degree_hours_summary.csv\nthreshold, variable, failure hours, degree-hours, and peak value\n\n\noutputs/energyplus_degree_hours_timeseries.csv\nhourly values with exceedance and degree-hour columns\n\n\noutputs/energyplus_degree_hours_plot.png\nplot showing the threshold and accumulated exceedance"
+  },
+  {
+    "objectID": "starter_kits/temporal-degree-hours/README.html#run",
+    "href": "starter_kits/temporal-degree-hours/README.html#run",
+    "title": "Starter Kit: Temporal Degree-Hours",
+    "section": "Run",
+    "text": "Run\nFrom this folder:\npython degree_hours_notebook.py\nOptional settings:\nA3_THRESHOLD_C=26 A3_VARIABLE_HINT=air python degree_hours_notebook.py\nUse a different CSV:\nA3_INPUT_CSV=\"/path/to/hourly_outputs.csv\" A3_VARIABLE_HINT=operative python degree_hours_notebook.py"
+  },
+  {
+    "objectID": "starter_kits/temporal-degree-hours/README.html#a3-use",
+    "href": "starter_kits/temporal-degree-hours/README.html#a3-use",
+    "title": "Starter Kit: Temporal Degree-Hours",
+    "section": "A3 Use",
+    "text": "A3 Use\nMinimum A3 transformation:\n\nchoose the hourly variable: air temperature, operative temperature, outdoor temperature, or another justified field;\nchoose the threshold;\ncalculate failure hours;\ncalculate degree-hours;\nexplain what the accumulation means architecturally."
+  },
+  {
+    "objectID": "starter_kits/temporal-degree-hours/README.html#interpretation",
+    "href": "starter_kits/temporal-degree-hours/README.html#interpretation",
+    "title": "Starter Kit: Temporal Degree-Hours",
+    "section": "Interpretation",
+    "text": "Interpretation\nFailure hours answer: how long is the condition beyond the line?\nDegree-hours answer: how much burden accumulates above the line?\nThese are not comfort truth. They are threshold-based evidence. The A3 claim still needs a boundary table, a mechanism note, and a statement of what the hourly data does not include."
   },
   {
     "objectID": "weeks/week-01.html#full-semester-build",
@@ -2283,7 +2395,7 @@
     "href": "weeks/week-03.html#a1-field-map-standard",
     "title": "Week 3 - Sensing Thermal Fields",
     "section": "A1 Field Map Standard",
-    "text": "A1 Field Map Standard\n\nMinimum: measured or curated points on plan/section.\nStronger: contour or heat map with points still visible.\nBest: contour plus architectural overlay: body position, program, facade, opening, diffuser, shade, or material.",
+    "text": "A1 Field Map Standard\n\nMinimum: measured or curated points on plan/section.\nStronger: contour or heat map with points still visible.\nBest: contour plus architectural overlay: body position, program, facade, opening, diffuser, shade, or material.\n\n\nClass starter route: A1 Ta/RH Spatial Field Kit. Use the point template and IDW notebook when you need a transparent first field map.",
     "crumbs": [
       "Home",
       "Weekly Decks",
@@ -2691,7 +2803,7 @@
     "href": "weeks/week-07.html#second-half-frame",
     "title": "Week 7 - EnergyPlus As Exposure-State Generator",
     "section": "Second Half Frame",
-    "text": "Second Half Frame\nBy the end of Week 9, A3 should show when a thermal condition accumulates, persists, exceeds a threshold, or fails to dissipate.\nWeek 7 adds one controlled route for producing that evidence: an inspectable hourly state log from EnergyPlus or from provided EnergyPlus outputs.\n\nEnergyPlus is used here as an exposure-state generator. Not truth. Not magic. Not a software credential or design answer.\n\n\nClass starter route: A3 EnergyPlus Exposure-State Kit. Use the checked CSV if EnergyPlus is not installed; rerun the script only if the local setup is ready.",
+    "text": "Second Half Frame\nBy the end of Week 9, A3 should show when a thermal condition accumulates, persists, exceeds a threshold, or fails to dissipate.\nWeek 7 adds one controlled route for producing that evidence: an inspectable hourly state log from EnergyPlus or from provided EnergyPlus outputs.\n\nEnergyPlus is used here as an exposure-state generator. Not truth. Not magic. Not a software credential or design answer.\n\n\nClass starter route: A3 EnergyPlus Exposure-State Kit. Use the checked CSV if EnergyPlus is not installed; rerun the script only if the local setup is ready.\n\n\nCalculation route: A3 Temporal Degree-Hours Kit. Use it to turn the EnergyPlus CSV, a Honeybee export, or another hourly table into failure hours and degree-hours.",
     "crumbs": [
       "Home",
       "Weekly Decks",

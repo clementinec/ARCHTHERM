@@ -22,6 +22,8 @@ A1 can be submitted as a point map, gradient map, or contour/heat map.
 - Stronger: interpolated contour or heat map with sampled points still visible.
 - Best: thermal field plus architectural overlay: body position, program, facade, opening, diffuser, shade, material, or threshold.
 
+Use the [A1 Ta/RH Spatial Field Kit](starter_kits/ta-rh-spatial-field/README.md) when you need a transparent point-to-field workflow. The IDW map is a hypothesis from sampled points, not proof that every location was measured.
+
 Any smooth field must state how it was produced. A heat map is a spatial hypothesis unless every location was actually measured.
 
 CO2, odor, particulates, or IAQ observations may be included when they affect the design question, but they do not replace the thermal evidence. If used, state whether the claim is about thermal air movement, ventilation quantity, ventilation effectiveness, or perceived air quality.
@@ -64,6 +66,8 @@ The required A3 comparison can be modest: one baseline window and one changed we
 
 Students do not need a local EnergyPlus installation to complete A3. They may use the [A3 EnergyPlus Exposure-State Kit](starter_kits/energyplus-exposure-state/README.md), their own measured/logger data, a Honeybee/EnergyPlus export, or another bounded hourly dataset as long as the system boundary and variables are explicit.
 
+Use the [A3 Temporal Degree-Hours Kit](starter_kits/temporal-degree-hours/README.md) to turn an hourly CSV into failure hours, degree-hours, and a threshold plot.
+
 For the changed weather or climate snapshot, students may also use the [Future Weather Windows Kit](starter_kits/future-weather-windows/README.md). It provides small hourly slices for Guangzhou and Phoenix under SSP245 and SSP585, so the comparison can be about weather-boundary reasoning rather than data hunting.
 
 ::: {.key}
@@ -73,6 +77,8 @@ Students are not expected to become climate modelers. They are expected to state
 ## A4 Is An Assembly
 
 A4 is assembled from A1-A3. It should not be restarted from scratch in Weeks 10-12.
+
+Use the [A4 Reproducibility Capsule](starter_kits/reproducibility-capsule/README.md) as the final package landing place for files, assumptions, thresholds, rerun notes, and limits of claim.
 
 Students choose one condition and one bounded action route:
 

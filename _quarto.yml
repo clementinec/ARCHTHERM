@@ -12,6 +12,9 @@ project:
     - resources.qmd
     - starter_kits/energyplus-exposure-state/README.md
     - starter_kits/future-weather-windows/README.md
+    - starter_kits/ta-rh-spatial-field/README.md
+    - starter_kits/temporal-degree-hours/README.md
+    - starter_kits/reproducibility-capsule/README.md
     - weeks/week-01.qmd
     - weeks/week-02.qmd
     - weeks/week-03.qmd

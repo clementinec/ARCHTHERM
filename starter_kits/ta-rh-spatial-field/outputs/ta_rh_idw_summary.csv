@@ -1,0 +1,7 @@
+metric,value,meaning
+point_count,10,sample size behind the field
+idw_power,2.00,higher values make nearby points dominate
+Ta_range_C,24.00 to 27.10,observed sample range
+RH_range_percent,65.8 to 74.5,observed sample range
+Ta_leave_one_out_MAE_C,0.553,rough interpolation sensitivity
+RH_leave_one_out_MAE_percent,1.673,rough interpolation sensitivity

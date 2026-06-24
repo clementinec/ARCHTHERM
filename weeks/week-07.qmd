@@ -28,6 +28,10 @@ EnergyPlus is used here as an exposure-state generator. Not truth. Not magic. No
 Class starter route: [A3 EnergyPlus Exposure-State Kit](../starter_kits/energyplus-exposure-state/README.md). Use the checked CSV if EnergyPlus is not installed; rerun the script only if the local setup is ready.
 :::
 
+:::{.artifact}
+Calculation route: [A3 Temporal Degree-Hours Kit](../starter_kits/temporal-degree-hours/README.md). Use it to turn the EnergyPlus CSV, a Honeybee export, or another hourly table into failure hours and degree-hours.
+:::
+
 ## Week 6 Pulse Check Response
 
 Start by naming one adjustment from the Week 6 pulse check:

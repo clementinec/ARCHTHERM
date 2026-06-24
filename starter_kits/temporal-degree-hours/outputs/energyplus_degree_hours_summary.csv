@@ -1,0 +1,9 @@
+metric,value,meaning
+input_csv,/Users/guo/tprojs/ARCH7XXX/starter_kits/energyplus-exposure-state/outputs/energyplus_two_week/monitored_outputs.csv,source hourly file
+variable,SPACE1-1:Zone Operative Temperature [C](Hourly),column evaluated against the threshold
+threshold_C,24.000,failure line for this notebook run
+hours,336,hourly records evaluated
+failure_hours,136,hours above threshold
+degree_hours,90.505,accumulated degrees above threshold
+max_value_C,26.053,peak value in selected variable
+peak_timestamp,2025-07-20 16:00:00,when peak value occurs

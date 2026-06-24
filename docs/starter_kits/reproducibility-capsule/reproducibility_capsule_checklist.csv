@@ -1,0 +1,9 @@
+section,required_question,done
+project claim,Is the thermal claim stated in one sentence?,
+evidence inputs,Are all A1-A3 inputs named with file/source/date?,
+system boundary,Are spatial temporal climate service occupant and excluded boundaries stated?,
+toolchain,Can another reader identify the tools settings and output files?,
+thresholds,Are thresholds justified instead of hidden?,
+rerun instructions,Can a reader reproduce the main plot or table?,
+roll-forward,Is the changed assumption named and result labeled robust weakened censored or unsupported?,
+limits,Does the capsule say what the evidence cannot prove?,

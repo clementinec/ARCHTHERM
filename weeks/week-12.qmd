@@ -107,6 +107,10 @@ Deliver the final five-minute thermal design jury presentation.
 
 **A4 mapping:** this is the final assessed synthesis. It demonstrates that the design action follows from spatial, radiant, temporal, and validation evidence.
 
+:::{.artifact}
+Final package route: [A4 Reproducibility Capsule](../starter_kits/reproducibility-capsule/README.md). Use it to make the evidence inputs, boundaries, thresholds, rerun steps, and limits inspectable.
+:::
+
 ## Jury Activity: Next-Test Note {.activity}
 
 After the presentation, write the next-test note before revising the final submission.

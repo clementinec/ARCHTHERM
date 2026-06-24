@@ -11,13 +11,20 @@ This page tracks the first local resource layer. It will grow into starter noteb
 
 | Tool | Course Use | What It Produces |
 |---|---|---|
+| [A1 Ta/RH Spatial Field Kit](starter_kits/ta-rh-spatial-field/README.md) | Week 3 spatial air-field map | point template, IDW gridded CSV, Ta/RH field maps, interpolation summary |
 | [A2 Radiant Box Tool](tools/radiant-box/index.html) | Week 4-5 radiant exchange card | two-position `T_mrt` / `T_op` comparison, surface view-factor table, heatmap PNG, CSV export |
 | [A3 EnergyPlus Exposure-State Kit](starter_kits/energyplus-exposure-state/README.md) | Week 7-9 temporal build-up audit | checked hourly CSV, two-week chart, optional EnergyPlus CLI rerun |
+| [A3 Temporal Degree-Hours Kit](starter_kits/temporal-degree-hours/README.md) | Week 7-9 threshold and burden calculation | EnergyPlus CSV ingestion, failure-hour table, degree-hour table, threshold plot |
 | [Future Weather Windows Kit](starter_kits/future-weather-windows/README.md) | Week 8 climate stress test and A4 roll-forward validation | Guangzhou/Phoenix SSP245/SSP585 hot-window slices, summary metrics, plots, rebuild script |
+| [A4 Reproducibility Capsule](starter_kits/reproducibility-capsule/README.md) | Week 12 jury and final package | fill-in evidence, boundary, toolchain, threshold, roll-forward, and limits template |
+
+The Ta/RH field kit is intentionally modest: it turns sampled points into an interpolated field hypothesis and keeps the sample points visible. Use it to make spatial uncertainty discussable, not to pretend every location was measured.
 
 The radiant box is intentionally simple: a well-mixed air temperature, six surface temperatures, two body points, approximate view factors, and exportable evidence. Use it when you need a transparent fallback before moving to Ladybug, Honeybee, EnergyPlus, thermal camera, globe temperature, or a Grasshopper view-factor workflow.
 
 The EnergyPlus kit is intentionally bounded: a stock model, synthetic Hong Kong-like summer weather, July 8-21 hourly outputs, and a compact chart. Use it to practice exposure-state reading before claiming anything about a student building.
+
+The temporal degree-hours kit turns an hourly state log into failure hours and accumulated burden. Use it when a time-series needs to become an A3 threshold argument.
 
 The future-weather kit is also bounded: it slices long CMIP6-derived hourly forecast files into inspectable 14-day stress windows. Use it to test whether a thermal claim changes when the weather boundary shifts.
 
@@ -72,8 +79,7 @@ These routes are supported as optional bridges for students already working in R
 
 The course is informed by Hongshan Guo's public research profile at [FORGE: Future, Occupant, Risk, and Generative Environments](https://thermalcomfort.zone/), especially work on human-building-climate systems, mean radiant temperature, future weather uncertainty, EnergyPlus/co-simulation, stochastic weather, thermal comfort prediction, and design-facing AI pedagogy.
 
-## Starter Kits To Build Next
+## Starter Kits To Refine Next
 
-- Ta/RH spatial field workbook and CSV template.
-- Temporal build-up notebook for degree-hours and threshold exceedance.
-- Final package reproducibility capsule template.
+- Sensor logger import template for common classroom devices.
+- Optional GH/Honeybee handoff examples once the native Grasshopper environment is ready.
