@@ -74,6 +74,22 @@ $$
 | fan or breeze | convective heat exchange | air path, local control |
 | wall material | surface temperature and time lag | finish, insulation, ventilation gap |
 
+## Daytime Indoors Is Still Radiant
+
+Indoor radiant variation can be significant during daytime even when the HVAC system holds air temperature near a setpoint.
+
+| Indoor condition | Radiant mechanism | Design question |
+|---|---|---|
+| sun patch through glazing | shortwave reaches body, floor, or furniture | does shade stop heat at the exterior or only soften glare? |
+| hot perimeter glass | warm surface and solar-adjacent radiant field | should the body be offset, screened, or locally controlled? |
+| exposed slab / floor | stored heat changes surface temperature | does mass delay comfort or prolong burden? |
+| cooled interior surface | cold radiant sink or asymmetry | does it improve comfort or create local discomfort? |
+| radiant panel / chilled ceiling | useful surface-temperature strategy | how is condensation, control, and body exposure handled? |
+
+::: {.key}
+Radiant design is not only avoiding bad surfaces. It is using surfaces of different temperatures strategically.
+:::
+
 ## Window Seat Reading
 
 ![](../assets/figures/radiant-asymmetry-section.svg){.img-frame}
@@ -104,6 +120,38 @@ Arcade, lobby, balcony, and entry conditions often mix air-conditioned expectati
 :::
 :::
 
+## Night Sky As Heat Sink
+
+Radiant exchange can cool as well as heat.
+
+At night, surfaces with sky view can lose longwave radiation to the sky. That cooling can support roofs, courtyards, and outdoor surfaces, but it depends on:
+
+- sky view factor;
+- cloud cover and humidity;
+- surface temperature and emissivity;
+- wind and convective coupling;
+- whether stored daytime heat is still being released.
+
+::: {.warning}
+Urban heat island is partly a nighttime problem: dense surfaces store heat, sky view is reduced, wind paths can be weak, and the city may not release heat fast enough after sunset.
+:::
+
+## Surface Strategy, Not Homogeneous Space
+
+Do not assume the goal is one equal temperature everywhere.
+
+| Strategy | Surface role | Architectural reading |
+|---|---|---|
+| shade | blocks direct shortwave before it lands | prevents radiant load rather than repairing it later |
+| cool surface | acts as a radiant sink | useful if condensation, glare, and contact comfort are controlled |
+| warm winter surface | creates local refuge | heterogeneity can be desirable in cool conditions |
+| low-storage paving | reduces evening heat release | affects night recovery and outdoor use |
+| vegetated / wet edge | changes surface temperature and latent context | may cool locally while increasing moisture management needs |
+
+::: {.key}
+A2 should teach students to ask: which surfaces should be hot, cool, shaded, exposed, reflective, absorptive, massive, or lightweight, and for whom?
+:::
+
 ## A2 Card Structure
 
 ::: {.artifact}
@@ -113,9 +161,10 @@ Your Radiant Exchange Card must include:
 2. air temperature comparison;
 3. surface/radiant/MRT proxy evidence;
 4. body orientation diagram;
-5. one heat-flux or exchange sketch;
-6. one architectural implication;
-7. one uncertainty statement.
+5. one approximate radiant source/sink note, using wattage, surface temperature, or MRT difference where possible;
+6. one heat-flux or exchange sketch;
+7. one architectural implication;
+8. one uncertainty statement.
 :::
 
 ## What A2 Should Not Do

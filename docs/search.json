@@ -828,6 +828,30 @@
     ]
   },
   {
+    "objectID": "weeks/week-04.html#solar-radiation-has-wattage",
+    "href": "weeks/week-04.html#solar-radiation-has-wattage",
+    "title": "Week 4 - Mean Radiant Temperature",
+    "section": "Solar Radiation Has Wattage",
+    "text": "Solar Radiation Has Wattage\nRadiant design becomes concrete when students remember that sun and sky are heat sources and sinks, not just lighting conditions.\n\n\n\n\n\n\n\n\nRadiant term\nRough design reading\nArchitectural consequence\n\n\n\n\ndirect sun\ncan approach order-of-magnitude 800-1000 W/m2 under clear conditions\nshade depth, canopy, orientation, body exposure\n\n\ndiffuse sky\nlower but still spatially meaningful\nsky view, courtyard proportion, cloudy humid days\n\n\nreflected shortwave\ndepends on ground/facade reflectance\npaving, facade finish, glare/heat tradeoff\n\n\nlongwave from hot surfaces\nrises with surface temperature and view factor\nmaterial, storage, pavement, wall exposure\n\n\nlongwave to cool sky\npotential heat sink, especially at night\nsky view, roof exposure, night cooling\n\n\n\n\nThe numbers are not there for engineering precision in Week 4. They are there to stop “shade” and “surface” from being vague visual categories.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W4: MRT + Radiant Exchange"
+    ]
+  },
+  {
+    "objectID": "weeks/week-04.html#radiant-shift-in-operative-temperature",
+    "href": "weeks/week-04.html#radiant-shift-in-operative-temperature",
+    "title": "Week 4 - Mean Radiant Temperature",
+    "section": "Radiant Shift In Operative Temperature",
+    "text": "Radiant Shift In Operative Temperature\nWhen air speed is low, a change in MRT can move operative temperature substantially.\n\nIf\n\\[\nT_{op} \\approx 0.5T_a + 0.5T_{mrt}\n\\]\nthen a 6 C MRT difference contributes roughly 3 C to operative temperature.\n\n\nAn urban canyon can have similar air temperature at two ground-level positions while sun, shade, pavement, sky view, and facade reflection produce very different T_{mrt}.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W4: MRT + Radiant Exchange"
+    ]
+  },
+  {
     "objectID": "weeks/week-04.html#radiant-exchange-approximation",
     "href": "weeks/week-04.html#radiant-exchange-approximation",
     "title": "Week 4 - Mean Radiant Temperature",
@@ -852,6 +876,18 @@
     ]
   },
   {
+    "objectID": "weeks/week-04.html#solar-and-sky-in-the-urban-canyon",
+    "href": "weeks/week-04.html#solar-and-sky-in-the-urban-canyon",
+    "title": "Week 4 - Mean Radiant Temperature",
+    "section": "Solar And Sky In The Urban Canyon",
+    "text": "Solar And Sky In The Urban Canyon\nAt ground level, radiant environment can vary sharply across a few meters:\n\nsunlit pavement versus shaded pavement;\nhigh sky view versus narrow canyon;\nreflective facade versus absorptive facade;\nhot ground longwave versus vegetated edge;\nevening surfaces releasing stored heat after sun has moved.\n\n\nDo not use air temperature alone to compare a shaded arcade, a sunlit crossing, and a narrow canyon. They may belong to the same weather file but not the same radiant field.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W4: MRT + Radiant Exchange"
+    ]
+  },
+  {
     "objectID": "weeks/week-04.html#week-4-worked-case",
     "href": "weeks/week-04.html#week-4-worked-case",
     "title": "Week 4 - Mean Radiant Temperature",
@@ -868,7 +904,7 @@
     "href": "weeks/week-04.html#a2-prompt",
     "title": "Week 4 - Mean Radiant Temperature",
     "section": "A2 Prompt",
-    "text": "A2 Prompt\n\nFind or construct two positions where air temperature alone does not explain the thermal condition.\nGood cases:\n\nwindow seat versus interior seat;\nshaded bench versus sunlit bench;\nglass facade perimeter versus deeper plan;\nconcrete courtyard versus vegetated edge;\nroof terrace sun patch versus shaded threshold.",
+    "text": "A2 Prompt\n\nFind or construct two positions where air temperature alone does not explain the thermal condition.\nGood cases:\n\nwindow seat versus interior seat;\nshaded bench versus sunlit bench;\nglass facade perimeter versus deeper plan;\nconcrete courtyard versus vegetated edge;\nroof terrace sun patch versus shaded threshold.\n\n\n\nFor each position, name the dominant radiant source or sink: direct sun, sky, hot surface, cool surface, reflected solar, or night-sky exposure.",
     "crumbs": [
       "Home",
       "Weekly Decks",
@@ -1516,7 +1552,7 @@
     "href": "index.html#one-accumulating-evidence-deck",
     "title": "Thermal Fields in Architecture",
     "section": "One accumulating evidence deck",
-    "text": "One accumulating evidence deck\nYou are not asked to restart at a final project. Each artifact builds on the last into a single defended argument.\n\n\n\n\n\n\n\n\nWeeks\nArtifact\nProves\n\n\n\n\n1–3\nCondition Card + Spatial Air Field Map\nthe condition is specific, and the air/humidity field varies by position\n\n\n4–5\nRadiant Exchange Card\nthe same air temperature can mean different body heat exchange\n\n\n6–9\nThermal Build-Up Audit + System Boundary Box\nheat accumulates, lags, or exceeds thresholds inside a declared spatial, temporal, service, and climate boundary\n\n\n9–10\nDesign Action Ladder\na bounded action space — found, censored, or unresolved\n\n\n10–12\nRoll-Forward Validation + Design Action Memo\nthe action holds (or weakens) under a changed climate stress\n\n\n12\nReproducibility Capsule\nanother person can inspect or re-run the evidence",
+    "text": "One accumulating evidence deck\nYou are not asked to restart at a final project. Each artifact builds on the last into a single defended argument.\n\n\n\n\n\n\n\n\nWeeks\nArtifact\nProves\n\n\n\n\n1–3\nCondition Card + Spatial Air Field Map\nthe condition is specific, and the air/humidity field varies by position\n\n\n4–5\nRadiant Exchange Card\nsolar, sky, and surfaces act as heat sources or sinks, so the same air temperature can mean different body heat exchange\n\n\n6–9\nThermal Build-Up Audit + System Boundary Box\nheat accumulates, lags, or exceeds thresholds inside a declared spatial, temporal, service, and climate boundary\n\n\n9–10\nDesign Action Ladder\na bounded action space — found, censored, or unresolved\n\n\n10–12\nRoll-Forward Validation + Design Action Memo\nthe action holds (or weakens) under a changed climate stress\n\n\n12\nReproducibility Capsule\nanother person can inspect or re-run the evidence",
     "crumbs": [
       "Home",
       "Course Overview",
@@ -1589,6 +1625,18 @@
     "title": "Assignments",
     "section": "A1 Map Standard",
     "text": "A1 Map Standard\nA1 can be submitted as a point map, gradient map, or contour/heat map.\n\nMinimum: sampled or curated Ta/RH points on a plan or section.\nStronger: interpolated contour or heat map with sampled points still visible.\nBest: thermal field plus architectural overlay: body position, program, facade, opening, diffuser, shade, material, or threshold.\n\nAny smooth field must state how it was produced. A heat map is a spatial hypothesis unless every location was actually measured.",
+    "crumbs": [
+      "Home",
+      "Course Overview",
+      "Assignments"
+    ]
+  },
+  {
+    "objectID": "assignments.html#a2-radiant-card-standard",
+    "href": "assignments.html#a2-radiant-card-standard",
+    "title": "Assignments",
+    "section": "A2 Radiant Card Standard",
+    "text": "A2 Radiant Card Standard\nA2 treats solar, sky, and surfaces as heat sources or sinks.\nEach card should include:\n\ntwo occupied positions with similar or comparable air-temperature context;\nbody orientation and major surfaces in view;\ndominant radiant source or sink: direct sun, diffuse sky, reflected solar, hot surface, cool surface, or night sky;\napproximate magnitude where possible: solar wattage order of magnitude, surface temperature, MRT difference, or operative-temperature contribution;\none design implication: shade, surface temperature, material, sky view, body offset, facade depth, canopy, or controlled radiant surface;\none uncertainty statement.\n\n\nA2 does not ask students to design homogeneous comfort. It asks them to identify how architecture can block, expose, cool, warm, store, or release radiant energy.",
     "crumbs": [
       "Home",
       "Course Overview",
@@ -2232,6 +2280,18 @@
     ]
   },
   {
+    "objectID": "weeks/week-05.html#daytime-indoors-is-still-radiant",
+    "href": "weeks/week-05.html#daytime-indoors-is-still-radiant",
+    "title": "Week 5 - Radiant Asymmetry",
+    "section": "Daytime Indoors Is Still Radiant",
+    "text": "Daytime Indoors Is Still Radiant\nIndoor radiant variation can be significant during daytime even when the HVAC system holds air temperature near a setpoint.\n\n\n\n\n\n\n\n\nIndoor condition\nRadiant mechanism\nDesign question\n\n\n\n\nsun patch through glazing\nshortwave reaches body, floor, or furniture\ndoes shade stop heat at the exterior or only soften glare?\n\n\nhot perimeter glass\nwarm surface and solar-adjacent radiant field\nshould the body be offset, screened, or locally controlled?\n\n\nexposed slab / floor\nstored heat changes surface temperature\ndoes mass delay comfort or prolong burden?\n\n\ncooled interior surface\ncold radiant sink or asymmetry\ndoes it improve comfort or create local discomfort?\n\n\nradiant panel / chilled ceiling\nuseful surface-temperature strategy\nhow is condensation, control, and body exposure handled?\n\n\n\n\nRadiant design is not only avoiding bad surfaces. It is using surfaces of different temperatures strategically.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W5: Radiant Asymmetry"
+    ]
+  },
+  {
     "objectID": "weeks/week-05.html#window-seat-reading",
     "href": "weeks/week-05.html#window-seat-reading",
     "title": "Week 5 - Radiant Asymmetry",
@@ -2256,11 +2316,35 @@
     ]
   },
   {
+    "objectID": "weeks/week-05.html#night-sky-as-heat-sink",
+    "href": "weeks/week-05.html#night-sky-as-heat-sink",
+    "title": "Week 5 - Radiant Asymmetry",
+    "section": "Night Sky As Heat Sink",
+    "text": "Night Sky As Heat Sink\nRadiant exchange can cool as well as heat.\nAt night, surfaces with sky view can lose longwave radiation to the sky. That cooling can support roofs, courtyards, and outdoor surfaces, but it depends on:\n\nsky view factor;\ncloud cover and humidity;\nsurface temperature and emissivity;\nwind and convective coupling;\nwhether stored daytime heat is still being released.\n\n\nUrban heat island is partly a nighttime problem: dense surfaces store heat, sky view is reduced, wind paths can be weak, and the city may not release heat fast enough after sunset.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W5: Radiant Asymmetry"
+    ]
+  },
+  {
+    "objectID": "weeks/week-05.html#surface-strategy-not-homogeneous-space",
+    "href": "weeks/week-05.html#surface-strategy-not-homogeneous-space",
+    "title": "Week 5 - Radiant Asymmetry",
+    "section": "Surface Strategy, Not Homogeneous Space",
+    "text": "Surface Strategy, Not Homogeneous Space\nDo not assume the goal is one equal temperature everywhere.\n\n\n\n\n\n\n\n\nStrategy\nSurface role\nArchitectural reading\n\n\n\n\nshade\nblocks direct shortwave before it lands\nprevents radiant load rather than repairing it later\n\n\ncool surface\nacts as a radiant sink\nuseful if condensation, glare, and contact comfort are controlled\n\n\nwarm winter surface\ncreates local refuge\nheterogeneity can be desirable in cool conditions\n\n\nlow-storage paving\nreduces evening heat release\naffects night recovery and outdoor use\n\n\nvegetated / wet edge\nchanges surface temperature and latent context\nmay cool locally while increasing moisture management needs\n\n\n\n\nA2 should teach students to ask: which surfaces should be hot, cool, shaded, exposed, reflective, absorptive, massive, or lightweight, and for whom?",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W5: Radiant Asymmetry"
+    ]
+  },
+  {
     "objectID": "weeks/week-05.html#a2-card-structure",
     "href": "weeks/week-05.html#a2-card-structure",
     "title": "Week 5 - Radiant Asymmetry",
     "section": "A2 Card Structure",
-    "text": "A2 Card Structure\n\nYour Radiant Exchange Card must include:\n\ntwo occupied positions;\nair temperature comparison;\nsurface/radiant/MRT proxy evidence;\nbody orientation diagram;\none heat-flux or exchange sketch;\none architectural implication;\none uncertainty statement.",
+    "text": "A2 Card Structure\n\nYour Radiant Exchange Card must include:\n\ntwo occupied positions;\nair temperature comparison;\nsurface/radiant/MRT proxy evidence;\nbody orientation diagram;\none approximate radiant source/sink note, using wattage, surface temperature, or MRT difference where possible;\none heat-flux or exchange sketch;\none architectural implication;\none uncertainty statement.",
     "crumbs": [
       "Home",
       "Weekly Decks",

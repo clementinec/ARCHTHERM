@@ -389,6 +389,68 @@ T_{mrt} = \text{uniform surrounding temperature producing the same radiant excha
 <p>MRT is useful precisely because it is a compression. The architectural work is to remember what got compressed: surface temperatures, view factors, solar exposure, and body orientation.</p>
 </div>
 </section>
+<section id="solar-radiation-has-wattage" class="slide level2 center">
+<h2>Solar Radiation Has Wattage</h2>
+<p>Radiant design becomes concrete when students remember that sun and sky are heat sources and sinks, not just lighting conditions.</p>
+<table>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Radiant term</th>
+<th>Rough design reading</th>
+<th>Architectural consequence</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>direct sun</td>
+<td>can approach order-of-magnitude <code>800-1000 W/m2</code> under clear conditions</td>
+<td>shade depth, canopy, orientation, body exposure</td>
+</tr>
+<tr class="even">
+<td>diffuse sky</td>
+<td>lower but still spatially meaningful</td>
+<td>sky view, courtyard proportion, cloudy humid days</td>
+</tr>
+<tr class="odd">
+<td>reflected shortwave</td>
+<td>depends on ground/facade reflectance</td>
+<td>paving, facade finish, glare/heat tradeoff</td>
+</tr>
+<tr class="even">
+<td>longwave from hot surfaces</td>
+<td>rises with surface temperature and view factor</td>
+<td>material, storage, pavement, wall exposure</td>
+</tr>
+<tr class="odd">
+<td>longwave to cool sky</td>
+<td>potential heat sink, especially at night</td>
+<td>sky view, roof exposure, night cooling</td>
+</tr>
+</tbody>
+</table>
+<div class="key">
+<p>The numbers are not there for engineering precision in Week 4. They are there to stop “shade” and “surface” from being vague visual categories.</p>
+</div>
+</section>
+<section id="radiant-shift-in-operative-temperature" class="slide level2 center">
+<h2>Radiant Shift In Operative Temperature</h2>
+<p>When air speed is low, a change in MRT can move operative temperature substantially.</p>
+<div class="equation-card">
+<p>If</p>
+<p><span class="math display">\[
+T_{op} \approx 0.5T_a + 0.5T_{mrt}
+\]</span></p>
+<p>then a <code>6 C</code> MRT difference contributes roughly <code>3 C</code> to operative temperature.</p>
+</div>
+<div class="example">
+<p>An urban canyon can have similar air temperature at two ground-level positions while sun, shade, pavement, sky view, and facade reflection produce very different <code>T_{mrt}</code>.</p>
+</div>
+</section>
 <section id="radiant-exchange-approximation" class="slide level2 center">
 <h2>Radiant Exchange Approximation</h2>
 <div class="equation-card">
@@ -425,6 +487,20 @@ q_{rad} \approx h_r A(T_{surface} - T_{body})
 </div>
 </div>
 </section>
+<section id="solar-and-sky-in-the-urban-canyon" class="slide level2 center">
+<h2>Solar And Sky In The Urban Canyon</h2>
+<p>At ground level, radiant environment can vary sharply across a few meters:</p>
+<ul>
+<li>sunlit pavement versus shaded pavement;</li>
+<li>high sky view versus narrow canyon;</li>
+<li>reflective facade versus absorptive facade;</li>
+<li>hot ground longwave versus vegetated edge;</li>
+<li>evening surfaces releasing stored heat after sun has moved.</li>
+</ul>
+<div class="warning">
+<p>Do not use air temperature alone to compare a shaded arcade, a sunlit crossing, and a narrow canyon. They may belong to the same weather file but not the same radiant field.</p>
+</div>
+</section>
 <section id="week-4-worked-case" class="slide level2 center">
 <h2>Week 4 Worked Case</h2>
 
@@ -444,6 +520,9 @@ q_{rad} \approx h_r A(T_{surface} - T_{body})
 <li>concrete courtyard versus vegetated edge;</li>
 <li>roof terrace sun patch versus shaded threshold.</li>
 </ul>
+</div>
+<div class="artifact">
+<p>For each position, name the dominant radiant source or sink: direct sun, sky, hot surface, cool surface, reflected solar, or night-sky exposure.</p>
 </div>
 </section>
 <section id="what-counts-as-radiant-evidence" class="slide level2 center">

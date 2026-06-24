@@ -10,7 +10,7 @@ The assessment spine is deliberately separable. Each assignment owns one physica
 | Assignment | Weight | Physical Idea | Required Output | Core Test |
 |---|---:|---|---|---|
 | A1 Spatial Air Field Map | 20% | air temperature, humidity, sampling uncertainty | plan/section with Ta/RH points, optional contour/heat map, protocol, claim/limit | Can the student show that a thermal condition is sampled rather than universal? |
-| A2 Radiant Exchange Card | 20% | surface temperature, MRT, radiant flux, body exposure | two-position radiant comparison, body orientation, air-vs-radiant distinction | Can the student explain why same air temperature is not same thermal condition? |
+| A2 Radiant Exchange Card | 20% | solar/sky radiation, surface temperature, MRT, radiant flux, body exposure | two-position radiant comparison, body orientation, source/sink note, air-vs-radiant distinction | Can the student explain why same air temperature is not same radiant heat exchange? |
 | A3 Temporal Build-Up Audit | 25% | thermal capacity, lag, accumulated exposure, threshold exceedance, system boundary | time-series, boundary box, threshold, degree-hour/exceedance calculation, failure statement | Can the student show when thermal risk accumulates or persists within a declared system boundary? |
 | A4 Mechanism-Informed Thermal Design Intervention | 35% | bounded intervention, validation, uncertainty, architectural defense | assembled evidence deck, design action memo, roll-forward note, reproducibility capsule | Can the student turn evidence into one defensible architectural action without flattening every thermal difference? |
 
@@ -23,6 +23,23 @@ A1 can be submitted as a point map, gradient map, or contour/heat map.
 - Best: thermal field plus architectural overlay: body position, program, facade, opening, diffuser, shade, material, or threshold.
 
 Any smooth field must state how it was produced. A heat map is a spatial hypothesis unless every location was actually measured.
+
+## A2 Radiant Card Standard
+
+A2 treats solar, sky, and surfaces as heat sources or sinks.
+
+Each card should include:
+
+- two occupied positions with similar or comparable air-temperature context;
+- body orientation and major surfaces in view;
+- dominant radiant source or sink: direct sun, diffuse sky, reflected solar, hot surface, cool surface, or night sky;
+- approximate magnitude where possible: solar wattage order of magnitude, surface temperature, MRT difference, or operative-temperature contribution;
+- one design implication: shade, surface temperature, material, sky view, body offset, facade depth, canopy, or controlled radiant surface;
+- one uncertainty statement.
+
+::: {.key}
+A2 does not ask students to design homogeneous comfort. It asks them to identify how architecture can block, expose, cool, warm, store, or release radiant energy.
+:::
 
 ## A3 Boundary Standard
 

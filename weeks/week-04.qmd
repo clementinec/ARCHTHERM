@@ -81,6 +81,40 @@ It compresses a complex surface field into one interpretable thermal coordinate.
 MRT is useful precisely because it is a compression. The architectural work is to remember what got compressed: surface temperatures, view factors, solar exposure, and body orientation.
 :::
 
+## Solar Radiation Has Wattage
+
+Radiant design becomes concrete when students remember that sun and sky are heat sources and sinks, not just lighting conditions.
+
+| Radiant term | Rough design reading | Architectural consequence |
+|---|---|---|
+| direct sun | can approach order-of-magnitude `800-1000 W/m2` under clear conditions | shade depth, canopy, orientation, body exposure |
+| diffuse sky | lower but still spatially meaningful | sky view, courtyard proportion, cloudy humid days |
+| reflected shortwave | depends on ground/facade reflectance | paving, facade finish, glare/heat tradeoff |
+| longwave from hot surfaces | rises with surface temperature and view factor | material, storage, pavement, wall exposure |
+| longwave to cool sky | potential heat sink, especially at night | sky view, roof exposure, night cooling |
+
+::: {.key}
+The numbers are not there for engineering precision in Week 4. They are there to stop "shade" and "surface" from being vague visual categories.
+:::
+
+## Radiant Shift In Operative Temperature
+
+When air speed is low, a change in MRT can move operative temperature substantially.
+
+::: {.equation-card}
+If
+
+$$
+T_{op} \approx 0.5T_a + 0.5T_{mrt}
+$$
+
+then a `6 C` MRT difference contributes roughly `3 C` to operative temperature.
+:::
+
+::: {.example}
+An urban canyon can have similar air temperature at two ground-level positions while sun, shade, pavement, sky view, and facade reflection produce very different `T_{mrt}`.
+:::
+
 ## Radiant Exchange Approximation
 
 ::: {.equation-card}
@@ -122,6 +156,20 @@ Architectural objects:
 :::
 :::
 
+## Solar And Sky In The Urban Canyon
+
+At ground level, radiant environment can vary sharply across a few meters:
+
+- sunlit pavement versus shaded pavement;
+- high sky view versus narrow canyon;
+- reflective facade versus absorptive facade;
+- hot ground longwave versus vegetated edge;
+- evening surfaces releasing stored heat after sun has moved.
+
+::: {.warning}
+Do not use air temperature alone to compare a shaded arcade, a sunlit crossing, and a narrow canyon. They may belong to the same weather file but not the same radiant field.
+:::
+
 ## Week 4 Worked Case
 
 ![](../assets/figures/radiant-asymmetry-section.svg){.img-frame}
@@ -142,6 +190,10 @@ Good cases:
 - glass facade perimeter versus deeper plan;
 - concrete courtyard versus vegetated edge;
 - roof terrace sun patch versus shaded threshold.
+:::
+
+::: {.artifact}
+For each position, name the dominant radiant source or sink: direct sun, sky, hot surface, cool surface, reflected solar, or night-sky exposure.
 :::
 
 ## What Counts As Radiant Evidence?
