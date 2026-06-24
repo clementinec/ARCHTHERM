@@ -432,6 +432,18 @@
     ]
   },
   {
+    "objectID": "weeks/week-08.html#lcz-as-urban-climate-translation",
+    "href": "weeks/week-08.html#lcz-as-urban-climate-translation",
+    "title": "Week 8 - Weather Files And Stress Windows",
+    "section": "LCZ As Urban Climate Translation",
+    "text": "LCZ As Urban Climate Translation\nLocal Climate Zone (LCZ) language helps translate climate from “the city” to urban form and surface cover.\n\n\n\n\n\n\n\nLCZ question\nArchitectural reading\n\n\n\n\ncompact or open?\nsky view, wind access, heat release\n\n\nhigh-rise or low-rise?\ncanyon geometry, shading, longwave trapping\n\n\npaved or vegetated?\nsurface temperature, evaporation, heat storage\n\n\nheavy or lightweight surface stock?\nthermal capacity and night-time release\n\n\nanthropogenic heat present?\nwaste heat, traffic, equipment, dense occupancy\n\n\n\n\nLCZ is not a replacement for site analysis. It is a useful middle scale between a regional weather file and the exact courtyard, roof, street, or facade that architecture changes.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W8: Weather + Climate Stress"
+    ]
+  },
+  {
     "objectID": "weeks/week-08.html#climate-zones-can-drift",
     "href": "weeks/week-08.html#climate-zones-can-drift",
     "title": "Week 8 - Weather Files And Stress Windows",
@@ -617,6 +629,18 @@
     "title": "Week 6 - Thermal Build-Up",
     "section": "Thermal Capacity",
     "text": "Thermal Capacity\n\n\nHeavy materials can absorb heat without immediately changing temperature. That can be useful or dangerous depending on the sequence.\nThermal mass may delay a peak, flatten a swing, or keep a space warm after the outdoor condition improves.\n\n\nStored heat:\n\\[\nQ = mc\\Delta T\n\\]\nm is mass, c is specific heat capacity, and \\Delta T is temperature change.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W6: Thermal Build-Up"
+    ]
+  },
+  {
+    "objectID": "weeks/week-06.html#capacity-is-not-the-same-as-reflectance",
+    "href": "weeks/week-06.html#capacity-is-not-the-same-as-reflectance",
+    "title": "Week 6 - Thermal Build-Up",
+    "section": "Capacity Is Not The Same As Reflectance",
+    "text": "Capacity Is Not The Same As Reflectance\nSurface temperature depends on both what the material does with incoming radiation and what it does with stored heat.\n\n\n\n\n\n\n\n\nMaterial question\nConcept\nTime consequence\n\n\n\n\nHow much sun is absorbed?\nabsorptivity / solar absorptance\nmore absorbed heat enters the surface\n\n\nHow much sun is reflected?\nreflectivity / albedo\nless stored heat, but possible reflected load elsewhere\n\n\nHow well does it emit longwave?\nemissivity\nnight cooling or longwave exchange changes\n\n\nHow much heat can it store?\nthermal capacity\npeak is delayed, damped, or released later\n\n\nHow quickly does heat move through it?\nconductivity / diffusivity\nsurface and interior response separate\n\n\n\n\nA light, low-mass surface and a light, high-mass surface can behave differently after sunset. A3 asks when the consequence appears.",
     "crumbs": [
       "Home",
       "Weekly Decks",
@@ -840,6 +864,18 @@
     ]
   },
   {
+    "objectID": "weeks/week-04.html#surface-properties-decide-what-happens-next",
+    "href": "weeks/week-04.html#surface-properties-decide-what-happens-next",
+    "title": "Week 4 - Mean Radiant Temperature",
+    "section": "Surface Properties Decide What Happens Next",
+    "text": "Surface Properties Decide What Happens Next\nThe same solar wattage does not produce the same surface temperature on every material.\n\n\n\n\n\n\n\n\nProperty\nDesign meaning\nArchitectural example\n\n\n\n\nreflectivity / albedo\nfraction of solar radiation sent away\nlight paving, cool roof, reflective facade\n\n\nabsorptivity\nfraction of solar radiation absorbed as heat\ndark stone, asphalt, dark metal panel\n\n\ntransmissivity\nfraction passing through\nglazing and translucent shading\n\n\nemissivity\neffectiveness of longwave radiation exchange\nroof membrane, metal, glass, high-emissivity coating\n\n\nthermal capacity\nheat stored for later release\nconcrete, masonry, water, heavy ground\n\n\n\n\nFor an opaque surface:\n\\[\n\\alpha + \\rho \\approx 1\n\\]\nwhere alpha is absorptivity and rho is reflectivity.\n\n\nColor is a clue, not a full material model. The A2 question is what the surface absorbs, reflects, emits, stores, and exposes to the body.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W4: MRT + Radiant Exchange"
+    ]
+  },
+  {
     "objectID": "weeks/week-04.html#radiant-shift-in-operative-temperature",
     "href": "weeks/week-04.html#radiant-shift-in-operative-temperature",
     "title": "Week 4 - Mean Radiant Temperature",
@@ -856,7 +892,7 @@
     "href": "weeks/week-04.html#radiant-exchange-approximation",
     "title": "Week 4 - Mean Radiant Temperature",
     "section": "Radiant Exchange Approximation",
-    "text": "Radiant Exchange Approximation\n\nFor a teaching-level design reading:\n\\[\nq_{rad} \\approx h_r A(T_{mrt} - T_{skin})\n\\]\nor, for a surface-facing intuition:\n\\[\nq_{rad} \\approx h_r A(T_{surface} - T_{body})\n\\]\n\n\nThe sign matters. Warm surroundings add radiant load; cold surroundings pull heat from the body.",
+    "text": "Radiant Exchange Approximation\n\nFor a teaching-level design reading:\n\\[\nq_{rad} \\approx h_r A(T_{mrt} - T_{skin})\n\\]\nor, for a surface-facing intuition:\n\\[\nq_{rad} \\approx h_r A(T_{surface} - T_{body})\n\\]\nLongwave exchange depends on emissivity:\n\\[\nq_{lw} \\approx \\epsilon \\sigma A(T_s^4 - T_{sur}^4)\n\\]\n\n\nThe sign matters. Warm surroundings add radiant load; cold surroundings pull heat from the body.",
     "crumbs": [
       "Home",
       "Weekly Decks",
@@ -1564,7 +1600,7 @@
     "href": "index.html#portable-physics-a-few-equations-used-architecturally",
     "title": "Thermal Fields in Architecture",
     "section": "Portable physics — a few equations, used architecturally",
-    "text": "Portable physics — a few equations, used architecturally\nYou will not become a thermal engineer. You will learn a small set of equations well enough to reason with them.\n\n\n\n\n\n\n\n\nPhysics idea\nConcept\nArchitectural consequence\n\n\n\n\nspatial difference\nΔT = T_B − T_A\none room or threshold is not one condition\n\n\nconduction\nq = U·A·ΔT\nenvelope area, U-value, and temperature difference matter\n\n\nstored heat\nQ = m·c·ΔT\nmaterial capacity creates thermal build-up and lag\n\n\nheat balance\nC·dT/dt = gains − losses\nshade, ventilation, insulation, and gains change time behaviour\n\n\naccumulated exposure\ndegree-hours = Σ max(T − T_threshold, 0)\nduration and tail hours matter, not annual averages\n\n\nradiant exchange\nq_rad ≈ h_r·A·(T_surface − T_body)\nsurface temperature and body position change perceived heat",
+    "text": "Portable physics — a few equations, used architecturally\nYou will not become a thermal engineer. You will learn a small set of equations well enough to reason with them.\n\n\n\n\n\n\n\n\nPhysics idea\nConcept\nArchitectural consequence\n\n\n\n\nspatial difference\nΔT = T_B − T_A\none room or threshold is not one condition\n\n\nsolar surface balance\nabsorbed ≈ α·I_solar\ncolor, coating, albedo, and glazing change surface heating\n\n\nlongwave exchange\nq_lw ≈ ε·σ·A·(T_s^4 − T_sur^4)\nemissivity and sky view shape radiant cooling or heating\n\n\nconduction\nq = U·A·ΔT\nenvelope area, U-value, and temperature difference matter\n\n\nstored heat\nQ = m·c·ΔT\nmaterial capacity creates thermal build-up and lag\n\n\nheat balance\nC·dT/dt = gains − losses\nshade, ventilation, insulation, and gains change time behaviour\n\n\naccumulated exposure\ndegree-hours = Σ max(T − T_threshold, 0)\nduration and tail hours matter, not annual averages\n\n\nradiant exchange\nq_rad ≈ h_r·A·(T_surface − T_body)\nsurface temperature and body position change perceived heat",
     "crumbs": [
       "Home",
       "Course Overview",
@@ -1624,7 +1660,7 @@
     "href": "assignments.html#a1-map-standard",
     "title": "Assignments",
     "section": "A1 Map Standard",
-    "text": "A1 Map Standard\nA1 can be submitted as a point map, gradient map, or contour/heat map.\n\nMinimum: sampled or curated Ta/RH points on a plan or section.\nStronger: interpolated contour or heat map with sampled points still visible.\nBest: thermal field plus architectural overlay: body position, program, facade, opening, diffuser, shade, material, or threshold.\n\nAny smooth field must state how it was produced. A heat map is a spatial hypothesis unless every location was actually measured.",
+    "text": "A1 Map Standard\nA1 can be submitted as a point map, gradient map, or contour/heat map.\n\nMinimum: sampled or curated Ta/RH points on a plan or section.\nStronger: interpolated contour or heat map with sampled points still visible.\nBest: thermal field plus architectural overlay: body position, program, facade, opening, diffuser, shade, material, or threshold.\n\nAny smooth field must state how it was produced. A heat map is a spatial hypothesis unless every location was actually measured.\nCO2, odor, particulates, or IAQ observations may be included when they affect the design question, but they do not replace the thermal evidence. If used, state whether the claim is about thermal air movement, ventilation quantity, ventilation effectiveness, or perceived air quality.",
     "crumbs": [
       "Home",
       "Course Overview",
@@ -1636,7 +1672,7 @@
     "href": "assignments.html#a2-radiant-card-standard",
     "title": "Assignments",
     "section": "A2 Radiant Card Standard",
-    "text": "A2 Radiant Card Standard\nA2 treats solar, sky, and surfaces as heat sources or sinks.\nEach card should include:\n\ntwo occupied positions with similar or comparable air-temperature context;\nbody orientation and major surfaces in view;\ndominant radiant source or sink: direct sun, diffuse sky, reflected solar, hot surface, cool surface, or night sky;\napproximate magnitude where possible: solar wattage order of magnitude, surface temperature, MRT difference, or operative-temperature contribution;\none design implication: shade, surface temperature, material, sky view, body offset, facade depth, canopy, or controlled radiant surface;\none uncertainty statement.\n\n\nA2 does not ask students to design homogeneous comfort. It asks them to identify how architecture can block, expose, cool, warm, store, or release radiant energy.",
+    "text": "A2 Radiant Card Standard\nA2 treats solar, sky, and surfaces as heat sources or sinks.\nEach card should include:\n\ntwo occupied positions with similar or comparable air-temperature context;\nbody orientation and major surfaces in view;\ndominant radiant source or sink: direct sun, diffuse sky, reflected solar, hot surface, cool surface, or night sky;\napproximate magnitude where possible: solar wattage order of magnitude, surface temperature, MRT difference, or operative-temperature contribution;\nmaterial-property note where relevant: reflectivity/albedo, absorptivity, emissivity, thermal capacity, or glazing transmittance;\none design implication: shade, surface temperature, material, sky view, body offset, facade depth, canopy, or controlled radiant surface;\none uncertainty statement.\n\n\nA2 does not ask students to design homogeneous comfort. It asks them to identify how architecture can block, expose, cool, warm, store, or release radiant energy.",
     "crumbs": [
       "Home",
       "Course Overview",
@@ -2124,6 +2160,18 @@
     ]
   },
   {
+    "objectID": "weeks/week-03.html#co2-as-a-competing-air-claim",
+    "href": "weeks/week-03.html#co2-as-a-competing-air-claim",
+    "title": "Week 3 - Sensing Thermal Fields",
+    "section": "CO2 As A Competing Air Claim",
+    "text": "CO2 As A Competing Air Claim\nCO2 is useful as an occupied-space ventilation proxy, but it is not a thermal comfort variable by itself.\n\nA simple room concentration intuition:\n\\[\n\\frac{dC}{dt}\n\\approx\n\\frac{G}{V}\n-\n\\lambda(C-C_{out})\n\\]\nG is occupant generation, V is room volume, and \\lambda is effective air exchange or removal.\n\n\n\n\n\n\n\n\n\nClaim\nWhat it says\nWhat it does not prove\n\n\n\n\nlower CO2\nmore dilution or fewer occupants\ngood thermal comfort\n\n\nhigher air speed\nstronger local convection / evaporation\nenough fresh air\n\n\nhigher outdoor air\nmore ventilation potential\nlower humidity load in Hong Kong\n\n\nacceptable Ta/RH\nair-state comfort may be plausible\ngood IAQ or low exposure\n\n\n\n\nA1 can mention CO2 or IAQ if it matters to the case, but the assessed claim remains thermal: air, moisture, movement, body position, and evidence limits.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W3: Sensing Fields"
+    ]
+  },
+  {
     "objectID": "weeks/week-03.html#smart-style-radiant-sensing",
     "href": "weeks/week-03.html#smart-style-radiant-sensing",
     "title": "Week 3 - Sensing Thermal Fields",
@@ -2280,6 +2328,18 @@
     ]
   },
   {
+    "objectID": "weeks/week-05.html#facade-and-ground-property-levers",
+    "href": "weeks/week-05.html#facade-and-ground-property-levers",
+    "title": "Week 5 - Radiant Asymmetry",
+    "section": "Facade And Ground Property Levers",
+    "text": "Facade And Ground Property Levers\nArchitects do work with these properties, even when the language is hidden inside facade, roof, paving, and coating decisions.\n\n\n\n\n\n\n\n\nLever\nWhat changes\nUseful question\n\n\n\n\nhigher solar reflectance\nless absorbed shortwave heat\nwhere does reflected radiation go next?\n\n\nhigher absorptivity\nmore solar energy becomes surface heat\ndoes it warm a winter refuge or worsen a summer burden?\n\n\nhigher emissivity\nstronger longwave exchange\ndoes it support night cooling or radiate heat toward occupants?\n\n\nlower thermal capacity\nfaster response, less stored release\ndoes it cool quickly after sunset?\n\n\nhigher thermal capacity\ndelayed peak, stored heat\ndoes it stabilize or prolong discomfort?\n\n\nsurface texture / geometry\nview factor, self-shading, convection\ndoes roughness help cooling or trap heat/dirt/moisture?\n\n\n\n\nReflective surfaces can lower their own temperature while increasing glare or reflected radiant load elsewhere. A good A2 answer follows the energy, not the product label.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W5: Radiant Asymmetry"
+    ]
+  },
+  {
     "objectID": "weeks/week-05.html#daytime-indoors-is-still-radiant",
     "href": "weeks/week-05.html#daytime-indoors-is-still-radiant",
     "title": "Week 5 - Radiant Asymmetry",
@@ -2328,6 +2388,18 @@
     ]
   },
   {
+    "objectID": "weeks/week-05.html#emissivity-and-sky-view",
+    "href": "weeks/week-05.html#emissivity-and-sky-view",
+    "title": "Week 5 - Radiant Asymmetry",
+    "section": "Emissivity And Sky View",
+    "text": "Emissivity And Sky View\nNight-sky cooling is strongest when a surface can “see” the sky and exchange longwave radiation effectively.\n\nA design-level reading:\n\nnight cooling potential = sky view + emissivity - stored heat - humid/cloudy sky penalty\n\n\n\nThis is where radiant design links to UHI: material heat storage, sky view, emissivity, wind, and humidity shape whether the city recovers at night.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W5: Radiant Asymmetry"
+    ]
+  },
+  {
     "objectID": "weeks/week-05.html#surface-strategy-not-homogeneous-space",
     "href": "weeks/week-05.html#surface-strategy-not-homogeneous-space",
     "title": "Week 5 - Radiant Asymmetry",
@@ -2344,7 +2416,7 @@
     "href": "weeks/week-05.html#a2-card-structure",
     "title": "Week 5 - Radiant Asymmetry",
     "section": "A2 Card Structure",
-    "text": "A2 Card Structure\n\nYour Radiant Exchange Card must include:\n\ntwo occupied positions;\nair temperature comparison;\nsurface/radiant/MRT proxy evidence;\nbody orientation diagram;\none approximate radiant source/sink note, using wattage, surface temperature, or MRT difference where possible;\none heat-flux or exchange sketch;\none architectural implication;\none uncertainty statement.",
+    "text": "A2 Card Structure\n\nYour Radiant Exchange Card must include:\n\ntwo occupied positions;\nair temperature comparison;\nsurface/radiant/MRT proxy evidence;\nbody orientation diagram;\none approximate radiant source/sink note, using wattage, surface temperature, material property, or MRT difference where possible;\none heat-flux or exchange sketch;\none architectural implication;\none uncertainty statement.",
     "crumbs": [
       "Home",
       "Weekly Decks",

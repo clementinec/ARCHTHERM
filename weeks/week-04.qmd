@@ -97,6 +97,32 @@ Radiant design becomes concrete when students remember that sun and sky are heat
 The numbers are not there for engineering precision in Week 4. They are there to stop "shade" and "surface" from being vague visual categories.
 :::
 
+## Surface Properties Decide What Happens Next
+
+The same solar wattage does not produce the same surface temperature on every material.
+
+| Property | Design meaning | Architectural example |
+|---|---|---|
+| reflectivity / albedo | fraction of solar radiation sent away | light paving, cool roof, reflective facade |
+| absorptivity | fraction of solar radiation absorbed as heat | dark stone, asphalt, dark metal panel |
+| transmissivity | fraction passing through | glazing and translucent shading |
+| emissivity | effectiveness of longwave radiation exchange | roof membrane, metal, glass, high-emissivity coating |
+| thermal capacity | heat stored for later release | concrete, masonry, water, heavy ground |
+
+:::{.equation-card}
+For an opaque surface:
+
+$$
+\alpha + \rho \approx 1
+$$
+
+where `alpha` is absorptivity and `rho` is reflectivity.
+:::
+
+::: {.warning}
+Color is a clue, not a full material model. The A2 question is what the surface absorbs, reflects, emits, stores, and exposes to the body.
+:::
+
 ## Radiant Shift In Operative Temperature
 
 When air speed is low, a change in MRT can move operative temperature substantially.
@@ -128,6 +154,12 @@ or, for a surface-facing intuition:
 
 $$
 q_{rad} \approx h_r A(T_{surface} - T_{body})
+$$
+
+Longwave exchange depends on emissivity:
+
+$$
+q_{lw} \approx \epsilon \sigma A(T_s^4 - T_{sur}^4)
 $$
 :::
 

@@ -437,6 +437,61 @@ T_{mrt} = \text{uniform surrounding temperature producing the same radiant excha
 <p>The numbers are not there for engineering precision in Week 4. They are there to stop “shade” and “surface” from being vague visual categories.</p>
 </div>
 </section>
+<section id="surface-properties-decide-what-happens-next" class="slide level2 center">
+<h2>Surface Properties Decide What Happens Next</h2>
+<p>The same solar wattage does not produce the same surface temperature on every material.</p>
+<table>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Property</th>
+<th>Design meaning</th>
+<th>Architectural example</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>reflectivity / albedo</td>
+<td>fraction of solar radiation sent away</td>
+<td>light paving, cool roof, reflective facade</td>
+</tr>
+<tr class="even">
+<td>absorptivity</td>
+<td>fraction of solar radiation absorbed as heat</td>
+<td>dark stone, asphalt, dark metal panel</td>
+</tr>
+<tr class="odd">
+<td>transmissivity</td>
+<td>fraction passing through</td>
+<td>glazing and translucent shading</td>
+</tr>
+<tr class="even">
+<td>emissivity</td>
+<td>effectiveness of longwave radiation exchange</td>
+<td>roof membrane, metal, glass, high-emissivity coating</td>
+</tr>
+<tr class="odd">
+<td>thermal capacity</td>
+<td>heat stored for later release</td>
+<td>concrete, masonry, water, heavy ground</td>
+</tr>
+</tbody>
+</table>
+<div class="equation-card">
+<p>For an opaque surface:</p>
+<p><span class="math display">\[
+\alpha + \rho \approx 1
+\]</span></p>
+<p>where <code>alpha</code> is absorptivity and <code>rho</code> is reflectivity.</p>
+</div>
+<div class="warning">
+<p>Color is a clue, not a full material model. The A2 question is what the surface absorbs, reflects, emits, stores, and exposes to the body.</p>
+</div>
+</section>
 <section id="radiant-shift-in-operative-temperature" class="slide level2 center">
 <h2>Radiant Shift In Operative Temperature</h2>
 <p>When air speed is low, a change in MRT can move operative temperature substantially.</p>
@@ -461,6 +516,10 @@ q_{rad} \approx h_r A(T_{mrt} - T_{skin})
 <p>or, for a surface-facing intuition:</p>
 <p><span class="math display">\[
 q_{rad} \approx h_r A(T_{surface} - T_{body})
+\]</span></p>
+<p>Longwave exchange depends on emissivity:</p>
+<p><span class="math display">\[
+q_{lw} \approx \epsilon \sigma A(T_s^4 - T_{sur}^4)
 \]</span></p>
 </div>
 <div class="key">

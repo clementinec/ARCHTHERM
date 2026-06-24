@@ -135,6 +135,22 @@ Climate evidence arrives at different spatial scales.
 A climate grid cell is not a room, courtyard, facade, or body. It becomes architectural evidence only after the system boundary and spatial translation are stated.
 :::
 
+## LCZ As Urban Climate Translation
+
+Local Climate Zone (LCZ) language helps translate climate from "the city" to urban form and surface cover.
+
+| LCZ question | Architectural reading |
+|---|---|
+| compact or open? | sky view, wind access, heat release |
+| high-rise or low-rise? | canyon geometry, shading, longwave trapping |
+| paved or vegetated? | surface temperature, evaporation, heat storage |
+| heavy or lightweight surface stock? | thermal capacity and night-time release |
+| anthropogenic heat present? | waste heat, traffic, equipment, dense occupancy |
+
+:::{.key}
+LCZ is not a replacement for site analysis. It is a useful middle scale between a regional weather file and the exact courtyard, roof, street, or facade that architecture changes.
+:::
+
 ## Climate Zones Can Drift
 
 Climate-zone labels are useful shorthand, but they can become dangerous defaults if treated as permanent.

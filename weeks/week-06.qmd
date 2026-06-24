@@ -63,6 +63,22 @@ $$
 :::
 :::
 
+## Capacity Is Not The Same As Reflectance
+
+Surface temperature depends on both what the material does with incoming radiation and what it does with stored heat.
+
+| Material question | Concept | Time consequence |
+|---|---|---|
+| How much sun is absorbed? | absorptivity / solar absorptance | more absorbed heat enters the surface |
+| How much sun is reflected? | reflectivity / albedo | less stored heat, but possible reflected load elsewhere |
+| How well does it emit longwave? | emissivity | night cooling or longwave exchange changes |
+| How much heat can it store? | thermal capacity | peak is delayed, damped, or released later |
+| How quickly does heat move through it? | conductivity / diffusivity | surface and interior response separate |
+
+::: {.key}
+A light, low-mass surface and a light, high-mass surface can behave differently after sunset. A3 asks when the consequence appears.
+:::
+
 ## Conduction And Envelope
 
 ::: {.equation-card}

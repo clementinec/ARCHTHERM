@@ -74,6 +74,23 @@ $$
 | fan or breeze | convective heat exchange | air path, local control |
 | wall material | surface temperature and time lag | finish, insulation, ventilation gap |
 
+## Facade And Ground Property Levers
+
+Architects do work with these properties, even when the language is hidden inside facade, roof, paving, and coating decisions.
+
+| Lever | What changes | Useful question |
+|---|---|---|
+| higher solar reflectance | less absorbed shortwave heat | where does reflected radiation go next? |
+| higher absorptivity | more solar energy becomes surface heat | does it warm a winter refuge or worsen a summer burden? |
+| higher emissivity | stronger longwave exchange | does it support night cooling or radiate heat toward occupants? |
+| lower thermal capacity | faster response, less stored release | does it cool quickly after sunset? |
+| higher thermal capacity | delayed peak, stored heat | does it stabilize or prolong discomfort? |
+| surface texture / geometry | view factor, self-shading, convection | does roughness help cooling or trap heat/dirt/moisture? |
+
+::: {.warning}
+Reflective surfaces can lower their own temperature while increasing glare or reflected radiant load elsewhere. A good A2 answer follows the energy, not the product label.
+:::
+
 ## Daytime Indoors Is Still Radiant
 
 Indoor radiant variation can be significant during daytime even when the HVAC system holds air temperature near a setpoint.
@@ -136,6 +153,20 @@ At night, surfaces with sky view can lose longwave radiation to the sky. That co
 Urban heat island is partly a nighttime problem: dense surfaces store heat, sky view is reduced, wind paths can be weak, and the city may not release heat fast enough after sunset.
 :::
 
+## Emissivity And Sky View
+
+Night-sky cooling is strongest when a surface can "see" the sky and exchange longwave radiation effectively.
+
+::: {.equation-card}
+A design-level reading:
+
+<div class="big-equation">night cooling potential = sky view + emissivity - stored heat - humid/cloudy sky penalty</div>
+:::
+
+::: {.key}
+This is where radiant design links to UHI: material heat storage, sky view, emissivity, wind, and humidity shape whether the city recovers at night.
+:::
+
 ## Surface Strategy, Not Homogeneous Space
 
 Do not assume the goal is one equal temperature everywhere.
@@ -161,7 +192,7 @@ Your Radiant Exchange Card must include:
 2. air temperature comparison;
 3. surface/radiant/MRT proxy evidence;
 4. body orientation diagram;
-5. one approximate radiant source/sink note, using wattage, surface temperature, or MRT difference where possible;
+5. one approximate radiant source/sink note, using wattage, surface temperature, material property, or MRT difference where possible;
 6. one heat-flux or exchange sketch;
 7. one architectural implication;
 8. one uncertainty statement.

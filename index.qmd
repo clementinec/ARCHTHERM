@@ -81,6 +81,8 @@ You will not become a thermal engineer. You will learn a small set of equations 
 | Physics idea | Concept | Architectural consequence |
 |---|---|---|
 | spatial difference | `ΔT = T_B − T_A` | one room or threshold is not one condition |
+| solar surface balance | `absorbed ≈ α·I_solar` | color, coating, albedo, and glazing change surface heating |
+| longwave exchange | `q_lw ≈ ε·σ·A·(T_s^4 − T_sur^4)` | emissivity and sky view shape radiant cooling or heating |
 | conduction | `q = U·A·ΔT` | envelope area, U-value, and temperature difference matter |
 | stored heat | `Q = m·c·ΔT` | material capacity creates thermal build-up and lag |
 | heat balance | `C·dT/dt = gains − losses` | shade, ventilation, insulation, and gains change time behaviour |

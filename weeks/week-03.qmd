@@ -184,6 +184,35 @@ But the same move can:
 For your case, separate the claim into two lines: one about thermal condition and one about perceived air quality.
 :::
 
+## CO2 As A Competing Air Claim
+
+CO2 is useful as an occupied-space ventilation proxy, but it is not a thermal comfort variable by itself.
+
+::: {.equation-card}
+A simple room concentration intuition:
+
+$$
+\frac{dC}{dt}
+\approx
+\frac{G}{V}
+-
+\lambda(C-C_{out})
+$$
+
+`G` is occupant generation, `V` is room volume, and `\lambda` is effective air exchange or removal.
+:::
+
+| Claim | What it says | What it does not prove |
+|---|---|---|
+| lower CO2 | more dilution or fewer occupants | good thermal comfort |
+| higher air speed | stronger local convection / evaporation | enough fresh air |
+| higher outdoor air | more ventilation potential | lower humidity load in Hong Kong |
+| acceptable `Ta/RH` | air-state comfort may be plausible | good IAQ or low exposure |
+
+::: {.key}
+A1 can mention CO2 or IAQ if it matters to the case, but the assessed claim remains thermal: air, moisture, movement, body position, and evidence limits.
+:::
+
 ## SMART-Style Radiant Sensing
 
 ::: {.split}
