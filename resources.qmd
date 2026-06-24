@@ -17,6 +17,12 @@ This page tracks the first local resource layer. It will grow into starter noteb
 | `assets/figures/adaptive-comfort-chart.png` | Week 7/8 adaptive model contrast | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Adaptive_chart_-_adaptive_method.png) |
 | `assets/figures/human-infrared.jpg` | Week 2 thermal image reference | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Human-Infrared.jpg) |
 | `assets/figures/heat-transfer-modes-web.jpg` | Week 2 heat-transfer modes reference | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Heat-transmittance-means2.jpg) |
+| `assets/figures/solar-spectrum.png` | Week 4 solar radiation and spectral distribution | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Solar_Spectrum.png) |
+| `assets/figures/airmass-geometry.png` | Optional Week 4 solar angle / air-mass reference | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Airmass_geometry.png) |
+| `assets/figures/leslies-cube-emissivity.png` | Week 5 emissivity and surface finish reference | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:LesliesCube.png) |
+| `assets/figures/emissivity-cosine-model.png` | Optional Week 5 directional emissivity reference | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Emissivity_cosine_model.png) |
+| `assets/figures/lcz-classification-chart.png` | Week 8 Local Climate Zone vocabulary | [Demuzere et al. / Scientific Data](https://www.nature.com/articles/s41597-020-00605-z) |
+| `assets/figures/urban-heat-island-profile.svg` | Week 8 urban heat island and night recovery | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Urban_heat_island.svg) |
 
 ## Original Course Diagrams
 

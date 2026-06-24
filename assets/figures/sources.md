@@ -10,6 +10,12 @@ Downloaded figures are stored locally so the course can render offline. Source p
 | `adaptive-comfort-chart.png` | <https://commons.wikimedia.org/wiki/File:Adaptive_chart_-_adaptive_method.png> | Adaptive model chart |
 | `human-infrared.jpg` | <https://commons.wikimedia.org/wiki/File:Human-Infrared.jpg> | Thermal image of a clothed human |
 | `heat-transfer-modes-web.jpg` | <https://commons.wikimedia.org/wiki/File:Heat-transmittance-means2.jpg> | Heat transfer modes diagram |
+| `solar-spectrum.png` | <https://commons.wikimedia.org/wiki/File:Solar_Spectrum.png> | Solar radiation spectrum for Week 4 source/sink discussion |
+| `airmass-geometry.png` | <https://commons.wikimedia.org/wiki/File:Airmass_geometry.png> | Optional solar angle / air-mass reference |
+| `leslies-cube-emissivity.png` | <https://commons.wikimedia.org/wiki/File:LesliesCube.png> | Leslie's cube thermal image for emissivity and surface finish |
+| `emissivity-cosine-model.png` | <https://commons.wikimedia.org/wiki/File:Emissivity_cosine_model.png> | Optional angular emissivity reference |
+| `lcz-classification-chart.png` | <https://www.nature.com/articles/s41597-020-00605-z> | Local Climate Zone chart from Demuzere et al. / WUDAPT context |
+| `urban-heat-island-profile.svg` | <https://commons.wikimedia.org/wiki/File:Urban_heat_island.svg> | Urban heat island profile diagram |
 
 Original diagrams in this folder are authored for this course and may be revised freely.
 

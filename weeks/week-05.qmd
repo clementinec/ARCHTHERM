@@ -91,6 +91,14 @@ Architects do work with these properties, even when the language is hidden insid
 Reflective surfaces can lower their own temperature while increasing glare or reflected radiant load elsewhere. A good A2 answer follows the energy, not the product label.
 :::
 
+## Emissivity Is Visible To Thermal Cameras
+
+![](../assets/figures/leslies-cube-emissivity.png){.img-frame}
+
+::: {.caption}
+Leslie's cube thermal image, Wikimedia Commons. The takeaway is not the apparatus; it is that surfaces at similar physical conditions can radiate differently depending on finish and emissivity.
+:::
+
 ## Daytime Indoors Is Still Radiant
 
 Indoor radiant variation can be significant during daytime even when the HVAC system holds air temperature near a setpoint.

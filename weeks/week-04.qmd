@@ -97,6 +97,14 @@ Radiant design becomes concrete when students remember that sun and sky are heat
 The numbers are not there for engineering precision in Week 4. They are there to stop "shade" and "surface" from being vague visual categories.
 :::
 
+## What Sunlight Contains
+
+![](../assets/figures/solar-spectrum.png){.img-frame}
+
+::: {.caption}
+Solar radiation spectrum, Wikimedia Commons. The design point is simple: solar gain is not one visual phenomenon. Shortwave radiation, atmospheric absorption, glazing transmission, and surface absorption all shape what reaches the body or material.
+:::
+
 ## Surface Properties Decide What Happens Next
 
 The same solar wattage does not produce the same surface temperature on every material.

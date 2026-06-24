@@ -444,11 +444,35 @@
     ]
   },
   {
+    "objectID": "weeks/week-08.html#lcz-visual-vocabulary",
+    "href": "weeks/week-08.html#lcz-visual-vocabulary",
+    "title": "Week 8 - Weather Files And Stress Windows",
+    "section": "LCZ Visual Vocabulary",
+    "text": "LCZ Visual Vocabulary\n\n\nLocal Climate Zone classes from WUDAPT / Demuzere et al. The design reading is morphology plus surface cover: compactness, height, vegetation, paving, material stock, and anthropogenic heat.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W8: Weather + Climate Stress"
+    ]
+  },
+  {
     "objectID": "weeks/week-08.html#climate-zones-can-drift",
     "href": "weeks/week-08.html#climate-zones-can-drift",
     "title": "Week 8 - Weather Files And Stress Windows",
     "section": "Climate Zones Can Drift",
     "text": "Climate Zones Can Drift\nClimate-zone labels are useful shorthand, but they can become dangerous defaults if treated as permanent.\nArchitectural questions:\n\nIs the project designed for a historical climate category that is shifting?\nDoes the future condition become more hot-humid, less night-cooling-friendly, or more extreme in tail periods?\nWhich passive strategy weakens when the climate-zone assumption drifts?\nWhich design feature creates choice or refuge across multiple future states?\n\n\nFor architecture, climate-zone drift matters because it changes which defaults remain defensible: ventilation, shade, thermal mass, glazing, refuge, drainage, and control access.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W8: Weather + Climate Stress"
+    ]
+  },
+  {
+    "objectID": "weeks/week-08.html#uhi-as-night-time-recovery-problem",
+    "href": "weeks/week-08.html#uhi-as-night-time-recovery-problem",
+    "title": "Week 8 - Weather Files And Stress Windows",
+    "section": "UHI As Night-Time Recovery Problem",
+    "text": "UHI As Night-Time Recovery Problem\n\n\nUrban heat island profile, Wikimedia Commons. For this course, UHI is not only “the city is hotter.” It is a recovery problem: surface storage, sky view, wind, waste heat, and night-time longwave loss determine whether heat leaves.",
     "crumbs": [
       "Home",
       "Weekly Decks",
@@ -857,6 +881,18 @@
     "title": "Week 4 - Mean Radiant Temperature",
     "section": "Solar Radiation Has Wattage",
     "text": "Solar Radiation Has Wattage\nRadiant design becomes concrete when students remember that sun and sky are heat sources and sinks, not just lighting conditions.\n\n\n\n\n\n\n\n\nRadiant term\nRough design reading\nArchitectural consequence\n\n\n\n\ndirect sun\ncan approach order-of-magnitude 800-1000 W/m2 under clear conditions\nshade depth, canopy, orientation, body exposure\n\n\ndiffuse sky\nlower but still spatially meaningful\nsky view, courtyard proportion, cloudy humid days\n\n\nreflected shortwave\ndepends on ground/facade reflectance\npaving, facade finish, glare/heat tradeoff\n\n\nlongwave from hot surfaces\nrises with surface temperature and view factor\nmaterial, storage, pavement, wall exposure\n\n\nlongwave to cool sky\npotential heat sink, especially at night\nsky view, roof exposure, night cooling\n\n\n\n\nThe numbers are not there for engineering precision in Week 4. They are there to stop “shade” and “surface” from being vague visual categories.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W4: MRT + Radiant Exchange"
+    ]
+  },
+  {
+    "objectID": "weeks/week-04.html#what-sunlight-contains",
+    "href": "weeks/week-04.html#what-sunlight-contains",
+    "title": "Week 4 - Mean Radiant Temperature",
+    "section": "What Sunlight Contains",
+    "text": "What Sunlight Contains\n\n\nSolar radiation spectrum, Wikimedia Commons. The design point is simple: solar gain is not one visual phenomenon. Shortwave radiation, atmospheric absorption, glazing transmission, and surface absorption all shape what reaches the body or material.",
     "crumbs": [
       "Home",
       "Weekly Decks",
@@ -1444,7 +1480,7 @@
     "href": "resources.html#downloaded-teaching-figures",
     "title": "Resources",
     "section": "Downloaded Teaching Figures",
-    "text": "Downloaded Teaching Figures\n\n\n\nFile\nUse\nSource\n\n\n\n\nassets/figures/psychrometric-chart-sealevel-si.svg\nWeek 1 psychrometrics and humidity reading\nWikimedia Commons\n\n\nassets/figures/pmv-psychrometric-chart.png\nWeek 2 PMV method visual\nWikimedia Commons\n\n\nassets/figures/pmv-temperature-rh-chart.png\nWeek 2 temperature-RH comfort visual\nWikimedia Commons\n\n\nassets/figures/adaptive-comfort-chart.png\nWeek 7/8 adaptive model contrast\nWikimedia Commons\n\n\nassets/figures/human-infrared.jpg\nWeek 2 thermal image reference\nWikimedia Commons\n\n\nassets/figures/heat-transfer-modes-web.jpg\nWeek 2 heat-transfer modes reference\nWikimedia Commons",
+    "text": "Downloaded Teaching Figures\n\n\n\nFile\nUse\nSource\n\n\n\n\nassets/figures/psychrometric-chart-sealevel-si.svg\nWeek 1 psychrometrics and humidity reading\nWikimedia Commons\n\n\nassets/figures/pmv-psychrometric-chart.png\nWeek 2 PMV method visual\nWikimedia Commons\n\n\nassets/figures/pmv-temperature-rh-chart.png\nWeek 2 temperature-RH comfort visual\nWikimedia Commons\n\n\nassets/figures/adaptive-comfort-chart.png\nWeek 7/8 adaptive model contrast\nWikimedia Commons\n\n\nassets/figures/human-infrared.jpg\nWeek 2 thermal image reference\nWikimedia Commons\n\n\nassets/figures/heat-transfer-modes-web.jpg\nWeek 2 heat-transfer modes reference\nWikimedia Commons\n\n\nassets/figures/solar-spectrum.png\nWeek 4 solar radiation and spectral distribution\nWikimedia Commons\n\n\nassets/figures/airmass-geometry.png\nOptional Week 4 solar angle / air-mass reference\nWikimedia Commons\n\n\nassets/figures/leslies-cube-emissivity.png\nWeek 5 emissivity and surface finish reference\nWikimedia Commons\n\n\nassets/figures/emissivity-cosine-model.png\nOptional Week 5 directional emissivity reference\nWikimedia Commons\n\n\nassets/figures/lcz-classification-chart.png\nWeek 8 Local Climate Zone vocabulary\nDemuzere et al. / Scientific Data\n\n\nassets/figures/urban-heat-island-profile.svg\nWeek 8 urban heat island and night recovery\nWikimedia Commons",
     "crumbs": [
       "Home",
       "Course Overview",
@@ -2333,6 +2369,18 @@
     "title": "Week 5 - Radiant Asymmetry",
     "section": "Facade And Ground Property Levers",
     "text": "Facade And Ground Property Levers\nArchitects do work with these properties, even when the language is hidden inside facade, roof, paving, and coating decisions.\n\n\n\n\n\n\n\n\nLever\nWhat changes\nUseful question\n\n\n\n\nhigher solar reflectance\nless absorbed shortwave heat\nwhere does reflected radiation go next?\n\n\nhigher absorptivity\nmore solar energy becomes surface heat\ndoes it warm a winter refuge or worsen a summer burden?\n\n\nhigher emissivity\nstronger longwave exchange\ndoes it support night cooling or radiate heat toward occupants?\n\n\nlower thermal capacity\nfaster response, less stored release\ndoes it cool quickly after sunset?\n\n\nhigher thermal capacity\ndelayed peak, stored heat\ndoes it stabilize or prolong discomfort?\n\n\nsurface texture / geometry\nview factor, self-shading, convection\ndoes roughness help cooling or trap heat/dirt/moisture?\n\n\n\n\nReflective surfaces can lower their own temperature while increasing glare or reflected radiant load elsewhere. A good A2 answer follows the energy, not the product label.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W5: Radiant Asymmetry"
+    ]
+  },
+  {
+    "objectID": "weeks/week-05.html#emissivity-is-visible-to-thermal-cameras",
+    "href": "weeks/week-05.html#emissivity-is-visible-to-thermal-cameras",
+    "title": "Week 5 - Radiant Asymmetry",
+    "section": "Emissivity Is Visible To Thermal Cameras",
+    "text": "Emissivity Is Visible To Thermal Cameras\n\n\nLeslie’s cube thermal image, Wikimedia Commons. The takeaway is not the apparatus; it is that surfaces at similar physical conditions can radiate differently depending on finish and emissivity.",
     "crumbs": [
       "Home",
       "Weekly Decks",

@@ -151,6 +151,14 @@ Local Climate Zone (LCZ) language helps translate climate from "the city" to urb
 LCZ is not a replacement for site analysis. It is a useful middle scale between a regional weather file and the exact courtyard, roof, street, or facade that architecture changes.
 :::
 
+## LCZ Visual Vocabulary
+
+![](../assets/figures/lcz-classification-chart.png){.img-frame}
+
+::: {.caption}
+Local Climate Zone classes from WUDAPT / Demuzere et al. The design reading is morphology plus surface cover: compactness, height, vegetation, paving, material stock, and anthropogenic heat.
+:::
+
 ## Climate Zones Can Drift
 
 Climate-zone labels are useful shorthand, but they can become dangerous defaults if treated as permanent.
@@ -164,6 +172,14 @@ Architectural questions:
 
 :::{.key}
 For architecture, climate-zone drift matters because it changes which defaults remain defensible: ventilation, shade, thermal mass, glazing, refuge, drainage, and control access.
+:::
+
+## UHI As Night-Time Recovery Problem
+
+![](../assets/figures/urban-heat-island-profile.svg){.img-frame}
+
+::: {.caption}
+Urban heat island profile, Wikimedia Commons. For this course, UHI is not only "the city is hotter." It is a recovery problem: surface storage, sky view, wind, waste heat, and night-time longwave loss determine whether heat leaves.
 :::
 
 ## Sustained Climate Situations
