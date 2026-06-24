@@ -98,6 +98,7 @@ The payoff is translation — evidence becoming one defensible design move.
 | Roof-exposed room fails during a heatwave | roof insulation, cool roof, ventilated cavity, night purge |
 | Average comfort passes but tail hours fail | design for extreme periods, not the annual average |
 | One weather file passes, a future file fails | climate stress-test; robust rather than optimised design |
+| A local breeze or shaded humid threshold is beneficial | organize the difference as refuge, choice, or transition rather than flattening it |
 
 ## How class runs
 

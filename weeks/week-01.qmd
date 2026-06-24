@@ -200,6 +200,23 @@ $$
 Warm breeze can support cooling. Cold unwanted air movement can become draft discomfort. Air speed is not automatically good or bad.
 :::
 
+## Week 1 Intervention: Move Air Deliberately
+
+The first intervention students can understand is not complicated:
+
+> increase, redirect, or localize air velocity.
+
+| Move | Helps when | Can fail when |
+|---|---|---|
+| fan or local breeze | body needs convective / evaporative relief | air is too cold, too humid, or poorly aimed |
+| cross-flow path | stagnant pocket needs removal | outdoor air imports heat, moisture, noise, or pollution |
+| diffuser adjustment | draft or bypass flow is visible | air mixes at the sensor but misses the body |
+| program relocation | body can move to the better air path | the design simply displaces the burden |
+
+::: {.key}
+Week 1 gives one understandable action: move air. Week 2 asks what that does to the body and when comfort or heat-stress indices support the claim.
+:::
+
 ## Ventilation Is Not Cooling
 
 Increasing outdoor air can improve perceived air quality and dilute pollutants.
@@ -213,6 +230,23 @@ It may also add:
 
 ::: {.key}
 Ventilation, air movement, cooling, and comfort overlap, but they are not the same design claim.
+:::
+
+## Moisture Is Not One Problem
+
+Moisture becomes useful only when students can name the problem type.
+
+| Moisture problem | What to look for | First action family |
+|---|---|---|
+| humid heat stress | high RH, dew point, wet bulb, weak evaporative cooling | shade, air movement, lower MRT, cool refuge |
+| latent load | outdoor air or occupancy adds moisture | ventilation timing, dehumidification, desiccant concept, zoning |
+| stagnant humid pocket | deep plan, closet, corner, weak mixing | fan assist, cross-flow, exhaust path, program shift |
+| condensation risk | cold surface near dew point | insulation, thermal bridge reduction, surface warming, vapor control |
+| mold / material risk | persistent dampness, porous surfaces, shaded storage | drying path, material choice, drainage, maintenance access |
+| comfort misread | `Ta` looks fine but space feels sticky | RH/dew-point check, air speed, MRT check, body activity note |
+
+::: {.warning}
+The course will revisit moisture, but the question stays bounded: which row are you in, and which intervention family actually acts on that mechanism?
 :::
 
 ## Air-Based Cooling Primer

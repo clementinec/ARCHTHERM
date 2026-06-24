@@ -12,9 +12,7 @@ The assessment spine is deliberately separable. Each assignment owns one physica
 | A1 Spatial Air Field Map | 20% | air temperature, humidity, sampling uncertainty | plan/section with Ta/RH points, optional contour/heat map, protocol, claim/limit | Can the student show that a thermal condition is sampled rather than universal? |
 | A2 Radiant Exchange Card | 20% | surface temperature, MRT, radiant flux, body exposure | two-position radiant comparison, body orientation, air-vs-radiant distinction | Can the student explain why same air temperature is not same thermal condition? |
 | A3 Temporal Build-Up Audit | 25% | thermal capacity, lag, accumulated exposure, threshold exceedance | time-series, threshold, degree-hour/exceedance calculation, failure statement | Can the student show when thermal risk accumulates or persists? |
-| A4 Mechanism-Informed Thermal Design Intervention | 35% | bounded intervention, validation, uncertainty, architectural defense | assembled evidence deck, design action memo, roll-forward note, reproducibility capsule | Can the student turn evidence into one defensible architectural action? |
-
-## A4 Is An Assembly
+| A4 Mechanism-Informed Thermal Design Intervention | 35% | bounded intervention, validation, uncertainty, architectural defense | assembled evidence deck, design action memo, roll-forward note, reproducibility capsule | Can the student turn evidence into one defensible architectural action without flattening every thermal difference? |
 
 ## A1 Map Standard
 
@@ -26,6 +24,8 @@ A1 can be submitted as a point map, gradient map, or contour/heat map.
 
 Any smooth field must state how it was produced. A heat map is a spatial hypothesis unless every location was actually measured.
 
+## A4 Is An Assembly
+
 A4 is assembled from A1-A3. It should not be restarted from scratch in Weeks 10-12.
 
 Students choose one condition and one bounded action route:
@@ -34,6 +34,19 @@ Students choose one condition and one bounded action route:
 - facade or envelope edge;
 - outdoor or threshold microclimate;
 - operational or air-movement choice.
+
+The final intervention may reduce a harmful heterogeneity or deliberately organize a beneficial one. Students must name the intervention posture:
+
+| Posture | What it does | A4 example |
+|---|---|---|
+| suppress | removes a harmful difference | reduce condensation risk at a cold bridge |
+| buffer | absorbs, delays, or softens exposure | shaded threshold, thermal mass, moisture-buffering material |
+| redirect | moves burden away from bodies or programs | exhaust humid air, shift seating, re-section airflow |
+| celebrate | makes useful difference spatially legible | cool refuge, breezy threshold, shaded humid garden edge |
+
+::: {.key}
+Celebrating heterogeneity is acceptable only when the mechanism, body consequence, evidence limit, and climate-stress risk are explicit.
+:::
 
 ## Roll-Forward Validation
 
@@ -57,4 +70,5 @@ The outcome should be labeled **robust**, **weakened**, **censored**, or **unsup
 - Claims stay within the evidence.
 - Uncertainty is owned, not hidden.
 - Design action follows from the failure mechanism.
+- Intervention posture is named and defended.
 - Reproducibility is sufficient for a reader to inspect or rerun the result.

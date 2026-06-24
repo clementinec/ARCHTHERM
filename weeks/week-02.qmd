@@ -182,6 +182,42 @@ For buildings, this becomes a design and operation question:
 For your A1 case, name whether the likely comfort issue is primarily air temperature, humidity, air movement, radiation, or an interaction.
 :::
 
+## Heat Stress Is A Body Failure
+
+Comfort asks whether a condition is acceptable. Heat stress asks whether the body can keep rejecting heat.
+
+::: {.equation-card}
+In hot-humid conditions, the dangerous direction is:
+
+<div class="big-equation">heat production + heat gain > heat loss</div>
+:::
+
+Architectural warning signs:
+
+- high humidity weakens evaporation;
+- low air speed limits convective and evaporative relief;
+- high radiant load keeps adding heat even if `Ta` looks moderate;
+- long duration turns discomfort into accumulated physiological burden;
+- vulnerable occupants, activity, clothing, and access to control change the risk.
+
+::: {.key}
+This is why Week 2 treats indices as claim systems. PMV, WBGT, UTCI, heat index, and adaptive comfort do not make the same promise.
+:::
+
+## Sensible And Latent Are Different Levers
+
+Cooling air and removing moisture are related, but they are not identical design actions.
+
+| Burden | What changes | Possible intervention |
+|---|---|---|
+| sensible heat | dry-bulb temperature, surface heat, stored heat | shade, insulation, cool roof, ventilation, cooling |
+| latent moisture | water vapor load and evaporative potential | dehumidification, outdoor-air control, exhaust, desiccant concept |
+| coupled hot-humid stress | body cannot reject enough heat | lower MRT, increase safe air movement, reduce activity exposure, provide refuge |
+
+::: {.warning}
+Do not let "more ventilation" become the default answer in Hong Kong. Fresh air may improve perceived air quality while importing latent load.
+:::
+
 ## Human Thermal Image
 
 ::: {.split}

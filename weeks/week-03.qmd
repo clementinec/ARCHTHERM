@@ -82,6 +82,22 @@ $$
 | no air speed | hides convection | is there a path or stagnant pocket? |
 | no occupant note | hides activity and expectation | who is the thermal subject? |
 
+## Capturing RH Effectively And Ineffectively
+
+Humidity evidence can look simple and still mislead.
+
+| Practice | What it captures | What it may miss |
+|---|---|---|
+| one room RH reading | general air moisture at the sensor | facade/corner gradients, surface condensation, closets |
+| Ta/RH pair at occupied height | local air state for a body | air speed, MRT, material moisture, sensor lag |
+| dew-point check near cold surface | condensation plausibility | whether wetting persists long enough for damage |
+| repeated transect | spatial pattern and repeatability | hidden cavities, maintenance behavior, episodic moisture |
+| data logger over days | temporal build-up and drying | exact source of moisture or airflow path |
+
+::: {.key}
+For A1, RH is useful because it sits beside `Ta` and air movement. It is not a complete mold, material, or health diagnosis by itself.
+:::
+
 ## From Samples To Contours
 
 ![](../assets/figures/thermal-field-contour-map.svg){.img-frame}

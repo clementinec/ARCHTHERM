@@ -95,6 +95,43 @@ If gains exceed losses, the condition builds. If losses increase through night v
 This is the equation behind many design decisions: shade reduces gains; insulation changes losses; mass changes the pace; ventilation changes removal.
 :::
 
+## Moisture Also Has Memory
+
+Humidity is not only an air-state variable. It can persist in materials, corners, storage zones, porous finishes, shaded surfaces, and maintenance routines.
+
+::: {.equation-card}
+A simple design reading:
+
+<div class="big-equation">moisture risk = source + cold surface + weak drying path + time</div>
+:::
+
+Architectural consequences:
+
+- a dehumidifier can dry the measured air while closets or wall corners remain damp;
+- cold surfaces can turn vapor into local condensation;
+- porous materials may buffer moisture briefly, then become a reservoir;
+- stagnant air can make drying slow even when the room average looks acceptable.
+
+::: {.key}
+The goal is not to size every system to the maximum. The goal is to identify where moisture accumulates, where it dries, and what architectural path makes that possible.
+:::
+
+## Mold, Materials, And Microclimates
+
+For Hong Kong, moisture risk often becomes a material and microclimate question.
+
+| Risk pattern | Architectural reading | Possible treatment family |
+|---|---|---|
+| cold bridge + humid air | local surface reaches dew point | insulation continuity, surface warming, vapor control |
+| shaded porous finish | slow drying and biological growth risk | material choice, drainage, ventilation gap, access for cleaning |
+| storage / closet pocket | low air exchange and persistent RH | louver, fan assist, spacing, avoid sealed damp cavities |
+| bathroom / kitchen source | moisture pulse overwhelms drying | exhaust path, door strategy, finishes, purge duration |
+| planted / green threshold | beneficial cooling but higher local moisture | separate wet/dry zones, airflow path, maintenance plan |
+
+::: {.warning}
+Microbiome language should be used carefully: the class can discuss dampness, microbial growth risk, and material ecology, but claims need evidence and limits.
+:::
+
 ## Degree-Hours
 
 ::: {.split}
@@ -179,7 +216,7 @@ The instructor will summarize one or two adjustments in Week 7.
 
 ::: {.round-steps}
 ::: {.round-step}
-**10 min - case scan.** Choose a design where heat or moisture may accumulate, lag, or persist.
+**10 min - case scan.** Choose a design where heat or moisture may accumulate, lag, or persist. Lived Hong Kong humidity workarounds are welcome if they can be tied to a spatial condition.
 :::
 ::: {.round-step}
 **5 min - Slack post.** Post the image and state the occupied period. Keep the suspected timing hidden.
@@ -216,6 +253,12 @@ Build a four-frame storyboard from the host case:
 2. heat or moisture gain;
 3. delayed or accumulated response;
 4. candidate design action.
+:::
+
+::: {.activity}
+Humidity prompt:
+
+> What do you already know from living or working with humidity? What does a single dehumidifier change, what does it fail to change, and how does it transform the space?
 :::
 
 ## Exit Artifact

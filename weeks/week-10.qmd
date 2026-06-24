@@ -74,6 +74,25 @@ FH_{\theta} > FH_{target}
 $$
 :::
 
+## Design Action Is Not Homogenization
+
+A4 should not automatically make every condition identical.
+
+::: {.key}
+Good thermal design decides which heterogeneities are harmful, which are useful, which are unavoidable, and which can become spatial experience.
+:::
+
+| Posture | Meaning | Example |
+|---|---|---|
+| suppress | remove a harmful difference | reduce condensation at a cold bridge |
+| buffer | absorb, delay, or soften exposure | shaded transition zone, thermal mass, moisture-buffering material |
+| redirect | move burden away from bodies or programs | exhaust humid air, shift seating, re-section airflow |
+| celebrate | make useful heterogeneity legible | cool refuge, breezy threshold, warm winter seat, shaded humid garden edge |
+
+::: {.warning}
+Celebrating heterogeneity is not aesthetic hand-waving. It still needs a mechanism, a body consequence, an evidence limit, and a climate-stress check.
+:::
+
 ## Pivot Logic
 
 When the evidence fails, do not simply add more technology. Identify the pivot.
@@ -87,6 +106,10 @@ When the evidence fails, do not simply add more technology. Identify the pivot.
 | humidity | dehumidification, exposure timing, refuge logic |
 | spatial concentration | program shift, local control, occupied zone redesign |
 | service masking | report loads and thermal burden separately |
+
+::: {.key}
+The pivot may suppress, buffer, redirect, or celebrate the thermal difference. The important thing is that the chosen posture matches the failure mechanism.
+:::
 
 ## Balance Between Components {.equation-card}
 
@@ -179,6 +202,7 @@ Every guess must name:
 Choose one primary action using four criteria:
 
 - it addresses the dominant failure mechanism
+- it states its posture: suppress, buffer, redirect, or celebrate
 - it is architectural enough to draw in plan, section, detail, or control sequence
 - it can be evaluated against the A3 threshold
 - its limits can be stated without weakening the whole argument
@@ -193,7 +217,7 @@ Use this order:
 
 1. condition and failure mode
 2. key evidence from A1, A2, and A3
-3. proposed design action
+3. proposed design action and intervention posture
 4. before/after threshold comparison
 5. found, censored, or unresolved outcome
 6. residual burden and uncertainty

@@ -192,11 +192,23 @@
     ]
   },
   {
+    "objectID": "weeks/week-10.html#design-action-is-not-homogenization",
+    "href": "weeks/week-10.html#design-action-is-not-homogenization",
+    "title": "Week 10 - Failure Audit To Design Action",
+    "section": "Design Action Is Not Homogenization",
+    "text": "Design Action Is Not Homogenization\nA4 should not automatically make every condition identical.\n\nGood thermal design decides which heterogeneities are harmful, which are useful, which are unavoidable, and which can become spatial experience.\n\n\n\n\n\n\n\n\n\nPosture\nMeaning\nExample\n\n\n\n\nsuppress\nremove a harmful difference\nreduce condensation at a cold bridge\n\n\nbuffer\nabsorb, delay, or soften exposure\nshaded transition zone, thermal mass, moisture-buffering material\n\n\nredirect\nmove burden away from bodies or programs\nexhaust humid air, shift seating, re-section airflow\n\n\ncelebrate\nmake useful heterogeneity legible\ncool refuge, breezy threshold, warm winter seat, shaded humid garden edge\n\n\n\n\nCelebrating heterogeneity is not aesthetic hand-waving. It still needs a mechanism, a body consequence, an evidence limit, and a climate-stress check.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W10: Failure To Action"
+    ]
+  },
+  {
     "objectID": "weeks/week-10.html#pivot-logic",
     "href": "weeks/week-10.html#pivot-logic",
     "title": "Week 10 - Failure Audit To Design Action",
     "section": "Pivot Logic",
-    "text": "Pivot Logic\nWhen the evidence fails, do not simply add more technology. Identify the pivot.\n\n\n\n\n\n\n\nIf the failure is driven by\nFirst design pivot to test\n\n\n\n\nsolar gain\nshade, orientation, facade depth\n\n\nwarm surfaces or MRT\nsurface exposure, glazing, material, radiant shield\n\n\nstored heat and lag\nmass strategy, night purge, roof assembly\n\n\nweak heat removal\nventilation path, air movement, schedule\n\n\nhumidity\ndehumidification, exposure timing, refuge logic\n\n\nspatial concentration\nprogram shift, local control, occupied zone redesign\n\n\nservice masking\nreport loads and thermal burden separately",
+    "text": "Pivot Logic\nWhen the evidence fails, do not simply add more technology. Identify the pivot.\n\n\n\n\n\n\n\nIf the failure is driven by\nFirst design pivot to test\n\n\n\n\nsolar gain\nshade, orientation, facade depth\n\n\nwarm surfaces or MRT\nsurface exposure, glazing, material, radiant shield\n\n\nstored heat and lag\nmass strategy, night purge, roof assembly\n\n\nweak heat removal\nventilation path, air movement, schedule\n\n\nhumidity\ndehumidification, exposure timing, refuge logic\n\n\nspatial concentration\nprogram shift, local control, occupied zone redesign\n\n\nservice masking\nreport loads and thermal burden separately\n\n\n\n\nThe pivot may suppress, buffer, redirect, or celebrate the thermal difference. The important thing is that the chosen posture matches the failure mechanism.",
     "crumbs": [
       "Home",
       "Weekly Decks",
@@ -292,7 +304,7 @@
     "href": "weeks/week-10.html#choosing-the-a4-action",
     "title": "Week 10 - Failure Audit To Design Action",
     "section": "Choosing The A4 Action",
-    "text": "Choosing The A4 Action\nChoose one primary action using four criteria:\n\nit addresses the dominant failure mechanism\nit is architectural enough to draw in plan, section, detail, or control sequence\nit can be evaluated against the A3 threshold\nits limits can be stated without weakening the whole argument\n\n\nThe final project is one defensible design action, not a whole-building redesign.",
+    "text": "Choosing The A4 Action\nChoose one primary action using four criteria:\n\nit addresses the dominant failure mechanism\nit states its posture: suppress, buffer, redirect, or celebrate\nit is architectural enough to draw in plan, section, detail, or control sequence\nit can be evaluated against the A3 threshold\nits limits can be stated without weakening the whole argument\n\n\nThe final project is one defensible design action, not a whole-building redesign.",
     "crumbs": [
       "Home",
       "Weekly Decks",
@@ -304,7 +316,7 @@
     "href": "weeks/week-10.html#design-action-memo-structure",
     "title": "Week 10 - Failure Audit To Design Action",
     "section": "Design Action Memo Structure",
-    "text": "Design Action Memo Structure\nUse this order:\n\ncondition and failure mode\nkey evidence from A1, A2, and A3\nproposed design action\nbefore/after threshold comparison\nfound, censored, or unresolved outcome\nresidual burden and uncertainty\nroll-forward test to perform in Week 11\nwhat should be tested next",
+    "text": "Design Action Memo Structure\nUse this order:\n\ncondition and failure mode\nkey evidence from A1, A2, and A3\nproposed design action and intervention posture\nbefore/after threshold comparison\nfound, censored, or unresolved outcome\nresidual burden and uncertainty\nroll-forward test to perform in Week 11\nwhat should be tested next",
     "crumbs": [
       "Home",
       "Weekly Decks",
@@ -588,6 +600,30 @@
     ]
   },
   {
+    "objectID": "weeks/week-06.html#moisture-also-has-memory",
+    "href": "weeks/week-06.html#moisture-also-has-memory",
+    "title": "Week 6 - Thermal Build-Up",
+    "section": "Moisture Also Has Memory",
+    "text": "Moisture Also Has Memory\nHumidity is not only an air-state variable. It can persist in materials, corners, storage zones, porous finishes, shaded surfaces, and maintenance routines.\n\nA simple design reading:\n\nmoisture risk = source + cold surface + weak drying path + time\n\n\nArchitectural consequences:\n\na dehumidifier can dry the measured air while closets or wall corners remain damp;\ncold surfaces can turn vapor into local condensation;\nporous materials may buffer moisture briefly, then become a reservoir;\nstagnant air can make drying slow even when the room average looks acceptable.\n\n\nThe goal is not to size every system to the maximum. The goal is to identify where moisture accumulates, where it dries, and what architectural path makes that possible.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W6: Thermal Build-Up"
+    ]
+  },
+  {
+    "objectID": "weeks/week-06.html#mold-materials-and-microclimates",
+    "href": "weeks/week-06.html#mold-materials-and-microclimates",
+    "title": "Week 6 - Thermal Build-Up",
+    "section": "Mold, Materials, And Microclimates",
+    "text": "Mold, Materials, And Microclimates\nFor Hong Kong, moisture risk often becomes a material and microclimate question.\n\n\n\n\n\n\n\n\nRisk pattern\nArchitectural reading\nPossible treatment family\n\n\n\n\ncold bridge + humid air\nlocal surface reaches dew point\ninsulation continuity, surface warming, vapor control\n\n\nshaded porous finish\nslow drying and biological growth risk\nmaterial choice, drainage, ventilation gap, access for cleaning\n\n\nstorage / closet pocket\nlow air exchange and persistent RH\nlouver, fan assist, spacing, avoid sealed damp cavities\n\n\nbathroom / kitchen source\nmoisture pulse overwhelms drying\nexhaust path, door strategy, finishes, purge duration\n\n\nplanted / green threshold\nbeneficial cooling but higher local moisture\nseparate wet/dry zones, airflow path, maintenance plan\n\n\n\n\nMicrobiome language should be used carefully: the class can discuss dampness, microbial growth risk, and material ecology, but claims need evidence and limits.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W6: Thermal Build-Up"
+    ]
+  },
+  {
     "objectID": "weeks/week-06.html#degree-hours",
     "href": "weeks/week-06.html#degree-hours",
     "title": "Week 6 - Thermal Build-Up",
@@ -652,7 +688,7 @@
     "href": "weeks/week-06.html#session-2-diagnostic-round",
     "title": "Week 6 - Thermal Build-Up",
     "section": "Session 2: Diagnostic Round",
-    "text": "Session 2: Diagnostic Round\n\n\n10 min - case scan. Choose a design where heat or moisture may accumulate, lag, or persist.\n\n\n5 min - Slack post. Post the image and state the occupied period. Keep the suspected timing hidden.\n\n\n20-25 min - round-table guesses. Classmates guess when the condition fails, whether the issue is peak, duration, lag, moisture build-up, or poor dissipation.\n\n\n10-15 min - host reveal. The host explains the actual temporal concern, current mitigation, and likely threshold or time window.",
+    "text": "Session 2: Diagnostic Round\n\n\n10 min - case scan. Choose a design where heat or moisture may accumulate, lag, or persist. Lived Hong Kong humidity workarounds are welcome if they can be tied to a spatial condition.\n\n\n5 min - Slack post. Post the image and state the occupied period. Keep the suspected timing hidden.\n\n\n20-25 min - round-table guesses. Classmates guess when the condition fails, whether the issue is peak, duration, lag, moisture build-up, or poor dissipation.\n\n\n10-15 min - host reveal. The host explains the actual temporal concern, current mitigation, and likely threshold or time window.",
     "crumbs": [
       "Home",
       "Weekly Decks",
@@ -676,7 +712,7 @@
     "href": "weeks/week-06.html#diagnostic-translation",
     "title": "Week 6 - Thermal Build-Up",
     "section": "Diagnostic Translation",
-    "text": "Diagnostic Translation\n\nBuild a four-frame storyboard from the host case:\n\nstarting condition;\nheat or moisture gain;\ndelayed or accumulated response;\ncandidate design action.",
+    "text": "Diagnostic Translation\n\nBuild a four-frame storyboard from the host case:\n\nstarting condition;\nheat or moisture gain;\ndelayed or accumulated response;\ncandidate design action.\n\n\n\nHumidity prompt:\n\nWhat do you already know from living or working with humidity? What does a single dehumidifier change, what does it fail to change, and how does it transform the space?",
     "crumbs": [
       "Home",
       "Weekly Decks",
@@ -977,6 +1013,30 @@
     "title": "Week 2 - Body Heat Balance",
     "section": "Humidity, Evaporation, And Dehumidification",
     "text": "Humidity, Evaporation, And Dehumidification\nHigh humidity affects the body’s cooling pathway because evaporation becomes less effective.\nFor buildings, this becomes a design and operation question:\n\ndehumidification can improve thermal tolerance without simply lowering Ta;\nvery humid interiors can support mold risk and material damage;\nhumid outdoor air can make ventilation costly or uncomfortable;\ndry air can also become a health and comfort problem in other climates.\n\n\nFor your A1 case, name whether the likely comfort issue is primarily air temperature, humidity, air movement, radiation, or an interaction.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W2: Body Heat Balance"
+    ]
+  },
+  {
+    "objectID": "weeks/week-02.html#heat-stress-is-a-body-failure",
+    "href": "weeks/week-02.html#heat-stress-is-a-body-failure",
+    "title": "Week 2 - Body Heat Balance",
+    "section": "Heat Stress Is A Body Failure",
+    "text": "Heat Stress Is A Body Failure\nComfort asks whether a condition is acceptable. Heat stress asks whether the body can keep rejecting heat.\n\nIn hot-humid conditions, the dangerous direction is:\n\nheat production + heat gain &gt; heat loss\n\n\nArchitectural warning signs:\n\nhigh humidity weakens evaporation;\nlow air speed limits convective and evaporative relief;\nhigh radiant load keeps adding heat even if Ta looks moderate;\nlong duration turns discomfort into accumulated physiological burden;\nvulnerable occupants, activity, clothing, and access to control change the risk.\n\n\nThis is why Week 2 treats indices as claim systems. PMV, WBGT, UTCI, heat index, and adaptive comfort do not make the same promise.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W2: Body Heat Balance"
+    ]
+  },
+  {
+    "objectID": "weeks/week-02.html#sensible-and-latent-are-different-levers",
+    "href": "weeks/week-02.html#sensible-and-latent-are-different-levers",
+    "title": "Week 2 - Body Heat Balance",
+    "section": "Sensible And Latent Are Different Levers",
+    "text": "Sensible And Latent Are Different Levers\nCooling air and removing moisture are related, but they are not identical design actions.\n\n\n\n\n\n\n\n\nBurden\nWhat changes\nPossible intervention\n\n\n\n\nsensible heat\ndry-bulb temperature, surface heat, stored heat\nshade, insulation, cool roof, ventilation, cooling\n\n\nlatent moisture\nwater vapor load and evaporative potential\ndehumidification, outdoor-air control, exhaust, desiccant concept\n\n\ncoupled hot-humid stress\nbody cannot reject enough heat\nlower MRT, increase safe air movement, reduce activity exposure, provide refuge\n\n\n\n\nDo not let “more ventilation” become the default answer in Hong Kong. Fresh air may improve perceived air quality while importing latent load.",
     "crumbs": [
       "Home",
       "Weekly Decks",
@@ -1432,7 +1492,7 @@
     "href": "index.html#from-a-thermal-finding-to-an-architectural-action",
     "title": "Thermal Fields in Architecture",
     "section": "From a thermal finding to an architectural action",
-    "text": "From a thermal finding to an architectural action\nThe payoff is translation — evidence becoming one defensible design move.\n\n\n\n\n\n\n\nThermal finding\nArchitectural translation\n\n\n\n\nPerimeter zone overheats in the afternoon\nexternal shading, lower SHGC, program relocation, facade depth\n\n\nAir temperature passes but MRT fails\nsurface-temperature control, glazing strategy, radiant-asymmetry mitigation\n\n\nRoof-exposed room fails during a heatwave\nroof insulation, cool roof, ventilated cavity, night purge\n\n\nAverage comfort passes but tail hours fail\ndesign for extreme periods, not the annual average\n\n\nOne weather file passes, a future file fails\nclimate stress-test; robust rather than optimised design",
+    "text": "From a thermal finding to an architectural action\nThe payoff is translation — evidence becoming one defensible design move.\n\n\n\n\n\n\n\nThermal finding\nArchitectural translation\n\n\n\n\nPerimeter zone overheats in the afternoon\nexternal shading, lower SHGC, program relocation, facade depth\n\n\nAir temperature passes but MRT fails\nsurface-temperature control, glazing strategy, radiant-asymmetry mitigation\n\n\nRoof-exposed room fails during a heatwave\nroof insulation, cool roof, ventilated cavity, night purge\n\n\nAverage comfort passes but tail hours fail\ndesign for extreme periods, not the annual average\n\n\nOne weather file passes, a future file fails\nclimate stress-test; robust rather than optimised design\n\n\nA local breeze or shaded humid threshold is beneficial\norganize the difference as refuge, choice, or transition rather than flattening it",
     "crumbs": [
       "Home",
       "Course Overview",
@@ -1476,11 +1536,11 @@
     ]
   },
   {
-    "objectID": "assignments.html#a4-is-an-assembly",
-    "href": "assignments.html#a4-is-an-assembly",
+    "objectID": "assignments.html#a1-map-standard",
+    "href": "assignments.html#a1-map-standard",
     "title": "Assignments",
-    "section": "A4 Is An Assembly",
-    "text": "A4 Is An Assembly",
+    "section": "A1 Map Standard",
+    "text": "A1 Map Standard\nA1 can be submitted as a point map, gradient map, or contour/heat map.\n\nMinimum: sampled or curated Ta/RH points on a plan or section.\nStronger: interpolated contour or heat map with sampled points still visible.\nBest: thermal field plus architectural overlay: body position, program, facade, opening, diffuser, shade, material, or threshold.\n\nAny smooth field must state how it was produced. A heat map is a spatial hypothesis unless every location was actually measured.",
     "crumbs": [
       "Home",
       "Course Overview",
@@ -1488,11 +1548,11 @@
     ]
   },
   {
-    "objectID": "assignments.html#a1-map-standard",
-    "href": "assignments.html#a1-map-standard",
+    "objectID": "assignments.html#a4-is-an-assembly",
+    "href": "assignments.html#a4-is-an-assembly",
     "title": "Assignments",
-    "section": "A1 Map Standard",
-    "text": "A1 Map Standard\nA1 can be submitted as a point map, gradient map, or contour/heat map.\n\nMinimum: sampled or curated Ta/RH points on a plan or section.\nStronger: interpolated contour or heat map with sampled points still visible.\nBest: thermal field plus architectural overlay: body position, program, facade, opening, diffuser, shade, material, or threshold.\n\nAny smooth field must state how it was produced. A heat map is a spatial hypothesis unless every location was actually measured.\nA4 is assembled from A1-A3. It should not be restarted from scratch in Weeks 10-12.\nStudents choose one condition and one bounded action route:\n\nroom or interior condition;\nfacade or envelope edge;\noutdoor or threshold microclimate;\noperational or air-movement choice.",
+    "section": "A4 Is An Assembly",
+    "text": "A4 Is An Assembly\nA4 is assembled from A1-A3. It should not be restarted from scratch in Weeks 10-12.\nStudents choose one condition and one bounded action route:\n\nroom or interior condition;\nfacade or envelope edge;\noutdoor or threshold microclimate;\noperational or air-movement choice.\n\nThe final intervention may reduce a harmful heterogeneity or deliberately organize a beneficial one. Students must name the intervention posture:\n\n\n\n\n\n\n\n\nPosture\nWhat it does\nA4 example\n\n\n\n\nsuppress\nremoves a harmful difference\nreduce condensation risk at a cold bridge\n\n\nbuffer\nabsorbs, delays, or softens exposure\nshaded threshold, thermal mass, moisture-buffering material\n\n\nredirect\nmoves burden away from bodies or programs\nexhaust humid air, shift seating, re-section airflow\n\n\ncelebrate\nmakes useful difference spatially legible\ncool refuge, breezy threshold, shaded humid garden edge\n\n\n\n\nCelebrating heterogeneity is acceptable only when the mechanism, body consequence, evidence limit, and climate-stress risk are explicit.",
     "crumbs": [
       "Home",
       "Course Overview",
@@ -1516,7 +1576,7 @@
     "href": "assignments.html#grading-emphasis",
     "title": "Assignments",
     "section": "Grading Emphasis",
-    "text": "Grading Emphasis\n\nPhysical reasoning is correct and portable.\nVisual evidence makes spatial or temporal difference visible.\nClaims stay within the evidence.\nUncertainty is owned, not hidden.\nDesign action follows from the failure mechanism.\nReproducibility is sufficient for a reader to inspect or rerun the result.",
+    "text": "Grading Emphasis\n\nPhysical reasoning is correct and portable.\nVisual evidence makes spatial or temporal difference visible.\nClaims stay within the evidence.\nUncertainty is owned, not hidden.\nDesign action follows from the failure mechanism.\nIntervention posture is named and defended.\nReproducibility is sufficient for a reader to inspect or rerun the result.",
     "crumbs": [
       "Home",
       "Course Overview",
@@ -1644,11 +1704,35 @@
     ]
   },
   {
+    "objectID": "weeks/week-01.html#week-1-intervention-move-air-deliberately",
+    "href": "weeks/week-01.html#week-1-intervention-move-air-deliberately",
+    "title": "Week 1 - Air Is Not Enough",
+    "section": "Week 1 Intervention: Move Air Deliberately",
+    "text": "Week 1 Intervention: Move Air Deliberately\nThe first intervention students can understand is not complicated:\n\nincrease, redirect, or localize air velocity.\n\n\n\n\n\n\n\n\n\nMove\nHelps when\nCan fail when\n\n\n\n\nfan or local breeze\nbody needs convective / evaporative relief\nair is too cold, too humid, or poorly aimed\n\n\ncross-flow path\nstagnant pocket needs removal\noutdoor air imports heat, moisture, noise, or pollution\n\n\ndiffuser adjustment\ndraft or bypass flow is visible\nair mixes at the sensor but misses the body\n\n\nprogram relocation\nbody can move to the better air path\nthe design simply displaces the burden\n\n\n\n\nWeek 1 gives one understandable action: move air. Week 2 asks what that does to the body and when comfort or heat-stress indices support the claim.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W1: Air Is Not Enough"
+    ]
+  },
+  {
     "objectID": "weeks/week-01.html#ventilation-is-not-cooling",
     "href": "weeks/week-01.html#ventilation-is-not-cooling",
     "title": "Week 1 - Air Is Not Enough",
     "section": "Ventilation Is Not Cooling",
     "text": "Ventilation Is Not Cooling\nIncreasing outdoor air can improve perceived air quality and dilute pollutants.\nIt may also add:\n\nsensible heat load when outdoor air is hot;\nlatent load when outdoor air is humid;\nlocal draft near openings or diffusers;\nuneven exposure if the airflow path bypasses occupied areas.\n\n\nVentilation, air movement, cooling, and comfort overlap, but they are not the same design claim.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W1: Air Is Not Enough"
+    ]
+  },
+  {
+    "objectID": "weeks/week-01.html#moisture-is-not-one-problem",
+    "href": "weeks/week-01.html#moisture-is-not-one-problem",
+    "title": "Week 1 - Air Is Not Enough",
+    "section": "Moisture Is Not One Problem",
+    "text": "Moisture Is Not One Problem\nMoisture becomes useful only when students can name the problem type.\n\n\n\n\n\n\n\n\nMoisture problem\nWhat to look for\nFirst action family\n\n\n\n\nhumid heat stress\nhigh RH, dew point, wet bulb, weak evaporative cooling\nshade, air movement, lower MRT, cool refuge\n\n\nlatent load\noutdoor air or occupancy adds moisture\nventilation timing, dehumidification, desiccant concept, zoning\n\n\nstagnant humid pocket\ndeep plan, closet, corner, weak mixing\nfan assist, cross-flow, exhaust path, program shift\n\n\ncondensation risk\ncold surface near dew point\ninsulation, thermal bridge reduction, surface warming, vapor control\n\n\nmold / material risk\npersistent dampness, porous surfaces, shaded storage\ndrying path, material choice, drainage, maintenance access\n\n\ncomfort misread\nTa looks fine but space feels sticky\nRH/dew-point check, air speed, MRT check, body activity note\n\n\n\n\nThe course will revisit moisture, but the question stays bounded: which row are you in, and which intervention family actually acts on that mechanism?",
     "crumbs": [
       "Home",
       "Weekly Decks",
@@ -1841,6 +1925,18 @@
     "title": "Week 3 - Sensing Thermal Fields",
     "section": "Sampling Bias Is Architectural",
     "text": "Sampling Bias Is Architectural\n\n\n\n\n\n\n\n\nSampling choice\nBias introduced\nBetter question\n\n\n\n\none point\nhides gradients\nwhere is the body?\n\n\none hour\nhides sequence\nwhen is the claim true?\n\n\none height\nhides stratification\nbreathing zone, ankle, head?\n\n\nno surface reading\nhides radiant difference\nwhat is the body facing?\n\n\nno air speed\nhides convection\nis there a path or stagnant pocket?\n\n\nno occupant note\nhides activity and expectation\nwho is the thermal subject?",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W3: Sensing Fields"
+    ]
+  },
+  {
+    "objectID": "weeks/week-03.html#capturing-rh-effectively-and-ineffectively",
+    "href": "weeks/week-03.html#capturing-rh-effectively-and-ineffectively",
+    "title": "Week 3 - Sensing Thermal Fields",
+    "section": "Capturing RH Effectively And Ineffectively",
+    "text": "Capturing RH Effectively And Ineffectively\nHumidity evidence can look simple and still mislead.\n\n\n\n\n\n\n\n\nPractice\nWhat it captures\nWhat it may miss\n\n\n\n\none room RH reading\ngeneral air moisture at the sensor\nfacade/corner gradients, surface condensation, closets\n\n\nTa/RH pair at occupied height\nlocal air state for a body\nair speed, MRT, material moisture, sensor lag\n\n\ndew-point check near cold surface\ncondensation plausibility\nwhether wetting persists long enough for damage\n\n\nrepeated transect\nspatial pattern and repeatability\nhidden cavities, maintenance behavior, episodic moisture\n\n\ndata logger over days\ntemporal build-up and drying\nexact source of moisture or airflow path\n\n\n\n\nFor A1, RH is useful because it sits beside Ta and air movement. It is not a complete mold, material, or health diagnosis by itself.",
     "crumbs": [
       "Home",
       "Weekly Decks",
