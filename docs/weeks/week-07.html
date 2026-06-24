@@ -407,6 +407,71 @@ Q_{HVAC,t}
 <p>More model detail is useful only when it changes the architectural interpretation.</p>
 </div>
 </section>
+<section id="draw-the-system-boundary" class="slide level2 center">
+<h2>Draw The System Boundary</h2>
+<p>Before interpreting any output, draw the box around the thermal system.</p>
+<table>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Boundary</th>
+<th>Student must state</th>
+<th>Why it matters</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>spatial</td>
+<td>room, zone, threshold, facade edge, bench, body position</td>
+<td>defines where the claim applies</td>
+</tr>
+<tr class="even">
+<td>temporal</td>
+<td>timestep, start/end, preheat, recovery, occupied hours</td>
+<td>defines when failure can be seen</td>
+</tr>
+<tr class="odd">
+<td>climate</td>
+<td>weather file, measured period, design day, future-adjusted file</td>
+<td>defines the outside condition</td>
+</tr>
+<tr class="even">
+<td>service</td>
+<td>passive, fan-assisted, conditioned, mixed-mode, refuge</td>
+<td>separates architecture from system masking</td>
+</tr>
+<tr class="odd">
+<td>evidence</td>
+<td>measured, simulated, assumed, excluded</td>
+<td>keeps the claim honest</td>
+</tr>
+</tbody>
+</table>
+<div class="key">
+<p>A3 is not only a time-series assignment. It is an argument about what is inside the system boundary and what was left outside.</p>
+</div>
+</section>
+<section id="from-snapshot-box-to-sequence-box" class="slide level2 center">
+<h2>From Snapshot Box To Sequence Box</h2>
+<p>The weak version is a thermal snapshot:</p>
+<blockquote>
+<p>one room, one hour, one weather condition, one output.</p>
+</blockquote>
+<p>The stronger A3 version is a sequence:</p>
+<blockquote>
+<p>one condition tracked across a declared window, with the weather boundary and service state visible.</p>
+</blockquote>
+<div class="equation-card">
+<p>The boundary can be written simply:</p>
+<div class="big-equation">
+A3 system = [space, body/use, weather window, service state, threshold]
+</div>
+</div>
+</section>
 <section id="air-based-models-have-different-promises" class="slide level2 center">
 <h2>Air-Based Models Have Different Promises</h2>
 <p>Not every tool is solving the same physical question.</p>
@@ -584,6 +649,7 @@ w T_{a,t}
 <li><strong>State:</strong> hourly <span class="math inline">\(T_a\)</span>, <span class="math inline">\(T_{mrt}\)</span>, <span class="math inline">\(T_{op}\)</span>, and <span class="math inline">\(RH\)</span>.</li>
 <li><strong>Threshold:</strong> a clear target or failure line.</li>
 <li><strong>Mechanism:</strong> one explanation of gain, loss, capacity, schedule, or exposure.</li>
+<li><strong>Boundary:</strong> the spatial, temporal, climate, service, and evidence limits of the claim.</li>
 </ol>
 <div class="artifact">
 <p>Artifact standard: one plot is not enough. Pair the plot with an output dictionary and a short mechanism note.</p>

@@ -211,11 +211,12 @@ Do not list green features. Guess the action that acts directly on the failure m
 A complete A3 submission includes:
 
 - condition and occupied position
+- system boundary box: spatial boundary, time window, climate snapshot, service state, and evidence limits
 - time window and threshold
 - hourly or sequenced thermal evidence
 - degree-hour or failure-hour calculation
 - build-up, lag, or dissipation mechanism
-- stress-test comparison from Week 8
+- stress-test comparison from Week 8: baseline plus one changed weather, exposure, or climate snapshot
 - found, censored, or unresolved action ladder result
 - one candidate A4 design action
 

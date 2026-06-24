@@ -93,6 +93,38 @@ For this course, a useful EnergyPlus model needs enough structure to explain a t
 More model detail is useful only when it changes the architectural interpretation.
 :::
 
+## Draw The System Boundary
+
+Before interpreting any output, draw the box around the thermal system.
+
+| Boundary | Student must state | Why it matters |
+|---|---|---|
+| spatial | room, zone, threshold, facade edge, bench, body position | defines where the claim applies |
+| temporal | timestep, start/end, preheat, recovery, occupied hours | defines when failure can be seen |
+| climate | weather file, measured period, design day, future-adjusted file | defines the outside condition |
+| service | passive, fan-assisted, conditioned, mixed-mode, refuge | separates architecture from system masking |
+| evidence | measured, simulated, assumed, excluded | keeps the claim honest |
+
+:::{.key}
+A3 is not only a time-series assignment. It is an argument about what is inside the system boundary and what was left outside.
+:::
+
+## From Snapshot Box To Sequence Box
+
+The weak version is a thermal snapshot:
+
+> one room, one hour, one weather condition, one output.
+
+The stronger A3 version is a sequence:
+
+> one condition tracked across a declared window, with the weather boundary and service state visible.
+
+:::{.equation-card}
+The boundary can be written simply:
+
+<div class="big-equation">A3 system = [space, body/use, weather window, service state, threshold]</div>
+:::
+
 ## Air-Based Models Have Different Promises
 
 Not every tool is solving the same physical question.
@@ -215,6 +247,7 @@ A usable A3 state log has three layers:
 1. **State:** hourly $T_a$, $T_{mrt}$, $T_{op}$, and $RH$.
 2. **Threshold:** a clear target or failure line.
 3. **Mechanism:** one explanation of gain, loss, capacity, schedule, or exposure.
+4. **Boundary:** the spatial, temporal, climate, service, and evidence limits of the claim.
 
 :::{.artifact}
 Artifact standard: one plot is not enough. Pair the plot with an output dictionary and a short mechanism note.

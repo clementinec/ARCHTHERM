@@ -11,7 +11,7 @@ The assessment spine is deliberately separable. Each assignment owns one physica
 |---|---:|---|---|---|
 | A1 Spatial Air Field Map | 20% | air temperature, humidity, sampling uncertainty | plan/section with Ta/RH points, optional contour/heat map, protocol, claim/limit | Can the student show that a thermal condition is sampled rather than universal? |
 | A2 Radiant Exchange Card | 20% | surface temperature, MRT, radiant flux, body exposure | two-position radiant comparison, body orientation, air-vs-radiant distinction | Can the student explain why same air temperature is not same thermal condition? |
-| A3 Temporal Build-Up Audit | 25% | thermal capacity, lag, accumulated exposure, threshold exceedance | time-series, threshold, degree-hour/exceedance calculation, failure statement | Can the student show when thermal risk accumulates or persists? |
+| A3 Temporal Build-Up Audit | 25% | thermal capacity, lag, accumulated exposure, threshold exceedance, system boundary | time-series, boundary box, threshold, degree-hour/exceedance calculation, failure statement | Can the student show when thermal risk accumulates or persists within a declared system boundary? |
 | A4 Mechanism-Informed Thermal Design Intervention | 35% | bounded intervention, validation, uncertainty, architectural defense | assembled evidence deck, design action memo, roll-forward note, reproducibility capsule | Can the student turn evidence into one defensible architectural action without flattening every thermal difference? |
 
 ## A1 Map Standard
@@ -23,6 +23,26 @@ A1 can be submitted as a point map, gradient map, or contour/heat map.
 - Best: thermal field plus architectural overlay: body position, program, facade, opening, diffuser, shade, material, or threshold.
 
 Any smooth field must state how it was produced. A heat map is a spatial hypothesis unless every location was actually measured.
+
+## A3 Boundary Standard
+
+A3 is not just a plot of temperature over time. It must show where the analysis box is drawn.
+
+Each submission includes a system boundary box:
+
+| Boundary | Required statement |
+|---|---|
+| spatial | room, zone, threshold, facade edge, outdoor position, or body location |
+| temporal | baseline window, timestep, occupied hours, preheat/recovery period |
+| climate | historical/typical, hot-humid stress, measured period, or future-adjusted snapshot |
+| service | passive, fan-assisted, conditioned, mixed-mode, refuge, or other control state |
+| evidence | measured, simulated, curated, assumed, excluded |
+
+The required A3 comparison can be modest: one baseline window and one changed weather, exposure, or climate snapshot. The goal is to show whether the failure claim depends on a single convenient time slice.
+
+::: {.key}
+Students are not expected to become climate modelers. They are expected to state which climate snapshot their design claim depends on.
+:::
 
 ## A4 Is An Assembly
 

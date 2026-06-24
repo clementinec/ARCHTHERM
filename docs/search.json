@@ -396,11 +396,59 @@
     ]
   },
   {
+    "objectID": "weeks/week-08.html#from-one-snapshot-to-a-climate-channel",
+    "href": "weeks/week-08.html#from-one-snapshot-to-a-climate-channel",
+    "title": "Week 8 - Weather Files And Stress Windows",
+    "section": "From One Snapshot To A Climate Channel",
+    "text": "From One Snapshot To A Climate Channel\nArchitecture is often taught through one time snapshot: a design day, a comfort target, a climate-zone label, or a sun-path moment.\nFor A3, use a temporal channel instead:\n\n\n\n\n\n\n\n\nSnapshot\nWhat it represents\nA3 use\n\n\n\n\nhistorical / typical\nbaseline weather assumption\ndevelop the initial failure claim\n\n\nhot or humid stress window\nsustained present-day stress\ntest tail-hour or recovery burden\n\n\nfuture-adjusted window\nshifted climate boundary\nprepare A4 roll-forward validation\n\n\n\n\nThe same design can be read through multiple climate snapshots:\n\\[\ns_t^{(j)} = f(x_t^{(j)}, B, O, S)\n\\quad\nj \\in \\{\\text{historical},\\ \\text{stress},\\ \\text{future}\\}\n\\]\n\n\nThe point is not to predict the future perfectly. The point is to stop pretending the historical snapshot is the only boundary condition architecture will face.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W8: Weather + Climate Stress"
+    ]
+  },
+  {
     "objectID": "weeks/week-08.html#climate-scenarios-without-overclaiming",
     "href": "weeks/week-08.html#climate-scenarios-without-overclaiming",
     "title": "Week 8 - Weather Files And Stress Windows",
     "section": "Climate Scenarios Without Overclaiming",
-    "text": "Climate Scenarios Without Overclaiming\nClimate scenarios can enter the course through:\n\na future or climate-adjusted EPW\na hotter representative week\na heatwave period\na design-day or stress-period construction\na GCM/RCM-derived weather product, if provided\n\nTerms to keep straight:\n\nGCM: global climate model, coarse climate forcing.\nRCM: regional climate model, downscaled regional pattern.\nWeather file: hourly sequence used by the building or microclimate analysis.",
+    "text": "Climate Scenarios Without Overclaiming\nClimate scenarios can enter the course through:\n\na future or climate-adjusted EPW\na hotter representative week\na heatwave period\na design-day or stress-period construction\na GCM/RCM-derived weather product, if provided\n\nTerms to keep straight:\n\nGCM: global climate model, coarse climate forcing.\nRCM: regional climate model, downscaled regional pattern.\nWRF: weather research and forecasting model; often used for higher-resolution weather or urban-climate studies when assumptions and boundary conditions are declared.\nWeather file: hourly sequence used by the building or microclimate analysis.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W8: Weather + Climate Stress"
+    ]
+  },
+  {
+    "objectID": "weeks/week-08.html#resolution-is-not-architectural-detail",
+    "href": "weeks/week-08.html#resolution-is-not-architectural-detail",
+    "title": "Week 8 - Weather Files And Stress Windows",
+    "section": "Resolution Is Not Architectural Detail",
+    "text": "Resolution Is Not Architectural Detail\nClimate evidence arrives at different spatial scales.\n\n\n\n\n\n\n\n\nEvidence scale\nWhat it can support\nWhat it cannot directly prove\n\n\n\n\nGCM grid\nbroad climate forcing and scenario logic\ncourtyard, facade, or street-canyon exposure\n\n\nRCM / downscaled product\nregional pattern and local climate tendency\nexact microclimate at a bench or window seat\n\n\nWRF / urban weather model\nfiner weather or urban-climate field, if set up well\ncomfort without body, material, and exposure assumptions\n\n\nEPW / weather file\nhourly boundary for building simulation\nall future extremes or every local microclimate\n\n\nfield measurement\nspecific place and period\nthe whole climate or future condition\n\n\n\n\nA climate grid cell is not a room, courtyard, facade, or body. It becomes architectural evidence only after the system boundary and spatial translation are stated.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W8: Weather + Climate Stress"
+    ]
+  },
+  {
+    "objectID": "weeks/week-08.html#climate-zones-can-drift",
+    "href": "weeks/week-08.html#climate-zones-can-drift",
+    "title": "Week 8 - Weather Files And Stress Windows",
+    "section": "Climate Zones Can Drift",
+    "text": "Climate Zones Can Drift\nClimate-zone labels are useful shorthand, but they can become dangerous defaults if treated as permanent.\nArchitectural questions:\n\nIs the project designed for a historical climate category that is shifting?\nDoes the future condition become more hot-humid, less night-cooling-friendly, or more extreme in tail periods?\nWhich passive strategy weakens when the climate-zone assumption drifts?\nWhich design feature creates choice or refuge across multiple future states?\n\n\nFor architecture, climate-zone drift matters because it changes which defaults remain defensible: ventilation, shade, thermal mass, glazing, refuge, drainage, and control access.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W8: Weather + Climate Stress"
+    ]
+  },
+  {
+    "objectID": "weeks/week-08.html#sustained-climate-situations",
+    "href": "weeks/week-08.html#sustained-climate-situations",
+    "title": "Week 8 - Weather Files And Stress Windows",
+    "section": "Sustained Climate Situations",
+    "text": "Sustained Climate Situations\nDo not only ask for the hottest hour.\nLook for situations that architecture has to endure:\n\nhot nights that prevent recovery;\nhumid heat that weakens evaporative cooling;\nlow wind that makes air movement unreliable;\ncloudy humid periods with poor drying;\nheatwave duration rather than peak temperature;\nfuture windows where present-day thresholds are crossed more often.\n\n\nA3 can use a simple pair: baseline window plus one changed climate or stress snapshot. A4 can later ask whether the selected action still holds.",
     "crumbs": [
       "Home",
       "Weekly Decks",
@@ -496,7 +544,7 @@
     "href": "weeks/week-08.html#lab-activity-boundary-explanation",
     "title": "Week 8 - Weather Files And Stress Windows",
     "section": "Lab Activity: Boundary Explanation",
-    "text": "Lab Activity: Boundary Explanation\nWrite a boundary explanation for the stress-test memo.\nArtifact: a four-row table listing weather file or window, modeled service state, occupancy or exposure schedule, and the variable used for threshold evaluation.\nA3 mapping: this table defines the assumptions behind the A3 degree-hour or failure-hour comparison. It also becomes the first draft of the A4 roll-forward validation assumption.",
+    "text": "Lab Activity: Boundary Explanation\nWrite a boundary explanation for the stress-test memo.\nArtifact: a five-row table listing spatial boundary, weather file or window, modeled service state, occupancy or exposure schedule, and the variable used for threshold evaluation.\nA3 mapping: this table defines the assumptions behind the A3 degree-hour or failure-hour comparison. It also becomes the first draft of the A4 roll-forward validation assumption.",
     "crumbs": [
       "Home",
       "Weekly Decks",
@@ -1468,7 +1516,7 @@
     "href": "index.html#one-accumulating-evidence-deck",
     "title": "Thermal Fields in Architecture",
     "section": "One accumulating evidence deck",
-    "text": "One accumulating evidence deck\nYou are not asked to restart at a final project. Each artifact builds on the last into a single defended argument.\n\n\n\n\n\n\n\n\nWeeks\nArtifact\nProves\n\n\n\n\n1–3\nCondition Card + Spatial Air Field Map\nthe condition is specific, and the air/humidity field varies by position\n\n\n4–5\nRadiant Exchange Card\nthe same air temperature can mean different body heat exchange\n\n\n6–9\nThermal Build-Up Audit\nheat accumulates, lags, or exceeds thresholds over time\n\n\n9–10\nDesign Action Ladder\na bounded action space — found, censored, or unresolved\n\n\n10–12\nRoll-Forward Validation + Design Action Memo\nthe action holds (or weakens) under a changed climate stress\n\n\n12\nReproducibility Capsule\nanother person can inspect or re-run the evidence",
+    "text": "One accumulating evidence deck\nYou are not asked to restart at a final project. Each artifact builds on the last into a single defended argument.\n\n\n\n\n\n\n\n\nWeeks\nArtifact\nProves\n\n\n\n\n1–3\nCondition Card + Spatial Air Field Map\nthe condition is specific, and the air/humidity field varies by position\n\n\n4–5\nRadiant Exchange Card\nthe same air temperature can mean different body heat exchange\n\n\n6–9\nThermal Build-Up Audit + System Boundary Box\nheat accumulates, lags, or exceeds thresholds inside a declared spatial, temporal, service, and climate boundary\n\n\n9–10\nDesign Action Ladder\na bounded action space — found, censored, or unresolved\n\n\n10–12\nRoll-Forward Validation + Design Action Memo\nthe action holds (or weakens) under a changed climate stress\n\n\n12\nReproducibility Capsule\nanother person can inspect or re-run the evidence",
     "crumbs": [
       "Home",
       "Course Overview",
@@ -1541,6 +1589,18 @@
     "title": "Assignments",
     "section": "A1 Map Standard",
     "text": "A1 Map Standard\nA1 can be submitted as a point map, gradient map, or contour/heat map.\n\nMinimum: sampled or curated Ta/RH points on a plan or section.\nStronger: interpolated contour or heat map with sampled points still visible.\nBest: thermal field plus architectural overlay: body position, program, facade, opening, diffuser, shade, material, or threshold.\n\nAny smooth field must state how it was produced. A heat map is a spatial hypothesis unless every location was actually measured.",
+    "crumbs": [
+      "Home",
+      "Course Overview",
+      "Assignments"
+    ]
+  },
+  {
+    "objectID": "assignments.html#a3-boundary-standard",
+    "href": "assignments.html#a3-boundary-standard",
+    "title": "Assignments",
+    "section": "A3 Boundary Standard",
+    "text": "A3 Boundary Standard\nA3 is not just a plot of temperature over time. It must show where the analysis box is drawn.\nEach submission includes a system boundary box:\n\n\n\n\n\n\n\nBoundary\nRequired statement\n\n\n\n\nspatial\nroom, zone, threshold, facade edge, outdoor position, or body location\n\n\ntemporal\nbaseline window, timestep, occupied hours, preheat/recovery period\n\n\nclimate\nhistorical/typical, hot-humid stress, measured period, or future-adjusted snapshot\n\n\nservice\npassive, fan-assisted, conditioned, mixed-mode, refuge, or other control state\n\n\nevidence\nmeasured, simulated, curated, assumed, excluded\n\n\n\nThe required A3 comparison can be modest: one baseline window and one changed weather, exposure, or climate snapshot. The goal is to show whether the failure claim depends on a single convenient time slice.\n\nStudents are not expected to become climate modelers. They are expected to state which climate snapshot their design claim depends on.",
     "crumbs": [
       "Home",
       "Course Overview",
@@ -2352,6 +2412,30 @@
     ]
   },
   {
+    "objectID": "weeks/week-07.html#draw-the-system-boundary",
+    "href": "weeks/week-07.html#draw-the-system-boundary",
+    "title": "Week 7 - EnergyPlus As Exposure-State Generator",
+    "section": "Draw The System Boundary",
+    "text": "Draw The System Boundary\nBefore interpreting any output, draw the box around the thermal system.\n\n\n\n\n\n\n\n\nBoundary\nStudent must state\nWhy it matters\n\n\n\n\nspatial\nroom, zone, threshold, facade edge, bench, body position\ndefines where the claim applies\n\n\ntemporal\ntimestep, start/end, preheat, recovery, occupied hours\ndefines when failure can be seen\n\n\nclimate\nweather file, measured period, design day, future-adjusted file\ndefines the outside condition\n\n\nservice\npassive, fan-assisted, conditioned, mixed-mode, refuge\nseparates architecture from system masking\n\n\nevidence\nmeasured, simulated, assumed, excluded\nkeeps the claim honest\n\n\n\n\nA3 is not only a time-series assignment. It is an argument about what is inside the system boundary and what was left outside.",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W7: Exposure States"
+    ]
+  },
+  {
+    "objectID": "weeks/week-07.html#from-snapshot-box-to-sequence-box",
+    "href": "weeks/week-07.html#from-snapshot-box-to-sequence-box",
+    "title": "Week 7 - EnergyPlus As Exposure-State Generator",
+    "section": "From Snapshot Box To Sequence Box",
+    "text": "From Snapshot Box To Sequence Box\nThe weak version is a thermal snapshot:\n\none room, one hour, one weather condition, one output.\n\nThe stronger A3 version is a sequence:\n\none condition tracked across a declared window, with the weather boundary and service state visible.\n\n\nThe boundary can be written simply:\n\nA3 system = [space, body/use, weather window, service state, threshold]",
+    "crumbs": [
+      "Home",
+      "Weekly Decks",
+      "W7: Exposure States"
+    ]
+  },
+  {
     "objectID": "weeks/week-07.html#air-based-models-have-different-promises",
     "href": "weeks/week-07.html#air-based-models-have-different-promises",
     "title": "Week 7 - EnergyPlus As Exposure-State Generator",
@@ -2440,7 +2524,7 @@
     "href": "weeks/week-07.html#from-output-table-to-a3-evidence",
     "title": "Week 7 - EnergyPlus As Exposure-State Generator",
     "section": "From Output Table To A3 Evidence",
-    "text": "From Output Table To A3 Evidence\nA usable A3 state log has three layers:\n\nState: hourly \\(T_a\\), \\(T_{mrt}\\), \\(T_{op}\\), and \\(RH\\).\nThreshold: a clear target or failure line.\nMechanism: one explanation of gain, loss, capacity, schedule, or exposure.\n\n\nArtifact standard: one plot is not enough. Pair the plot with an output dictionary and a short mechanism note.",
+    "text": "From Output Table To A3 Evidence\nA usable A3 state log has three layers:\n\nState: hourly \\(T_a\\), \\(T_{mrt}\\), \\(T_{op}\\), and \\(RH\\).\nThreshold: a clear target or failure line.\nMechanism: one explanation of gain, loss, capacity, schedule, or exposure.\nBoundary: the spatial, temporal, climate, service, and evidence limits of the claim.\n\n\nArtifact standard: one plot is not enough. Pair the plot with an output dictionary and a short mechanism note.",
     "crumbs": [
       "Home",
       "Weekly Decks",
@@ -2716,7 +2800,7 @@
     "href": "weeks/week-09.html#a3-submission-checkpoint",
     "title": "Week 9 - Inverse Questions",
     "section": "A3 Submission Checkpoint",
-    "text": "A3 Submission Checkpoint\nA complete A3 submission includes:\n\ncondition and occupied position\ntime window and threshold\nhourly or sequenced thermal evidence\ndegree-hour or failure-hour calculation\nbuild-up, lag, or dissipation mechanism\nstress-test comparison from Week 8\nfound, censored, or unresolved action ladder result\none candidate A4 design action",
+    "text": "A3 Submission Checkpoint\nA complete A3 submission includes:\n\ncondition and occupied position\nsystem boundary box: spatial boundary, time window, climate snapshot, service state, and evidence limits\ntime window and threshold\nhourly or sequenced thermal evidence\ndegree-hour or failure-hour calculation\nbuild-up, lag, or dissipation mechanism\nstress-test comparison from Week 8: baseline plus one changed weather, exposure, or climate snapshot\nfound, censored, or unresolved action ladder result\none candidate A4 design action",
     "crumbs": [
       "Home",
       "Weekly Decks",

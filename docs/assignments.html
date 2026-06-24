@@ -271,6 +271,7 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#a1-map-standard" id="toc-a1-map-standard" class="nav-link active" data-scroll-target="#a1-map-standard">A1 Map Standard</a></li>
+  <li><a href="#a3-boundary-standard" id="toc-a3-boundary-standard" class="nav-link" data-scroll-target="#a3-boundary-standard">A3 Boundary Standard</a></li>
   <li><a href="#a4-is-an-assembly" id="toc-a4-is-an-assembly" class="nav-link" data-scroll-target="#a4-is-an-assembly">A4 Is An Assembly</a></li>
   <li><a href="#roll-forward-validation" id="toc-roll-forward-validation" class="nav-link" data-scroll-target="#roll-forward-validation">Roll-Forward Validation</a></li>
   <li><a href="#grading-emphasis" id="toc-grading-emphasis" class="nav-link" data-scroll-target="#grading-emphasis">Grading Emphasis</a></li>
@@ -335,9 +336,9 @@ ul.task-list li input[type="checkbox"] {
 <tr class="odd">
 <td>A3 Temporal Build-Up Audit</td>
 <td style="text-align: right;">25%</td>
-<td>thermal capacity, lag, accumulated exposure, threshold exceedance</td>
-<td>time-series, threshold, degree-hour/exceedance calculation, failure statement</td>
-<td>Can the student show when thermal risk accumulates or persists?</td>
+<td>thermal capacity, lag, accumulated exposure, threshold exceedance, system boundary</td>
+<td>time-series, boundary box, threshold, degree-hour/exceedance calculation, failure statement</td>
+<td>Can the student show when thermal risk accumulates or persists within a declared system boundary?</td>
 </tr>
 <tr class="even">
 <td>A4 Mechanism-Informed Thermal Design Intervention</td>
@@ -357,6 +358,49 @@ ul.task-list li input[type="checkbox"] {
 <li>Best: thermal field plus architectural overlay: body position, program, facade, opening, diffuser, shade, material, or threshold.</li>
 </ul>
 <p>Any smooth field must state how it was produced. A heat map is a spatial hypothesis unless every location was actually measured.</p>
+</section>
+<section id="a3-boundary-standard" class="level2">
+<h2 class="anchored" data-anchor-id="a3-boundary-standard">A3 Boundary Standard</h2>
+<p>A3 is not just a plot of temperature over time. It must show where the analysis box is drawn.</p>
+<p>Each submission includes a system boundary box:</p>
+<table class="table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Boundary</th>
+<th>Required statement</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>spatial</td>
+<td>room, zone, threshold, facade edge, outdoor position, or body location</td>
+</tr>
+<tr class="even">
+<td>temporal</td>
+<td>baseline window, timestep, occupied hours, preheat/recovery period</td>
+</tr>
+<tr class="odd">
+<td>climate</td>
+<td>historical/typical, hot-humid stress, measured period, or future-adjusted snapshot</td>
+</tr>
+<tr class="even">
+<td>service</td>
+<td>passive, fan-assisted, conditioned, mixed-mode, refuge, or other control state</td>
+</tr>
+<tr class="odd">
+<td>evidence</td>
+<td>measured, simulated, curated, assumed, excluded</td>
+</tr>
+</tbody>
+</table>
+<p>The required A3 comparison can be modest: one baseline window and one changed weather, exposure, or climate snapshot. The goal is to show whether the failure claim depends on a single convenient time slice.</p>
+<div class="key">
+<p>Students are not expected to become climate modelers. They are expected to state which climate snapshot their design claim depends on.</p>
+</div>
 </section>
 <section id="a4-is-an-assembly" class="level2">
 <h2 class="anchored" data-anchor-id="a4-is-an-assembly">A4 Is An Assembly</h2>

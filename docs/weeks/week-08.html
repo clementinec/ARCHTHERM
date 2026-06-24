@@ -387,6 +387,53 @@ s_t = f(x_t, B, O, S)
 \]</span></p>
 <p>Where <span class="math inline">\(B\)</span> is building assumptions, <span class="math inline">\(O\)</span> is occupancy, and <span class="math inline">\(S\)</span> is service or control state.</p>
 </section>
+<section id="from-one-snapshot-to-a-climate-channel" class="slide level2 center">
+<h2>From One Snapshot To A Climate Channel</h2>
+<p>Architecture is often taught through one time snapshot: a design day, a comfort target, a climate-zone label, or a sun-path moment.</p>
+<p>For A3, use a temporal channel instead:</p>
+<table>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Snapshot</th>
+<th>What it represents</th>
+<th>A3 use</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>historical / typical</td>
+<td>baseline weather assumption</td>
+<td>develop the initial failure claim</td>
+</tr>
+<tr class="even">
+<td>hot or humid stress window</td>
+<td>sustained present-day stress</td>
+<td>test tail-hour or recovery burden</td>
+</tr>
+<tr class="odd">
+<td>future-adjusted window</td>
+<td>shifted climate boundary</td>
+<td>prepare A4 roll-forward validation</td>
+</tr>
+</tbody>
+</table>
+<div class="equation-card">
+<p>The same design can be read through multiple climate snapshots:</p>
+<p><span class="math display">\[
+s_t^{(j)} = f(x_t^{(j)}, B, O, S)
+\quad
+j \in \{\text{historical},\ \text{stress},\ \text{future}\}
+\]</span></p>
+</div>
+<div class="key">
+<p>The point is not to predict the future perfectly. The point is to stop pretending the historical snapshot is the only boundary condition architecture will face.</p>
+</div>
+</section>
 <section id="climate-scenarios-without-overclaiming" class="slide level2 center">
 <h2>Climate Scenarios Without Overclaiming</h2>
 <p>Climate scenarios can enter the course through:</p>
@@ -401,8 +448,87 @@ s_t = f(x_t, B, O, S)
 <ul>
 <li><strong>GCM:</strong> global climate model, coarse climate forcing.</li>
 <li><strong>RCM:</strong> regional climate model, downscaled regional pattern.</li>
+<li><strong>WRF:</strong> weather research and forecasting model; often used for higher-resolution weather or urban-climate studies when assumptions and boundary conditions are declared.</li>
 <li><strong>Weather file:</strong> hourly sequence used by the building or microclimate analysis.</li>
 </ul>
+</section>
+<section id="resolution-is-not-architectural-detail" class="slide level2 center">
+<h2>Resolution Is Not Architectural Detail</h2>
+<p>Climate evidence arrives at different spatial scales.</p>
+<table>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Evidence scale</th>
+<th>What it can support</th>
+<th>What it cannot directly prove</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>GCM grid</td>
+<td>broad climate forcing and scenario logic</td>
+<td>courtyard, facade, or street-canyon exposure</td>
+</tr>
+<tr class="even">
+<td>RCM / downscaled product</td>
+<td>regional pattern and local climate tendency</td>
+<td>exact microclimate at a bench or window seat</td>
+</tr>
+<tr class="odd">
+<td>WRF / urban weather model</td>
+<td>finer weather or urban-climate field, if set up well</td>
+<td>comfort without body, material, and exposure assumptions</td>
+</tr>
+<tr class="even">
+<td>EPW / weather file</td>
+<td>hourly boundary for building simulation</td>
+<td>all future extremes or every local microclimate</td>
+</tr>
+<tr class="odd">
+<td>field measurement</td>
+<td>specific place and period</td>
+<td>the whole climate or future condition</td>
+</tr>
+</tbody>
+</table>
+<div class="warning">
+<p>A climate grid cell is not a room, courtyard, facade, or body. It becomes architectural evidence only after the system boundary and spatial translation are stated.</p>
+</div>
+</section>
+<section id="climate-zones-can-drift" class="slide level2 center">
+<h2>Climate Zones Can Drift</h2>
+<p>Climate-zone labels are useful shorthand, but they can become dangerous defaults if treated as permanent.</p>
+<p>Architectural questions:</p>
+<ul>
+<li>Is the project designed for a historical climate category that is shifting?</li>
+<li>Does the future condition become more hot-humid, less night-cooling-friendly, or more extreme in tail periods?</li>
+<li>Which passive strategy weakens when the climate-zone assumption drifts?</li>
+<li>Which design feature creates choice or refuge across multiple future states?</li>
+</ul>
+<div class="key">
+<p>For architecture, climate-zone drift matters because it changes which defaults remain defensible: ventilation, shade, thermal mass, glazing, refuge, drainage, and control access.</p>
+</div>
+</section>
+<section id="sustained-climate-situations" class="slide level2 center">
+<h2>Sustained Climate Situations</h2>
+<p>Do not only ask for the hottest hour.</p>
+<p>Look for situations that architecture has to endure:</p>
+<ul>
+<li>hot nights that prevent recovery;</li>
+<li>humid heat that weakens evaporative cooling;</li>
+<li>low wind that makes air movement unreliable;</li>
+<li>cloudy humid periods with poor drying;</li>
+<li>heatwave duration rather than peak temperature;</li>
+<li>future windows where present-day thresholds are crossed more often.</li>
+</ul>
+<div class="artifact">
+<p>A3 can use a simple pair: baseline window plus one changed climate or stress snapshot. A4 can later ask whether the selected action still holds.</p>
+</div>
 </section>
 <section id="indooroutdoor-continuity" class="slide level2 center">
 <h2>Indoor/Outdoor Continuity</h2>
@@ -551,7 +677,7 @@ FH_{\theta}
 <section id="lab-activity-boundary-explanation" class="slide level2 activity center">
 <h2>Lab Activity: Boundary Explanation</h2>
 <p>Write a boundary explanation for the stress-test memo.</p>
-<p><strong>Artifact:</strong> a four-row table listing weather file or window, modeled service state, occupancy or exposure schedule, and the variable used for threshold evaluation.</p>
+<p><strong>Artifact:</strong> a five-row table listing spatial boundary, weather file or window, modeled service state, occupancy or exposure schedule, and the variable used for threshold evaluation.</p>
 <p><strong>A3 mapping:</strong> this table defines the assumptions behind the A3 degree-hour or failure-hour comparison. It also becomes the first draft of the A4 roll-forward validation assumption.</p>
 </section>
 <section id="session-2-diagnostic-round" class="slide level2 center">

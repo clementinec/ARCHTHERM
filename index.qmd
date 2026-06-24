@@ -69,7 +69,7 @@ You are not asked to restart at a final project. Each artifact builds on the las
 |---|---|---|
 | 1–3 | **Condition Card** + Spatial Air Field Map | the condition is specific, and the air/humidity field varies by position |
 | 4–5 | **Radiant Exchange Card** | the same air temperature can mean different body heat exchange |
-| 6–9 | **Thermal Build-Up Audit** | heat accumulates, lags, or exceeds thresholds over time |
+| 6–9 | **Thermal Build-Up Audit** + System Boundary Box | heat accumulates, lags, or exceeds thresholds inside a declared spatial, temporal, service, and climate boundary |
 | 9–10 | **Design Action Ladder** | a bounded action space — found, censored, or unresolved |
 | 10–12 | **Roll-Forward Validation** + Design Action Memo | the action holds (or weakens) under a changed climate stress |
 | 12 | **Reproducibility Capsule** | another person can inspect or re-run the evidence |

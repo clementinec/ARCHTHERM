@@ -15,8 +15,8 @@ The semester is structured around four accumulative artifacts. Weeks 1-6 teach p
 | 4 | Why does radiant environment change the reading? | surface temperature, MRT, operative temperature, outdoor exposure | radiant plan/section | A2 launch |
 | 5 | How does radiant asymmetry become architecture? | view factor, orientation, glass, shade, flux delivery | radiant exchange card | A2 due |
 | 6 | When does heat build up? | capacity, lag, heat balance, degree-hours, thresholds, condensation, mold risk, material moisture storage | temporal storyboard + pulse check | A3 launch |
-| 7 | What is a simulation output actually? | EnergyPlus exposure states, Ta/MRT/Top/RH, airflow-network and CFD solver literacy | hourly state log | A3 development |
-| 8 | What changes when weather changes? | EPW, TMY, GCM/RCM, stress windows, future weather | weather stress memo | A3 development |
+| 7 | What is a simulation output actually? | EnergyPlus exposure states, Ta/MRT/Top/RH, system boundary box, airflow-network and CFD solver literacy | hourly state log + boundary box | A3 development |
+| 8 | What changes when weather changes? | EPW, TMY, GCM/RCM/WRF, spatial resolution, stress windows, future weather, climate-zone drift | weather stress memo + climate snapshot comparison | A3 development |
 | 9 | What does it take to reach a target? | inverse query, found/censored action ladder | action ladder checkpoint | A3 due / A4 launch |
 | 10 | What must change architecturally? | failure modes, thresholds, pivot logic, suppress/buffer/redirect/celebrate heterogeneity | design action alternatives | A4 development |
 | 11 | Does the action survive changed assumptions? | roll-forward validation, uncertainty, reproducibility | validation note + defense clinic | A4 draft |
